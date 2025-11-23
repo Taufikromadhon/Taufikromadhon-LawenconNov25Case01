@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Sebagai Sample</description>
+   <name>Case01-2-N2 Alert Notification For Mandatory Field On First Name Field</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>07e4ffbb-8068-4a00-a314-71f41427b57d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8f1ac777-c4f8-4f57-8d5c-9843e6d01bf5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8f1ac777-c4f8-4f57-8d5c-9843e6d01bf5</id>
+      <masked>false</masked>
+      <name>Firstname</name>
+   </variable>
+</TestCaseEntity>

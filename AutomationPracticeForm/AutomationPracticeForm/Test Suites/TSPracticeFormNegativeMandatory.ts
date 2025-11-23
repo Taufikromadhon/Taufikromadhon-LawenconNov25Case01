@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TSPracticeFormNegativeMandatory</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>6ff68541-6332-41b1-b48a-b1bdb609f578</testSuiteGuid>
+   <testCaseLink>
+      <guid>1d778ca8-9243-4a73-b600-eb076d2b2be0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Negative/Case01-2-N2 Alert Notification For Mandatory Field On First Name Field</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>81081c75-e485-4c59-a9bd-d05c99acd8b8</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/FormData/SampleDataCase01-No-Mandatory</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>81081c75-e485-4c59-a9bd-d05c99acd8b8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Firstname</value>
+         <variableId>8f1ac777-c4f8-4f57-8d5c-9843e6d01bf5</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>47f87f13-cd3c-46c9-9559-18ea4e870c3f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Negative/Case01-3-N3 Alert Notification For Mandatory Field On Last Name Field</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>913f18e5-dae0-46c5-8613-318d5e0947dd</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/FormData/SampleDataCase01-No-Mandatory</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>913f18e5-dae0-46c5-8613-318d5e0947dd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Lastname</value>
+         <variableId>e67e2a0f-4dd9-45fc-957f-7713207cae8c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dd82b5d9-bbd7-41ad-b2ad-3ba6d20ddf1f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Negative/Case01-4-N4 Alert Notification For Mandatory Field On Gender Field</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>5b36e2ad-78e8-4580-989d-207d819db0e7</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/FormData/SampleDataCase01-No-Mandatory</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>5b36e2ad-78e8-4580-989d-207d819db0e7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Gender</value>
+         <variableId>f269a126-1889-44df-b593-e2263af254f8</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>44d285a9-4f38-4410-9adc-a8c6229b58ee</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Negative/Case01-5-N5 Alert Notification For Mandatory Field On Mobile Number Field</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>1f6ae551-5bf9-4d39-9434-140d23428a34</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/FormData/SampleDataCase01-No-Mandatory</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>1f6ae551-5bf9-4d39-9434-140d23428a34</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>MobileNumber</value>
+         <variableId>d8662e9d-98ab-49db-af35-1fd1915bd0f1</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

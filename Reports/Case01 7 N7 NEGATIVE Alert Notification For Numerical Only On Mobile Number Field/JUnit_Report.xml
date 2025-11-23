@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TSPracticeFormNumericalOnly" time="145.558" tests="3" failures="0" errors="0">
+   <testsuite name="TSPracticeFormNumericalOnly" tests="3" failures="0" errors="0" time="145.558" skipped="0" timestamp="2025-11-23T10:52:50.550Z" hostname="USER - LAPTOP-KNF1HLK6" id="Test Suites/TSPracticeFormNumericalOnly">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="T:\\Lawrencon\\Interview\\case01\\AutomationPracticeForm\\AutomationPracticeForm\\Reports\\20251123_175246\\TSPracticeFormNumericalOnly\\20251123_175246"/>
+         <property name="logFiles" value="T:\\Lawrencon\\Interview\\case01\\AutomationPracticeForm\\AutomationPracticeForm\\Reports\\20251123_175246\\TSPracticeFormNumericalOnly\\20251123_175246\\console0.log, T:\\Lawrencon\\Interview\\case01\\AutomationPracticeForm\\AutomationPracticeForm\\Reports\\20251123_175246\\TSPracticeFormNumericalOnly\\20251123_175246\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="USER - LAPTOP-KNF1HLK6"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.4.2.0"/>
+         <property name="browser" value="Chrome 142.0.7444.176"/>
+         <property name="userFullName" value="Taufik Romadhon"/>
+         <property name="hostAddress" value="172.18.130.155"/>
+         <property name="sessionId" value="22c5bf37e854361f57e914199a1f5fb1"/>
+         <property name="projectName" value="AutomationPracticeForm"/>
+         <property name="seleniumVersion" value="4.34.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Negative/Case01-7-N7 Alert Notification For Numerical Only On Mobile Number Field" time="71.694" classname="Test Cases/Negative/Case01-7-N7 Alert Notification For Numerical Only On Mobile Number Field" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"MobileNumber":"+624567891"}]]></property>
+         </properties>
+         <system-out><![CDATA[23-11-2025T17:52:51 - [TEST_CASE][PASSED] - Test Cases/Negative/Case01-7-N7 Alert Notification For Numerical Only On Mobile Number Field: Test Cases/Negative/Case01-7-N7 Alert Notification For Numerical Only On Mobile Number Field
+
+23-11-2025T17:52:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-11-2025T17:52:52 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+23-11-2025T17:52:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-11-2025T17:52:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-11-2025T17:52:53 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/automation-practice-form"): Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+23-11-2025T17:53:43 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+23-11-2025T17:53:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+23-11-2025T17:53:43 - [MESSAGE][PASSED] - Current window maximized
+
+23-11-2025T17:53:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-11-2025T17:53:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-11-2025T17:53:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8): Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is present
+
+23-11-2025T17:53:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is present
+
+23-11-2025T17:53:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is visible
+
+23-11-2025T17:53:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is visible
+
+23-11-2025T17:53:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-11-2025T17:53:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-11-2025T17:53:47 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), MobileNumber): Text '+624567891' is set on object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber'
+
+23-11-2025T17:53:48 - [MESSAGE][PASSED] - Text '+624567891' is set on object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber'
+
+23-11-2025T17:53:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-11-2025T17:53:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-11-2025T17:53:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), 0): Object 'Object Repository/Page_DEMOQA/button_Submit' is present
+
+23-11-2025T17:53:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+23-11-2025T17:53:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/button_Submit' is present
+
+23-11-2025T17:53:50 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-11-2025T17:53:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-11-2025T17:53:52 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/button_Submit"), 100): Scroll to object 'Object Repository/Page_DEMOQA/button_Submit' successfully
+
+23-11-2025T17:53:53 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/button_Submit' successfully
+
+23-11-2025T17:53:53 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-11-2025T17:53:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-11-2025T17:53:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/button_Submit' is visible
+
+23-11-2025T17:53:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/button_Submit' is visible
+
+23-11-2025T17:53:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-11-2025T17:53:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-11-2025T17:53:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/button_Submit")): Object: 'Object Repository/Page_DEMOQA/button_Submit' is clicked on
+
+23-11-2025T17:53:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/button_Submit' is clicked on
+
+23-11-2025T17:53:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-11-2025T17:53:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-11-2025T17:53:59 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 0): Scroll to object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' successfully
+
+23-11-2025T17:53:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+23-11-2025T17:54:00 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' successfully
+
+23-11-2025T17:54:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-11-2025T17:54:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-11-2025T17:54:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8): Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is present
+
+23-11-2025T17:54:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is present
+
+23-11-2025T17:54:02 - [TEST_STEP][PASSED] - click(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber")): Object: 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is clicked on
+
+23-11-2025T17:54:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is clicked on
+
+23-11-2025T17:54:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/class_Mobile_Number_Invalid"), 8): Object 'Object Repository/Page_DEMOQA/class_Mobile_Number_Invalid' is present
+
+23-11-2025T17:54:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/class_Mobile_Number_Invalid' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negative/Case01-7-N7 Alert Notification For Numerical Only On Mobile Number Field" time="26.852" classname="Test Cases/Negative/Case01-7-N7 Alert Notification For Numerical Only On Mobile Number Field" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"MobileNumber":"+624567891"}]]></property>
+         </properties>
+         <system-out><![CDATA[23-11-2025T17:54:02 - [TEST_CASE][PASSED] - Test Cases/Negative/Case01-7-N7 Alert Notification For Numerical Only On Mobile Number Field: Test Cases/Negative/Case01-7-N7 Alert Notification For Numerical Only On Mobile Number Field
+
+23-11-2025T17:54:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-11-2025T17:54:03 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+23-11-2025T17:54:03 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+23-11-2025T17:54:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-11-2025T17:54:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-11-2025T17:54:04 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/automation-practice-form"): Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+23-11-2025T17:54:10 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+23-11-2025T17:54:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+23-11-2025T17:54:10 - [MESSAGE][PASSED] - Current window maximized
+
+23-11-2025T17:54:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-11-2025T17:54:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-11-2025T17:54:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8): Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is present
+
+23-11-2025T17:54:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is present
+
+23-11-2025T17:54:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is visible
+
+23-11-2025T17:54:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is visible
+
+23-11-2025T17:54:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-11-2025T17:54:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-11-2025T17:54:14 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), MobileNumber): Text '+624567891' is set on object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber'
+
+23-11-2025T17:54:15 - [MESSAGE][PASSED] - Text '+624567891' is set on object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber'
+
+23-11-2025T17:54:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-11-2025T17:54:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-11-2025T17:54:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), 0): Object 'Object Repository/Page_DEMOQA/button_Submit' is present
+
+23-11-2025T17:54:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+23-11-2025T17:54:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/button_Submit' is present
+
+23-11-2025T17:54:17 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-11-2025T17:54:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-11-2025T17:54:19 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/button_Submit"), 100): Scroll to object 'Object Repository/Page_DEMOQA/button_Submit' successfully
+
+23-11-2025T17:54:20 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/button_Submit' successfully
+
+23-11-2025T17:54:20 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-11-2025T17:54:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-11-2025T17:54:22 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/button_Submit' is visible
+
+23-11-2025T17:54:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/button_Submit' is visible
+
+23-11-2025T17:54:22 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-11-2025T17:54:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-11-2025T17:54:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/button_Submit")): Object: 'Object Repository/Page_DEMOQA/button_Submit' is clicked on
+
+23-11-2025T17:54:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/button_Submit' is clicked on
+
+23-11-2025T17:54:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-11-2025T17:54:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-11-2025T17:54:26 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 0): Scroll to object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' successfully
+
+23-11-2025T17:54:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+23-11-2025T17:54:26 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' successfully
+
+23-11-2025T17:54:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-11-2025T17:54:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-11-2025T17:54:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8): Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is present
+
+23-11-2025T17:54:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is present
+
+23-11-2025T17:54:29 - [TEST_STEP][PASSED] - click(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber")): Object: 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is clicked on
+
+23-11-2025T17:54:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is clicked on
+
+23-11-2025T17:54:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/class_Mobile_Number_Invalid"), 8): Object 'Object Repository/Page_DEMOQA/class_Mobile_Number_Invalid' is present
+
+23-11-2025T17:54:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/class_Mobile_Number_Invalid' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negative/Case01-7-N7 Alert Notification For Numerical Only On Mobile Number Field" time="46.264" classname="Test Cases/Negative/Case01-7-N7 Alert Notification For Numerical Only On Mobile Number Field" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"MobileNumber":"+624567891"}]]></property>
+         </properties>
+         <system-out><![CDATA[23-11-2025T17:54:29 - [TEST_CASE][PASSED] - Test Cases/Negative/Case01-7-N7 Alert Notification For Numerical Only On Mobile Number Field: Test Cases/Negative/Case01-7-N7 Alert Notification For Numerical Only On Mobile Number Field
+
+23-11-2025T17:54:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-11-2025T17:54:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+23-11-2025T17:54:30 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+23-11-2025T17:54:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-11-2025T17:54:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-11-2025T17:54:30 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/automation-practice-form"): Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+23-11-2025T17:54:56 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+23-11-2025T17:54:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+23-11-2025T17:54:56 - [MESSAGE][PASSED] - Current window maximized
+
+23-11-2025T17:54:56 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-11-2025T17:54:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-11-2025T17:54:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8): Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is present
+
+23-11-2025T17:54:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is present
+
+23-11-2025T17:54:58 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is visible
+
+23-11-2025T17:54:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is visible
+
+23-11-2025T17:54:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-11-2025T17:55:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-11-2025T17:55:01 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), MobileNumber): Text '+624567891' is set on object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber'
+
+23-11-2025T17:55:01 - [MESSAGE][PASSED] - Text '+624567891' is set on object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber'
+
+23-11-2025T17:55:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-11-2025T17:55:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-11-2025T17:55:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), 0): Object 'Object Repository/Page_DEMOQA/button_Submit' is present
+
+23-11-2025T17:55:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+23-11-2025T17:55:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/button_Submit' is present
+
+23-11-2025T17:55:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-11-2025T17:55:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-11-2025T17:55:06 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/button_Submit"), 100): Scroll to object 'Object Repository/Page_DEMOQA/button_Submit' successfully
+
+23-11-2025T17:55:06 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/button_Submit' successfully
+
+23-11-2025T17:55:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-11-2025T17:55:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-11-2025T17:55:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/button_Submit' is visible
+
+23-11-2025T17:55:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/button_Submit' is visible
+
+23-11-2025T17:55:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-11-2025T17:55:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-11-2025T17:55:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/button_Submit")): Object: 'Object Repository/Page_DEMOQA/button_Submit' is clicked on
+
+23-11-2025T17:55:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/button_Submit' is clicked on
+
+23-11-2025T17:55:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-11-2025T17:55:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-11-2025T17:55:12 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 0): Scroll to object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' successfully
+
+23-11-2025T17:55:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+23-11-2025T17:55:13 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' successfully
+
+23-11-2025T17:55:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-11-2025T17:55:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-11-2025T17:55:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8): Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is present
+
+23-11-2025T17:55:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is present
+
+23-11-2025T17:55:15 - [TEST_STEP][PASSED] - click(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber")): Object: 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is clicked on
+
+23-11-2025T17:55:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is clicked on
+
+23-11-2025T17:55:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/class_Mobile_Number_Invalid"), 8): Object 'Object Repository/Page_DEMOQA/class_Mobile_Number_Invalid' is present
+
+23-11-2025T17:55:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/class_Mobile_Number_Invalid' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[23-11-2025T17:52:50 - [TEST_SUITE][PASSED] - TSPracticeFormNumericalOnly: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

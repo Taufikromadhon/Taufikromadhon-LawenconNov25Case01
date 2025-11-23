@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Sebagai Sample</description>
+   <name>Case01-4-N4 Alert Notification For Mandatory Field On Gender Field</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3b41ef59-1f30-4797-b0b1-8e96acf19341</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f269a126-1889-44df-b593-e2263af254f8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f269a126-1889-44df-b593-e2263af254f8</id>
+      <masked>false</masked>
+      <name>Gender</name>
+   </variable>
+</TestCaseEntity>

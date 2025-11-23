@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Sebagai Sample</description>
+   <name>Case01-3-N3 Alert Notification For Mandatory Field On Last Name Field</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ea964a5d-0da1-4544-89f9-c52de479cf25</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e67e2a0f-4dd9-45fc-957f-7713207cae8c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e67e2a0f-4dd9-45fc-957f-7713207cae8c</id>
+      <masked>false</masked>
+      <name>Lastname</name>
+   </variable>
+</TestCaseEntity>

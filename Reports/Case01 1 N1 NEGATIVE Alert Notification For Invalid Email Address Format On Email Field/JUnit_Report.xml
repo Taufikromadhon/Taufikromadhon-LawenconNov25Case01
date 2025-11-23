@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TSPractiveFormInvalidFormatEmail" time="125.917" tests="3" failures="0" errors="0">
+   <testsuite name="TSPractiveFormInvalidFormatEmail" tests="3" failures="0" errors="0" time="125.917" skipped="0" timestamp="2025-11-23T08:41:39.589Z" hostname="USER - LAPTOP-KNF1HLK6" id="Test Suites/TSPractiveFormInvalidFormatEmail">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="T:\\Lawrencon\\Interview\\case01\\AutomationPracticeForm\\AutomationPracticeForm\\Reports\\20251123_154134\\TSPractiveFormInvalidFormatEmail\\20251123_154135"/>
+         <property name="logFiles" value="T:\\Lawrencon\\Interview\\case01\\AutomationPracticeForm\\AutomationPracticeForm\\Reports\\20251123_154134\\TSPractiveFormInvalidFormatEmail\\20251123_154135\\console0.log, T:\\Lawrencon\\Interview\\case01\\AutomationPracticeForm\\AutomationPracticeForm\\Reports\\20251123_154134\\TSPractiveFormInvalidFormatEmail\\20251123_154135\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="USER - LAPTOP-KNF1HLK6"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.4.2.0"/>
+         <property name="browser" value="Chrome 142.0.7444.176"/>
+         <property name="userFullName" value="Taufik Romadhon"/>
+         <property name="hostAddress" value="172.18.130.155"/>
+         <property name="sessionId" value="ac815125629c6a43ce9ffa2d10543657"/>
+         <property name="projectName" value="AutomationPracticeForm"/>
+         <property name="seleniumVersion" value="4.34.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Negative/Case01-1-N1 Alert Notification For Invalid Format Email On Email Field" time="48.925" classname="Test Cases/Negative/Case01-1-N1 Alert Notification For Invalid Format Email On Email Field" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"EmailAddress":"NotAnEmail1"}]]></property>
+         </properties>
+         <system-out><![CDATA[23-11-2025T15:41:40 - [TEST_CASE][PASSED] - Test Cases/Negative/Case01-1-N1 Alert Notification For Invalid Format Email On Email Field: Test Cases/Negative/Case01-1-N1 Alert Notification For Invalid Format Email On Email Field
+
+23-11-2025T15:41:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-11-2025T15:41:41 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+23-11-2025T15:41:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-11-2025T15:41:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-11-2025T15:41:43 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/automation-practice-form"): Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+23-11-2025T15:42:09 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+23-11-2025T15:42:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+23-11-2025T15:42:09 - [MESSAGE][PASSED] - Current window maximized
+
+23-11-2025T15:42:09 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-11-2025T15:42:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-11-2025T15:42:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_DEMOQA/input_Email_userEmail"), 8): Object 'Object Repository/Page_DEMOQA/input_Email_userEmail' is present
+
+23-11-2025T15:42:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Email_userEmail' is present
+
+23-11-2025T15:42:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_DEMOQA/input_Email_userEmail"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/input_Email_userEmail' is visible
+
+23-11-2025T15:42:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Email_userEmail' is visible
+
+23-11-2025T15:42:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-11-2025T15:42:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-11-2025T15:42:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/input_Email_userEmail"), EmailAddress): Text 'NotAnEmail1' is set on object 'Object Repository/Page_DEMOQA/input_Email_userEmail'
+
+23-11-2025T15:42:14 - [MESSAGE][PASSED] - Text 'NotAnEmail1' is set on object 'Object Repository/Page_DEMOQA/input_Email_userEmail'
+
+23-11-2025T15:42:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-11-2025T15:42:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-11-2025T15:42:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), 8): Object 'Object Repository/Page_DEMOQA/button_Submit' is present
+
+23-11-2025T15:42:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/button_Submit' is present
+
+23-11-2025T15:42:17 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-11-2025T15:42:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-11-2025T15:42:19 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/button_Submit"), 100): Scroll to object 'Object Repository/Page_DEMOQA/button_Submit' successfully
+
+23-11-2025T15:42:19 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/button_Submit' successfully
+
+23-11-2025T15:42:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-11-2025T15:42:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-11-2025T15:42:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/button_Submit' is visible
+
+23-11-2025T15:42:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/button_Submit' is visible
+
+23-11-2025T15:42:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-11-2025T15:42:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-11-2025T15:42:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/button_Submit")): Object: 'Object Repository/Page_DEMOQA/button_Submit' is clicked on
+
+23-11-2025T15:42:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/button_Submit' is clicked on
+
+23-11-2025T15:42:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-11-2025T15:42:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-11-2025T15:42:26 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/input_Email_userEmail"), 0): Scroll to object 'Object Repository/Page_DEMOQA/input_Email_userEmail' successfully
+
+23-11-2025T15:42:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+23-11-2025T15:42:26 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/input_Email_userEmail' successfully
+
+23-11-2025T15:42:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-11-2025T15:42:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-11-2025T15:42:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/div_Email_col-md-9 col-sm-12"), 8): Object 'Object Repository/Page_DEMOQA/div_Email_col-md-9 col-sm-12' is present
+
+23-11-2025T15:42:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/div_Email_col-md-9 col-sm-12' is present
+
+23-11-2025T15:42:28 - [TEST_STEP][PASSED] - click(findTestObject("Page_DEMOQA/input_Email_userEmail")): Object: 'Object Repository/Page_DEMOQA/input_Email_userEmail' is clicked on
+
+23-11-2025T15:42:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/input_Email_userEmail' is clicked on
+
+23-11-2025T15:42:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/class_Email_Invalid"), 8): Object 'Object Repository/Page_DEMOQA/class_Email_Invalid' is present
+
+23-11-2025T15:42:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/class_Email_Invalid' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negative/Case01-1-N1 Alert Notification For Invalid Format Email On Email Field" time="28.661" classname="Test Cases/Negative/Case01-1-N1 Alert Notification For Invalid Format Email On Email Field" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"EmailAddress":"NotAnEmail2"}]]></property>
+         </properties>
+         <system-out><![CDATA[23-11-2025T15:42:29 - [TEST_CASE][PASSED] - Test Cases/Negative/Case01-1-N1 Alert Notification For Invalid Format Email On Email Field: Test Cases/Negative/Case01-1-N1 Alert Notification For Invalid Format Email On Email Field
+
+23-11-2025T15:42:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-11-2025T15:42:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+23-11-2025T15:42:29 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+23-11-2025T15:42:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-11-2025T15:42:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-11-2025T15:42:30 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/automation-practice-form"): Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+23-11-2025T15:42:38 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+23-11-2025T15:42:38 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+23-11-2025T15:42:38 - [MESSAGE][PASSED] - Current window maximized
+
+23-11-2025T15:42:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-11-2025T15:42:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-11-2025T15:42:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_DEMOQA/input_Email_userEmail"), 8): Object 'Object Repository/Page_DEMOQA/input_Email_userEmail' is present
+
+23-11-2025T15:42:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Email_userEmail' is present
+
+23-11-2025T15:42:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_DEMOQA/input_Email_userEmail"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/input_Email_userEmail' is visible
+
+23-11-2025T15:42:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Email_userEmail' is visible
+
+23-11-2025T15:42:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-11-2025T15:42:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-11-2025T15:42:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/input_Email_userEmail"), EmailAddress): Text 'NotAnEmail2' is set on object 'Object Repository/Page_DEMOQA/input_Email_userEmail'
+
+23-11-2025T15:42:43 - [MESSAGE][PASSED] - Text 'NotAnEmail2' is set on object 'Object Repository/Page_DEMOQA/input_Email_userEmail'
+
+23-11-2025T15:42:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-11-2025T15:42:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-11-2025T15:42:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), 8): Object 'Object Repository/Page_DEMOQA/button_Submit' is present
+
+23-11-2025T15:42:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/button_Submit' is present
+
+23-11-2025T15:42:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-11-2025T15:42:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-11-2025T15:42:47 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/button_Submit"), 100): Scroll to object 'Object Repository/Page_DEMOQA/button_Submit' successfully
+
+23-11-2025T15:42:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/button_Submit' successfully
+
+23-11-2025T15:42:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-11-2025T15:42:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-11-2025T15:42:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/button_Submit' is visible
+
+23-11-2025T15:42:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/button_Submit' is visible
+
+23-11-2025T15:42:50 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-11-2025T15:42:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-11-2025T15:42:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/button_Submit")): Object: 'Object Repository/Page_DEMOQA/button_Submit' is clicked on
+
+23-11-2025T15:42:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/button_Submit' is clicked on
+
+23-11-2025T15:42:52 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-11-2025T15:42:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-11-2025T15:42:54 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/input_Email_userEmail"), 0): Scroll to object 'Object Repository/Page_DEMOQA/input_Email_userEmail' successfully
+
+23-11-2025T15:42:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+23-11-2025T15:42:55 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/input_Email_userEmail' successfully
+
+23-11-2025T15:42:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-11-2025T15:42:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-11-2025T15:42:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/div_Email_col-md-9 col-sm-12"), 8): Object 'Object Repository/Page_DEMOQA/div_Email_col-md-9 col-sm-12' is present
+
+23-11-2025T15:42:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/div_Email_col-md-9 col-sm-12' is present
+
+23-11-2025T15:42:57 - [TEST_STEP][PASSED] - click(findTestObject("Page_DEMOQA/input_Email_userEmail")): Object: 'Object Repository/Page_DEMOQA/input_Email_userEmail' is clicked on
+
+23-11-2025T15:42:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/input_Email_userEmail' is clicked on
+
+23-11-2025T15:42:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/class_Email_Invalid"), 8): Object 'Object Repository/Page_DEMOQA/class_Email_Invalid' is present
+
+23-11-2025T15:42:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/class_Email_Invalid' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negative/Case01-1-N1 Alert Notification For Invalid Format Email On Email Field" time="47.528" classname="Test Cases/Negative/Case01-1-N1 Alert Notification For Invalid Format Email On Email Field" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"EmailAddress":"NotAnEmail3"}]]></property>
+         </properties>
+         <system-out><![CDATA[23-11-2025T15:42:57 - [TEST_CASE][PASSED] - Test Cases/Negative/Case01-1-N1 Alert Notification For Invalid Format Email On Email Field: Test Cases/Negative/Case01-1-N1 Alert Notification For Invalid Format Email On Email Field
+
+23-11-2025T15:42:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-11-2025T15:42:58 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+23-11-2025T15:42:58 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+23-11-2025T15:42:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-11-2025T15:42:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-11-2025T15:42:58 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/automation-practice-form"): Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+23-11-2025T15:43:26 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+23-11-2025T15:43:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+23-11-2025T15:43:26 - [MESSAGE][PASSED] - Current window maximized
+
+23-11-2025T15:43:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-11-2025T15:43:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-11-2025T15:43:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_DEMOQA/input_Email_userEmail"), 8): Object 'Object Repository/Page_DEMOQA/input_Email_userEmail' is present
+
+23-11-2025T15:43:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Email_userEmail' is present
+
+23-11-2025T15:43:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_DEMOQA/input_Email_userEmail"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/input_Email_userEmail' is visible
+
+23-11-2025T15:43:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Email_userEmail' is visible
+
+23-11-2025T15:43:28 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-11-2025T15:43:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-11-2025T15:43:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/input_Email_userEmail"), EmailAddress): Text 'NotAnEmail3' is set on object 'Object Repository/Page_DEMOQA/input_Email_userEmail'
+
+23-11-2025T15:43:31 - [MESSAGE][PASSED] - Text 'NotAnEmail3' is set on object 'Object Repository/Page_DEMOQA/input_Email_userEmail'
+
+23-11-2025T15:43:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-11-2025T15:43:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-11-2025T15:43:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), 8): Object 'Object Repository/Page_DEMOQA/button_Submit' is present
+
+23-11-2025T15:43:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/button_Submit' is present
+
+23-11-2025T15:43:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-11-2025T15:43:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-11-2025T15:43:35 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/button_Submit"), 100): Scroll to object 'Object Repository/Page_DEMOQA/button_Submit' successfully
+
+23-11-2025T15:43:35 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/button_Submit' successfully
+
+23-11-2025T15:43:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-11-2025T15:43:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-11-2025T15:43:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/button_Submit' is visible
+
+23-11-2025T15:43:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/button_Submit' is visible
+
+23-11-2025T15:43:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-11-2025T15:43:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-11-2025T15:43:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/button_Submit")): Object: 'Object Repository/Page_DEMOQA/button_Submit' is clicked on
+
+23-11-2025T15:43:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/button_Submit' is clicked on
+
+23-11-2025T15:43:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-11-2025T15:43:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-11-2025T15:43:42 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/input_Email_userEmail"), 0): Scroll to object 'Object Repository/Page_DEMOQA/input_Email_userEmail' successfully
+
+23-11-2025T15:43:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+23-11-2025T15:43:42 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/input_Email_userEmail' successfully
+
+23-11-2025T15:43:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-11-2025T15:43:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-11-2025T15:43:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/div_Email_col-md-9 col-sm-12"), 8): Object 'Object Repository/Page_DEMOQA/div_Email_col-md-9 col-sm-12' is present
+
+23-11-2025T15:43:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/div_Email_col-md-9 col-sm-12' is present
+
+23-11-2025T15:43:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_DEMOQA/input_Email_userEmail")): Object: 'Object Repository/Page_DEMOQA/input_Email_userEmail' is clicked on
+
+23-11-2025T15:43:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/input_Email_userEmail' is clicked on
+
+23-11-2025T15:43:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/class_Email_Invalid"), 8): Object 'Object Repository/Page_DEMOQA/class_Email_Invalid' is present
+
+23-11-2025T15:43:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/class_Email_Invalid' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[23-11-2025T15:41:39 - [TEST_SUITE][PASSED] - TSPractiveFormInvalidFormatEmail: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

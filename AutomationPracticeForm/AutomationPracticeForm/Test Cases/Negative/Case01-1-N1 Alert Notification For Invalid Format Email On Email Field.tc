@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Sebagai Sample</description>
+   <name>Case01-1-N1 Alert Notification For Invalid Format Email On Email Field</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9f1e9666-94c3-4854-ba13-1f0aa2b0280b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>33468cd4-f0f5-4f4a-a198-a6e7e123c021</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>33468cd4-f0f5-4f4a-a198-a6e7e123c021</id>
+      <masked>false</masked>
+      <name>EmailAddress</name>
+   </variable>
+</TestCaseEntity>
