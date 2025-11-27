@@ -1,0 +1,461 @@
+2025-11-27 20:53:30.927 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\USER\.katalon\packages\KSE-10.4.2\configuration\org.eclipse.osgi\132\0\.cp\resources\logback\logback-execution.xml
+2025-11-27 20:53:30.931 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: T:\Lawrencon\Interview\Fix\case01\AutomationPracticeForm\AutomationPracticeForm\Include\config\log.properties
+2025-11-27 20:53:31.383 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TSPracticeFormNegativeMandatory
+2025-11-27 20:53:31.546 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Taufik Romadhon
+2025-11-27 20:53:31.547 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = AutomationPracticeForm
+2025-11-27 20:53:31.547 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = USER - LAPTOP-KNF1HLK6
+2025-11-27 20:53:31.548 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-11-27 20:53:31.549 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 10.156.170.155
+2025-11-27 20:53:31.551 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.2.0
+2025-11-27 20:53:32.172 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-27 20:53:32.173 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Negative/Case01-2-N2 Alert Notification For Mandatory Field On First Name Field
+2025-11-27 20:53:32.275 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) Firstname = 
+2025-11-27 20:53:32.687 DEBUG  For Mandatory Field On First Name Field - 1: openBrowser("")
+2025-11-27 20:53:32.967 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+2025-11-27 20:53:33.030 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Nov 27, 2025 8:53:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-11-27 20:53:35.649 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 1937a8be81edcee1baa1cfff9d0de738
+2025-11-27 20:53:35.650 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 142.0.7444.176
+2025-11-27 20:53:35.651 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-11-27 20:53:35.653 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-11-27 20:53:35.664 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-11-27 20:53:35.715 DEBUG  For Mandatory Field On First Name Field - 2: navigateToUrl("https://demoqa.com/automation-practice-form")
+2025-11-27 20:53:43.928 DEBUG  For Mandatory Field On First Name Field - 3: maximizeWindow()
+2025-11-27 20:53:43.997 DEBUG  For Mandatory Field On First Name Field - 4: delay(2)
+2025-11-27 20:53:46.035 DEBUG  For Mandatory Field On First Name Field - 5: verifyElementPresent(findTestObject("Page_DEMOQA/input_Name_firstName"), 8)
+2025-11-27 20:53:46.374 DEBUG  For Mandatory Field On First Name Field - 6: verifyElementVisible(findTestObject("Page_DEMOQA/input_Name_firstName"), STOP_ON_FAILURE)
+2025-11-27 20:53:46.687 DEBUG  For Mandatory Field On First Name Field - 7: delay(2)
+2025-11-27 20:53:48.702 DEBUG  For Mandatory Field On First Name Field - 8: setText(findTestObject("Page_DEMOQA/input_Name_firstName"), Firstname)
+2025-11-27 20:53:49.647 DEBUG  For Mandatory Field On First Name Field - 9: delay(2)
+2025-11-27 20:53:51.666 DEBUG  For Mandatory Field On First Name Field - 10: verifyElementPresent(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), 0)
+2025-11-27 20:53:51.678 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 20:53:51.929 DEBUG  For Mandatory Field On First Name Field - 11: delay(2)
+2025-11-27 20:53:53.950 DEBUG  For Mandatory Field On First Name Field - 12: scrollToElement(findTestObject("Page_DEMOQA/button_Submit"), 100)
+2025-11-27 20:53:54.237 DEBUG  For Mandatory Field On First Name Field - 13: delay(2)
+2025-11-27 20:53:56.246 DEBUG  For Mandatory Field On First Name Field - 14: verifyElementVisible(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), STOP_ON_FAILURE)
+2025-11-27 20:53:56.519 DEBUG  For Mandatory Field On First Name Field - 15: delay(2)
+2025-11-27 20:53:58.539 DEBUG  For Mandatory Field On First Name Field - 16: click(findTestObject("Object Repository/Page_DEMOQA/button_Submit"))
+2025-11-27 20:53:58.904 DEBUG  For Mandatory Field On First Name Field - 17: delay(2)
+2025-11-27 20:54:00.919 DEBUG  For Mandatory Field On First Name Field - 18: scrollToElement(findTestObject("Page_DEMOQA/input_Name_firstName"), 0)
+2025-11-27 20:54:00.926 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 20:54:01.174 DEBUG  For Mandatory Field On First Name Field - 19: delay(2)
+2025-11-27 20:54:03.180 DEBUG  For Mandatory Field On First Name Field - 20: verifyElementPresent(findTestObject("Page_DEMOQA/input_Name_firstName"), 8)
+2025-11-27 20:54:03.430 DEBUG  For Mandatory Field On First Name Field - 21: click(findTestObject("Page_DEMOQA/input_Name_firstName"))
+2025-11-27 20:54:03.783 DEBUG  For Mandatory Field On First Name Field - 22: verifyElementPresent(findTestObject("Page_DEMOQA/class_Firstname_Invalid"), 8)
+2025-11-27 20:54:04.022 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Negative/Case01-2-N2 Alert Notification For Mandatory Field On First Name Field
+2025-11-27 20:54:04.026 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-27 20:54:04.026 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Negative/Case01-2-N2 Alert Notification For Mandatory Field On First Name Field
+2025-11-27 20:54:04.038 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) Firstname = 
+2025-11-27 20:54:04.040 DEBUG  For Mandatory Field On First Name Field - 1: openBrowser("")
+2025-11-27 20:54:04.044 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-11-27 20:54:04.263 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+2025-11-27 20:54:04.264 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Nov 27, 2025 8:54:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-11-27 20:54:05.009 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 3d2def3c4794b374a80846aca147aa28
+2025-11-27 20:54:05.010 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 142.0.7444.176
+2025-11-27 20:54:05.011 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-11-27 20:54:05.012 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-11-27 20:54:05.013 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-11-27 20:54:05.032 DEBUG  For Mandatory Field On First Name Field - 2: navigateToUrl("https://demoqa.com/automation-practice-form")
+2025-11-27 20:54:11.882 DEBUG  For Mandatory Field On First Name Field - 3: maximizeWindow()
+2025-11-27 20:54:11.916 DEBUG  For Mandatory Field On First Name Field - 4: delay(2)
+2025-11-27 20:54:13.929 DEBUG  For Mandatory Field On First Name Field - 5: verifyElementPresent(findTestObject("Page_DEMOQA/input_Name_firstName"), 8)
+2025-11-27 20:54:14.188 DEBUG  For Mandatory Field On First Name Field - 6: verifyElementVisible(findTestObject("Page_DEMOQA/input_Name_firstName"), STOP_ON_FAILURE)
+2025-11-27 20:54:14.438 DEBUG  For Mandatory Field On First Name Field - 7: delay(2)
+2025-11-27 20:54:16.451 DEBUG  For Mandatory Field On First Name Field - 8: setText(findTestObject("Page_DEMOQA/input_Name_firstName"), Firstname)
+2025-11-27 20:54:17.124 DEBUG  For Mandatory Field On First Name Field - 9: delay(2)
+2025-11-27 20:54:19.139 DEBUG  For Mandatory Field On First Name Field - 10: verifyElementPresent(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), 0)
+2025-11-27 20:54:19.144 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 20:54:19.380 DEBUG  For Mandatory Field On First Name Field - 11: delay(2)
+2025-11-27 20:54:21.398 DEBUG  For Mandatory Field On First Name Field - 12: scrollToElement(findTestObject("Page_DEMOQA/button_Submit"), 100)
+2025-11-27 20:54:21.665 DEBUG  For Mandatory Field On First Name Field - 13: delay(2)
+2025-11-27 20:54:23.681 DEBUG  For Mandatory Field On First Name Field - 14: verifyElementVisible(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), STOP_ON_FAILURE)
+2025-11-27 20:54:23.945 DEBUG  For Mandatory Field On First Name Field - 15: delay(2)
+2025-11-27 20:54:25.954 DEBUG  For Mandatory Field On First Name Field - 16: click(findTestObject("Object Repository/Page_DEMOQA/button_Submit"))
+2025-11-27 20:54:26.312 DEBUG  For Mandatory Field On First Name Field - 17: delay(2)
+2025-11-27 20:54:28.321 DEBUG  For Mandatory Field On First Name Field - 18: scrollToElement(findTestObject("Page_DEMOQA/input_Name_firstName"), 0)
+2025-11-27 20:54:28.327 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 20:54:28.581 DEBUG  For Mandatory Field On First Name Field - 19: delay(2)
+2025-11-27 20:54:30.588 DEBUG  For Mandatory Field On First Name Field - 20: verifyElementPresent(findTestObject("Page_DEMOQA/input_Name_firstName"), 8)
+2025-11-27 20:54:30.845 DEBUG  For Mandatory Field On First Name Field - 21: click(findTestObject("Page_DEMOQA/input_Name_firstName"))
+2025-11-27 20:54:31.184 DEBUG  For Mandatory Field On First Name Field - 22: verifyElementPresent(findTestObject("Page_DEMOQA/class_Firstname_Invalid"), 8)
+2025-11-27 20:54:31.440 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Negative/Case01-2-N2 Alert Notification For Mandatory Field On First Name Field
+2025-11-27 20:54:31.444 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-27 20:54:31.444 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Negative/Case01-2-N2 Alert Notification For Mandatory Field On First Name Field
+2025-11-27 20:54:31.458 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) Firstname = 
+2025-11-27 20:54:31.460 DEBUG  For Mandatory Field On First Name Field - 1: openBrowser("")
+2025-11-27 20:54:31.464 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-11-27 20:54:31.873 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+2025-11-27 20:54:31.874 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Nov 27, 2025 8:54:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-11-27 20:54:32.576 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 947be0d551ae1d25a45ad7ec50e07901
+2025-11-27 20:54:32.577 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 142.0.7444.176
+2025-11-27 20:54:32.577 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-11-27 20:54:32.578 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-11-27 20:54:32.578 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-11-27 20:54:32.592 DEBUG  For Mandatory Field On First Name Field - 2: navigateToUrl("https://demoqa.com/automation-practice-form")
+2025-11-27 20:54:57.203 DEBUG  For Mandatory Field On First Name Field - 3: maximizeWindow()
+2025-11-27 20:54:57.239 DEBUG  For Mandatory Field On First Name Field - 4: delay(2)
+2025-11-27 20:54:59.256 DEBUG  For Mandatory Field On First Name Field - 5: verifyElementPresent(findTestObject("Page_DEMOQA/input_Name_firstName"), 8)
+2025-11-27 20:55:05.617 DEBUG  For Mandatory Field On First Name Field - 6: verifyElementVisible(findTestObject("Page_DEMOQA/input_Name_firstName"), STOP_ON_FAILURE)
+2025-11-27 20:55:06.105 DEBUG  For Mandatory Field On First Name Field - 7: delay(2)
+2025-11-27 20:55:08.123 DEBUG  For Mandatory Field On First Name Field - 8: setText(findTestObject("Page_DEMOQA/input_Name_firstName"), Firstname)
+2025-11-27 20:55:08.771 DEBUG  For Mandatory Field On First Name Field - 9: delay(2)
+2025-11-27 20:55:10.775 DEBUG  For Mandatory Field On First Name Field - 10: verifyElementPresent(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), 0)
+2025-11-27 20:55:10.781 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 20:55:11.024 DEBUG  For Mandatory Field On First Name Field - 11: delay(2)
+2025-11-27 20:55:13.041 DEBUG  For Mandatory Field On First Name Field - 12: scrollToElement(findTestObject("Page_DEMOQA/button_Submit"), 100)
+2025-11-27 20:55:13.287 DEBUG  For Mandatory Field On First Name Field - 13: delay(2)
+2025-11-27 20:55:15.299 DEBUG  For Mandatory Field On First Name Field - 14: verifyElementVisible(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), STOP_ON_FAILURE)
+2025-11-27 20:55:15.551 DEBUG  For Mandatory Field On First Name Field - 15: delay(2)
+2025-11-27 20:55:17.558 DEBUG  For Mandatory Field On First Name Field - 16: click(findTestObject("Object Repository/Page_DEMOQA/button_Submit"))
+2025-11-27 20:55:17.908 DEBUG  For Mandatory Field On First Name Field - 17: delay(2)
+2025-11-27 20:55:19.915 DEBUG  For Mandatory Field On First Name Field - 18: scrollToElement(findTestObject("Page_DEMOQA/input_Name_firstName"), 0)
+2025-11-27 20:55:19.919 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 20:55:20.166 DEBUG  For Mandatory Field On First Name Field - 19: delay(2)
+2025-11-27 20:55:22.171 DEBUG  For Mandatory Field On First Name Field - 20: verifyElementPresent(findTestObject("Page_DEMOQA/input_Name_firstName"), 8)
+2025-11-27 20:55:22.412 DEBUG  For Mandatory Field On First Name Field - 21: click(findTestObject("Page_DEMOQA/input_Name_firstName"))
+2025-11-27 20:55:22.723 DEBUG  For Mandatory Field On First Name Field - 22: verifyElementPresent(findTestObject("Page_DEMOQA/class_Firstname_Invalid"), 8)
+2025-11-27 20:55:22.960 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Negative/Case01-2-N2 Alert Notification For Mandatory Field On First Name Field
+2025-11-27 20:55:22.963 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-27 20:55:22.963 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Negative/Case01-3-N3 Alert Notification For Mandatory Field On Last Name Field
+2025-11-27 20:55:22.972 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) Lastname = 
+2025-11-27 20:55:23.040 DEBUG  For Mandatory Field On First Name Field - 1: openBrowser("")
+2025-11-27 20:55:23.044 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-11-27 20:55:23.275 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+2025-11-27 20:55:23.276 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Nov 27, 2025 8:55:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-11-27 20:55:24.388 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = d36b800ffd569b239f55e6fc1691e78c
+2025-11-27 20:55:24.389 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 142.0.7444.176
+2025-11-27 20:55:24.390 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-11-27 20:55:24.390 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-11-27 20:55:24.391 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-11-27 20:55:24.405 DEBUG  For Mandatory Field On First Name Field - 2: navigateToUrl("https://demoqa.com/automation-practice-form")
+2025-11-27 20:55:51.514 DEBUG  For Mandatory Field On First Name Field - 3: maximizeWindow()
+2025-11-27 20:55:51.543 DEBUG  For Mandatory Field On First Name Field - 4: delay(2)
+2025-11-27 20:55:53.553 DEBUG  For Mandatory Field On First Name Field - 5: verifyElementPresent(findTestObject("Page_DEMOQA/input_Name_lastName"), 8)
+2025-11-27 20:55:53.806 DEBUG  For Mandatory Field On First Name Field - 6: verifyElementVisible(findTestObject("Page_DEMOQA/input_Name_lastName"), STOP_ON_FAILURE)
+2025-11-27 20:55:54.061 DEBUG  For Mandatory Field On First Name Field - 7: delay(2)
+2025-11-27 20:55:56.068 DEBUG  For Mandatory Field On First Name Field - 8: setText(findTestObject("Page_DEMOQA/input_Name_lastName"), Lastname)
+2025-11-27 20:55:56.704 DEBUG  For Mandatory Field On First Name Field - 9: delay(2)
+2025-11-27 20:55:58.709 DEBUG  For Mandatory Field On First Name Field - 10: verifyElementPresent(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), 8)
+2025-11-27 20:55:58.958 DEBUG  For Mandatory Field On First Name Field - 11: delay(2)
+2025-11-27 20:56:00.972 DEBUG  For Mandatory Field On First Name Field - 12: scrollToElement(findTestObject("Page_DEMOQA/button_Submit"), 100)
+2025-11-27 20:56:01.228 DEBUG  For Mandatory Field On First Name Field - 13: delay(2)
+2025-11-27 20:56:03.235 DEBUG  For Mandatory Field On First Name Field - 14: verifyElementVisible(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), STOP_ON_FAILURE)
+2025-11-27 20:56:03.486 DEBUG  For Mandatory Field On First Name Field - 15: delay(2)
+2025-11-27 20:56:05.506 DEBUG  For Mandatory Field On First Name Field - 16: click(findTestObject("Object Repository/Page_DEMOQA/button_Submit"))
+2025-11-27 20:56:05.855 DEBUG  For Mandatory Field On First Name Field - 17: delay(2)
+2025-11-27 20:56:07.874 DEBUG  For Mandatory Field On First Name Field - 18: scrollToElement(findTestObject("Page_DEMOQA/input_Name_lastName"), 0)
+2025-11-27 20:56:07.880 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 20:56:08.129 DEBUG  For Mandatory Field On First Name Field - 19: delay(2)
+2025-11-27 20:56:10.142 DEBUG  For Mandatory Field On First Name Field - 20: verifyElementPresent(findTestObject("Page_DEMOQA/input_Name_lastName"), 8)
+2025-11-27 20:56:10.401 DEBUG  For Mandatory Field On First Name Field - 21: click(findTestObject("Page_DEMOQA/input_Name_lastName"))
+2025-11-27 20:56:10.724 DEBUG  For Mandatory Field On First Name Field - 22: verifyElementPresent(findTestObject("Page_DEMOQA/class_Lastname_Invalid"), 8)
+2025-11-27 20:56:10.965 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Negative/Case01-3-N3 Alert Notification For Mandatory Field On Last Name Field
+2025-11-27 20:56:10.967 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-27 20:56:10.968 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Negative/Case01-3-N3 Alert Notification For Mandatory Field On Last Name Field
+2025-11-27 20:56:10.979 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) Lastname = 
+2025-11-27 20:56:10.981 DEBUG  For Mandatory Field On First Name Field - 1: openBrowser("")
+2025-11-27 20:56:10.983 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-11-27 20:56:11.157 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+2025-11-27 20:56:11.158 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Nov 27, 2025 8:56:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-11-27 20:56:11.900 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = b529633947dde89b8a454a39dcc94b56
+2025-11-27 20:56:11.901 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 142.0.7444.176
+2025-11-27 20:56:11.901 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-11-27 20:56:11.902 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-11-27 20:56:11.903 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-11-27 20:56:11.917 DEBUG  For Mandatory Field On First Name Field - 2: navigateToUrl("https://demoqa.com/automation-practice-form")
+2025-11-27 20:56:17.071 DEBUG  For Mandatory Field On First Name Field - 3: maximizeWindow()
+2025-11-27 20:56:17.113 DEBUG  For Mandatory Field On First Name Field - 4: delay(2)
+2025-11-27 20:56:19.122 DEBUG  For Mandatory Field On First Name Field - 5: verifyElementPresent(findTestObject("Page_DEMOQA/input_Name_lastName"), 8)
+2025-11-27 20:56:19.386 DEBUG  For Mandatory Field On First Name Field - 6: verifyElementVisible(findTestObject("Page_DEMOQA/input_Name_lastName"), STOP_ON_FAILURE)
+2025-11-27 20:56:19.641 DEBUG  For Mandatory Field On First Name Field - 7: delay(2)
+2025-11-27 20:56:21.655 DEBUG  For Mandatory Field On First Name Field - 8: setText(findTestObject("Page_DEMOQA/input_Name_lastName"), Lastname)
+2025-11-27 20:56:22.286 DEBUG  For Mandatory Field On First Name Field - 9: delay(2)
+2025-11-27 20:56:24.291 DEBUG  For Mandatory Field On First Name Field - 10: verifyElementPresent(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), 8)
+2025-11-27 20:56:24.539 DEBUG  For Mandatory Field On First Name Field - 11: delay(2)
+2025-11-27 20:56:26.550 DEBUG  For Mandatory Field On First Name Field - 12: scrollToElement(findTestObject("Page_DEMOQA/button_Submit"), 100)
+2025-11-27 20:56:26.801 DEBUG  For Mandatory Field On First Name Field - 13: delay(2)
+2025-11-27 20:56:28.808 DEBUG  For Mandatory Field On First Name Field - 14: verifyElementVisible(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), STOP_ON_FAILURE)
+2025-11-27 20:56:29.061 DEBUG  For Mandatory Field On First Name Field - 15: delay(2)
+2025-11-27 20:56:31.066 DEBUG  For Mandatory Field On First Name Field - 16: click(findTestObject("Object Repository/Page_DEMOQA/button_Submit"))
+2025-11-27 20:56:31.398 DEBUG  For Mandatory Field On First Name Field - 17: delay(2)
+2025-11-27 20:56:33.405 DEBUG  For Mandatory Field On First Name Field - 18: scrollToElement(findTestObject("Page_DEMOQA/input_Name_lastName"), 0)
+2025-11-27 20:56:33.409 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 20:56:33.641 DEBUG  For Mandatory Field On First Name Field - 19: delay(2)
+2025-11-27 20:56:35.652 DEBUG  For Mandatory Field On First Name Field - 20: verifyElementPresent(findTestObject("Page_DEMOQA/input_Name_lastName"), 8)
+2025-11-27 20:56:35.882 DEBUG  For Mandatory Field On First Name Field - 21: click(findTestObject("Page_DEMOQA/input_Name_lastName"))
+2025-11-27 20:56:36.251 DEBUG  For Mandatory Field On First Name Field - 22: verifyElementPresent(findTestObject("Page_DEMOQA/class_Lastname_Invalid"), 8)
+2025-11-27 20:56:36.497 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Negative/Case01-3-N3 Alert Notification For Mandatory Field On Last Name Field
+2025-11-27 20:56:36.499 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-27 20:56:36.500 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Negative/Case01-3-N3 Alert Notification For Mandatory Field On Last Name Field
+2025-11-27 20:56:36.508 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) Lastname = 
+2025-11-27 20:56:36.509 DEBUG  For Mandatory Field On First Name Field - 1: openBrowser("")
+2025-11-27 20:56:36.512 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-11-27 20:56:36.749 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+2025-11-27 20:56:36.750 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Nov 27, 2025 8:56:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-11-27 20:56:37.484 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 21adc87e74c508d80cd04b165d2a191f
+2025-11-27 20:56:37.484 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 142.0.7444.176
+2025-11-27 20:56:37.484 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-11-27 20:56:37.485 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-11-27 20:56:37.485 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-11-27 20:56:37.496 DEBUG  For Mandatory Field On First Name Field - 2: navigateToUrl("https://demoqa.com/automation-practice-form")
+2025-11-27 20:56:44.827 DEBUG  For Mandatory Field On First Name Field - 3: maximizeWindow()
+2025-11-27 20:56:44.856 DEBUG  For Mandatory Field On First Name Field - 4: delay(2)
+2025-11-27 20:56:46.860 DEBUG  For Mandatory Field On First Name Field - 5: verifyElementPresent(findTestObject("Page_DEMOQA/input_Name_lastName"), 8)
+2025-11-27 20:56:47.112 DEBUG  For Mandatory Field On First Name Field - 6: verifyElementVisible(findTestObject("Page_DEMOQA/input_Name_lastName"), STOP_ON_FAILURE)
+2025-11-27 20:56:47.366 DEBUG  For Mandatory Field On First Name Field - 7: delay(2)
+2025-11-27 20:56:49.382 DEBUG  For Mandatory Field On First Name Field - 8: setText(findTestObject("Page_DEMOQA/input_Name_lastName"), Lastname)
+2025-11-27 20:56:50.022 DEBUG  For Mandatory Field On First Name Field - 9: delay(2)
+2025-11-27 20:56:52.032 DEBUG  For Mandatory Field On First Name Field - 10: verifyElementPresent(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), 8)
+2025-11-27 20:56:52.280 DEBUG  For Mandatory Field On First Name Field - 11: delay(2)
+2025-11-27 20:56:54.287 DEBUG  For Mandatory Field On First Name Field - 12: scrollToElement(findTestObject("Page_DEMOQA/button_Submit"), 100)
+2025-11-27 20:56:54.537 DEBUG  For Mandatory Field On First Name Field - 13: delay(2)
+2025-11-27 20:56:56.544 DEBUG  For Mandatory Field On First Name Field - 14: verifyElementVisible(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), STOP_ON_FAILURE)
+2025-11-27 20:56:56.785 DEBUG  For Mandatory Field On First Name Field - 15: delay(2)
+2025-11-27 20:56:58.793 DEBUG  For Mandatory Field On First Name Field - 16: click(findTestObject("Object Repository/Page_DEMOQA/button_Submit"))
+2025-11-27 20:56:59.119 DEBUG  For Mandatory Field On First Name Field - 17: delay(2)
+2025-11-27 20:57:01.122 DEBUG  For Mandatory Field On First Name Field - 18: scrollToElement(findTestObject("Page_DEMOQA/input_Name_lastName"), 0)
+2025-11-27 20:57:01.127 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 20:57:01.377 DEBUG  For Mandatory Field On First Name Field - 19: delay(2)
+2025-11-27 20:57:03.387 DEBUG  For Mandatory Field On First Name Field - 20: verifyElementPresent(findTestObject("Page_DEMOQA/input_Name_lastName"), 8)
+2025-11-27 20:57:03.632 DEBUG  For Mandatory Field On First Name Field - 21: click(findTestObject("Page_DEMOQA/input_Name_lastName"))
+2025-11-27 20:57:03.950 DEBUG  For Mandatory Field On First Name Field - 22: verifyElementPresent(findTestObject("Page_DEMOQA/class_Lastname_Invalid"), 8)
+2025-11-27 20:57:04.188 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Negative/Case01-3-N3 Alert Notification For Mandatory Field On Last Name Field
+2025-11-27 20:57:04.189 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-27 20:57:04.190 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Negative/Case01-4-N4 Alert Notification For Mandatory Field On Gender Field
+2025-11-27 20:57:04.198 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) Gender = 
+2025-11-27 20:57:04.247 DEBUG  For Mandatory Field On First Name Field - 1: openBrowser("")
+2025-11-27 20:57:04.250 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-11-27 20:57:05.021 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+2025-11-27 20:57:05.022 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Nov 27, 2025 8:57:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-11-27 20:57:05.719 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 25bfe0e818c0609fa43698e60cbe8572
+2025-11-27 20:57:05.719 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 142.0.7444.176
+2025-11-27 20:57:05.720 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-11-27 20:57:05.720 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-11-27 20:57:05.720 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-11-27 20:57:05.729 DEBUG  For Mandatory Field On First Name Field - 2: navigateToUrl("https://demoqa.com/automation-practice-form")
+2025-11-27 20:57:31.106 DEBUG  For Mandatory Field On First Name Field - 3: maximizeWindow()
+2025-11-27 20:57:31.134 DEBUG  For Mandatory Field On First Name Field - 4: delay(2)
+2025-11-27 20:57:33.147 DEBUG  For Mandatory Field On First Name Field - 5: verifyElementPresent(findTestObject("Page_DEMOQA/label_Male"), 0)
+2025-11-27 20:57:33.151 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 20:57:33.401 DEBUG  For Mandatory Field On First Name Field - 6: verifyElementVisible(findTestObject("Page_DEMOQA/label_Male"), STOP_ON_FAILURE)
+2025-11-27 20:57:33.657 DEBUG  For Mandatory Field On First Name Field - 7: delay(2)
+2025-11-27 20:57:35.673 DEBUG  For Mandatory Field On First Name Field - 8: verifyElementPresent(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), 0)
+2025-11-27 20:57:35.678 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 20:57:35.906 DEBUG  For Mandatory Field On First Name Field - 9: delay(2)
+2025-11-27 20:57:37.922 DEBUG  For Mandatory Field On First Name Field - 10: scrollToElement(findTestObject("Page_DEMOQA/button_Submit"), 100)
+2025-11-27 20:57:38.178 DEBUG  For Mandatory Field On First Name Field - 11: delay(2)
+2025-11-27 20:57:40.188 DEBUG  For Mandatory Field On First Name Field - 12: verifyElementVisible(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), STOP_ON_FAILURE)
+2025-11-27 20:57:40.428 DEBUG  For Mandatory Field On First Name Field - 13: delay(2)
+2025-11-27 20:57:42.437 DEBUG  For Mandatory Field On First Name Field - 14: click(findTestObject("Object Repository/Page_DEMOQA/button_Submit"))
+2025-11-27 20:57:42.764 DEBUG  For Mandatory Field On First Name Field - 15: delay(2)
+2025-11-27 20:57:44.777 DEBUG  For Mandatory Field On First Name Field - 16: scrollToElement(findTestObject("Page_DEMOQA/label_Male"), 0)
+2025-11-27 20:57:44.782 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 20:57:45.018 DEBUG  For Mandatory Field On First Name Field - 17: delay(2)
+2025-11-27 20:57:47.035 DEBUG  For Mandatory Field On First Name Field - 18: verifyElementPresent(findTestObject("Page_DEMOQA/label_Male"), 0)
+2025-11-27 20:57:47.040 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 20:57:47.279 DEBUG  For Mandatory Field On First Name Field - 19: delay(2)
+2025-11-27 20:57:49.294 DEBUG  For Mandatory Field On First Name Field - 20: verifyElementPresent(findTestObject("Page_DEMOQA/class_Gender_Invalid"), 8)
+2025-11-27 20:57:49.548 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Negative/Case01-4-N4 Alert Notification For Mandatory Field On Gender Field
+2025-11-27 20:57:49.550 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-27 20:57:49.550 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Negative/Case01-4-N4 Alert Notification For Mandatory Field On Gender Field
+2025-11-27 20:57:49.561 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) Gender = 
+2025-11-27 20:57:49.563 DEBUG  For Mandatory Field On First Name Field - 1: openBrowser("")
+2025-11-27 20:57:49.565 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-11-27 20:57:50.110 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+2025-11-27 20:57:50.110 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Nov 27, 2025 8:57:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-11-27 20:57:50.781 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 58cf300da5d0c547dd22e2e6e23fb4c6
+2025-11-27 20:57:50.781 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 142.0.7444.176
+2025-11-27 20:57:50.782 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-11-27 20:57:50.782 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-11-27 20:57:50.783 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-11-27 20:57:50.792 DEBUG  For Mandatory Field On First Name Field - 2: navigateToUrl("https://demoqa.com/automation-practice-form")
+2025-11-27 20:57:58.057 DEBUG  For Mandatory Field On First Name Field - 3: maximizeWindow()
+2025-11-27 20:57:58.088 DEBUG  For Mandatory Field On First Name Field - 4: delay(2)
+2025-11-27 20:58:00.103 DEBUG  For Mandatory Field On First Name Field - 5: verifyElementPresent(findTestObject("Page_DEMOQA/label_Male"), 0)
+2025-11-27 20:58:00.107 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 20:58:00.357 DEBUG  For Mandatory Field On First Name Field - 6: verifyElementVisible(findTestObject("Page_DEMOQA/label_Male"), STOP_ON_FAILURE)
+2025-11-27 20:58:00.609 DEBUG  For Mandatory Field On First Name Field - 7: delay(2)
+2025-11-27 20:58:02.620 DEBUG  For Mandatory Field On First Name Field - 8: verifyElementPresent(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), 0)
+2025-11-27 20:58:02.625 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 20:58:02.864 DEBUG  For Mandatory Field On First Name Field - 9: delay(2)
+2025-11-27 20:58:04.874 DEBUG  For Mandatory Field On First Name Field - 10: scrollToElement(findTestObject("Page_DEMOQA/button_Submit"), 100)
+2025-11-27 20:58:05.123 DEBUG  For Mandatory Field On First Name Field - 11: delay(2)
+2025-11-27 20:58:07.127 DEBUG  For Mandatory Field On First Name Field - 12: verifyElementVisible(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), STOP_ON_FAILURE)
+2025-11-27 20:58:07.385 DEBUG  For Mandatory Field On First Name Field - 13: delay(2)
+2025-11-27 20:58:09.398 DEBUG  For Mandatory Field On First Name Field - 14: click(findTestObject("Object Repository/Page_DEMOQA/button_Submit"))
+2025-11-27 20:58:09.730 DEBUG  For Mandatory Field On First Name Field - 15: delay(2)
+2025-11-27 20:58:11.746 DEBUG  For Mandatory Field On First Name Field - 16: scrollToElement(findTestObject("Page_DEMOQA/label_Male"), 0)
+2025-11-27 20:58:11.750 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 20:58:11.991 DEBUG  For Mandatory Field On First Name Field - 17: delay(2)
+2025-11-27 20:58:13.994 DEBUG  For Mandatory Field On First Name Field - 18: verifyElementPresent(findTestObject("Page_DEMOQA/label_Male"), 0)
+2025-11-27 20:58:13.998 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 20:58:14.223 DEBUG  For Mandatory Field On First Name Field - 19: delay(2)
+2025-11-27 20:58:16.225 DEBUG  For Mandatory Field On First Name Field - 20: verifyElementPresent(findTestObject("Page_DEMOQA/class_Gender_Invalid"), 8)
+2025-11-27 20:58:16.476 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Negative/Case01-4-N4 Alert Notification For Mandatory Field On Gender Field
+2025-11-27 20:58:16.478 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-27 20:58:16.478 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Negative/Case01-4-N4 Alert Notification For Mandatory Field On Gender Field
+2025-11-27 20:58:16.486 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) Gender = 
+2025-11-27 20:58:16.487 DEBUG  For Mandatory Field On First Name Field - 1: openBrowser("")
+2025-11-27 20:58:16.490 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-11-27 20:58:17.105 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+2025-11-27 20:58:17.105 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Nov 27, 2025 8:58:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-11-27 20:58:17.784 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = d6561a3c430710915b25f19fda302a15
+2025-11-27 20:58:17.784 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 142.0.7444.176
+2025-11-27 20:58:17.784 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-11-27 20:58:17.785 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-11-27 20:58:17.785 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-11-27 20:58:17.793 DEBUG  For Mandatory Field On First Name Field - 2: navigateToUrl("https://demoqa.com/automation-practice-form")
+2025-11-27 20:58:25.471 DEBUG  For Mandatory Field On First Name Field - 3: maximizeWindow()
+2025-11-27 20:58:25.494 DEBUG  For Mandatory Field On First Name Field - 4: delay(2)
+2025-11-27 20:58:27.506 DEBUG  For Mandatory Field On First Name Field - 5: verifyElementPresent(findTestObject("Page_DEMOQA/label_Male"), 0)
+2025-11-27 20:58:27.511 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 20:58:27.760 DEBUG  For Mandatory Field On First Name Field - 6: verifyElementVisible(findTestObject("Page_DEMOQA/label_Male"), STOP_ON_FAILURE)
+2025-11-27 20:58:28.011 DEBUG  For Mandatory Field On First Name Field - 7: delay(2)
+2025-11-27 20:58:30.026 DEBUG  For Mandatory Field On First Name Field - 8: verifyElementPresent(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), 0)
+2025-11-27 20:58:30.030 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 20:58:30.273 DEBUG  For Mandatory Field On First Name Field - 9: delay(2)
+2025-11-27 20:58:32.275 DEBUG  For Mandatory Field On First Name Field - 10: scrollToElement(findTestObject("Page_DEMOQA/button_Submit"), 100)
+2025-11-27 20:58:32.525 DEBUG  For Mandatory Field On First Name Field - 11: delay(2)
+2025-11-27 20:58:34.529 DEBUG  For Mandatory Field On First Name Field - 12: verifyElementVisible(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), STOP_ON_FAILURE)
+2025-11-27 20:58:34.782 DEBUG  For Mandatory Field On First Name Field - 13: delay(2)
+2025-11-27 20:58:36.789 DEBUG  For Mandatory Field On First Name Field - 14: click(findTestObject("Object Repository/Page_DEMOQA/button_Submit"))
+2025-11-27 20:58:37.125 DEBUG  For Mandatory Field On First Name Field - 15: delay(2)
+2025-11-27 20:58:39.129 DEBUG  For Mandatory Field On First Name Field - 16: scrollToElement(findTestObject("Page_DEMOQA/label_Male"), 0)
+2025-11-27 20:58:39.133 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 20:58:39.382 DEBUG  For Mandatory Field On First Name Field - 17: delay(2)
+2025-11-27 20:58:41.392 DEBUG  For Mandatory Field On First Name Field - 18: verifyElementPresent(findTestObject("Page_DEMOQA/label_Male"), 0)
+2025-11-27 20:58:41.396 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 20:58:41.637 DEBUG  For Mandatory Field On First Name Field - 19: delay(2)
+2025-11-27 20:58:43.650 DEBUG  For Mandatory Field On First Name Field - 20: verifyElementPresent(findTestObject("Page_DEMOQA/class_Gender_Invalid"), 8)
+2025-11-27 20:58:43.884 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Negative/Case01-4-N4 Alert Notification For Mandatory Field On Gender Field
+2025-11-27 20:58:43.886 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-27 20:58:43.886 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Negative/Case01-5-N5 Alert Notification For Mandatory Field On Mobile Number Field
+2025-11-27 20:58:43.894 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) MobileNumber = 
+2025-11-27 20:58:43.957 DEBUG  For Mandatory Field On First Name Field - 1: openBrowser("")
+2025-11-27 20:58:43.960 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-11-27 20:58:44.157 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+2025-11-27 20:58:44.158 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Nov 27, 2025 8:58:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-11-27 20:58:44.858 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = a8459e23dfa64530d26cb12a5071c66c
+2025-11-27 20:58:44.858 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 142.0.7444.176
+2025-11-27 20:58:44.858 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-11-27 20:58:44.859 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-11-27 20:58:44.859 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-11-27 20:58:44.867 DEBUG  For Mandatory Field On First Name Field - 2: navigateToUrl("https://demoqa.com/automation-practice-form")
+2025-11-27 20:59:53.245 DEBUG  For Mandatory Field On First Name Field - 3: maximizeWindow()
+2025-11-27 20:59:53.280 DEBUG  For Mandatory Field On First Name Field - 4: delay(2)
+2025-11-27 20:59:55.287 DEBUG  For Mandatory Field On First Name Field - 5: verifyElementPresent(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8)
+2025-11-27 20:59:55.536 DEBUG  For Mandatory Field On First Name Field - 6: verifyElementVisible(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), STOP_ON_FAILURE)
+2025-11-27 20:59:55.806 DEBUG  For Mandatory Field On First Name Field - 7: delay(2)
+2025-11-27 20:59:57.814 DEBUG  For Mandatory Field On First Name Field - 8: setText(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), MobileNumber)
+2025-11-27 20:59:58.451 DEBUG  For Mandatory Field On First Name Field - 9: delay(2)
+2025-11-27 21:00:00.464 DEBUG  For Mandatory Field On First Name Field - 10: verifyElementPresent(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), 8)
+2025-11-27 21:00:00.717 DEBUG  For Mandatory Field On First Name Field - 11: delay(2)
+2025-11-27 21:00:02.734 DEBUG  For Mandatory Field On First Name Field - 12: scrollToElement(findTestObject("Page_DEMOQA/button_Submit"), 100)
+2025-11-27 21:00:02.976 DEBUG  For Mandatory Field On First Name Field - 13: delay(2)
+2025-11-27 21:00:04.983 DEBUG  For Mandatory Field On First Name Field - 14: verifyElementVisible(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), STOP_ON_FAILURE)
+2025-11-27 21:00:05.234 DEBUG  For Mandatory Field On First Name Field - 15: delay(2)
+2025-11-27 21:00:07.241 DEBUG  For Mandatory Field On First Name Field - 16: click(findTestObject("Object Repository/Page_DEMOQA/button_Submit"))
+2025-11-27 21:00:07.574 DEBUG  For Mandatory Field On First Name Field - 17: delay(2)
+2025-11-27 21:00:09.589 DEBUG  For Mandatory Field On First Name Field - 18: scrollToElement(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 0)
+2025-11-27 21:00:09.594 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 21:00:09.851 DEBUG  For Mandatory Field On First Name Field - 19: delay(2)
+2025-11-27 21:00:11.862 DEBUG  For Mandatory Field On First Name Field - 20: verifyElementPresent(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8)
+2025-11-27 21:00:12.104 DEBUG  For Mandatory Field On First Name Field - 21: click(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"))
+2025-11-27 21:00:12.433 DEBUG  For Mandatory Field On First Name Field - 22: verifyElementPresent(findTestObject("Page_DEMOQA/class_Mobile_Number_Invalid"), 8)
+2025-11-27 21:00:12.671 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Negative/Case01-5-N5 Alert Notification For Mandatory Field On Mobile Number Field
+2025-11-27 21:00:12.673 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-27 21:00:12.673 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Negative/Case01-5-N5 Alert Notification For Mandatory Field On Mobile Number Field
+2025-11-27 21:00:12.681 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) MobileNumber = 
+2025-11-27 21:00:12.682 DEBUG  For Mandatory Field On First Name Field - 1: openBrowser("")
+2025-11-27 21:00:12.684 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-11-27 21:00:12.904 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+2025-11-27 21:00:12.905 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Nov 27, 2025 9:00:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-11-27 21:00:13.600 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 632752a16b35300632cbcc7584584a62
+2025-11-27 21:00:13.600 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 142.0.7444.176
+2025-11-27 21:00:13.601 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-11-27 21:00:13.601 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-11-27 21:00:13.601 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-11-27 21:00:13.610 DEBUG  For Mandatory Field On First Name Field - 2: navigateToUrl("https://demoqa.com/automation-practice-form")
+2025-11-27 21:00:41.692 DEBUG  For Mandatory Field On First Name Field - 3: maximizeWindow()
+2025-11-27 21:00:41.736 DEBUG  For Mandatory Field On First Name Field - 4: delay(2)
+2025-11-27 21:00:43.748 DEBUG  For Mandatory Field On First Name Field - 5: verifyElementPresent(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8)
+2025-11-27 21:00:43.999 DEBUG  For Mandatory Field On First Name Field - 6: verifyElementVisible(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), STOP_ON_FAILURE)
+2025-11-27 21:00:44.264 DEBUG  For Mandatory Field On First Name Field - 7: delay(2)
+2025-11-27 21:00:46.278 DEBUG  For Mandatory Field On First Name Field - 8: setText(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), MobileNumber)
+2025-11-27 21:00:46.891 DEBUG  For Mandatory Field On First Name Field - 9: delay(2)
+2025-11-27 21:00:48.896 DEBUG  For Mandatory Field On First Name Field - 10: verifyElementPresent(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), 8)
+2025-11-27 21:00:49.129 DEBUG  For Mandatory Field On First Name Field - 11: delay(2)
+2025-11-27 21:00:51.138 DEBUG  For Mandatory Field On First Name Field - 12: scrollToElement(findTestObject("Page_DEMOQA/button_Submit"), 100)
+2025-11-27 21:00:51.374 DEBUG  For Mandatory Field On First Name Field - 13: delay(2)
+2025-11-27 21:00:53.390 DEBUG  For Mandatory Field On First Name Field - 14: verifyElementVisible(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), STOP_ON_FAILURE)
+2025-11-27 21:00:53.628 DEBUG  For Mandatory Field On First Name Field - 15: delay(2)
+2025-11-27 21:00:55.640 DEBUG  For Mandatory Field On First Name Field - 16: click(findTestObject("Object Repository/Page_DEMOQA/button_Submit"))
+2025-11-27 21:00:55.975 DEBUG  For Mandatory Field On First Name Field - 17: delay(2)
+2025-11-27 21:00:57.986 DEBUG  For Mandatory Field On First Name Field - 18: scrollToElement(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 0)
+2025-11-27 21:00:57.990 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 21:00:58.235 DEBUG  For Mandatory Field On First Name Field - 19: delay(2)
+2025-11-27 21:01:00.246 DEBUG  For Mandatory Field On First Name Field - 20: verifyElementPresent(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8)
+2025-11-27 21:01:00.492 DEBUG  For Mandatory Field On First Name Field - 21: click(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"))
+2025-11-27 21:01:00.802 DEBUG  For Mandatory Field On First Name Field - 22: verifyElementPresent(findTestObject("Page_DEMOQA/class_Mobile_Number_Invalid"), 8)
+2025-11-27 21:01:01.042 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Negative/Case01-5-N5 Alert Notification For Mandatory Field On Mobile Number Field
+2025-11-27 21:01:01.044 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-27 21:01:01.044 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Negative/Case01-5-N5 Alert Notification For Mandatory Field On Mobile Number Field
+2025-11-27 21:01:01.053 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) MobileNumber = 
+2025-11-27 21:01:01.055 DEBUG  For Mandatory Field On First Name Field - 1: openBrowser("")
+2025-11-27 21:01:01.057 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-11-27 21:01:01.460 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+2025-11-27 21:01:01.461 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Nov 27, 2025 9:01:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-11-27 21:01:02.154 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 73eef766aecd3cc398648ae72328270a
+2025-11-27 21:01:02.155 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 142.0.7444.176
+2025-11-27 21:01:02.155 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-11-27 21:01:02.155 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-11-27 21:01:02.156 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-11-27 21:01:02.167 DEBUG  For Mandatory Field On First Name Field - 2: navigateToUrl("https://demoqa.com/automation-practice-form")
+2025-11-27 21:01:46.245 DEBUG  For Mandatory Field On First Name Field - 3: maximizeWindow()
+2025-11-27 21:01:46.283 DEBUG  For Mandatory Field On First Name Field - 4: delay(2)
+2025-11-27 21:01:48.286 DEBUG  For Mandatory Field On First Name Field - 5: verifyElementPresent(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8)
+2025-11-27 21:01:48.536 DEBUG  For Mandatory Field On First Name Field - 6: verifyElementVisible(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), STOP_ON_FAILURE)
+2025-11-27 21:01:48.792 DEBUG  For Mandatory Field On First Name Field - 7: delay(2)
+2025-11-27 21:01:50.803 DEBUG  For Mandatory Field On First Name Field - 8: setText(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), MobileNumber)
+2025-11-27 21:01:51.436 DEBUG  For Mandatory Field On First Name Field - 9: delay(2)
+2025-11-27 21:01:53.445 DEBUG  For Mandatory Field On First Name Field - 10: verifyElementPresent(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), 8)
+2025-11-27 21:01:53.677 DEBUG  For Mandatory Field On First Name Field - 11: delay(2)
+2025-11-27 21:01:55.682 DEBUG  For Mandatory Field On First Name Field - 12: scrollToElement(findTestObject("Page_DEMOQA/button_Submit"), 100)
+2025-11-27 21:01:55.935 DEBUG  For Mandatory Field On First Name Field - 13: delay(2)
+2025-11-27 21:01:57.938 DEBUG  For Mandatory Field On First Name Field - 14: verifyElementVisible(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), STOP_ON_FAILURE)
+2025-11-27 21:01:58.188 DEBUG  For Mandatory Field On First Name Field - 15: delay(2)
+2025-11-27 21:02:00.199 DEBUG  For Mandatory Field On First Name Field - 16: click(findTestObject("Object Repository/Page_DEMOQA/button_Submit"))
+2025-11-27 21:02:00.535 DEBUG  For Mandatory Field On First Name Field - 17: delay(2)
+2025-11-27 21:02:02.538 DEBUG  For Mandatory Field On First Name Field - 18: scrollToElement(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 0)
+2025-11-27 21:02:02.542 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 21:02:02.791 DEBUG  For Mandatory Field On First Name Field - 19: delay(2)
+2025-11-27 21:02:04.807 DEBUG  For Mandatory Field On First Name Field - 20: verifyElementPresent(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8)
+2025-11-27 21:02:05.050 DEBUG  For Mandatory Field On First Name Field - 21: click(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"))
+2025-11-27 21:02:05.366 DEBUG  For Mandatory Field On First Name Field - 22: verifyElementPresent(findTestObject("Page_DEMOQA/class_Mobile_Number_Invalid"), 8)
+2025-11-27 21:02:05.607 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Negative/Case01-5-N5 Alert Notification For Mandatory Field On Mobile Number Field
+2025-11-27 21:02:05.817 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-11-27 21:02:05.817 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TSPracticeFormNegativeMandatory
+2025-11-27 21:02:05.817 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

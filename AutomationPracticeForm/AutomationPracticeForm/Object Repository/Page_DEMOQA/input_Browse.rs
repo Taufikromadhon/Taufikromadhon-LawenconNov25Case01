@@ -6,15 +6,19 @@
    <elementGuidId>184f08de-ffcb-45f3-bdbd-f0ab8ae130b2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#userNumber</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='uploadPicture']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'file' and @id = 'uploadPicture']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,79 +27,31 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>a0795db7-529f-474a-b7bf-45e0b5aa50be</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>autocomplete</name>
-      <type>Main</type>
-      <value>off</value>
-      <webElementGuid>d558e656-303e-49ee-8628-fd6cdffc3512</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>pattern</name>
-      <type>Main</type>
-      <value>\d*</value>
-      <webElementGuid>777be6e3-6bea-4d85-aaa4-b20ba0850f58</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>minlength</name>
-      <type>Main</type>
-      <value>10</value>
-      <webElementGuid>6fa1c651-d2b9-427f-aaf7-a45746422a0b</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>maxlength</name>
-      <type>Main</type>
-      <value>10</value>
-      <webElementGuid>99fa821a-1034-4c39-8ac0-c66fe7201e77</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Mobile Number</value>
-      <webElementGuid>5a89f95e-1ba1-404c-8a76-cc9c17905026</webElementGuid>
+      <webElementGuid>1afe92be-b15c-4bc3-84a2-0d414d45f392</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
-      <webElementGuid>7ae63580-d64e-4d44-913c-ebe2d7362082</webElementGuid>
+      <value>file</value>
+      <webElementGuid>272f0b96-c586-4190-aa8a-098fe60578df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>userNumber</value>
-      <webElementGuid>116c3984-0ca3-40e6-b012-0ad19950941a</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value> mr-sm-2 form-control</value>
-      <webElementGuid>13963481-8bcb-404d-a85c-169baf1c1125</webElementGuid>
+      <value>uploadPicture</value>
+      <webElementGuid>2531c049-838e-41e8-8243-b3b240d8d822</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;userNumber&quot;)</value>
-      <webElementGuid>64466d59-9601-4f53-b3a2-0766090e6f31</webElementGuid>
+      <value>id(&quot;uploadPicture&quot;)</value>
+      <webElementGuid>7d51075e-a5ef-44c3-8d35-b24b82ad0277</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -103,7 +59,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='uploadPicture']</value>
-      <webElementGuid>33f51f9c-88b9-4599-b102-91545f8e831c</webElementGuid>
+      <webElementGuid>dc99960c-0e76-4b7f-b42d-06a861b207fd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,6 +67,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'file' and @id = 'uploadPicture']</value>
-      <webElementGuid>9ad0af4f-75b2-4672-bdd7-31a8cdb8e7d4</webElementGuid>
+      <webElementGuid>fd1e1490-54ec-4da3-bf0d-f151126e0687</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

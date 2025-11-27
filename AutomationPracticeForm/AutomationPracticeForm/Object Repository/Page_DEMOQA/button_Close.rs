@@ -6,15 +6,19 @@
    <elementGuidId>eb0bde29-32c7-4e14-bd63-6f471e26aa11</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#submit</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//button[@id = 'closeLargeModal' and @type = 'button' and (text() = 'Close' or . = 'Close')]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'closeLargeModal' and @type = 'button' and (text() = 'Close' or . = 'Close')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#submit</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,23 +27,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>26d9af44-2c34-4b40-8c01-c4987f1fb1e5</webElementGuid>
+      <webElementGuid>0ac37ea3-7755-4488-8a08-c527b04e8130</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>1917b83c-5e50-418c-9c44-e25f2db7d252</webElementGuid>
+      <value>closeLargeModal</value>
+      <webElementGuid>0e4dd16b-5bb0-48be-b2ea-8e06da8a6492</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>f987b043-0fc9-421e-9165-0b9d4e21d76b</webElementGuid>
+      <value>button</value>
+      <webElementGuid>58542be1-e983-4791-b5c2-6adb47c42e4f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,23 +51,23 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary</value>
-      <webElementGuid>085e03ce-9cd4-4346-b28c-ac1a833a663f</webElementGuid>
+      <webElementGuid>65ec8042-bd25-465f-b9fe-07328bb91f96</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Submit</value>
-      <webElementGuid>df278ca1-4368-4a16-8452-42f2cb18d20d</webElementGuid>
+      <value>Close</value>
+      <webElementGuid>dce3a291-ad3c-4968-bf03-c35942d26ef5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;submit&quot;)</value>
-      <webElementGuid>efd6f2f5-236d-4164-bcf4-9f7efbcffb3f</webElementGuid>
+      <value>id(&quot;closeLargeModal&quot;)</value>
+      <webElementGuid>50362e72-e78b-44a7-8288-8b3512f0f3a4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,7 +75,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='closeLargeModal']</value>
-      <webElementGuid>e9a78159-3c9b-42cd-a750-d50a99d211b7</webElementGuid>
+      <webElementGuid>556018f1-935e-40f3-a557-8c545e953b82</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +83,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='userForm']/div[11]/div/button</value>
-      <webElementGuid>1035622d-15f8-4267-a277-fde6415269d0</webElementGuid>
+      <webElementGuid>6e072312-9bd3-46c0-81c5-7f914168e200</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +91,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Submit']/parent::*</value>
-      <webElementGuid>e537492e-858f-42e6-8bed-def03ad9fe3e</webElementGuid>
+      <webElementGuid>7b06626a-ddbc-43e2-89db-ec9a682a8542</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +99,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/button</value>
-      <webElementGuid>1ba5e191-92e5-4bf5-b7ad-72727a1ebc33</webElementGuid>
+      <webElementGuid>abbe2792-7114-45c5-875a-4bf9756c1902</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +107,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@id = 'closeLargeModal' and @type = 'button' and (text() = 'Close' or . = 'Close')]</value>
-      <webElementGuid>6f7dbb5a-ec13-4e89-818e-5ac8b401d271</webElementGuid>
+      <webElementGuid>2ceafe91-9160-47cf-9046-a12821217ab6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

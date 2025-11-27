@@ -6,72 +6,28 @@
    <elementGuidId>945232a4-0c90-46b6-861e-50532819f0c6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#react-select-2-option-0</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='example-modal-sizes-title-lg']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>div</value>
-      <webElementGuid>a66efbdd-363f-4969-9b2d-19867ecda37d</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>subjects-auto-complete__option subjects-auto-complete__option--is-focused css-1n7v3ny-option</value>
-      <webElementGuid>6d9f32b8-dcfb-4653-b5a0-c64d7a2c8fc0</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>react-select-2-option-0</value>
-      <webElementGuid>ab7d1588-540e-4384-a6f5-77fbdb13fb6d</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
-      <type>Main</type>
-      <value>-1</value>
-      <webElementGuid>4bc2599e-bcf2-438f-a666-fec6ad945464</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Maths</value>
-      <webElementGuid>4c31633c-90f1-4b4e-a6b8-3f4f6b2d0131</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;react-select-2-option-0&quot;)</value>
-      <webElementGuid>649a56ea-3a42-4ce0-8373-cff205034d53</webElementGuid>
-   </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='example-modal-sizes-title-lg']</value>
-      <webElementGuid>67a9268c-8a3d-47c1-be60-b65fda7b0d89</webElementGuid>
+      <webElementGuid>ff7c9297-ba90-4753-aea9-5ab0fa8513a1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,6 +35,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'example-modal-sizes-title-lg' and (text() = 'Thanks for submitting the form' Or . = 'Thanks for submitting the form')]</value>
-      <webElementGuid>f17f6d3a-5dd3-4c80-878a-a1302def490d</webElementGuid>
+      <webElementGuid>3c8ff068-3692-4894-9b6c-a0f36d139286</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

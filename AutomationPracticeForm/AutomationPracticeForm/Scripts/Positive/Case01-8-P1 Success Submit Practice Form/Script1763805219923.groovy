@@ -100,13 +100,13 @@ WebUI.verifyElementVisible(findTestObject('Page_DEMOQA/input_(10 Digits)_userNum
 WebUI.setText(findTestObject('Page_DEMOQA/input_(10 Digits)_userNumber'), MobileNumber)
 
 // Melakukan verivikasi bahwa element sudah tersedia
-WebUI.verifyElementPresent(findTestObject('Page_DEMOQA/input_DateOfBirth'), 8)
+WebUI.verifyElementPresent(findTestObject('Page_DEMOQA/input_DateOfBirth_old'), 8)
 
 // Melakukan verifikasi bahwa element sudah ada dalam area yang dapat dilihat oleh sistem dengan failure handling
-WebUI.verifyElementVisible(findTestObject('Page_DEMOQA/input_DateOfBirth'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('Page_DEMOQA/input_DateOfBirth_old'), FailureHandling.STOP_ON_FAILURE)
 
 // Mengirimkan Input Keyboard key ke Object
-WebUI.sendKeys(findTestObject('Page_DEMOQA/input_DateOfBirth'), Keys.chord(Keys.ARROW_LEFT, Keys.ARROW_LEFT, Keys.ARROW_LEFT, 
+WebUI.sendKeys(findTestObject('Page_DEMOQA/input_DateOfBirth_old'), Keys.chord(Keys.ARROW_LEFT, Keys.ARROW_LEFT, Keys.ARROW_LEFT, 
         Keys.ARROW_LEFT, Keys.ARROW_LEFT, Keys.ARROW_LEFT, Keys.ARROW_LEFT, Keys.ARROW_LEFT, Keys.ARROW_LEFT, Keys.ARROW_LEFT, 
         Keys.ARROW_LEFT))
 
@@ -114,21 +114,21 @@ WebUI.sendKeys(findTestObject('Page_DEMOQA/input_DateOfBirth'), Keys.chord(Keys.
 WebUI.delay(2)
 
 // Mengirimkan Input Keyboard key ke Object
-WebUI.sendKeys(findTestObject('Page_DEMOQA/input_DateOfBirth'), Keys.chord(Keys.DELETE, Keys.DELETE, Keys.DELETE, Keys.DELETE, 
+WebUI.sendKeys(findTestObject('Page_DEMOQA/input_DateOfBirth_old'), Keys.chord(Keys.DELETE, Keys.DELETE, Keys.DELETE, Keys.DELETE, 
         Keys.DELETE, Keys.DELETE, Keys.DELETE, Keys.DELETE, Keys.DELETE, Keys.DELETE))
 
 // Melakukan input set Text pada field object dengan menggunakan variable
-WebUI.setText(findTestObject('Page_DEMOQA/input_DateOfBirth'), DateOfBirth)
+WebUI.setText(findTestObject('Page_DEMOQA/input_DateOfBirth_old'), DateOfBirth)
 
 // Mengirimkan Input Keyboard key ke Object
-WebUI.sendKeys(findTestObject('Page_DEMOQA/input_DateOfBirth'), Keys.chord(Keys.ARROW_LEFT, Keys.ARROW_LEFT, Keys.ARROW_LEFT, 
+WebUI.sendKeys(findTestObject('Page_DEMOQA/input_DateOfBirth_old'), Keys.chord(Keys.ARROW_LEFT, Keys.ARROW_LEFT, Keys.ARROW_LEFT, 
         Keys.ARROW_LEFT, Keys.ARROW_LEFT, Keys.ARROW_LEFT, Keys.ARROW_LEFT, Keys.ARROW_LEFT, Keys.ARROW_LEFT, Keys.ARROW_LEFT, 
         Keys.ARROW_LEFT))
 
 // Memberikan sedikit jeda selama 2 detik untuk menunggu proses yang sedang berjalan
 WebUI.delay(2)
 
-WebUI.sendKeys(findTestObject('Page_DEMOQA/input_DateOfBirth'), Keys.chord(Keys.BACK_SPACE, Keys.ENTER))
+WebUI.sendKeys(findTestObject('Page_DEMOQA/input_DateOfBirth_old'), Keys.chord(Keys.BACK_SPACE, Keys.ENTER))
 
 // Memberikan sedikit jeda selama 2 detik untuk menunggu proses yang sedang berjalan
 WebUI.delay(2)
@@ -187,34 +187,34 @@ WebUI.switchToDefaultContent(FailureHandling.STOP_ON_FAILURE)
 WebUI.delay(2)
 
 // Melakukan verivikasi bahwa element sudah tersedia
-WebUI.verifyElementPresent(findTestObject('Page_DEMOQA/textarea_Current Address_currentAddress'), 8)
+WebUI.verifyElementPresent(findTestObject('Page_DEMOQA/textarea_CurrentAddress'), 8)
 
 // Untuk melakukan scroll ke element
-WebUI.scrollToElement(findTestObject('Page_DEMOQA/textarea_Current Address_currentAddress'), 8)
+WebUI.scrollToElement(findTestObject('Page_DEMOQA/textarea_CurrentAddress'), 8)
 
 // Melakukan verifikasi bahwa element sudah ada dalam area yang dapat dilihat oleh sistem dengan failure handling
-WebUI.verifyElementVisible(findTestObject('Page_DEMOQA/textarea_Current Address_currentAddress'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('Page_DEMOQA/textarea_CurrentAddress'), FailureHandling.STOP_ON_FAILURE)
 
 // Melakukan input set Text pada field object dengan menggunakan variable
-WebUI.setText(findTestObject('Page_DEMOQA/textarea_Current Address_currentAddress'), CurrentAddress)
+WebUI.setText(findTestObject('Page_DEMOQA/textarea_CurrentAddress'), CurrentAddress)
 
 // Melakukan verivikasi bahwa element sudah tersedia
-WebUI.verifyElementPresent(findTestObject('Page_DEMOQA/input_Select_State'), 8)
+WebUI.verifyElementPresent(findTestObject('Page_DEMOQA/input_Select_State_old'), 8)
 
 // Untuk melakukan scroll ke element
-WebUI.scrollToElement(findTestObject('Page_DEMOQA/input_Select_State'), 8)
+WebUI.scrollToElement(findTestObject('Page_DEMOQA/input_Select_State_old'), 8)
 
 // Memberikan sedikit jeda selama 2 detik untuk menunggu proses yang sedang berjalan
 WebUI.delay(2)
 
 // Untuk melakukan Click berulang dengan failure handling ke Object
-WebUI.enhancedClick(findTestObject('Page_DEMOQA/input_Select_State'), FailureHandling.STOP_ON_FAILURE)
+WebUI.enhancedClick(findTestObject('Page_DEMOQA/input_Select_State_old'), FailureHandling.STOP_ON_FAILURE)
 
 // Melakukan input set Text pada field object dengan menggunakan variable
-WebUI.setText(findTestObject('Page_DEMOQA/input_Select_State'), State)
+WebUI.setText(findTestObject('Page_DEMOQA/input_Select_State_old'), State)
 
 // Mengirimkan Input Keyboard key ke Object
-WebUI.sendKeys(findTestObject('Page_DEMOQA/input_Select_State'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Page_DEMOQA/input_Select_State_old'), Keys.chord(Keys.ENTER))
 
 // Memberikan sedikit jeda selama 2 detik untuk menunggu proses yang sedang berjalan
 WebUI.delay(2)

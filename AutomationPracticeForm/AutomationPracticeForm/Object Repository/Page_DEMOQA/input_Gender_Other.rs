@@ -6,96 +6,44 @@
    <elementGuidId>33ebfca9-25fe-45b5-9e0a-f938af6ee129</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#genterWrapper .col-md-9.col-sm-12 .custom-control.custom-radio.custom-control-inline input#gender-radio-3.custom-control-input</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='gender-radio-3']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'radio' and @id = 'gender-radio-3']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#genterWrapper .col-md-9.col-sm-12 .custom-control.custom-radio.custom-control-inline input#gender-radio-3.custom-control-input</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>input</value>
-      <webElementGuid>7dd51977-e023-475c-9827-fa9391e36195</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>autocomplete</name>
-      <type>Main</type>
-      <value>off</value>
-      <webElementGuid>0b551477-7757-435d-ac52-4f0e1f7cbb81</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>pattern</name>
-      <type>Main</type>
-      <value>\d*</value>
-      <webElementGuid>ebcdcdfd-3f6c-496b-8acc-fa881cb13bd1</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>minlength</name>
-      <type>Main</type>
-      <value>10</value>
-      <webElementGuid>85de3468-cefb-4671-a163-3110f14c4ce0</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>maxlength</name>
-      <type>Main</type>
-      <value>10</value>
-      <webElementGuid>257e58be-4215-4300-a126-d6d0a86afc9f</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Mobile Number</value>
-      <webElementGuid>53fa046e-2243-450e-b21f-71e883469bd5</webElementGuid>
-   </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
-      <webElementGuid>3c7bc7d7-3e1b-43cc-8380-4198298ecb57</webElementGuid>
+      <value>radio</value>
+      <webElementGuid>b6b6b050-10fb-487f-ac3b-fef963753509</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>userNumber</value>
-      <webElementGuid>7e823d94-586c-4900-a8e5-2c384d01609e</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value> mr-sm-2 form-control</value>
-      <webElementGuid>82ac3a18-4eb9-42db-8303-2840d7ef2168</webElementGuid>
+      <value>gender-radio-3</value>
+      <webElementGuid>bd63f4ad-ffd5-43da-8413-a45d9262309d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;userNumber&quot;)</value>
-      <webElementGuid>10814dc9-1cc4-474b-8d7d-e74cb98cb1e0</webElementGuid>
+      <value>id(&quot;gender-radio-3&quot;)</value>
+      <webElementGuid>4d514054-b4aa-41f8-8050-b48301f84b42</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -103,7 +51,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='gender-radio-3']</value>
-      <webElementGuid>dee6df1e-4410-48c9-aaa6-20c4617ac6c8</webElementGuid>
+      <webElementGuid>02304825-9649-47d6-a48b-0702bb4bd15a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,6 +59,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'radio' and @id = 'gender-radio-3']</value>
-      <webElementGuid>2f93eab3-078e-4cef-80f5-d9928f0d364b</webElementGuid>
+      <webElementGuid>60b4c7d5-a58a-4152-81b8-2121f0ff0ac7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

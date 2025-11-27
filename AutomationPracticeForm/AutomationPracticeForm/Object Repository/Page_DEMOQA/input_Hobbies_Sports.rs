@@ -6,15 +6,19 @@
    <elementGuidId>6e987897-daeb-4f5e-a67d-38f917fdfa04</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#hobbiesWrapper .col-md-9.col-sm-12 .custom-control.custom-checkbox.custom-control-inline input#hobbies-checkbox-1.custom-control-input</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='hobbies-checkbox-1']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @id = 'hobbies-checkbox-1']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#hobbiesWrapper .col-md-9.col-sm-12 .custom-control.custom-checkbox.custom-control-inline input#hobbies-checkbox-1.custom-control-input</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,47 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>eed08a02-3f3a-4eca-8cc4-58a97ebe6635</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>autocomplete</name>
-      <type>Main</type>
-      <value>off</value>
-      <webElementGuid>a34aec4a-895e-45f0-92af-290af02a2741</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>pattern</name>
-      <type>Main</type>
-      <value>\d*</value>
-      <webElementGuid>75a238b5-6c22-4d9f-a9dd-c129ec6cd825</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>minlength</name>
-      <type>Main</type>
-      <value>10</value>
-      <webElementGuid>07048101-7a0e-4bec-8bf7-2cc28021e1b9</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>maxlength</name>
-      <type>Main</type>
-      <value>10</value>
-      <webElementGuid>85f37f35-1523-40aa-a507-7ea7f47b124d</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Mobile Number</value>
-      <webElementGuid>9b960167-8a31-4abc-baf3-c42ad73390a8</webElementGuid>
+      <webElementGuid>557549c6-afb2-40af-a7bf-f6ac9364e6cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -71,31 +35,23 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>346d001e-abeb-4a44-82e7-4428873b49ab</webElementGuid>
+      <webElementGuid>146ea88a-d064-43ed-9eeb-f500ff5b554b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>userNumber</value>
-      <webElementGuid>5b33cf19-ba2e-413c-b78b-cee7def79736</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value> mr-sm-2 form-control</value>
-      <webElementGuid>0909680a-12b9-4cb7-8613-8d0ec9ce6f2c</webElementGuid>
+      <value>hobbies-checkbox-1</value>
+      <webElementGuid>c97498f1-a54b-4611-a88a-933612069edf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;userNumber&quot;)</value>
-      <webElementGuid>b7cc1b42-f4e3-4dcc-bde0-c4356e979e0d</webElementGuid>
+      <value>id(&quot;hobbies-checkbox-1&quot;)</value>
+      <webElementGuid>5f05911b-c17a-4847-a6bf-6dd4f77fc1e4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -103,7 +59,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='hobbies-checkbox-1']</value>
-      <webElementGuid>55a9f5f3-a379-4431-bf03-72ed34457ab9</webElementGuid>
+      <webElementGuid>1040c66a-b025-4819-9cd3-0972ebcafb53</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,6 +67,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'checkbox' and @id = 'hobbies-checkbox-1']</value>
-      <webElementGuid>a137b728-fac2-436f-a367-452f6edbf3b9</webElementGuid>
+      <webElementGuid>ba0328dd-dd54-49fc-8a14-41ec7dda4622</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
