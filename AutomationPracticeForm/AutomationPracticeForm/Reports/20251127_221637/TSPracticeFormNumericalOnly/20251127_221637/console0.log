@@ -1,0 +1,220 @@
+2025-11-27 22:16:44.635 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\USER\.katalon\packages\KSE-10.4.2\configuration\org.eclipse.osgi\132\0\.cp\resources\logback\logback-execution.xml
+2025-11-27 22:16:44.638 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: T:\Lawencon\Interview\Fix\case01\AutomationPracticeForm\AutomationPracticeForm\Include\config\log.properties
+2025-11-27 22:16:45.389 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TSPracticeFormNumericalOnly
+2025-11-27 22:16:45.682 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Taufik Romadhon
+2025-11-27 22:16:45.685 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = AutomationPracticeForm
+2025-11-27 22:16:45.687 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = USER - LAPTOP-KNF1HLK6
+2025-11-27 22:16:45.689 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-11-27 22:16:45.690 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 10.156.170.155
+2025-11-27 22:16:45.692 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.2.0
+2025-11-27 22:16:47.570 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-27 22:16:47.570 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Negative/Case01-7-N7 Alert Notification For Numerical Only On Mobile Number Field
+2025-11-27 22:16:47.687 INFO  c.k.katalon.core.main.TestCaseExecutor   - MobileNumber = +624567891
+2025-11-27 22:16:48.804 DEBUG or Numerical Only On Mobile Number Field - 1: openBrowser("")
+2025-11-27 22:16:49.440 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+2025-11-27 22:16:49.556 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Nov 27, 2025 10:16:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-11-27 22:16:53.740 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 5a153139a0b7e4103986231db3240a29
+2025-11-27 22:16:53.742 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 142.0.7444.176
+2025-11-27 22:16:53.744 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-11-27 22:16:53.748 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-11-27 22:16:53.778 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-11-27 22:16:53.887 DEBUG or Numerical Only On Mobile Number Field - 2: navigateToUrl("https://demoqa.com/automation-practice-form")
+2025-11-27 22:17:01.904 DEBUG or Numerical Only On Mobile Number Field - 3: maximizeWindow()
+2025-11-27 22:17:02.000 DEBUG or Numerical Only On Mobile Number Field - 4: delay(2)
+2025-11-27 22:17:04.060 DEBUG or Numerical Only On Mobile Number Field - 5: verifyElementPresent(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8)
+2025-11-27 22:17:04.527 DEBUG or Numerical Only On Mobile Number Field - 6: verifyElementVisible(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), STOP_ON_FAILURE)
+2025-11-27 22:17:04.920 DEBUG or Numerical Only On Mobile Number Field - 7: delay(2)
+2025-11-27 22:17:06.937 DEBUG or Numerical Only On Mobile Number Field - 8: setText(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), MobileNumber)
+2025-11-27 22:17:08.110 DEBUG or Numerical Only On Mobile Number Field - 9: delay(2)
+2025-11-27 22:17:10.138 DEBUG or Numerical Only On Mobile Number Field - 10: verifyElementPresent(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), 0)
+2025-11-27 22:17:10.167 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 22:17:10.519 DEBUG or Numerical Only On Mobile Number Field - 11: delay(2)
+2025-11-27 22:17:12.601 DEBUG or Numerical Only On Mobile Number Field - 12: scrollToElement(findTestObject("Page_DEMOQA/button_Submit"), 100)
+2025-11-27 22:17:13.075 DEBUG or Numerical Only On Mobile Number Field - 13: delay(2)
+2025-11-27 22:17:15.093 DEBUG or Numerical Only On Mobile Number Field - 14: verifyElementVisible(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), STOP_ON_FAILURE)
+2025-11-27 22:17:15.417 DEBUG or Numerical Only On Mobile Number Field - 15: delay(2)
+2025-11-27 22:17:17.437 DEBUG or Numerical Only On Mobile Number Field - 16: click(findTestObject("Object Repository/Page_DEMOQA/button_Submit"))
+2025-11-27 22:17:18.099 DEBUG or Numerical Only On Mobile Number Field - 17: delay(2)
+2025-11-27 22:17:20.110 DEBUG or Numerical Only On Mobile Number Field - 18: scrollToElement(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 0)
+2025-11-27 22:17:20.135 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 22:17:20.435 DEBUG or Numerical Only On Mobile Number Field - 19: delay(2)
+2025-11-27 22:17:22.454 DEBUG or Numerical Only On Mobile Number Field - 20: verifyElementPresent(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8)
+2025-11-27 22:17:22.761 DEBUG or Numerical Only On Mobile Number Field - 21: click(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"))
+2025-11-27 22:17:23.316 DEBUG or Numerical Only On Mobile Number Field - 22: verifyElementPresent(findTestObject("Page_DEMOQA/class_Mobile_Number_Invalid"), 8)
+2025-11-27 22:17:23.602 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Negative/Case01-7-N7 Alert Notification For Numerical Only On Mobile Number Field
+2025-11-27 22:17:23.610 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-27 22:17:23.612 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Negative/Case01-7-N7 Alert Notification For Numerical Only On Mobile Number Field
+2025-11-27 22:17:23.640 INFO  c.k.katalon.core.main.TestCaseExecutor   - MobileNumber = +624567891
+2025-11-27 22:17:23.645 DEBUG or Numerical Only On Mobile Number Field - 1: openBrowser("")
+2025-11-27 22:17:23.653 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-11-27 22:17:24.994 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+2025-11-27 22:17:24.998 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Nov 27, 2025 10:17:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-11-27 22:17:26.603 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = dcb28426ca581aafc4855ae70a611a6b
+2025-11-27 22:17:26.605 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 142.0.7444.176
+2025-11-27 22:17:26.606 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-11-27 22:17:26.608 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-11-27 22:17:26.609 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-11-27 22:17:26.644 DEBUG or Numerical Only On Mobile Number Field - 2: navigateToUrl("https://demoqa.com/automation-practice-form")
+2025-11-27 22:18:09.015 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to navigate to 'https://demoqa.com/automation-practice-form' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://demoqa.com/automation-practice-form'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:90)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at Case01-7-N7 Alert Notification For Numerical Only On Mobile Number Field.run(Case01-7-N7 Alert Notification For Numerical Only On Mobile Number Field:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1764256597059.run(TempTestSuite1764256597059.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=142.0.7444.176)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [dcb28426ca581aafc4855ae70a611a6b, get {url=https://demoqa.com/automation-practice-form}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.59 (4b8153ab58d3..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51627}, goog:processID: 21552, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51627/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:25951/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dcb28426ca581aafc4855ae70a611a6b
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:312)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:1076)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$IQKdkaR3.to(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:90)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at Script1763805219923.run(Script1763805219923.groovy:24)
+	... 15 more
+)
+2025-11-27 22:18:09.018 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Negative/Case01-7-N7 Alert Notification For Numerical Only On Mobile Number Field FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://demoqa.com/automation-practice-form'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:90)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at Case01-7-N7 Alert Notification For Numerical Only On Mobile Number Field.run(Case01-7-N7 Alert Notification For Numerical Only On Mobile Number Field:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1764256597059.run(TempTestSuite1764256597059.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=142.0.7444.176)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [dcb28426ca581aafc4855ae70a611a6b, get {url=https://demoqa.com/automation-practice-form}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.59 (4b8153ab58d3..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51627}, goog:processID: 21552, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51627/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:25951/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dcb28426ca581aafc4855ae70a611a6b
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:312)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:1076)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$IQKdkaR3.to(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more
+
+2025-11-27 22:18:09.022 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Negative/Case01-7-N7 Alert Notification For Numerical Only On Mobile Number Field
+2025-11-27 22:18:09.029 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-27 22:18:09.029 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Negative/Case01-7-N7 Alert Notification For Numerical Only On Mobile Number Field
+2025-11-27 22:18:09.041 INFO  c.k.katalon.core.main.TestCaseExecutor   - MobileNumber = +624567891
+2025-11-27 22:18:09.046 DEBUG or Numerical Only On Mobile Number Field - 1: openBrowser("")
+2025-11-27 22:18:09.049 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-11-27 22:18:09.231 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+2025-11-27 22:18:09.232 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Nov 27, 2025 10:18:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-11-27 22:18:10.105 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = a41daa190585a1e597507e144ebc1975
+2025-11-27 22:18:10.106 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 142.0.7444.176
+2025-11-27 22:18:10.107 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-11-27 22:18:10.107 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-11-27 22:18:10.108 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-11-27 22:18:10.130 DEBUG or Numerical Only On Mobile Number Field - 2: navigateToUrl("https://demoqa.com/automation-practice-form")
+2025-11-27 22:18:50.198 DEBUG or Numerical Only On Mobile Number Field - 3: maximizeWindow()
+2025-11-27 22:18:50.289 DEBUG or Numerical Only On Mobile Number Field - 4: delay(2)
+2025-11-27 22:18:52.321 DEBUG or Numerical Only On Mobile Number Field - 5: verifyElementPresent(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8)
+2025-11-27 22:18:58.243 DEBUG or Numerical Only On Mobile Number Field - 6: verifyElementVisible(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), STOP_ON_FAILURE)
+2025-11-27 22:18:58.555 DEBUG or Numerical Only On Mobile Number Field - 7: delay(2)
+2025-11-27 22:19:00.579 DEBUG or Numerical Only On Mobile Number Field - 8: setText(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), MobileNumber)
+2025-11-27 22:19:01.482 DEBUG or Numerical Only On Mobile Number Field - 9: delay(2)
+2025-11-27 22:19:03.498 DEBUG or Numerical Only On Mobile Number Field - 10: verifyElementPresent(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), 0)
+2025-11-27 22:19:03.517 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 22:19:03.795 DEBUG or Numerical Only On Mobile Number Field - 11: delay(2)
+2025-11-27 22:19:05.812 DEBUG or Numerical Only On Mobile Number Field - 12: scrollToElement(findTestObject("Page_DEMOQA/button_Submit"), 100)
+2025-11-27 22:19:06.066 DEBUG or Numerical Only On Mobile Number Field - 13: delay(2)
+2025-11-27 22:19:08.082 DEBUG or Numerical Only On Mobile Number Field - 14: verifyElementVisible(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), STOP_ON_FAILURE)
+2025-11-27 22:19:08.352 DEBUG or Numerical Only On Mobile Number Field - 15: delay(2)
+2025-11-27 22:19:10.363 DEBUG or Numerical Only On Mobile Number Field - 16: click(findTestObject("Object Repository/Page_DEMOQA/button_Submit"))
+2025-11-27 22:19:10.801 DEBUG or Numerical Only On Mobile Number Field - 17: delay(2)
+2025-11-27 22:19:12.811 DEBUG or Numerical Only On Mobile Number Field - 18: scrollToElement(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 0)
+2025-11-27 22:19:12.818 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 22:19:13.081 DEBUG or Numerical Only On Mobile Number Field - 19: delay(2)
+2025-11-27 22:19:15.097 DEBUG or Numerical Only On Mobile Number Field - 20: verifyElementPresent(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8)
+2025-11-27 22:19:15.354 DEBUG or Numerical Only On Mobile Number Field - 21: click(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"))
+2025-11-27 22:19:15.743 DEBUG or Numerical Only On Mobile Number Field - 22: verifyElementPresent(findTestObject("Page_DEMOQA/class_Mobile_Number_Invalid"), 8)
+2025-11-27 22:19:15.997 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Negative/Case01-7-N7 Alert Notification For Numerical Only On Mobile Number Field
+2025-11-27 22:19:17.333 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-11-27 22:19:17.333 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TSPracticeFormNumericalOnly
+2025-11-27 22:19:17.333 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

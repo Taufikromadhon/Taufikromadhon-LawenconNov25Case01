@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TSPracticeFormMinLengthMobileNumber" time="92.81" tests="3" failures="1" errors="0">
+   <testsuite name="TSPracticeFormMinLengthMobileNumber" tests="3" failures="1" errors="0" time="92.81" skipped="0" timestamp="2025-11-27T15:16:18.424Z" hostname="USER - LAPTOP-KNF1HLK6" id="Test Suites/TSPracticeFormMinLengthMobileNumber">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="T:\\Lawencon\\Interview\\Fix\\case01\\AutomationPracticeForm\\AutomationPracticeForm\\Reports\\20251127_221610\\TSPracticeFormMinLengthMobileNumber\\20251127_221610"/>
+         <property name="logFiles" value="T:\\Lawencon\\Interview\\Fix\\case01\\AutomationPracticeForm\\AutomationPracticeForm\\Reports\\20251127_221610\\TSPracticeFormMinLengthMobileNumber\\20251127_221610\\console0.log, T:\\Lawencon\\Interview\\Fix\\case01\\AutomationPracticeForm\\AutomationPracticeForm\\Reports\\20251127_221610\\TSPracticeFormMinLengthMobileNumber\\20251127_221610\\execution0.log"/>
+         <property name="attachments" value="T:\\Lawencon\\Interview\\Fix\\case01\\AutomationPracticeForm\\AutomationPracticeForm\\Reports\\20251127_221610\\TSPracticeFormMinLengthMobileNumber\\20251127_221610\\1764256671139.png"/>
+         <property name="hostName" value="USER - LAPTOP-KNF1HLK6"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.4.2.0"/>
+         <property name="browser" value="Chrome 142.0.7444.176"/>
+         <property name="userFullName" value="Taufik Romadhon"/>
+         <property name="hostAddress" value="10.156.170.155"/>
+         <property name="sessionId" value="35d837eae47d9e9cfa622af31c327d6b"/>
+         <property name="projectName" value="AutomationPracticeForm"/>
+         <property name="seleniumVersion" value="4.34.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Negative/Case01-6-N6 Alert Notification For Min Length On Mobile Number Field" time="31.911" classname="Test Cases/Negative/Case01-6-N6 Alert Notification For Min Length On Mobile Number Field" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"MobileNumber":"1234567"}]]></property>
+         </properties>
+         <system-out><![CDATA[27-11-2025T22:16:19 - [TEST_CASE][PASSED] - Test Cases/Negative/Case01-6-N6 Alert Notification For Min Length On Mobile Number Field: Test Cases/Negative/Case01-6-N6 Alert Notification For Min Length On Mobile Number Field
+
+27-11-2025T22:16:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+27-11-2025T22:16:21 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+27-11-2025T22:16:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-11-2025T22:16:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+27-11-2025T22:16:24 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/automation-practice-form"): Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+27-11-2025T22:16:25 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+27-11-2025T22:16:25 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+27-11-2025T22:16:29 - [MESSAGE][PASSED] - Current window maximized
+
+27-11-2025T22:16:29 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:16:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:16:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8): Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is present
+
+27-11-2025T22:16:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is present
+
+27-11-2025T22:16:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is visible
+
+27-11-2025T22:16:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is visible
+
+27-11-2025T22:16:32 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:16:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:16:34 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), MobileNumber): Text '1234567' is set on object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber'
+
+27-11-2025T22:16:35 - [MESSAGE][PASSED] - Text '1234567' is set on object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber'
+
+27-11-2025T22:16:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:16:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:16:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), 0): Object 'Object Repository/Page_DEMOQA/button_Submit' is present
+
+27-11-2025T22:16:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+27-11-2025T22:16:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/button_Submit' is present
+
+27-11-2025T22:16:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:16:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:16:40 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/button_Submit"), 100): Scroll to object 'Object Repository/Page_DEMOQA/button_Submit' successfully
+
+27-11-2025T22:16:40 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/button_Submit' successfully
+
+27-11-2025T22:16:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:16:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:16:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/button_Submit' is visible
+
+27-11-2025T22:16:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/button_Submit' is visible
+
+27-11-2025T22:16:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:16:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:16:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/button_Submit")): Object: 'Object Repository/Page_DEMOQA/button_Submit' is clicked on
+
+27-11-2025T22:16:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/button_Submit' is clicked on
+
+27-11-2025T22:16:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:16:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:16:47 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 0): Scroll to object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' successfully
+
+27-11-2025T22:16:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+27-11-2025T22:16:47 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' successfully
+
+27-11-2025T22:16:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:16:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:16:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8): Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is present
+
+27-11-2025T22:16:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is present
+
+27-11-2025T22:16:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber")): Object: 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is clicked on
+
+27-11-2025T22:16:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is clicked on
+
+27-11-2025T22:16:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/class_Mobile_Number_Invalid"), 8): Object 'Object Repository/Page_DEMOQA/class_Mobile_Number_Invalid' is present
+
+27-11-2025T22:16:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/class_Mobile_Number_Invalid' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negative/Case01-6-N6 Alert Notification For Min Length On Mobile Number Field" time="35.995" classname="Test Cases/Negative/Case01-6-N6 Alert Notification For Min Length On Mobile Number Field" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"MobileNumber":"1234567"}]]></property>
+         </properties>
+         <system-out><![CDATA[27-11-2025T22:16:51 - [TEST_CASE][PASSED] - Test Cases/Negative/Case01-6-N6 Alert Notification For Min Length On Mobile Number Field: Test Cases/Negative/Case01-6-N6 Alert Notification For Min Length On Mobile Number Field
+
+27-11-2025T22:16:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+27-11-2025T22:16:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+27-11-2025T22:16:52 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+27-11-2025T22:16:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-11-2025T22:16:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+27-11-2025T22:16:53 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/automation-practice-form"): Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+27-11-2025T22:17:05 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+27-11-2025T22:17:05 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+27-11-2025T22:17:05 - [MESSAGE][PASSED] - Current window maximized
+
+27-11-2025T22:17:05 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:17:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:17:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8): Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is present
+
+27-11-2025T22:17:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is present
+
+27-11-2025T22:17:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is visible
+
+27-11-2025T22:17:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is visible
+
+27-11-2025T22:17:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:17:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:17:10 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), MobileNumber): Text '1234567' is set on object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber'
+
+27-11-2025T22:17:12 - [MESSAGE][PASSED] - Text '1234567' is set on object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber'
+
+27-11-2025T22:17:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:17:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:17:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), 0): Object 'Object Repository/Page_DEMOQA/button_Submit' is present
+
+27-11-2025T22:17:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+27-11-2025T22:17:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/button_Submit' is present
+
+27-11-2025T22:17:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:17:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:17:16 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/button_Submit"), 100): Scroll to object 'Object Repository/Page_DEMOQA/button_Submit' successfully
+
+27-11-2025T22:17:16 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/button_Submit' successfully
+
+27-11-2025T22:17:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:17:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:17:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/button_Submit' is visible
+
+27-11-2025T22:17:19 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/button_Submit' is visible
+
+27-11-2025T22:17:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:17:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:17:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/button_Submit")): Object: 'Object Repository/Page_DEMOQA/button_Submit' is clicked on
+
+27-11-2025T22:17:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/button_Submit' is clicked on
+
+27-11-2025T22:17:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:17:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:17:23 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 0): Scroll to object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' successfully
+
+27-11-2025T22:17:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+27-11-2025T22:17:24 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' successfully
+
+27-11-2025T22:17:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:17:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:17:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8): Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is present
+
+27-11-2025T22:17:26 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is present
+
+27-11-2025T22:17:26 - [TEST_STEP][PASSED] - click(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber")): Object: 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is clicked on
+
+27-11-2025T22:17:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is clicked on
+
+27-11-2025T22:17:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/class_Mobile_Number_Invalid"), 8): Object 'Object Repository/Page_DEMOQA/class_Mobile_Number_Invalid' is present
+
+27-11-2025T22:17:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/class_Mobile_Number_Invalid' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negative/Case01-6-N6 Alert Notification For Min Length On Mobile Number Field" time="23.862" classname="Test Cases/Negative/Case01-6-N6 Alert Notification For Min Length On Mobile Number Field" status="FAILED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"MobileNumber":"1234567"}]]></property>
+         </properties>
+         <failure type="FAILED" message="Test Cases/Negative/Case01-6-N6 Alert Notification For Min Length On Mobile Number Field FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://demoqa.com/automation-practice-form'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:90)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:70)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)&#xa;	at Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-6-N6 Alert Notification For Min Length On Mobile Number Field:24)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)&#xa;	at TempTestSuite1764256570501.run(TempTestSuite1764256570501.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_TIMED_OUT&#xa;  (Session info: chrome=142.0.7444.176)&#xa;Build info: version: '4.34.0', revision: '707dcb4246*'&#xa;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'&#xa;Driver info: com.kms.katalon.selenium.driver.CChromeDriver&#xa;Command: [35d837eae47d9e9cfa622af31c327d6b, get {url=https://demoqa.com/automation-practice-form}]&#xa;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.59 (4b8153ab58d3..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49708}, goog:processID: 61720, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49708/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:32214/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#xa;Session ID: 35d837eae47d9e9cfa622af31c327d6b&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#xa;	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)&#xa;	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)&#xa;	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)&#xa;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:312)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:1076)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)&#xa;	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)&#xa;	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)&#xa;	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$nCgpmlAr.to(Unknown Source)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:84)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[27-11-2025T22:17:27 - [TEST_CASE][FAILED] - Test Cases/Negative/Case01-6-N6 Alert Notification For Min Length On Mobile Number Field: Test Cases/Negative/Case01-6-N6 Alert Notification For Min Length On Mobile Number Field FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://demoqa.com/automation-practice-form'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:90)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-6-N6 Alert Notification For Min Length On Mobile Number Field:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1764256570501.run(TempTestSuite1764256570501.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=142.0.7444.176)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [35d837eae47d9e9cfa622af31c327d6b, get {url=https://demoqa.com/automation-practice-form}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.59 (4b8153ab58d3..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49708}, goog:processID: 61720, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49708/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:32214/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 35d837eae47d9e9cfa622af31c327d6b
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:312)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:1076)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$nCgpmlAr.to(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more
+
+
+27-11-2025T22:17:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+27-11-2025T22:17:27 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+27-11-2025T22:17:28 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+27-11-2025T22:17:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-11-2025T22:17:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+27-11-2025T22:17:29 - [TEST_STEP][FAILED] - navigateToUrl("https://demoqa.com/automation-practice-form"): Unable to navigate to 'https://demoqa.com/automation-practice-form' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://demoqa.com/automation-practice-form'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:90)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-6-N6 Alert Notification For Min Length On Mobile Number Field:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1764256570501.run(TempTestSuite1764256570501.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=142.0.7444.176)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [35d837eae47d9e9cfa622af31c327d6b, get {url=https://demoqa.com/automation-practice-form}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.59 (4b8153ab58d3..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49708}, goog:processID: 61720, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49708/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:32214/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 35d837eae47d9e9cfa622af31c327d6b
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:312)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:1076)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$nCgpmlAr.to(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:90)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at Script1763805219923.run(Script1763805219923.groovy:24)
+	... 15 more
+)
+
+27-11-2025T22:17:51 - [MESSAGE][FAILED] - Unable to navigate to 'https://demoqa.com/automation-practice-form' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://demoqa.com/automation-practice-form'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:90)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-6-N6 Alert Notification For Min Length On Mobile Number Field:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1764256570501.run(TempTestSuite1764256570501.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=142.0.7444.176)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [35d837eae47d9e9cfa622af31c327d6b, get {url=https://demoqa.com/automation-practice-form}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.59 (4b8153ab58d3..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49708}, goog:processID: 61720, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49708/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:32214/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 35d837eae47d9e9cfa622af31c327d6b
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:312)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:1076)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$nCgpmlAr.to(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:90)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at Script1763805219923.run(Script1763805219923.groovy:24)
+	... 15 more
+)
+[[ATTACHMENT|T:\\Lawencon\\Interview\\Fix\\case01\\AutomationPracticeForm\\AutomationPracticeForm\\Reports\\20251127_221610\\TSPracticeFormMinLengthMobileNumber\\20251127_221610\\1764256671139.png]]]]></system-out>
+         <system-err><![CDATA[27-11-2025T22:17:27 - [TEST_CASE][FAILED] - Test Cases/Negative/Case01-6-N6 Alert Notification For Min Length On Mobile Number Field: Test Cases/Negative/Case01-6-N6 Alert Notification For Min Length On Mobile Number Field FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://demoqa.com/automation-practice-form'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:90)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-6-N6 Alert Notification For Min Length On Mobile Number Field:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1764256570501.run(TempTestSuite1764256570501.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=142.0.7444.176)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [35d837eae47d9e9cfa622af31c327d6b, get {url=https://demoqa.com/automation-practice-form}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.59 (4b8153ab58d3..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49708}, goog:processID: 61720, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49708/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:32214/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 35d837eae47d9e9cfa622af31c327d6b
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:312)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:1076)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$nCgpmlAr.to(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[27-11-2025T22:16:18 - [TEST_SUITE][FAILED] - TSPracticeFormMinLengthMobileNumber: null]]></system-out>
+      <system-err><![CDATA[27-11-2025T22:16:18 - [TEST_SUITE][FAILED] - TSPracticeFormMinLengthMobileNumber: null]]></system-err>
+   </testsuite>
+</testsuites>

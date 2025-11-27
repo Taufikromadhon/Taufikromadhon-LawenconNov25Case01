@@ -1,0 +1,296 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TSPracticeFormNegativeMandatory,Chrome 142.0.7444.176,,,27-11-2025 22:29:44,27-11-2025 22:40:13,"10m - 28,991s",PASSED
+,,,,,,,
+Test Cases/Negative/Case01-2-N2 Alert Notification For Mandatory Field On First Name Field,Chrome 142.0.7444.176,Sebagai Sample,,27-11-2025 22:29:45,27-11-2025 22:30:14,"29,242s",PASSED
+"DATA BINDING - {""(Default) First..."":""""}",,,,,,,
+"openBrowser("""")",Chrome 142.0.7444.176,,,27-11-2025 22:29:45,27-11-2025 22:29:48,"2,853s",PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Chrome 142.0.7444.176,,,27-11-2025 22:29:48,27-11-2025 22:29:54,"5,634s",PASSED
+maximizeWindow(),Chrome 142.0.7444.176,,,27-11-2025 22:29:54,27-11-2025 22:29:54,"0,066s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:29:54,27-11-2025 22:29:56,"2,040s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/input_Name_firstName""), 8)",Chrome 142.0.7444.176,,,27-11-2025 22:29:56,27-11-2025 22:29:56,"0,335s",PASSED
+"verifyElementVisible(findTestObject(""Page_DEMOQA/input_Name_firstName""), STOP_ON_FAILURE)",Chrome 142.0.7444.176,,,27-11-2025 22:29:56,27-11-2025 22:29:56,"0,300s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:29:56,27-11-2025 22:29:58,"2,015s",PASSED
+"setText(findTestObject(""Page_DEMOQA/input_Name_firstName""), Firstname)",Chrome 142.0.7444.176,,,27-11-2025 22:29:58,27-11-2025 22:29:59,"0,769s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:29:59,27-11-2025 22:30:01,"2,011s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""), 0)",Chrome 142.0.7444.176,,,27-11-2025 22:30:01,27-11-2025 22:30:02,"0,269s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:30:02,27-11-2025 22:30:04,"2,014s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/button_Submit""), 100)",Chrome 142.0.7444.176,,,27-11-2025 22:30:04,27-11-2025 22:30:04,"0,285s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:30:04,27-11-2025 22:30:06,"2,016s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""), STOP_ON_FAILURE)",Chrome 142.0.7444.176,,,27-11-2025 22:30:06,27-11-2025 22:30:06,"0,284s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:30:06,27-11-2025 22:30:08,"2,020s",PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""))",Chrome 142.0.7444.176,,,27-11-2025 22:30:08,27-11-2025 22:30:09,"0,408s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:30:09,27-11-2025 22:30:11,"2,019s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/input_Name_firstName""), 0)",Chrome 142.0.7444.176,,,27-11-2025 22:30:11,27-11-2025 22:30:11,"0,289s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:30:11,27-11-2025 22:30:13,"2,008s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/input_Name_firstName""), 8)",Chrome 142.0.7444.176,,,27-11-2025 22:30:13,27-11-2025 22:30:13,"0,258s",PASSED
+"click(findTestObject(""Page_DEMOQA/input_Name_firstName""))",Chrome 142.0.7444.176,,,27-11-2025 22:30:13,27-11-2025 22:30:14,"0,429s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/class_Firstname_Invalid""), 8)",Chrome 142.0.7444.176,,,27-11-2025 22:30:14,27-11-2025 22:30:14,"0,259s",PASSED
+,,,,,,,
+Test Cases/Negative/Case01-2-N2 Alert Notification For Mandatory Field On First Name Field,Chrome 142.0.7444.176,Sebagai Sample,,27-11-2025 22:30:14,27-11-2025 22:31:03,"48,944s",PASSED
+"DATA BINDING - {""(Default) First..."":""""}",,,,,,,
+"openBrowser("""")",Chrome 142.0.7444.176,,,27-11-2025 22:30:14,27-11-2025 22:30:16,"2,321s",PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Chrome 142.0.7444.176,,,27-11-2025 22:30:16,27-11-2025 22:30:43,"26,845s",PASSED
+maximizeWindow(),Chrome 142.0.7444.176,,,27-11-2025 22:30:43,27-11-2025 22:30:43,"0,056s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:30:43,27-11-2025 22:30:45,"2,024s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/input_Name_firstName""), 8)",Chrome 142.0.7444.176,,,27-11-2025 22:30:45,27-11-2025 22:30:45,"0,274s",PASSED
+"verifyElementVisible(findTestObject(""Page_DEMOQA/input_Name_firstName""), STOP_ON_FAILURE)",Chrome 142.0.7444.176,,,27-11-2025 22:30:45,27-11-2025 22:30:46,"0,263s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:30:46,27-11-2025 22:30:48,"2,013s",PASSED
+"setText(findTestObject(""Page_DEMOQA/input_Name_firstName""), Firstname)",Chrome 142.0.7444.176,,,27-11-2025 22:30:48,27-11-2025 22:30:48,"0,723s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:30:48,27-11-2025 22:30:50,"2,008s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""), 0)",Chrome 142.0.7444.176,,,27-11-2025 22:30:50,27-11-2025 22:30:51,"0,273s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:30:51,27-11-2025 22:30:53,"2,017s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/button_Submit""), 100)",Chrome 142.0.7444.176,,,27-11-2025 22:30:53,27-11-2025 22:30:53,"0,253s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:30:53,27-11-2025 22:30:55,"2,020s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""), STOP_ON_FAILURE)",Chrome 142.0.7444.176,,,27-11-2025 22:30:55,27-11-2025 22:30:55,"0,270s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:30:55,27-11-2025 22:30:57,"2,013s",PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""))",Chrome 142.0.7444.176,,,27-11-2025 22:30:57,27-11-2025 22:30:58,"0,372s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:30:58,27-11-2025 22:31:00,"2,010s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/input_Name_firstName""), 0)",Chrome 142.0.7444.176,,,27-11-2025 22:31:00,27-11-2025 22:31:00,"0,256s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:31:00,27-11-2025 22:31:02,"2,018s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/input_Name_firstName""), 8)",Chrome 142.0.7444.176,,,27-11-2025 22:31:02,27-11-2025 22:31:02,"0,245s",PASSED
+"click(findTestObject(""Page_DEMOQA/input_Name_firstName""))",Chrome 142.0.7444.176,,,27-11-2025 22:31:02,27-11-2025 22:31:03,"0,382s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/class_Firstname_Invalid""), 8)",Chrome 142.0.7444.176,,,27-11-2025 22:31:03,27-11-2025 22:31:03,"0,250s",PASSED
+,,,,,,,
+Test Cases/Negative/Case01-2-N2 Alert Notification For Mandatory Field On First Name Field,Chrome 142.0.7444.176,Sebagai Sample,,27-11-2025 22:31:03,27-11-2025 22:31:30,"27,616s",PASSED
+"DATA BINDING - {""(Default) First..."":""""}",,,,,,,
+"openBrowser("""")",Chrome 142.0.7444.176,,,27-11-2025 22:31:03,27-11-2025 22:31:05,"2,612s",PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Chrome 142.0.7444.176,,,27-11-2025 22:31:05,27-11-2025 22:31:11,"5,357s",PASSED
+maximizeWindow(),Chrome 142.0.7444.176,,,27-11-2025 22:31:11,27-11-2025 22:31:11,"0,038s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:31:11,27-11-2025 22:31:13,"2,022s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/input_Name_firstName""), 8)",Chrome 142.0.7444.176,,,27-11-2025 22:31:13,27-11-2025 22:31:13,"0,255s",PASSED
+"verifyElementVisible(findTestObject(""Page_DEMOQA/input_Name_firstName""), STOP_ON_FAILURE)",Chrome 142.0.7444.176,,,27-11-2025 22:31:13,27-11-2025 22:31:13,"0,251s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:31:13,27-11-2025 22:31:15,"2,009s",PASSED
+"setText(findTestObject(""Page_DEMOQA/input_Name_firstName""), Firstname)",Chrome 142.0.7444.176,,,27-11-2025 22:31:15,27-11-2025 22:31:16,"0,701s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:31:16,27-11-2025 22:31:18,"2,015s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""), 0)",Chrome 142.0.7444.176,,,27-11-2025 22:31:18,27-11-2025 22:31:18,"0,244s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:31:18,27-11-2025 22:31:20,"2,010s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/button_Submit""), 100)",Chrome 142.0.7444.176,,,27-11-2025 22:31:20,27-11-2025 22:31:21,"0,272s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:31:21,27-11-2025 22:31:23,"2,006s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""), STOP_ON_FAILURE)",Chrome 142.0.7444.176,,,27-11-2025 22:31:23,27-11-2025 22:31:23,"0,255s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:31:23,27-11-2025 22:31:25,"2,012s",PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""))",Chrome 142.0.7444.176,,,27-11-2025 22:31:25,27-11-2025 22:31:25,"0,355s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:31:25,27-11-2025 22:31:27,"2,005s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/input_Name_firstName""), 0)",Chrome 142.0.7444.176,,,27-11-2025 22:31:27,27-11-2025 22:31:28,"0,278s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:31:28,27-11-2025 22:31:30,"2,013s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/input_Name_firstName""), 8)",Chrome 142.0.7444.176,,,27-11-2025 22:31:30,27-11-2025 22:31:30,"0,257s",PASSED
+"click(findTestObject(""Page_DEMOQA/input_Name_firstName""))",Chrome 142.0.7444.176,,,27-11-2025 22:31:30,27-11-2025 22:31:30,"0,349s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/class_Firstname_Invalid""), 8)",Chrome 142.0.7444.176,,,27-11-2025 22:31:30,27-11-2025 22:31:30,"0,265s",PASSED
+,,,,,,,
+Test Cases/Negative/Case01-3-N3 Alert Notification For Mandatory Field On Last Name Field,Chrome 142.0.7444.176,Sebagai Sample,,27-11-2025 22:31:30,27-11-2025 22:32:18,"47,279s",PASSED
+"DATA BINDING - {""(Default) Lastn..."":""""}",,,,,,,
+"openBrowser("""")",Chrome 142.0.7444.176,,,27-11-2025 22:31:30,27-11-2025 22:31:33,"2,167s",PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Chrome 142.0.7444.176,,,27-11-2025 22:31:33,27-11-2025 22:31:58,"25,234s",PASSED
+maximizeWindow(),Chrome 142.0.7444.176,,,27-11-2025 22:31:58,27-11-2025 22:31:58,"0,046s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:31:58,27-11-2025 22:32:00,"2,013s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/input_Name_lastName""), 8)",Chrome 142.0.7444.176,,,27-11-2025 22:32:00,27-11-2025 22:32:00,"0,271s",PASSED
+"verifyElementVisible(findTestObject(""Page_DEMOQA/input_Name_lastName""), STOP_ON_FAILURE)",Chrome 142.0.7444.176,,,27-11-2025 22:32:00,27-11-2025 22:32:00,"0,265s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:32:00,27-11-2025 22:32:02,"2,010s",PASSED
+"setText(findTestObject(""Page_DEMOQA/input_Name_lastName""), Lastname)",Chrome 142.0.7444.176,,,27-11-2025 22:32:02,27-11-2025 22:32:03,"0,708s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:32:03,27-11-2025 22:32:05,"2,016s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""), 8)",Chrome 142.0.7444.176,,,27-11-2025 22:32:05,27-11-2025 22:32:05,"0,251s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:32:05,27-11-2025 22:32:07,"2,011s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/button_Submit""), 100)",Chrome 142.0.7444.176,,,27-11-2025 22:32:07,27-11-2025 22:32:08,"0,268s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:32:08,27-11-2025 22:32:10,"2,005s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""), STOP_ON_FAILURE)",Chrome 142.0.7444.176,,,27-11-2025 22:32:10,27-11-2025 22:32:10,"0,293s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:32:10,27-11-2025 22:32:12,"2,014s",PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""))",Chrome 142.0.7444.176,,,27-11-2025 22:32:12,27-11-2025 22:32:12,"0,374s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:32:12,27-11-2025 22:32:14,"2,013s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/input_Name_lastName""), 0)",Chrome 142.0.7444.176,,,27-11-2025 22:32:14,27-11-2025 22:32:15,"0,271s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:32:15,27-11-2025 22:32:17,"2,016s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/input_Name_lastName""), 8)",Chrome 142.0.7444.176,,,27-11-2025 22:32:17,27-11-2025 22:32:17,"0,268s",PASSED
+"click(findTestObject(""Page_DEMOQA/input_Name_lastName""))",Chrome 142.0.7444.176,,,27-11-2025 22:32:17,27-11-2025 22:32:17,"0,391s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/class_Lastname_Invalid""), 8)",Chrome 142.0.7444.176,,,27-11-2025 22:32:17,27-11-2025 22:32:18,"0,262s",PASSED
+,,,,,,,
+Test Cases/Negative/Case01-3-N3 Alert Notification For Mandatory Field On Last Name Field,Chrome 142.0.7444.176,Sebagai Sample,,27-11-2025 22:32:18,27-11-2025 22:33:06,"48,024s",PASSED
+"DATA BINDING - {""(Default) Lastn..."":""""}",,,,,,,
+"openBrowser("""")",Chrome 142.0.7444.176,,,27-11-2025 22:32:18,27-11-2025 22:32:20,"1,933s",PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Chrome 142.0.7444.176,,,27-11-2025 22:32:20,27-11-2025 22:32:46,"26,394s",PASSED
+maximizeWindow(),Chrome 142.0.7444.176,,,27-11-2025 22:32:46,27-11-2025 22:32:46,"0,045s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:32:46,27-11-2025 22:32:48,"2,013s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/input_Name_lastName""), 8)",Chrome 142.0.7444.176,,,27-11-2025 22:32:48,27-11-2025 22:32:48,"0,269s",PASSED
+"verifyElementVisible(findTestObject(""Page_DEMOQA/input_Name_lastName""), STOP_ON_FAILURE)",Chrome 142.0.7444.176,,,27-11-2025 22:32:48,27-11-2025 22:32:49,"0,266s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:32:49,27-11-2025 22:32:51,"2,015s",PASSED
+"setText(findTestObject(""Page_DEMOQA/input_Name_lastName""), Lastname)",Chrome 142.0.7444.176,,,27-11-2025 22:32:51,27-11-2025 22:32:51,"0,739s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:32:51,27-11-2025 22:32:53,"2,011s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""), 8)",Chrome 142.0.7444.176,,,27-11-2025 22:32:53,27-11-2025 22:32:54,"0,243s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:32:54,27-11-2025 22:32:56,"2,017s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/button_Submit""), 100)",Chrome 142.0.7444.176,,,27-11-2025 22:32:56,27-11-2025 22:32:56,"0,251s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:32:56,27-11-2025 22:32:58,"2,013s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""), STOP_ON_FAILURE)",Chrome 142.0.7444.176,,,27-11-2025 22:32:58,27-11-2025 22:32:58,"0,259s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:32:58,27-11-2025 22:33:00,"2,015s",PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""))",Chrome 142.0.7444.176,,,27-11-2025 22:33:00,27-11-2025 22:33:01,"0,358s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:33:01,27-11-2025 22:33:03,"2,013s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/input_Name_lastName""), 0)",Chrome 142.0.7444.176,,,27-11-2025 22:33:03,27-11-2025 22:33:03,"0,272s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:33:03,27-11-2025 22:33:05,"2,010s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/input_Name_lastName""), 8)",Chrome 142.0.7444.176,,,27-11-2025 22:33:05,27-11-2025 22:33:05,"0,257s",PASSED
+"click(findTestObject(""Page_DEMOQA/input_Name_lastName""))",Chrome 142.0.7444.176,,,27-11-2025 22:33:05,27-11-2025 22:33:05,"0,344s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/class_Lastname_Invalid""), 8)",Chrome 142.0.7444.176,,,27-11-2025 22:33:05,27-11-2025 22:33:06,"0,262s",PASSED
+,,,,,,,
+Test Cases/Negative/Case01-3-N3 Alert Notification For Mandatory Field On Last Name Field,Chrome 142.0.7444.176,Sebagai Sample,,27-11-2025 22:33:06,27-11-2025 22:33:54,"48,315s",PASSED
+"DATA BINDING - {""(Default) Lastn..."":""""}",,,,,,,
+"openBrowser("""")",Chrome 142.0.7444.176,,,27-11-2025 22:33:06,27-11-2025 22:33:08,"2,544s",PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Chrome 142.0.7444.176,,,27-11-2025 22:33:08,27-11-2025 22:33:34,"26,124s",PASSED
+maximizeWindow(),Chrome 142.0.7444.176,,,27-11-2025 22:33:34,27-11-2025 22:33:34,"0,044s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:33:34,27-11-2025 22:33:36,"2,012s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/input_Name_lastName""), 8)",Chrome 142.0.7444.176,,,27-11-2025 22:33:36,27-11-2025 22:33:37,"0,252s",PASSED
+"verifyElementVisible(findTestObject(""Page_DEMOQA/input_Name_lastName""), STOP_ON_FAILURE)",Chrome 142.0.7444.176,,,27-11-2025 22:33:37,27-11-2025 22:33:37,"0,269s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:33:37,27-11-2025 22:33:39,"2,012s",PASSED
+"setText(findTestObject(""Page_DEMOQA/input_Name_lastName""), Lastname)",Chrome 142.0.7444.176,,,27-11-2025 22:33:39,27-11-2025 22:33:40,"0,702s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:33:40,27-11-2025 22:33:42,"2,018s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""), 8)",Chrome 142.0.7444.176,,,27-11-2025 22:33:42,27-11-2025 22:33:42,"0,235s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:33:42,27-11-2025 22:33:44,"2,015s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/button_Submit""), 100)",Chrome 142.0.7444.176,,,27-11-2025 22:33:44,27-11-2025 22:33:44,"0,260s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:33:44,27-11-2025 22:33:46,"2,016s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""), STOP_ON_FAILURE)",Chrome 142.0.7444.176,,,27-11-2025 22:33:46,27-11-2025 22:33:46,"0,267s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:33:46,27-11-2025 22:33:49,"2,008s",PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""))",Chrome 142.0.7444.176,,,27-11-2025 22:33:49,27-11-2025 22:33:49,"0,363s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:33:49,27-11-2025 22:33:51,"2,008s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/input_Name_lastName""), 0)",Chrome 142.0.7444.176,,,27-11-2025 22:33:51,27-11-2025 22:33:51,"0,255s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:33:51,27-11-2025 22:33:53,"2,017s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/input_Name_lastName""), 8)",Chrome 142.0.7444.176,,,27-11-2025 22:33:53,27-11-2025 22:33:53,"0,255s",PASSED
+"click(findTestObject(""Page_DEMOQA/input_Name_lastName""))",Chrome 142.0.7444.176,,,27-11-2025 22:33:53,27-11-2025 22:33:54,"0,360s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/class_Lastname_Invalid""), 8)",Chrome 142.0.7444.176,,,27-11-2025 22:33:54,27-11-2025 22:33:54,"0,248s",PASSED
+,,,,,,,
+Test Cases/Negative/Case01-4-N4 Alert Notification For Mandatory Field On Gender Field,Chrome 142.0.7444.176,Sebagai Sample,,27-11-2025 22:33:54,27-11-2025 22:36:10,"2m - 15,912s",PASSED
+"DATA BINDING - {""(Default) Gende..."":""""}",,,,,,,
+"openBrowser("""")",Chrome 142.0.7444.176,,,27-11-2025 22:33:54,27-11-2025 22:33:57,"2,554s",PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Chrome 142.0.7444.176,,,27-11-2025 22:33:57,27-11-2025 22:34:23,"26,127s",PASSED
+maximizeWindow(),Chrome 142.0.7444.176,,,27-11-2025 22:34:23,27-11-2025 22:34:23,"0,046s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:34:23,27-11-2025 22:34:25,"2,014s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/label_Male""), 0)",Chrome 142.0.7444.176,,,27-11-2025 22:34:25,27-11-2025 22:34:35,"10,339s",PASSED
+"verifyElementVisible(findTestObject(""Page_DEMOQA/label_Male""), STOP_ON_FAILURE)",Chrome 142.0.7444.176,,,27-11-2025 22:34:35,27-11-2025 22:34:46,"10,351s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:34:46,27-11-2025 22:34:48,"2,008s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""), 0)",Chrome 142.0.7444.176,,,27-11-2025 22:34:48,27-11-2025 22:34:58,"10,324s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:34:58,27-11-2025 22:35:00,"2,008s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/button_Submit""), 100)",Chrome 142.0.7444.176,,,27-11-2025 22:35:00,27-11-2025 22:35:10,"10,341s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:35:10,27-11-2025 22:35:12,"2,007s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""), STOP_ON_FAILURE)",Chrome 142.0.7444.176,,,27-11-2025 22:35:12,27-11-2025 22:35:23,"10,341s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:35:23,27-11-2025 22:35:25,"2,004s",PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""))",Chrome 142.0.7444.176,,,27-11-2025 22:35:25,27-11-2025 22:35:35,"10,412s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:35:35,27-11-2025 22:35:37,"2,014s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/label_Male""), 0)",Chrome 142.0.7444.176,,,27-11-2025 22:35:37,27-11-2025 22:35:47,"10,348s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:35:47,27-11-2025 22:35:49,"2,013s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/label_Male""), 0)",Chrome 142.0.7444.176,,,27-11-2025 22:35:49,27-11-2025 22:36:00,"10,265s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:36:00,27-11-2025 22:36:02,"2,017s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/class_Gender_Invalid""), 8)",Chrome 142.0.7444.176,,,27-11-2025 22:36:02,27-11-2025 22:36:10,"8,290s",PASSED
+,,,,,,,
+Test Cases/Negative/Case01-4-N4 Alert Notification For Mandatory Field On Gender Field,Chrome 142.0.7444.176,Sebagai Sample,,27-11-2025 22:36:10,27-11-2025 22:36:57,"47,466s",PASSED
+"DATA BINDING - {""(Default) Gende..."":""""}",,,,,,,
+"openBrowser("""")",Chrome 142.0.7444.176,,,27-11-2025 22:36:10,27-11-2025 22:36:12,"2,540s",PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Chrome 142.0.7444.176,,,27-11-2025 22:36:12,27-11-2025 22:36:39,"26,357s",PASSED
+maximizeWindow(),Chrome 142.0.7444.176,,,27-11-2025 22:36:39,27-11-2025 22:36:39,"0,045s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:36:39,27-11-2025 22:36:41,"2,007s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/label_Male""), 0)",Chrome 142.0.7444.176,,,27-11-2025 22:36:41,27-11-2025 22:36:41,"0,259s",PASSED
+"verifyElementVisible(findTestObject(""Page_DEMOQA/label_Male""), STOP_ON_FAILURE)",Chrome 142.0.7444.176,,,27-11-2025 22:36:41,27-11-2025 22:36:41,"0,261s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:36:41,27-11-2025 22:36:43,"2,020s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""), 0)",Chrome 142.0.7444.176,,,27-11-2025 22:36:43,27-11-2025 22:36:44,"0,242s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:36:44,27-11-2025 22:36:46,"2,006s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/button_Submit""), 100)",Chrome 142.0.7444.176,,,27-11-2025 22:36:46,27-11-2025 22:36:46,"0,255s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:36:46,27-11-2025 22:36:48,"2,011s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""), STOP_ON_FAILURE)",Chrome 142.0.7444.176,,,27-11-2025 22:36:48,27-11-2025 22:36:48,"0,256s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:36:48,27-11-2025 22:36:50,"2,012s",PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""))",Chrome 142.0.7444.176,,,27-11-2025 22:36:50,27-11-2025 22:36:51,"0,370s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:36:51,27-11-2025 22:36:53,"2,012s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/label_Male""), 0)",Chrome 142.0.7444.176,,,27-11-2025 22:36:53,27-11-2025 22:36:53,"0,268s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:36:53,27-11-2025 22:36:55,"2,006s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/label_Male""), 0)",Chrome 142.0.7444.176,,,27-11-2025 22:36:55,27-11-2025 22:36:55,"0,245s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:36:55,27-11-2025 22:36:57,"2,013s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/class_Gender_Invalid""), 8)",Chrome 142.0.7444.176,,,27-11-2025 22:36:57,27-11-2025 22:36:57,"0,265s",PASSED
+,,,,,,,
+Test Cases/Negative/Case01-4-N4 Alert Notification For Mandatory Field On Gender Field,Chrome 142.0.7444.176,Sebagai Sample,,27-11-2025 22:36:57,27-11-2025 22:38:04,"1m - 6,913s",PASSED
+"DATA BINDING - {""(Default) Gende..."":""""}",,,,,,,
+"openBrowser("""")",Chrome 142.0.7444.176,,,27-11-2025 22:36:57,27-11-2025 22:37:00,"2,190s",PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Chrome 142.0.7444.176,,,27-11-2025 22:37:00,27-11-2025 22:37:46,"46,061s",PASSED
+maximizeWindow(),Chrome 142.0.7444.176,,,27-11-2025 22:37:46,27-11-2025 22:37:46,"0,042s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:37:46,27-11-2025 22:37:48,"2,011s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/label_Male""), 0)",Chrome 142.0.7444.176,,,27-11-2025 22:37:48,27-11-2025 22:37:48,"0,266s",PASSED
+"verifyElementVisible(findTestObject(""Page_DEMOQA/label_Male""), STOP_ON_FAILURE)",Chrome 142.0.7444.176,,,27-11-2025 22:37:48,27-11-2025 22:37:48,"0,266s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:37:48,27-11-2025 22:37:50,"2,008s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""), 0)",Chrome 142.0.7444.176,,,27-11-2025 22:37:50,27-11-2025 22:37:51,"0,242s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:37:51,27-11-2025 22:37:53,"2,010s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/button_Submit""), 100)",Chrome 142.0.7444.176,,,27-11-2025 22:37:53,27-11-2025 22:37:53,"0,282s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:37:53,27-11-2025 22:37:55,"2,003s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""), STOP_ON_FAILURE)",Chrome 142.0.7444.176,,,27-11-2025 22:37:55,27-11-2025 22:37:55,"0,268s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:37:55,27-11-2025 22:37:57,"2,014s",PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""))",Chrome 142.0.7444.176,,,27-11-2025 22:37:57,27-11-2025 22:37:58,"0,414s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:37:58,27-11-2025 22:38:00,"2,015s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/label_Male""), 0)",Chrome 142.0.7444.176,,,27-11-2025 22:38:00,27-11-2025 22:38:00,"0,275s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:38:00,27-11-2025 22:38:02,"2,008s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/label_Male""), 0)",Chrome 142.0.7444.176,,,27-11-2025 22:38:02,27-11-2025 22:38:02,"0,241s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:38:02,27-11-2025 22:38:04,"2,013s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/class_Gender_Invalid""), 8)",Chrome 142.0.7444.176,,,27-11-2025 22:38:04,27-11-2025 22:38:04,"0,256s",PASSED
+,,,,,,,
+Test Cases/Negative/Case01-5-N5 Alert Notification For Mandatory Field On Mobile Number Field,Chrome 142.0.7444.176,Sebagai Sample,,27-11-2025 22:38:04,27-11-2025 22:38:52,"47,728s",PASSED
+"DATA BINDING - {""(Default) Mobil..."":""""}",,,,,,,
+"openBrowser("""")",Chrome 142.0.7444.176,,,27-11-2025 22:38:04,27-11-2025 22:38:07,"2,168s",PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Chrome 142.0.7444.176,,,27-11-2025 22:38:07,27-11-2025 22:38:32,"25,852s",PASSED
+maximizeWindow(),Chrome 142.0.7444.176,,,27-11-2025 22:38:32,27-11-2025 22:38:32,"0,043s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:38:32,27-11-2025 22:38:35,"2,016s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/input_(10 Digits)_userNumber""), 8)",Chrome 142.0.7444.176,,,27-11-2025 22:38:35,27-11-2025 22:38:35,"0,266s",PASSED
+"verifyElementVisible(findTestObject(""Page_DEMOQA/input_(10 Digits)_userNumber""), STOP_ON_FAILURE)",Chrome 142.0.7444.176,,,27-11-2025 22:38:35,27-11-2025 22:38:35,"0,265s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:38:35,27-11-2025 22:38:37,"2,005s",PASSED
+"setText(findTestObject(""Page_DEMOQA/input_(10 Digits)_userNumber""), MobileNumber)",Chrome 142.0.7444.176,,,27-11-2025 22:38:37,27-11-2025 22:38:38,"0,664s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:38:38,27-11-2025 22:38:40,"2,015s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""), 8)",Chrome 142.0.7444.176,,,27-11-2025 22:38:40,27-11-2025 22:38:40,"0,247s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:38:40,27-11-2025 22:38:42,"2,015s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/button_Submit""), 100)",Chrome 142.0.7444.176,,,27-11-2025 22:38:42,27-11-2025 22:38:42,"0,249s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:38:42,27-11-2025 22:38:44,"2,006s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""), STOP_ON_FAILURE)",Chrome 142.0.7444.176,,,27-11-2025 22:38:44,27-11-2025 22:38:44,"0,247s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:38:44,27-11-2025 22:38:47,"2,019s",PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""))",Chrome 142.0.7444.176,,,27-11-2025 22:38:47,27-11-2025 22:38:47,"0,381s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:38:47,27-11-2025 22:38:49,"2,017s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/input_(10 Digits)_userNumber""), 0)",Chrome 142.0.7444.176,,,27-11-2025 22:38:49,27-11-2025 22:38:49,"0,267s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:38:49,27-11-2025 22:38:51,"2,018s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/input_(10 Digits)_userNumber""), 8)",Chrome 142.0.7444.176,,,27-11-2025 22:38:51,27-11-2025 22:38:51,"0,260s",PASSED
+"click(findTestObject(""Page_DEMOQA/input_(10 Digits)_userNumber""))",Chrome 142.0.7444.176,,,27-11-2025 22:38:51,27-11-2025 22:38:52,"0,343s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/class_Mobile_Number_Invalid""), 8)",Chrome 142.0.7444.176,,,27-11-2025 22:38:52,27-11-2025 22:38:52,"0,257s",PASSED
+,,,,,,,
+Test Cases/Negative/Case01-5-N5 Alert Notification For Mandatory Field On Mobile Number Field,Chrome 142.0.7444.176,Sebagai Sample,,27-11-2025 22:38:52,27-11-2025 22:39:41,"48,653s",PASSED
+"DATA BINDING - {""(Default) Mobil..."":""""}",,,,,,,
+"openBrowser("""")",Chrome 142.0.7444.176,,,27-11-2025 22:38:52,27-11-2025 22:38:55,"2,546s",PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Chrome 142.0.7444.176,,,27-11-2025 22:38:55,27-11-2025 22:39:21,"26,192s",PASSED
+maximizeWindow(),Chrome 142.0.7444.176,,,27-11-2025 22:39:21,27-11-2025 22:39:21,"0,054s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:39:21,27-11-2025 22:39:23,"2,015s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/input_(10 Digits)_userNumber""), 8)",Chrome 142.0.7444.176,,,27-11-2025 22:39:23,27-11-2025 22:39:23,"0,294s",PASSED
+"verifyElementVisible(findTestObject(""Page_DEMOQA/input_(10 Digits)_userNumber""), STOP_ON_FAILURE)",Chrome 142.0.7444.176,,,27-11-2025 22:39:23,27-11-2025 22:39:23,"0,305s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:39:23,27-11-2025 22:39:25,"2,011s",PASSED
+"setText(findTestObject(""Page_DEMOQA/input_(10 Digits)_userNumber""), MobileNumber)",Chrome 142.0.7444.176,,,27-11-2025 22:39:25,27-11-2025 22:39:26,"0,823s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:39:26,27-11-2025 22:39:28,"2,008s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""), 8)",Chrome 142.0.7444.176,,,27-11-2025 22:39:28,27-11-2025 22:39:29,"0,259s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:39:29,27-11-2025 22:39:31,"2,021s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/button_Submit""), 100)",Chrome 142.0.7444.176,,,27-11-2025 22:39:31,27-11-2025 22:39:31,"0,257s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:39:31,27-11-2025 22:39:33,"2,013s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""), STOP_ON_FAILURE)",Chrome 142.0.7444.176,,,27-11-2025 22:39:33,27-11-2025 22:39:33,"0,263s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:39:33,27-11-2025 22:39:35,"2,019s",PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""))",Chrome 142.0.7444.176,,,27-11-2025 22:39:35,27-11-2025 22:39:36,"0,385s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:39:36,27-11-2025 22:39:38,"2,004s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/input_(10 Digits)_userNumber""), 0)",Chrome 142.0.7444.176,,,27-11-2025 22:39:38,27-11-2025 22:39:38,"0,277s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:39:38,27-11-2025 22:39:40,"2,009s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/input_(10 Digits)_userNumber""), 8)",Chrome 142.0.7444.176,,,27-11-2025 22:39:40,27-11-2025 22:39:40,"0,242s",PASSED
+"click(findTestObject(""Page_DEMOQA/input_(10 Digits)_userNumber""))",Chrome 142.0.7444.176,,,27-11-2025 22:39:40,27-11-2025 22:39:40,"0,390s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/class_Mobile_Number_Invalid""), 8)",Chrome 142.0.7444.176,,,27-11-2025 22:39:40,27-11-2025 22:39:41,"0,247s",PASSED
+,,,,,,,
+Test Cases/Negative/Case01-5-N5 Alert Notification For Mandatory Field On Mobile Number Field,Chrome 142.0.7444.176,Sebagai Sample,,27-11-2025 22:39:41,27-11-2025 22:40:11,"30,472s",PASSED
+"DATA BINDING - {""(Default) Mobil..."":""""}",,,,,,,
+"openBrowser("""")",Chrome 142.0.7444.176,,,27-11-2025 22:39:41,27-11-2025 22:39:44,"2,779s",PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Chrome 142.0.7444.176,,,27-11-2025 22:39:44,27-11-2025 22:39:52,"8,103s",PASSED
+maximizeWindow(),Chrome 142.0.7444.176,,,27-11-2025 22:39:52,27-11-2025 22:39:52,"0,039s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:39:52,27-11-2025 22:39:54,"2,009s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/input_(10 Digits)_userNumber""), 8)",Chrome 142.0.7444.176,,,27-11-2025 22:39:54,27-11-2025 22:39:54,"0,268s",PASSED
+"verifyElementVisible(findTestObject(""Page_DEMOQA/input_(10 Digits)_userNumber""), STOP_ON_FAILURE)",Chrome 142.0.7444.176,,,27-11-2025 22:39:54,27-11-2025 22:39:54,"0,263s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:39:54,27-11-2025 22:39:56,"2,005s",PASSED
+"setText(findTestObject(""Page_DEMOQA/input_(10 Digits)_userNumber""), MobileNumber)",Chrome 142.0.7444.176,,,27-11-2025 22:39:56,27-11-2025 22:39:57,"0,667s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:39:57,27-11-2025 22:39:59,"2,013s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""), 8)",Chrome 142.0.7444.176,,,27-11-2025 22:39:59,27-11-2025 22:39:59,"0,248s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:39:59,27-11-2025 22:40:01,"2,015s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/button_Submit""), 100)",Chrome 142.0.7444.176,,,27-11-2025 22:40:01,27-11-2025 22:40:01,"0,269s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:40:01,27-11-2025 22:40:03,"2,017s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""), STOP_ON_FAILURE)",Chrome 142.0.7444.176,,,27-11-2025 22:40:03,27-11-2025 22:40:04,"0,264s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:40:04,27-11-2025 22:40:06,"2,013s",PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""))",Chrome 142.0.7444.176,,,27-11-2025 22:40:06,27-11-2025 22:40:06,"0,341s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:40:06,27-11-2025 22:40:08,"2,009s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/input_(10 Digits)_userNumber""), 0)",Chrome 142.0.7444.176,,,27-11-2025 22:40:08,27-11-2025 22:40:08,"0,255s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:40:08,27-11-2025 22:40:10,"2,012s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/input_(10 Digits)_userNumber""), 8)",Chrome 142.0.7444.176,,,27-11-2025 22:40:10,27-11-2025 22:40:11,"0,240s",PASSED
+"click(findTestObject(""Page_DEMOQA/input_(10 Digits)_userNumber""))",Chrome 142.0.7444.176,,,27-11-2025 22:40:11,27-11-2025 22:40:11,"0,349s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/class_Mobile_Number_Invalid""), 8)",Chrome 142.0.7444.176,,,27-11-2025 22:40:11,27-11-2025 22:40:11,"0,255s",PASSED

@@ -2,9 +2,9 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2025-11-27T13:51:04.817279300Z</date>
-  <millis>1764251464817</millis>
-  <nanos>279300</nanos>
+  <date>2025-11-27T15:22:04.742970600Z</date>
+  <millis>1764256924742</millis>
+  <nanos>970600</nanos>
   <sequence>0</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -20,9 +20,9 @@
   <property name="id">Test Suites/TSPracticeFormMinLengthMobileNumber</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:04.895805400Z</date>
-  <millis>1764251464895</millis>
-  <nanos>805400</nanos>
+  <date>2025-11-27T15:22:04.813511100Z</date>
+  <millis>1764256924813</millis>
+  <nanos>511100</nanos>
   <sequence>1</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -34,9 +34,9 @@
   <property name="userFullName">Taufik Romadhon</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:04.895805400Z</date>
-  <millis>1764251464895</millis>
-  <nanos>805400</nanos>
+  <date>2025-11-27T15:22:04.814512300Z</date>
+  <millis>1764256924814</millis>
+  <nanos>512300</nanos>
   <sequence>2</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -48,9 +48,9 @@
   <property name="projectName">AutomationPracticeForm</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:04.905932200Z</date>
-  <millis>1764251464905</millis>
-  <nanos>932200</nanos>
+  <date>2025-11-27T15:22:04.818515600Z</date>
+  <millis>1764256924818</millis>
+  <nanos>515600</nanos>
   <sequence>3</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -62,9 +62,9 @@
   <property name="hostName">USER - LAPTOP-KNF1HLK6</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:04.905932200Z</date>
-  <millis>1764251464905</millis>
-  <nanos>932200</nanos>
+  <date>2025-11-27T15:22:04.822513300Z</date>
+  <millis>1764256924822</millis>
+  <nanos>513300</nanos>
   <sequence>4</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -76,9 +76,9 @@
   <property name="os">Windows 11 64bit</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:04.905932200Z</date>
-  <millis>1764251464905</millis>
-  <nanos>932200</nanos>
+  <date>2025-11-27T15:22:04.823515700Z</date>
+  <millis>1764256924823</millis>
+  <nanos>515700</nanos>
   <sequence>5</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -90,9 +90,9 @@
   <property name="hostAddress">10.156.170.155</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:04.905932200Z</date>
-  <millis>1764251464905</millis>
-  <nanos>932200</nanos>
+  <date>2025-11-27T15:22:04.824512300Z</date>
+  <millis>1764256924824</millis>
+  <nanos>512300</nanos>
   <sequence>6</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -104,9 +104,9 @@
   <property name="katalonVersion">10.4.2.0</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:05.526256700Z</date>
-  <millis>1764251465526</millis>
-  <nanos>256700</nanos>
+  <date>2025-11-27T15:22:05.674575200Z</date>
+  <millis>1764256925674</millis>
+  <nanos>575200</nanos>
   <sequence>7</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -120,14 +120,14 @@
   <property name="description">Sebagai Sample</property>
   <property name="iteration"></property>
   <property name="id">Test Cases/Negative/Case01-6-N6 Alert Notification For Min Length On Mobile Number Field</property>
-  <property name="source">T:\Lawrencon\Interview\Fix\case01\AutomationPracticeForm\AutomationPracticeForm\Test Cases\Negative\Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.tc</property>
+  <property name="source">T:\Lawencon\Interview\Fix\case01\AutomationPracticeForm\AutomationPracticeForm\Test Cases\Negative\Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.tc</property>
   <property name="tag"></property>
   <property name="isOptional">false</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:05.588656400Z</date>
-  <millis>1764251465588</millis>
-  <nanos>656400</nanos>
+  <date>2025-11-27T15:22:05.745575600Z</date>
+  <millis>1764256925745</millis>
+  <nanos>575600</nanos>
   <sequence>9</sequence>
   <level>INFO</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -138,9 +138,9 @@
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:51:06.005310500Z</date>
-  <millis>1764251466005</millis>
-  <nanos>310500</nanos>
+  <date>2025-11-27T15:22:06.278014800Z</date>
+  <millis>1764256926278</millis>
+  <nanos>14800</nanos>
   <sequence>10</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -153,9 +153,9 @@
   <property name="stepIndex">1</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:06.304301700Z</date>
-  <millis>1764251466304</millis>
-  <nanos>301700</nanos>
+  <date>2025-11-27T15:22:06.659712Z</date>
+  <millis>1764256926659</millis>
+  <nanos>712000</nanos>
   <sequence>13</sequence>
   <level>INFO</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -166,9 +166,9 @@
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:51:06.373969100Z</date>
-  <millis>1764251466373</millis>
-  <nanos>969100</nanos>
+  <date>2025-11-27T15:22:06.747242200Z</date>
+  <millis>1764256926747</millis>
+  <nanos>242200</nanos>
   <sequence>14</sequence>
   <level>INFO</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -179,23 +179,23 @@
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:51:08.811147200Z</date>
-  <millis>1764251468811</millis>
-  <nanos>147200</nanos>
+  <date>2025-11-27T15:22:08.709890100Z</date>
+  <millis>1764256928709</millis>
+  <nanos>890100</nanos>
   <sequence>16</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
   <thread>1</thread>
-  <message>sessionId = 19287b3060524bba099f1c26150a6435</message>
+  <message>sessionId = fc4ed244898314f829845f9447b7bc04</message>
   <nestedLevel>1</nestedLevel>
   <escapedJava>false</escapedJava>
-  <property name="sessionId">19287b3060524bba099f1c26150a6435</property>
+  <property name="sessionId">fc4ed244898314f829845f9447b7bc04</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:08.812886400Z</date>
-  <millis>1764251468812</millis>
-  <nanos>886400</nanos>
+  <date>2025-11-27T15:22:08.710894600Z</date>
+  <millis>1764256928710</millis>
+  <nanos>894600</nanos>
   <sequence>17</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -207,9 +207,9 @@
   <property name="browser">Chrome 142.0.7444.176</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:08.814268200Z</date>
-  <millis>1764251468814</millis>
-  <nanos>268200</nanos>
+  <date>2025-11-27T15:22:08.711895200Z</date>
+  <millis>1764256928711</millis>
+  <nanos>895200</nanos>
   <sequence>18</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -221,9 +221,9 @@
   <property name="platform">Windows 11</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:08.814600900Z</date>
-  <millis>1764251468814</millis>
-  <nanos>600900</nanos>
+  <date>2025-11-27T15:22:08.712899Z</date>
+  <millis>1764256928712</millis>
+  <nanos>899000</nanos>
   <sequence>19</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -235,9 +235,9 @@
   <property name="seleniumVersion">4.34.0</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:08.823322800Z</date>
-  <millis>1764251468823</millis>
-  <nanos>322800</nanos>
+  <date>2025-11-27T15:22:08.729908700Z</date>
+  <millis>1764256928729</millis>
+  <nanos>908700</nanos>
   <sequence>20</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -249,9 +249,9 @@
   <property name="proxyInformation">ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:08.859773400Z</date>
-  <millis>1764251468859</millis>
-  <nanos>773400</nanos>
+  <date>2025-11-27T15:22:08.806132100Z</date>
+  <millis>1764256928806</millis>
+  <nanos>132100</nanos>
   <sequence>21</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -264,9 +264,9 @@
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2025-11-27T13:51:08.866379500Z</date>
-  <millis>1764251468866</millis>
-  <nanos>379500</nanos>
+  <date>2025-11-27T15:22:08.809137300Z</date>
+  <millis>1764256928809</millis>
+  <nanos>137300</nanos>
   <sequence>22</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -277,9 +277,9 @@
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:51:08.866379500Z</date>
-  <millis>1764251468866</millis>
-  <nanos>379500</nanos>
+  <date>2025-11-27T15:22:08.810139800Z</date>
+  <millis>1764256928810</millis>
+  <nanos>139800</nanos>
   <sequence>23</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -292,9 +292,9 @@
   <property name="stepIndex">2</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:16.183460300Z</date>
-  <millis>1764251476183</millis>
-  <nanos>460300</nanos>
+  <date>2025-11-27T15:22:18.752726500Z</date>
+  <millis>1764256938752</millis>
+  <nanos>726500</nanos>
   <sequence>27</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -307,9 +307,9 @@
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2025-11-27T13:51:16.185582200Z</date>
-  <millis>1764251476185</millis>
-  <nanos>582200</nanos>
+  <date>2025-11-27T15:22:18.755716800Z</date>
+  <millis>1764256938755</millis>
+  <nanos>716800</nanos>
   <sequence>28</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -320,9 +320,9 @@
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:51:16.186582800Z</date>
-  <millis>1764251476186</millis>
-  <nanos>582800</nanos>
+  <date>2025-11-27T15:22:18.756723700Z</date>
+  <millis>1764256938756</millis>
+  <nanos>723700</nanos>
   <sequence>29</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -335,9 +335,9 @@
   <property name="stepIndex">3</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:16.237576800Z</date>
-  <millis>1764251476237</millis>
-  <nanos>576800</nanos>
+  <date>2025-11-27T15:22:18.812271500Z</date>
+  <millis>1764256938812</millis>
+  <nanos>271500</nanos>
   <sequence>32</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -350,9 +350,9 @@
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2025-11-27T13:51:16.239579500Z</date>
-  <millis>1764251476239</millis>
-  <nanos>579500</nanos>
+  <date>2025-11-27T15:22:18.813273Z</date>
+  <millis>1764256938813</millis>
+  <nanos>273000</nanos>
   <sequence>33</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -363,9 +363,9 @@
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:51:16.239579500Z</date>
-  <millis>1764251476239</millis>
-  <nanos>579500</nanos>
+  <date>2025-11-27T15:22:18.814276100Z</date>
+  <millis>1764256938814</millis>
+  <nanos>276100</nanos>
   <sequence>34</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -378,9 +378,9 @@
   <property name="stepIndex">4</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:18.263785700Z</date>
-  <millis>1764251478263</millis>
-  <nanos>785700</nanos>
+  <date>2025-11-27T15:22:20.856923600Z</date>
+  <millis>1764256940856</millis>
+  <nanos>923600</nanos>
   <sequence>37</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -393,9 +393,9 @@
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2025-11-27T13:51:18.265787800Z</date>
-  <millis>1764251478265</millis>
-  <nanos>787800</nanos>
+  <date>2025-11-27T15:22:20.859923500Z</date>
+  <millis>1764256940859</millis>
+  <nanos>923500</nanos>
   <sequence>38</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -406,9 +406,9 @@
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:51:18.265787800Z</date>
-  <millis>1764251478265</millis>
-  <nanos>787800</nanos>
+  <date>2025-11-27T15:22:20.860926600Z</date>
+  <millis>1764256940860</millis>
+  <nanos>926600</nanos>
   <sequence>39</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -421,9 +421,9 @@
   <property name="stepIndex">5</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:18.607349200Z</date>
-  <millis>1764251478607</millis>
-  <nanos>349200</nanos>
+  <date>2025-11-27T15:22:21.274069400Z</date>
+  <millis>1764256941274</millis>
+  <nanos>69400</nanos>
   <sequence>45</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -437,9 +437,9 @@
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2025-11-27T13:51:18.608352900Z</date>
-  <millis>1764251478608</millis>
-  <nanos>352900</nanos>
+  <date>2025-11-27T15:22:21.276078Z</date>
+  <millis>1764256941276</millis>
+  <nanos>78000</nanos>
   <sequence>46</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -450,9 +450,9 @@
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:51:18.609349900Z</date>
-  <millis>1764251478609</millis>
-  <nanos>349900</nanos>
+  <date>2025-11-27T15:22:21.277087400Z</date>
+  <millis>1764256941277</millis>
+  <nanos>87400</nanos>
   <sequence>47</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -465,9 +465,9 @@
   <property name="stepIndex">6</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:18.906123300Z</date>
-  <millis>1764251478906</millis>
-  <nanos>123300</nanos>
+  <date>2025-11-27T15:22:21.606216800Z</date>
+  <millis>1764256941606</millis>
+  <nanos>216800</nanos>
   <sequence>56</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -498,9 +498,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
 </property>
 </record>
 <record>
-  <date>2025-11-27T13:51:18.908118300Z</date>
-  <millis>1764251478908</millis>
-  <nanos>118300</nanos>
+  <date>2025-11-27T15:22:21.608214200Z</date>
+  <millis>1764256941608</millis>
+  <nanos>214200</nanos>
   <sequence>57</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -511,9 +511,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:51:18.908118300Z</date>
-  <millis>1764251478908</millis>
-  <nanos>118300</nanos>
+  <date>2025-11-27T15:22:21.608214200Z</date>
+  <millis>1764256941608</millis>
+  <nanos>214200</nanos>
   <sequence>58</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -526,9 +526,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">7</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:20.925283700Z</date>
-  <millis>1764251480925</millis>
-  <nanos>283700</nanos>
+  <date>2025-11-27T15:22:23.624347900Z</date>
+  <millis>1764256943624</millis>
+  <nanos>347900</nanos>
   <sequence>61</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -541,9 +541,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2025-11-27T13:51:20.927274500Z</date>
-  <millis>1764251480927</millis>
-  <nanos>274500</nanos>
+  <date>2025-11-27T15:22:23.626345300Z</date>
+  <millis>1764256943626</millis>
+  <nanos>345300</nanos>
   <sequence>62</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -554,9 +554,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:51:20.928255800Z</date>
-  <millis>1764251480928</millis>
-  <nanos>255800</nanos>
+  <date>2025-11-27T15:22:23.626345300Z</date>
+  <millis>1764256943626</millis>
+  <nanos>345300</nanos>
   <sequence>63</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -569,9 +569,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">8</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:21.599635300Z</date>
-  <millis>1764251481599</millis>
-  <nanos>635300</nanos>
+  <date>2025-11-27T15:22:24.429872200Z</date>
+  <millis>1764256944429</millis>
+  <nanos>872200</nanos>
   <sequence>77</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -602,9 +602,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
 </property>
 </record>
 <record>
-  <date>2025-11-27T13:51:21.600638900Z</date>
-  <millis>1764251481600</millis>
-  <nanos>638900</nanos>
+  <date>2025-11-27T15:22:24.431867400Z</date>
+  <millis>1764256944431</millis>
+  <nanos>867400</nanos>
   <sequence>78</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -615,9 +615,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:51:21.601642Z</date>
-  <millis>1764251481601</millis>
-  <nanos>642000</nanos>
+  <date>2025-11-27T15:22:24.431867400Z</date>
+  <millis>1764256944431</millis>
+  <nanos>867400</nanos>
   <sequence>79</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -630,9 +630,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">9</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:23.611971900Z</date>
-  <millis>1764251483611</millis>
-  <nanos>971900</nanos>
+  <date>2025-11-27T15:22:26.454956300Z</date>
+  <millis>1764256946454</millis>
+  <nanos>956300</nanos>
   <sequence>82</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -645,9 +645,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2025-11-27T13:51:23.613982700Z</date>
-  <millis>1764251483613</millis>
-  <nanos>982700</nanos>
+  <date>2025-11-27T15:22:26.456950900Z</date>
+  <millis>1764256946456</millis>
+  <nanos>950900</nanos>
   <sequence>83</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -658,9 +658,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:51:23.613982700Z</date>
-  <millis>1764251483613</millis>
-  <nanos>982700</nanos>
+  <date>2025-11-27T15:22:26.456950900Z</date>
+  <millis>1764256946456</millis>
+  <nanos>950900</nanos>
   <sequence>84</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -673,9 +673,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">10</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:23.621971600Z</date>
-  <millis>1764251483621</millis>
-  <nanos>971600</nanos>
+  <date>2025-11-27T15:22:26.464940400Z</date>
+  <millis>1764256946464</millis>
+  <nanos>940400</nanos>
   <sequence>89</sequence>
   <level>WARNING</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -686,9 +686,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:51:23.880603Z</date>
-  <millis>1764251483880</millis>
-  <nanos>603000</nanos>
+  <date>2025-11-27T15:22:26.699128400Z</date>
+  <millis>1764256946699</millis>
+  <nanos>128400</nanos>
   <sequence>92</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -702,9 +702,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2025-11-27T13:51:23.882597400Z</date>
-  <millis>1764251483882</millis>
-  <nanos>597400</nanos>
+  <date>2025-11-27T15:22:26.705135Z</date>
+  <millis>1764256946705</millis>
+  <nanos>135000</nanos>
   <sequence>93</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -715,9 +715,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:51:23.882597400Z</date>
-  <millis>1764251483882</millis>
-  <nanos>597400</nanos>
+  <date>2025-11-27T15:22:26.705135Z</date>
+  <millis>1764256946705</millis>
+  <nanos>135000</nanos>
   <sequence>94</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -730,9 +730,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">11</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:25.892362300Z</date>
-  <millis>1764251485892</millis>
-  <nanos>362300</nanos>
+  <date>2025-11-27T15:22:28.713560Z</date>
+  <millis>1764256948713</millis>
+  <nanos>560000</nanos>
   <sequence>97</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -745,9 +745,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2025-11-27T13:51:25.894353300Z</date>
-  <millis>1764251485894</millis>
-  <nanos>353300</nanos>
+  <date>2025-11-27T15:22:28.719556500Z</date>
+  <millis>1764256948719</millis>
+  <nanos>556500</nanos>
   <sequence>98</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -758,9 +758,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:51:25.895356800Z</date>
-  <millis>1764251485895</millis>
-  <nanos>356800</nanos>
+  <date>2025-11-27T15:22:28.721553800Z</date>
+  <millis>1764256948721</millis>
+  <nanos>553800</nanos>
   <sequence>99</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -773,9 +773,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">12</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:26.148873200Z</date>
-  <millis>1764251486148</millis>
-  <nanos>873200</nanos>
+  <date>2025-11-27T15:22:29.013082200Z</date>
+  <millis>1764256949013</millis>
+  <nanos>82200</nanos>
   <sequence>109</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -788,9 +788,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2025-11-27T13:51:26.149866300Z</date>
-  <millis>1764251486149</millis>
-  <nanos>866300</nanos>
+  <date>2025-11-27T15:22:29.014080600Z</date>
+  <millis>1764256949014</millis>
+  <nanos>80600</nanos>
   <sequence>110</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -801,9 +801,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:51:26.150871400Z</date>
-  <millis>1764251486150</millis>
-  <nanos>871400</nanos>
+  <date>2025-11-27T15:22:29.014080600Z</date>
+  <millis>1764256949014</millis>
+  <nanos>80600</nanos>
   <sequence>111</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -816,9 +816,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">13</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:28.155904Z</date>
-  <millis>1764251488155</millis>
-  <nanos>904000</nanos>
+  <date>2025-11-27T15:22:31.026449800Z</date>
+  <millis>1764256951026</millis>
+  <nanos>449800</nanos>
   <sequence>114</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -831,9 +831,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2025-11-27T13:51:28.157899600Z</date>
-  <millis>1764251488157</millis>
-  <nanos>899600</nanos>
+  <date>2025-11-27T15:22:31.028448700Z</date>
+  <millis>1764256951028</millis>
+  <nanos>448700</nanos>
   <sequence>115</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -844,9 +844,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:51:28.158533400Z</date>
-  <millis>1764251488158</millis>
-  <nanos>533400</nanos>
+  <date>2025-11-27T15:22:31.028448700Z</date>
+  <millis>1764256951028</millis>
+  <nanos>448700</nanos>
   <sequence>116</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -859,9 +859,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">14</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:28.433694Z</date>
-  <millis>1764251488433</millis>
-  <nanos>694000</nanos>
+  <date>2025-11-27T15:22:31.295732400Z</date>
+  <millis>1764256951295</millis>
+  <nanos>732400</nanos>
   <sequence>125</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -892,9 +892,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
 </property>
 </record>
 <record>
-  <date>2025-11-27T13:51:28.435680600Z</date>
-  <millis>1764251488435</millis>
-  <nanos>680600</nanos>
+  <date>2025-11-27T15:22:31.297746100Z</date>
+  <millis>1764256951297</millis>
+  <nanos>746100</nanos>
   <sequence>126</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -905,9 +905,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:51:28.436677600Z</date>
-  <millis>1764251488436</millis>
-  <nanos>677600</nanos>
+  <date>2025-11-27T15:22:31.297746100Z</date>
+  <millis>1764256951297</millis>
+  <nanos>746100</nanos>
   <sequence>127</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -920,9 +920,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">15</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:30.442709800Z</date>
-  <millis>1764251490442</millis>
-  <nanos>709800</nanos>
+  <date>2025-11-27T15:22:33.312213200Z</date>
+  <millis>1764256953312</millis>
+  <nanos>213200</nanos>
   <sequence>130</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -935,9 +935,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2025-11-27T13:51:30.444709600Z</date>
-  <millis>1764251490444</millis>
-  <nanos>709600</nanos>
+  <date>2025-11-27T15:22:33.313206500Z</date>
+  <millis>1764256953313</millis>
+  <nanos>206500</nanos>
   <sequence>131</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -948,9 +948,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:51:30.444709600Z</date>
-  <millis>1764251490444</millis>
-  <nanos>709600</nanos>
+  <date>2025-11-27T15:22:33.314196200Z</date>
+  <millis>1764256953314</millis>
+  <nanos>196200</nanos>
   <sequence>132</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -963,9 +963,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">16</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:30.798418100Z</date>
-  <millis>1764251490798</millis>
-  <nanos>418100</nanos>
+  <date>2025-11-27T15:22:33.706790800Z</date>
+  <millis>1764256953706</millis>
+  <nanos>790800</nanos>
   <sequence>143</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -996,9 +996,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
 </property>
 </record>
 <record>
-  <date>2025-11-27T13:51:30.800414600Z</date>
-  <millis>1764251490800</millis>
-  <nanos>414600</nanos>
+  <date>2025-11-27T15:22:33.708793600Z</date>
+  <millis>1764256953708</millis>
+  <nanos>793600</nanos>
   <sequence>144</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1009,9 +1009,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:51:30.800414600Z</date>
-  <millis>1764251490800</millis>
-  <nanos>414600</nanos>
+  <date>2025-11-27T15:22:33.708793600Z</date>
+  <millis>1764256953708</millis>
+  <nanos>793600</nanos>
   <sequence>145</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1024,9 +1024,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">17</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:32.810717200Z</date>
-  <millis>1764251492810</millis>
-  <nanos>717200</nanos>
+  <date>2025-11-27T15:22:35.716909Z</date>
+  <millis>1764256955716</millis>
+  <nanos>909000</nanos>
   <sequence>148</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1039,9 +1039,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2025-11-27T13:51:32.812728200Z</date>
-  <millis>1764251492812</millis>
-  <nanos>728200</nanos>
+  <date>2025-11-27T15:22:35.718906100Z</date>
+  <millis>1764256955718</millis>
+  <nanos>906100</nanos>
   <sequence>149</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1052,9 +1052,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:51:32.812728200Z</date>
-  <millis>1764251492812</millis>
-  <nanos>728200</nanos>
+  <date>2025-11-27T15:22:35.719900700Z</date>
+  <millis>1764256955719</millis>
+  <nanos>900700</nanos>
   <sequence>150</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1067,9 +1067,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">18</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:32.821302Z</date>
-  <millis>1764251492821</millis>
-  <nanos>302000</nanos>
+  <date>2025-11-27T15:22:35.726356400Z</date>
+  <millis>1764256955726</millis>
+  <nanos>356400</nanos>
   <sequence>156</sequence>
   <level>WARNING</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1080,9 +1080,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:51:33.065156900Z</date>
-  <millis>1764251493065</millis>
-  <nanos>156900</nanos>
+  <date>2025-11-27T15:22:35.993671600Z</date>
+  <millis>1764256955993</millis>
+  <nanos>671600</nanos>
   <sequence>162</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1095,9 +1095,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2025-11-27T13:51:33.068165700Z</date>
-  <millis>1764251493068</millis>
-  <nanos>165700</nanos>
+  <date>2025-11-27T15:22:35.995671200Z</date>
+  <millis>1764256955995</millis>
+  <nanos>671200</nanos>
   <sequence>163</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1108,9 +1108,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:51:33.068165700Z</date>
-  <millis>1764251493068</millis>
-  <nanos>165700</nanos>
+  <date>2025-11-27T15:22:35.996672Z</date>
+  <millis>1764256955996</millis>
+  <nanos>672000</nanos>
   <sequence>164</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1123,9 +1123,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">19</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:35.075199100Z</date>
-  <millis>1764251495075</millis>
-  <nanos>199100</nanos>
+  <date>2025-11-27T15:22:38.003524600Z</date>
+  <millis>1764256958003</millis>
+  <nanos>524600</nanos>
   <sequence>167</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1138,9 +1138,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2025-11-27T13:51:35.077194Z</date>
-  <millis>1764251495077</millis>
-  <nanos>194000</nanos>
+  <date>2025-11-27T15:22:38.006525200Z</date>
+  <millis>1764256958006</millis>
+  <nanos>525200</nanos>
   <sequence>168</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1151,9 +1151,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:51:35.077194Z</date>
-  <millis>1764251495077</millis>
-  <nanos>194000</nanos>
+  <date>2025-11-27T15:22:38.006525200Z</date>
+  <millis>1764256958006</millis>
+  <nanos>525200</nanos>
   <sequence>169</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1166,9 +1166,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">20</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:35.322575900Z</date>
-  <millis>1764251495322</millis>
-  <nanos>575900</nanos>
+  <date>2025-11-27T15:22:38.264526500Z</date>
+  <millis>1764256958264</millis>
+  <nanos>526500</nanos>
   <sequence>175</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1182,9 +1182,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2025-11-27T13:51:35.323580800Z</date>
-  <millis>1764251495323</millis>
-  <nanos>580800</nanos>
+  <date>2025-11-27T15:22:38.269535Z</date>
+  <millis>1764256958269</millis>
+  <nanos>535000</nanos>
   <sequence>176</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1195,9 +1195,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:51:35.323580800Z</date>
-  <millis>1764251495323</millis>
-  <nanos>580800</nanos>
+  <date>2025-11-27T15:22:38.270549500Z</date>
+  <millis>1764256958270</millis>
+  <nanos>549500</nanos>
   <sequence>177</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1210,9 +1210,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">21</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:35.674070400Z</date>
-  <millis>1764251495674</millis>
-  <nanos>70400</nanos>
+  <date>2025-11-27T15:22:38.646734100Z</date>
+  <millis>1764256958646</millis>
+  <nanos>734100</nanos>
   <sequence>188</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1243,9 +1243,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
 </property>
 </record>
 <record>
-  <date>2025-11-27T13:51:35.675065Z</date>
-  <millis>1764251495675</millis>
-  <nanos>65000</nanos>
+  <date>2025-11-27T15:22:38.647735600Z</date>
+  <millis>1764256958647</millis>
+  <nanos>735600</nanos>
   <sequence>189</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1256,9 +1256,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:51:35.675065Z</date>
-  <millis>1764251495675</millis>
-  <nanos>65000</nanos>
+  <date>2025-11-27T15:22:38.647735600Z</date>
+  <millis>1764256958647</millis>
+  <nanos>735600</nanos>
   <sequence>190</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1271,9 +1271,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">22</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:35.919881100Z</date>
-  <millis>1764251495919</millis>
-  <nanos>881100</nanos>
+  <date>2025-11-27T15:22:38.902937100Z</date>
+  <millis>1764256958902</millis>
+  <nanos>937100</nanos>
   <sequence>196</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1287,9 +1287,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2025-11-27T13:51:35.920881700Z</date>
-  <millis>1764251495920</millis>
-  <nanos>881700</nanos>
+  <date>2025-11-27T15:22:38.904930100Z</date>
+  <millis>1764256958904</millis>
+  <nanos>930100</nanos>
   <sequence>197</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1300,9 +1300,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:51:35.920881700Z</date>
-  <millis>1764251495920</millis>
-  <nanos>881700</nanos>
+  <date>2025-11-27T15:22:38.905920500Z</date>
+  <millis>1764256958905</millis>
+  <nanos>920500</nanos>
   <sequence>198</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1313,9 +1313,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:51:35.922881600Z</date>
-  <millis>1764251495922</millis>
-  <nanos>881600</nanos>
+  <date>2025-11-27T15:22:38.906917100Z</date>
+  <millis>1764256958906</millis>
+  <nanos>917100</nanos>
   <sequence>199</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1355,9 +1355,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
 }</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:35.926904500Z</date>
-  <millis>1764251495926</millis>
-  <nanos>904500</nanos>
+  <date>2025-11-27T15:22:38.912918900Z</date>
+  <millis>1764256958912</millis>
+  <nanos>918900</nanos>
   <sequence>200</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1371,14 +1371,14 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="description">Sebagai Sample</property>
   <property name="iteration"></property>
   <property name="id">Test Cases/Negative/Case01-6-N6 Alert Notification For Min Length On Mobile Number Field</property>
-  <property name="source">T:\Lawrencon\Interview\Fix\case01\AutomationPracticeForm\AutomationPracticeForm\Test Cases\Negative\Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.tc</property>
+  <property name="source">T:\Lawencon\Interview\Fix\case01\AutomationPracticeForm\AutomationPracticeForm\Test Cases\Negative\Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.tc</property>
   <property name="tag"></property>
   <property name="isOptional">false</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:35.938881700Z</date>
-  <millis>1764251495938</millis>
-  <nanos>881700</nanos>
+  <date>2025-11-27T15:22:38.939462300Z</date>
+  <millis>1764256958939</millis>
+  <nanos>462300</nanos>
   <sequence>202</sequence>
   <level>INFO</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1389,9 +1389,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:51:35.940881600Z</date>
-  <millis>1764251495940</millis>
-  <nanos>881600</nanos>
+  <date>2025-11-27T15:22:38.942464400Z</date>
+  <millis>1764256958942</millis>
+  <nanos>464400</nanos>
   <sequence>203</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1404,9 +1404,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">1</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:35.943879300Z</date>
-  <millis>1764251495943</millis>
-  <nanos>879300</nanos>
+  <date>2025-11-27T15:22:38.946462400Z</date>
+  <millis>1764256958946</millis>
+  <nanos>462400</nanos>
   <sequence>206</sequence>
   <level>WARNING</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1417,9 +1417,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:51:37.219112700Z</date>
-  <millis>1764251497219</millis>
-  <nanos>112700</nanos>
+  <date>2025-11-27T15:22:40.312902600Z</date>
+  <millis>1764256960312</millis>
+  <nanos>902600</nanos>
   <sequence>207</sequence>
   <level>INFO</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1430,9 +1430,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:51:37.221111600Z</date>
-  <millis>1764251497221</millis>
-  <nanos>111600</nanos>
+  <date>2025-11-27T15:22:40.316897300Z</date>
+  <millis>1764256960316</millis>
+  <nanos>897300</nanos>
   <sequence>208</sequence>
   <level>INFO</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1443,23 +1443,23 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:51:37.967465200Z</date>
-  <millis>1764251497967</millis>
-  <nanos>465200</nanos>
+  <date>2025-11-27T15:22:41.340233600Z</date>
+  <millis>1764256961340</millis>
+  <nanos>233600</nanos>
   <sequence>210</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
   <thread>1</thread>
-  <message>sessionId = 3d012beb38fda6f0dd0dc7ccad65f1e7</message>
+  <message>sessionId = 90c8bf39e48d4ea6afabe43133e6444f</message>
   <nestedLevel>1</nestedLevel>
   <escapedJava>false</escapedJava>
-  <property name="sessionId">3d012beb38fda6f0dd0dc7ccad65f1e7</property>
+  <property name="sessionId">90c8bf39e48d4ea6afabe43133e6444f</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:37.967465200Z</date>
-  <millis>1764251497967</millis>
-  <nanos>465200</nanos>
+  <date>2025-11-27T15:22:41.341229600Z</date>
+  <millis>1764256961341</millis>
+  <nanos>229600</nanos>
   <sequence>211</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1471,9 +1471,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="browser">Chrome 142.0.7444.176</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:37.968466Z</date>
-  <millis>1764251497968</millis>
-  <nanos>466000</nanos>
+  <date>2025-11-27T15:22:41.342235600Z</date>
+  <millis>1764256961342</millis>
+  <nanos>235600</nanos>
   <sequence>212</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1485,9 +1485,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="platform">Windows 11</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:37.968466Z</date>
-  <millis>1764251497968</millis>
-  <nanos>466000</nanos>
+  <date>2025-11-27T15:22:41.343231400Z</date>
+  <millis>1764256961343</millis>
+  <nanos>231400</nanos>
   <sequence>213</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1499,9 +1499,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="seleniumVersion">4.34.0</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:37.969468300Z</date>
-  <millis>1764251497969</millis>
-  <nanos>468300</nanos>
+  <date>2025-11-27T15:22:41.345233300Z</date>
+  <millis>1764256961345</millis>
+  <nanos>233300</nanos>
   <sequence>214</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1513,9 +1513,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="proxyInformation">ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:37.983991600Z</date>
-  <millis>1764251497983</millis>
-  <nanos>991600</nanos>
+  <date>2025-11-27T15:22:41.380780700Z</date>
+  <millis>1764256961380</millis>
+  <nanos>780700</nanos>
   <sequence>215</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1528,9 +1528,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2025-11-27T13:51:37.985224200Z</date>
-  <millis>1764251497985</millis>
-  <nanos>224200</nanos>
+  <date>2025-11-27T15:22:41.381774300Z</date>
+  <millis>1764256961381</millis>
+  <nanos>774300</nanos>
   <sequence>216</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1541,9 +1541,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:51:37.986225800Z</date>
-  <millis>1764251497986</millis>
-  <nanos>225800</nanos>
+  <date>2025-11-27T15:22:41.381774300Z</date>
+  <millis>1764256961381</millis>
+  <nanos>774300</nanos>
   <sequence>217</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1556,9 +1556,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">2</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:44.949024900Z</date>
-  <millis>1764251504949</millis>
-  <nanos>24900</nanos>
+  <date>2025-11-27T15:22:51.172273200Z</date>
+  <millis>1764256971172</millis>
+  <nanos>273200</nanos>
   <sequence>221</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1571,9 +1571,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2025-11-27T13:51:44.949024900Z</date>
-  <millis>1764251504949</millis>
-  <nanos>24900</nanos>
+  <date>2025-11-27T15:22:51.173271200Z</date>
+  <millis>1764256971173</millis>
+  <nanos>271200</nanos>
   <sequence>222</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1584,9 +1584,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:51:44.949024900Z</date>
-  <millis>1764251504949</millis>
-  <nanos>24900</nanos>
+  <date>2025-11-27T15:22:51.174266300Z</date>
+  <millis>1764256971174</millis>
+  <nanos>266300</nanos>
   <sequence>223</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1599,9 +1599,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">3</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:44.992048700Z</date>
-  <millis>1764251504992</millis>
-  <nanos>48700</nanos>
+  <date>2025-11-27T15:22:51.228268700Z</date>
+  <millis>1764256971228</millis>
+  <nanos>268700</nanos>
   <sequence>226</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1614,9 +1614,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2025-11-27T13:51:44.993098700Z</date>
-  <millis>1764251504993</millis>
-  <nanos>98700</nanos>
+  <date>2025-11-27T15:22:51.229268400Z</date>
+  <millis>1764256971229</millis>
+  <nanos>268400</nanos>
   <sequence>227</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1627,9 +1627,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:51:44.994107600Z</date>
-  <millis>1764251504994</millis>
-  <nanos>107600</nanos>
+  <date>2025-11-27T15:22:51.230264500Z</date>
+  <millis>1764256971230</millis>
+  <nanos>264500</nanos>
   <sequence>228</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1642,9 +1642,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">4</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:47.004362900Z</date>
-  <millis>1764251507004</millis>
-  <nanos>362900</nanos>
+  <date>2025-11-27T15:22:53.241515400Z</date>
+  <millis>1764256973241</millis>
+  <nanos>515400</nanos>
   <sequence>231</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1657,9 +1657,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2025-11-27T13:51:47.005361200Z</date>
-  <millis>1764251507005</millis>
-  <nanos>361200</nanos>
+  <date>2025-11-27T15:22:53.242514300Z</date>
+  <millis>1764256973242</millis>
+  <nanos>514300</nanos>
   <sequence>232</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1670,9 +1670,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:51:47.006371300Z</date>
-  <millis>1764251507006</millis>
-  <nanos>371300</nanos>
+  <date>2025-11-27T15:22:53.243514Z</date>
+  <millis>1764256973243</millis>
+  <nanos>514000</nanos>
   <sequence>233</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1685,9 +1685,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">5</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:47.266664Z</date>
-  <millis>1764251507266</millis>
-  <nanos>664000</nanos>
+  <date>2025-11-27T15:22:53.521121300Z</date>
+  <millis>1764256973521</millis>
+  <nanos>121300</nanos>
   <sequence>239</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1701,9 +1701,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2025-11-27T13:51:47.266664Z</date>
-  <millis>1764251507266</millis>
-  <nanos>664000</nanos>
+  <date>2025-11-27T15:22:53.522118200Z</date>
+  <millis>1764256973522</millis>
+  <nanos>118200</nanos>
   <sequence>240</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1714,9 +1714,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:51:47.267668100Z</date>
-  <millis>1764251507267</millis>
-  <nanos>668100</nanos>
+  <date>2025-11-27T15:22:53.522118200Z</date>
+  <millis>1764256973522</millis>
+  <nanos>118200</nanos>
   <sequence>241</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1729,9 +1729,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">6</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:47.545486100Z</date>
-  <millis>1764251507545</millis>
-  <nanos>486100</nanos>
+  <date>2025-11-27T15:22:53.804283200Z</date>
+  <millis>1764256973804</millis>
+  <nanos>283200</nanos>
   <sequence>250</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1762,9 +1762,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
 </property>
 </record>
 <record>
-  <date>2025-11-27T13:51:47.546491800Z</date>
-  <millis>1764251507546</millis>
-  <nanos>491800</nanos>
+  <date>2025-11-27T15:22:53.805288900Z</date>
+  <millis>1764256973805</millis>
+  <nanos>288900</nanos>
   <sequence>251</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1775,9 +1775,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:51:47.546491800Z</date>
-  <millis>1764251507546</millis>
-  <nanos>491800</nanos>
+  <date>2025-11-27T15:22:53.805288900Z</date>
+  <millis>1764256973805</millis>
+  <nanos>288900</nanos>
   <sequence>252</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1790,9 +1790,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">7</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:49.562235100Z</date>
-  <millis>1764251509562</millis>
-  <nanos>235100</nanos>
+  <date>2025-11-27T15:22:55.819996700Z</date>
+  <millis>1764256975819</millis>
+  <nanos>996700</nanos>
   <sequence>255</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1805,9 +1805,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2025-11-27T13:51:49.563226200Z</date>
-  <millis>1764251509563</millis>
-  <nanos>226200</nanos>
+  <date>2025-11-27T15:22:55.820973800Z</date>
+  <millis>1764256975820</millis>
+  <nanos>973800</nanos>
   <sequence>256</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1818,9 +1818,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:51:49.563226200Z</date>
-  <millis>1764251509563</millis>
-  <nanos>226200</nanos>
+  <date>2025-11-27T15:22:55.821978400Z</date>
+  <millis>1764256975821</millis>
+  <nanos>978400</nanos>
   <sequence>257</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1833,9 +1833,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">8</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:50.246365500Z</date>
-  <millis>1764251510246</millis>
-  <nanos>365500</nanos>
+  <date>2025-11-27T15:22:56.720019400Z</date>
+  <millis>1764256976720</millis>
+  <nanos>19400</nanos>
   <sequence>271</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1866,9 +1866,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
 </property>
 </record>
 <record>
-  <date>2025-11-27T13:51:50.247364300Z</date>
-  <millis>1764251510247</millis>
-  <nanos>364300</nanos>
+  <date>2025-11-27T15:22:56.721015Z</date>
+  <millis>1764256976721</millis>
+  <nanos>15000</nanos>
   <sequence>272</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1879,9 +1879,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:51:50.247364300Z</date>
-  <millis>1764251510247</millis>
-  <nanos>364300</nanos>
+  <date>2025-11-27T15:22:56.721015Z</date>
+  <millis>1764256976721</millis>
+  <nanos>15000</nanos>
   <sequence>273</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1894,9 +1894,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">9</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:52.260112500Z</date>
-  <millis>1764251512260</millis>
-  <nanos>112500</nanos>
+  <date>2025-11-27T15:22:58.729438600Z</date>
+  <millis>1764256978729</millis>
+  <nanos>438600</nanos>
   <sequence>276</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1909,9 +1909,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2025-11-27T13:51:52.260946400Z</date>
-  <millis>1764251512260</millis>
-  <nanos>946400</nanos>
+  <date>2025-11-27T15:22:58.734450400Z</date>
+  <millis>1764256978734</millis>
+  <nanos>450400</nanos>
   <sequence>277</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1922,9 +1922,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:51:52.261934900Z</date>
-  <millis>1764251512261</millis>
-  <nanos>934900</nanos>
+  <date>2025-11-27T15:22:58.735452Z</date>
+  <millis>1764256978735</millis>
+  <nanos>452000</nanos>
   <sequence>278</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1937,9 +1937,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">10</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:52.267929500Z</date>
-  <millis>1764251512267</millis>
-  <nanos>929500</nanos>
+  <date>2025-11-27T15:22:58.743442Z</date>
+  <millis>1764256978743</millis>
+  <nanos>442000</nanos>
   <sequence>283</sequence>
   <level>WARNING</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1950,9 +1950,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:51:52.519583100Z</date>
-  <millis>1764251512519</millis>
-  <nanos>583100</nanos>
+  <date>2025-11-27T15:22:58.995446600Z</date>
+  <millis>1764256978995</millis>
+  <nanos>446600</nanos>
   <sequence>286</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1966,9 +1966,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2025-11-27T13:51:52.520581400Z</date>
-  <millis>1764251512520</millis>
-  <nanos>581400</nanos>
+  <date>2025-11-27T15:22:58.996451900Z</date>
+  <millis>1764256978996</millis>
+  <nanos>451900</nanos>
   <sequence>287</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1979,9 +1979,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:51:52.520581400Z</date>
-  <millis>1764251512520</millis>
-  <nanos>581400</nanos>
+  <date>2025-11-27T15:22:59.000463100Z</date>
+  <millis>1764256979000</millis>
+  <nanos>463100</nanos>
   <sequence>288</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1994,9 +1994,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">11</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:54.531317700Z</date>
-  <millis>1764251514531</millis>
-  <nanos>317700</nanos>
+  <date>2025-11-27T15:23:01.005931Z</date>
+  <millis>1764256981005</millis>
+  <nanos>931000</nanos>
   <sequence>291</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2009,9 +2009,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2025-11-27T13:51:54.532316900Z</date>
-  <millis>1764251514532</millis>
-  <nanos>316900</nanos>
+  <date>2025-11-27T15:23:01.006935800Z</date>
+  <millis>1764256981006</millis>
+  <nanos>935800</nanos>
   <sequence>292</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2022,9 +2022,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:51:54.532316900Z</date>
-  <millis>1764251514532</millis>
-  <nanos>316900</nanos>
+  <date>2025-11-27T15:23:01.007939300Z</date>
+  <millis>1764256981007</millis>
+  <nanos>939300</nanos>
   <sequence>293</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2037,9 +2037,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">12</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:54.787030500Z</date>
-  <millis>1764251514787</millis>
-  <nanos>30500</nanos>
+  <date>2025-11-27T15:23:01.284281400Z</date>
+  <millis>1764256981284</millis>
+  <nanos>281400</nanos>
   <sequence>303</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2052,9 +2052,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2025-11-27T13:51:54.788026800Z</date>
-  <millis>1764251514788</millis>
-  <nanos>26800</nanos>
+  <date>2025-11-27T15:23:01.287276300Z</date>
+  <millis>1764256981287</millis>
+  <nanos>276300</nanos>
   <sequence>304</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2065,9 +2065,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:51:54.788026800Z</date>
-  <millis>1764251514788</millis>
-  <nanos>26800</nanos>
+  <date>2025-11-27T15:23:01.287276300Z</date>
+  <millis>1764256981287</millis>
+  <nanos>276300</nanos>
   <sequence>305</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2080,9 +2080,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">13</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:56.805855600Z</date>
-  <millis>1764251516805</millis>
-  <nanos>855600</nanos>
+  <date>2025-11-27T15:23:03.302096900Z</date>
+  <millis>1764256983302</millis>
+  <nanos>96900</nanos>
   <sequence>308</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2095,9 +2095,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2025-11-27T13:51:56.805855600Z</date>
-  <millis>1764251516805</millis>
-  <nanos>855600</nanos>
+  <date>2025-11-27T15:23:03.303101200Z</date>
+  <millis>1764256983303</millis>
+  <nanos>101200</nanos>
   <sequence>309</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2108,9 +2108,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:51:56.805855600Z</date>
-  <millis>1764251516805</millis>
-  <nanos>855600</nanos>
+  <date>2025-11-27T15:23:03.304108200Z</date>
+  <millis>1764256983304</millis>
+  <nanos>108200</nanos>
   <sequence>310</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2123,9 +2123,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">14</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:57.057595500Z</date>
-  <millis>1764251517057</millis>
-  <nanos>595500</nanos>
+  <date>2025-11-27T15:23:03.569386500Z</date>
+  <millis>1764256983569</millis>
+  <nanos>386500</nanos>
   <sequence>319</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2156,9 +2156,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
 </property>
 </record>
 <record>
-  <date>2025-11-27T13:51:57.057595500Z</date>
-  <millis>1764251517057</millis>
-  <nanos>595500</nanos>
+  <date>2025-11-27T15:23:03.570387600Z</date>
+  <millis>1764256983570</millis>
+  <nanos>387600</nanos>
   <sequence>320</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2169,9 +2169,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:51:57.057595500Z</date>
-  <millis>1764251517057</millis>
-  <nanos>595500</nanos>
+  <date>2025-11-27T15:23:03.570387600Z</date>
+  <millis>1764256983570</millis>
+  <nanos>387600</nanos>
   <sequence>321</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2184,9 +2184,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">15</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:59.071872700Z</date>
-  <millis>1764251519071</millis>
-  <nanos>872700</nanos>
+  <date>2025-11-27T15:23:05.579227500Z</date>
+  <millis>1764256985579</millis>
+  <nanos>227500</nanos>
   <sequence>324</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2199,9 +2199,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2025-11-27T13:51:59.072850800Z</date>
-  <millis>1764251519072</millis>
-  <nanos>850800</nanos>
+  <date>2025-11-27T15:23:05.584229400Z</date>
+  <millis>1764256985584</millis>
+  <nanos>229400</nanos>
   <sequence>325</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2212,9 +2212,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:51:59.073855200Z</date>
-  <millis>1764251519073</millis>
-  <nanos>855200</nanos>
+  <date>2025-11-27T15:23:05.584229400Z</date>
+  <millis>1764256985584</millis>
+  <nanos>229400</nanos>
   <sequence>326</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2227,9 +2227,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">16</property>
 </record>
 <record>
-  <date>2025-11-27T13:51:59.413156Z</date>
-  <millis>1764251519413</millis>
-  <nanos>156000</nanos>
+  <date>2025-11-27T15:23:05.941473300Z</date>
+  <millis>1764256985941</millis>
+  <nanos>473300</nanos>
   <sequence>337</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2260,9 +2260,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
 </property>
 </record>
 <record>
-  <date>2025-11-27T13:51:59.414155100Z</date>
-  <millis>1764251519414</millis>
-  <nanos>155100</nanos>
+  <date>2025-11-27T15:23:05.942472400Z</date>
+  <millis>1764256985942</millis>
+  <nanos>472400</nanos>
   <sequence>338</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2273,9 +2273,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:51:59.414155100Z</date>
-  <millis>1764251519414</millis>
-  <nanos>155100</nanos>
+  <date>2025-11-27T15:23:05.942472400Z</date>
+  <millis>1764256985942</millis>
+  <nanos>472400</nanos>
   <sequence>339</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2288,9 +2288,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">17</property>
 </record>
 <record>
-  <date>2025-11-27T13:52:01.428178800Z</date>
-  <millis>1764251521428</millis>
-  <nanos>178800</nanos>
+  <date>2025-11-27T15:23:07.952280900Z</date>
+  <millis>1764256987952</millis>
+  <nanos>280900</nanos>
   <sequence>342</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2303,9 +2303,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2025-11-27T13:52:01.429186100Z</date>
-  <millis>1764251521429</millis>
-  <nanos>186100</nanos>
+  <date>2025-11-27T15:23:07.952280900Z</date>
+  <millis>1764256987952</millis>
+  <nanos>280900</nanos>
   <sequence>343</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2316,9 +2316,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:52:01.429186100Z</date>
-  <millis>1764251521429</millis>
-  <nanos>186100</nanos>
+  <date>2025-11-27T15:23:07.953274600Z</date>
+  <millis>1764256987953</millis>
+  <nanos>274600</nanos>
   <sequence>344</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2331,9 +2331,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">18</property>
 </record>
 <record>
-  <date>2025-11-27T13:52:01.436186500Z</date>
-  <millis>1764251521436</millis>
-  <nanos>186500</nanos>
+  <date>2025-11-27T15:23:07.958271100Z</date>
+  <millis>1764256987958</millis>
+  <nanos>271100</nanos>
   <sequence>350</sequence>
   <level>WARNING</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2344,9 +2344,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:52:01.679685100Z</date>
-  <millis>1764251521679</millis>
-  <nanos>685100</nanos>
+  <date>2025-11-27T15:23:08.204169800Z</date>
+  <millis>1764256988204</millis>
+  <nanos>169800</nanos>
   <sequence>356</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2359,9 +2359,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2025-11-27T13:52:01.679685100Z</date>
-  <millis>1764251521679</millis>
-  <nanos>685100</nanos>
+  <date>2025-11-27T15:23:08.205169500Z</date>
+  <millis>1764256988205</millis>
+  <nanos>169500</nanos>
   <sequence>357</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2372,9 +2372,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:52:01.680687200Z</date>
-  <millis>1764251521680</millis>
-  <nanos>687200</nanos>
+  <date>2025-11-27T15:23:08.206167400Z</date>
+  <millis>1764256988206</millis>
+  <nanos>167400</nanos>
   <sequence>358</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2387,9 +2387,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">19</property>
 </record>
 <record>
-  <date>2025-11-27T13:52:03.688259900Z</date>
-  <millis>1764251523688</millis>
-  <nanos>259900</nanos>
+  <date>2025-11-27T15:23:10.220167500Z</date>
+  <millis>1764256990220</millis>
+  <nanos>167500</nanos>
   <sequence>361</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2402,9 +2402,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2025-11-27T13:52:03.688947900Z</date>
-  <millis>1764251523688</millis>
-  <nanos>947900</nanos>
+  <date>2025-11-27T15:23:10.221168500Z</date>
+  <millis>1764256990221</millis>
+  <nanos>168500</nanos>
   <sequence>362</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2415,9 +2415,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:52:03.689922300Z</date>
-  <millis>1764251523689</millis>
-  <nanos>922300</nanos>
+  <date>2025-11-27T15:23:10.221168500Z</date>
+  <millis>1764256990221</millis>
+  <nanos>168500</nanos>
   <sequence>363</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2430,9 +2430,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">20</property>
 </record>
 <record>
-  <date>2025-11-27T13:52:03.935646400Z</date>
-  <millis>1764251523935</millis>
-  <nanos>646400</nanos>
+  <date>2025-11-27T15:23:10.479097100Z</date>
+  <millis>1764256990479</millis>
+  <nanos>97100</nanos>
   <sequence>369</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2446,9 +2446,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2025-11-27T13:52:03.936648Z</date>
-  <millis>1764251523936</millis>
-  <nanos>648000</nanos>
+  <date>2025-11-27T15:23:10.483636800Z</date>
+  <millis>1764256990483</millis>
+  <nanos>636800</nanos>
   <sequence>370</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2459,9 +2459,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:52:03.936648Z</date>
-  <millis>1764251523936</millis>
-  <nanos>648000</nanos>
+  <date>2025-11-27T15:23:10.484640100Z</date>
+  <millis>1764256990484</millis>
+  <nanos>640100</nanos>
   <sequence>371</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2474,9 +2474,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">21</property>
 </record>
 <record>
-  <date>2025-11-27T13:52:04.261429300Z</date>
-  <millis>1764251524261</millis>
-  <nanos>429300</nanos>
+  <date>2025-11-27T15:23:10.902480700Z</date>
+  <millis>1764256990902</millis>
+  <nanos>480700</nanos>
   <sequence>382</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2507,9 +2507,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
 </property>
 </record>
 <record>
-  <date>2025-11-27T13:52:04.262949500Z</date>
-  <millis>1764251524262</millis>
-  <nanos>949500</nanos>
+  <date>2025-11-27T15:23:10.903479500Z</date>
+  <millis>1764256990903</millis>
+  <nanos>479500</nanos>
   <sequence>383</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2520,9 +2520,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:52:04.262949500Z</date>
-  <millis>1764251524262</millis>
-  <nanos>949500</nanos>
+  <date>2025-11-27T15:23:10.903479500Z</date>
+  <millis>1764256990903</millis>
+  <nanos>479500</nanos>
   <sequence>384</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2535,9 +2535,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">22</property>
 </record>
 <record>
-  <date>2025-11-27T13:52:04.499197400Z</date>
-  <millis>1764251524499</millis>
-  <nanos>197400</nanos>
+  <date>2025-11-27T15:23:11.138116300Z</date>
+  <millis>1764256991138</millis>
+  <nanos>116300</nanos>
   <sequence>390</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2551,9 +2551,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2025-11-27T13:52:04.500191300Z</date>
-  <millis>1764251524500</millis>
-  <nanos>191300</nanos>
+  <date>2025-11-27T15:23:11.138116300Z</date>
+  <millis>1764256991138</millis>
+  <nanos>116300</nanos>
   <sequence>391</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2564,9 +2564,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:52:04.500191300Z</date>
-  <millis>1764251524500</millis>
-  <nanos>191300</nanos>
+  <date>2025-11-27T15:23:11.138116300Z</date>
+  <millis>1764256991138</millis>
+  <nanos>116300</nanos>
   <sequence>392</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2577,9 +2577,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:52:04.500191300Z</date>
-  <millis>1764251524500</millis>
-  <nanos>191300</nanos>
+  <date>2025-11-27T15:23:11.139115Z</date>
+  <millis>1764256991139</millis>
+  <nanos>115000</nanos>
   <sequence>393</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2619,9 +2619,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
 }</property>
 </record>
 <record>
-  <date>2025-11-27T13:52:04.504190700Z</date>
-  <millis>1764251524504</millis>
-  <nanos>190700</nanos>
+  <date>2025-11-27T15:23:11.143121200Z</date>
+  <millis>1764256991143</millis>
+  <nanos>121200</nanos>
   <sequence>394</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2635,14 +2635,14 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="description">Sebagai Sample</property>
   <property name="iteration"></property>
   <property name="id">Test Cases/Negative/Case01-6-N6 Alert Notification For Min Length On Mobile Number Field</property>
-  <property name="source">T:\Lawrencon\Interview\Fix\case01\AutomationPracticeForm\AutomationPracticeForm\Test Cases\Negative\Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.tc</property>
+  <property name="source">T:\Lawencon\Interview\Fix\case01\AutomationPracticeForm\AutomationPracticeForm\Test Cases\Negative\Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.tc</property>
   <property name="tag"></property>
   <property name="isOptional">false</property>
 </record>
 <record>
-  <date>2025-11-27T13:52:04.516187700Z</date>
-  <millis>1764251524516</millis>
-  <nanos>187700</nanos>
+  <date>2025-11-27T15:23:11.161127300Z</date>
+  <millis>1764256991161</millis>
+  <nanos>127300</nanos>
   <sequence>396</sequence>
   <level>INFO</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2653,9 +2653,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:52:04.519188700Z</date>
-  <millis>1764251524519</millis>
-  <nanos>188700</nanos>
+  <date>2025-11-27T15:23:11.167182800Z</date>
+  <millis>1764256991167</millis>
+  <nanos>182800</nanos>
   <sequence>397</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2668,9 +2668,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">1</property>
 </record>
 <record>
-  <date>2025-11-27T13:52:04.521191600Z</date>
-  <millis>1764251524521</millis>
-  <nanos>191600</nanos>
+  <date>2025-11-27T15:23:11.173171700Z</date>
+  <millis>1764256991173</millis>
+  <nanos>171700</nanos>
   <sequence>400</sequence>
   <level>WARNING</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2681,9 +2681,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:52:05.795216800Z</date>
-  <millis>1764251525795</millis>
-  <nanos>216800</nanos>
+  <date>2025-11-27T15:23:12.485598300Z</date>
+  <millis>1764256992485</millis>
+  <nanos>598300</nanos>
   <sequence>401</sequence>
   <level>INFO</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2694,9 +2694,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:52:05.797222300Z</date>
-  <millis>1764251525797</millis>
-  <nanos>222300</nanos>
+  <date>2025-11-27T15:23:12.486595500Z</date>
+  <millis>1764256992486</millis>
+  <nanos>595500</nanos>
   <sequence>402</sequence>
   <level>INFO</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2707,23 +2707,23 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:52:06.541673100Z</date>
-  <millis>1764251526541</millis>
-  <nanos>673100</nanos>
+  <date>2025-11-27T15:23:13.707216200Z</date>
+  <millis>1764256993707</millis>
+  <nanos>216200</nanos>
   <sequence>404</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
   <thread>1</thread>
-  <message>sessionId = ea54866cc01084c00943e2557195ca5e</message>
+  <message>sessionId = 4d7e3f4819e71edf8839e6a47219312b</message>
   <nestedLevel>1</nestedLevel>
   <escapedJava>false</escapedJava>
-  <property name="sessionId">ea54866cc01084c00943e2557195ca5e</property>
+  <property name="sessionId">4d7e3f4819e71edf8839e6a47219312b</property>
 </record>
 <record>
-  <date>2025-11-27T13:52:06.542329400Z</date>
-  <millis>1764251526542</millis>
-  <nanos>329400</nanos>
+  <date>2025-11-27T15:23:13.708206300Z</date>
+  <millis>1764256993708</millis>
+  <nanos>206300</nanos>
   <sequence>405</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2735,9 +2735,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="browser">Chrome 142.0.7444.176</property>
 </record>
 <record>
-  <date>2025-11-27T13:52:06.542329400Z</date>
-  <millis>1764251526542</millis>
-  <nanos>329400</nanos>
+  <date>2025-11-27T15:23:13.708206300Z</date>
+  <millis>1764256993708</millis>
+  <nanos>206300</nanos>
   <sequence>406</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2749,9 +2749,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="platform">Windows 11</property>
 </record>
 <record>
-  <date>2025-11-27T13:52:06.543388400Z</date>
-  <millis>1764251526543</millis>
-  <nanos>388400</nanos>
+  <date>2025-11-27T15:23:13.709216800Z</date>
+  <millis>1764256993709</millis>
+  <nanos>216800</nanos>
   <sequence>407</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2763,9 +2763,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="seleniumVersion">4.34.0</property>
 </record>
 <record>
-  <date>2025-11-27T13:52:06.544391200Z</date>
-  <millis>1764251526544</millis>
-  <nanos>391200</nanos>
+  <date>2025-11-27T15:23:13.710214700Z</date>
+  <millis>1764256993710</millis>
+  <nanos>214700</nanos>
   <sequence>408</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2777,9 +2777,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="proxyInformation">ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }</property>
 </record>
 <record>
-  <date>2025-11-27T13:52:06.559412700Z</date>
-  <millis>1764251526559</millis>
-  <nanos>412700</nanos>
+  <date>2025-11-27T15:23:13.726207900Z</date>
+  <millis>1764256993726</millis>
+  <nanos>207900</nanos>
   <sequence>409</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2792,9 +2792,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2025-11-27T13:52:06.560412400Z</date>
-  <millis>1764251526560</millis>
-  <nanos>412400</nanos>
+  <date>2025-11-27T15:23:13.727210500Z</date>
+  <millis>1764256993727</millis>
+  <nanos>210500</nanos>
   <sequence>410</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2805,9 +2805,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:52:06.561136800Z</date>
-  <millis>1764251526561</millis>
-  <nanos>136800</nanos>
+  <date>2025-11-27T15:23:13.727210500Z</date>
+  <millis>1764256993727</millis>
+  <nanos>210500</nanos>
   <sequence>411</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2820,9 +2820,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">2</property>
 </record>
 <record>
-  <date>2025-11-27T13:52:12.842332Z</date>
-  <millis>1764251532842</millis>
-  <nanos>332000</nanos>
+  <date>2025-11-27T15:23:23.153161300Z</date>
+  <millis>1764257003153</millis>
+  <nanos>161300</nanos>
   <sequence>415</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2835,9 +2835,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2025-11-27T13:52:12.843314Z</date>
-  <millis>1764251532843</millis>
-  <nanos>314000</nanos>
+  <date>2025-11-27T15:23:23.154151Z</date>
+  <millis>1764257003154</millis>
+  <nanos>151000</nanos>
   <sequence>416</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2848,9 +2848,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:52:12.843314Z</date>
-  <millis>1764251532843</millis>
-  <nanos>314000</nanos>
+  <date>2025-11-27T15:23:23.154151Z</date>
+  <millis>1764257003154</millis>
+  <nanos>151000</nanos>
   <sequence>417</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2863,9 +2863,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">3</property>
 </record>
 <record>
-  <date>2025-11-27T13:52:12.879341700Z</date>
-  <millis>1764251532879</millis>
-  <nanos>341700</nanos>
+  <date>2025-11-27T15:23:23.205226300Z</date>
+  <millis>1764257003205</millis>
+  <nanos>226300</nanos>
   <sequence>420</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2878,9 +2878,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2025-11-27T13:52:12.879341700Z</date>
-  <millis>1764251532879</millis>
-  <nanos>341700</nanos>
+  <date>2025-11-27T15:23:23.206228800Z</date>
+  <millis>1764257003206</millis>
+  <nanos>228800</nanos>
   <sequence>421</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2891,9 +2891,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:52:12.879341700Z</date>
-  <millis>1764251532879</millis>
-  <nanos>341700</nanos>
+  <date>2025-11-27T15:23:23.206228800Z</date>
+  <millis>1764257003206</millis>
+  <nanos>228800</nanos>
   <sequence>422</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2906,9 +2906,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">4</property>
 </record>
 <record>
-  <date>2025-11-27T13:52:14.886172800Z</date>
-  <millis>1764251534886</millis>
-  <nanos>172800</nanos>
+  <date>2025-11-27T15:23:25.210185900Z</date>
+  <millis>1764257005210</millis>
+  <nanos>185900</nanos>
   <sequence>425</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2921,9 +2921,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2025-11-27T13:52:14.887165600Z</date>
-  <millis>1764251534887</millis>
-  <nanos>165600</nanos>
+  <date>2025-11-27T15:23:25.212188600Z</date>
+  <millis>1764257005212</millis>
+  <nanos>188600</nanos>
   <sequence>426</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2934,9 +2934,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:52:14.887165600Z</date>
-  <millis>1764251534887</millis>
-  <nanos>165600</nanos>
+  <date>2025-11-27T15:23:25.212188600Z</date>
+  <millis>1764257005212</millis>
+  <nanos>188600</nanos>
   <sequence>427</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2949,9 +2949,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">5</property>
 </record>
 <record>
-  <date>2025-11-27T13:52:15.143850300Z</date>
-  <millis>1764251535143</millis>
-  <nanos>850300</nanos>
+  <date>2025-11-27T15:23:25.476513400Z</date>
+  <millis>1764257005476</millis>
+  <nanos>513400</nanos>
   <sequence>433</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2965,9 +2965,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2025-11-27T13:52:15.143850300Z</date>
-  <millis>1764251535143</millis>
-  <nanos>850300</nanos>
+  <date>2025-11-27T15:23:25.477512700Z</date>
+  <millis>1764257005477</millis>
+  <nanos>512700</nanos>
   <sequence>434</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2978,9 +2978,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:52:15.144826700Z</date>
-  <millis>1764251535144</millis>
-  <nanos>826700</nanos>
+  <date>2025-11-27T15:23:25.477512700Z</date>
+  <millis>1764257005477</millis>
+  <nanos>512700</nanos>
   <sequence>435</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -2993,9 +2993,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">6</property>
 </record>
 <record>
-  <date>2025-11-27T13:52:15.409971600Z</date>
-  <millis>1764251535409</millis>
-  <nanos>971600</nanos>
+  <date>2025-11-27T15:23:25.744092800Z</date>
+  <millis>1764257005744</millis>
+  <nanos>92800</nanos>
   <sequence>444</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3026,9 +3026,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
 </property>
 </record>
 <record>
-  <date>2025-11-27T13:52:15.409971600Z</date>
-  <millis>1764251535409</millis>
-  <nanos>971600</nanos>
+  <date>2025-11-27T15:23:25.744092800Z</date>
+  <millis>1764257005744</millis>
+  <nanos>92800</nanos>
   <sequence>445</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3039,9 +3039,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:52:15.410962300Z</date>
-  <millis>1764251535410</millis>
-  <nanos>962300</nanos>
+  <date>2025-11-27T15:23:25.745094700Z</date>
+  <millis>1764257005745</millis>
+  <nanos>94700</nanos>
   <sequence>446</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3054,9 +3054,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">7</property>
 </record>
 <record>
-  <date>2025-11-27T13:52:17.425487500Z</date>
-  <millis>1764251537425</millis>
-  <nanos>487500</nanos>
+  <date>2025-11-27T15:23:27.770071300Z</date>
+  <millis>1764257007770</millis>
+  <nanos>71300</nanos>
   <sequence>449</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3069,9 +3069,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2025-11-27T13:52:17.426476100Z</date>
-  <millis>1764251537426</millis>
-  <nanos>476100</nanos>
+  <date>2025-11-27T15:23:27.771070900Z</date>
+  <millis>1764257007771</millis>
+  <nanos>70900</nanos>
   <sequence>450</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3082,9 +3082,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:52:17.426476100Z</date>
-  <millis>1764251537426</millis>
-  <nanos>476100</nanos>
+  <date>2025-11-27T15:23:27.771070900Z</date>
+  <millis>1764257007771</millis>
+  <nanos>70900</nanos>
   <sequence>451</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3097,9 +3097,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">8</property>
 </record>
 <record>
-  <date>2025-11-27T13:52:18.097001400Z</date>
-  <millis>1764251538097</millis>
-  <nanos>1400</nanos>
+  <date>2025-11-27T15:23:28.571727500Z</date>
+  <millis>1764257008571</millis>
+  <nanos>727500</nanos>
   <sequence>465</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3130,9 +3130,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
 </property>
 </record>
 <record>
-  <date>2025-11-27T13:52:18.098015500Z</date>
-  <millis>1764251538098</millis>
-  <nanos>15500</nanos>
+  <date>2025-11-27T15:23:28.572731400Z</date>
+  <millis>1764257008572</millis>
+  <nanos>731400</nanos>
   <sequence>466</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3143,9 +3143,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:52:18.098015500Z</date>
-  <millis>1764251538098</millis>
-  <nanos>15500</nanos>
+  <date>2025-11-27T15:23:28.572731400Z</date>
+  <millis>1764257008572</millis>
+  <nanos>731400</nanos>
   <sequence>467</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3158,9 +3158,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">9</property>
 </record>
 <record>
-  <date>2025-11-27T13:52:20.108657900Z</date>
-  <millis>1764251540108</millis>
-  <nanos>657900</nanos>
+  <date>2025-11-27T15:23:30.582681400Z</date>
+  <millis>1764257010582</millis>
+  <nanos>681400</nanos>
   <sequence>470</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3173,9 +3173,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2025-11-27T13:52:20.108657900Z</date>
-  <millis>1764251540108</millis>
-  <nanos>657900</nanos>
+  <date>2025-11-27T15:23:30.584669600Z</date>
+  <millis>1764257010584</millis>
+  <nanos>669600</nanos>
   <sequence>471</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3186,9 +3186,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:52:20.109656Z</date>
-  <millis>1764251540109</millis>
-  <nanos>656000</nanos>
+  <date>2025-11-27T15:23:30.584669600Z</date>
+  <millis>1764257010584</millis>
+  <nanos>669600</nanos>
   <sequence>472</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3201,9 +3201,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">10</property>
 </record>
 <record>
-  <date>2025-11-27T13:52:20.114650800Z</date>
-  <millis>1764251540114</millis>
-  <nanos>650800</nanos>
+  <date>2025-11-27T15:23:30.590676900Z</date>
+  <millis>1764257010590</millis>
+  <nanos>676900</nanos>
   <sequence>477</sequence>
   <level>WARNING</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3214,9 +3214,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:52:20.353685100Z</date>
-  <millis>1764251540353</millis>
-  <nanos>685100</nanos>
+  <date>2025-11-27T15:23:30.851340400Z</date>
+  <millis>1764257010851</millis>
+  <nanos>340400</nanos>
   <sequence>480</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3230,9 +3230,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2025-11-27T13:52:20.354687600Z</date>
-  <millis>1764251540354</millis>
-  <nanos>687600</nanos>
+  <date>2025-11-27T15:23:30.852340400Z</date>
+  <millis>1764257010852</millis>
+  <nanos>340400</nanos>
   <sequence>481</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3243,9 +3243,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:52:20.354687600Z</date>
-  <millis>1764251540354</millis>
-  <nanos>687600</nanos>
+  <date>2025-11-27T15:23:30.853336400Z</date>
+  <millis>1764257010853</millis>
+  <nanos>336400</nanos>
   <sequence>482</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3258,9 +3258,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">11</property>
 </record>
 <record>
-  <date>2025-11-27T13:52:22.368303Z</date>
-  <millis>1764251542368</millis>
-  <nanos>303000</nanos>
+  <date>2025-11-27T15:23:32.871958300Z</date>
+  <millis>1764257012871</millis>
+  <nanos>958300</nanos>
   <sequence>485</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3273,9 +3273,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2025-11-27T13:52:22.369320600Z</date>
-  <millis>1764251542369</millis>
-  <nanos>320600</nanos>
+  <date>2025-11-27T15:23:32.872960700Z</date>
+  <millis>1764257012872</millis>
+  <nanos>960700</nanos>
   <sequence>486</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3286,9 +3286,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:52:22.369320600Z</date>
-  <millis>1764251542369</millis>
-  <nanos>320600</nanos>
+  <date>2025-11-27T15:23:32.873970300Z</date>
+  <millis>1764257012873</millis>
+  <nanos>970300</nanos>
   <sequence>487</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3301,9 +3301,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">12</property>
 </record>
 <record>
-  <date>2025-11-27T13:52:22.625773800Z</date>
-  <millis>1764251542625</millis>
-  <nanos>773800</nanos>
+  <date>2025-11-27T15:23:33.157677900Z</date>
+  <millis>1764257013157</millis>
+  <nanos>677900</nanos>
   <sequence>497</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3316,9 +3316,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2025-11-27T13:52:22.626776400Z</date>
-  <millis>1764251542626</millis>
-  <nanos>776400</nanos>
+  <date>2025-11-27T15:23:33.157677900Z</date>
+  <millis>1764257013157</millis>
+  <nanos>677900</nanos>
   <sequence>498</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3329,9 +3329,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:52:22.626776400Z</date>
-  <millis>1764251542626</millis>
-  <nanos>776400</nanos>
+  <date>2025-11-27T15:23:33.158682200Z</date>
+  <millis>1764257013158</millis>
+  <nanos>682200</nanos>
   <sequence>499</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3344,9 +3344,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">13</property>
 </record>
 <record>
-  <date>2025-11-27T13:52:24.633601900Z</date>
-  <millis>1764251544633</millis>
-  <nanos>601900</nanos>
+  <date>2025-11-27T15:23:35.171629500Z</date>
+  <millis>1764257015171</millis>
+  <nanos>629500</nanos>
   <sequence>502</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3359,9 +3359,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2025-11-27T13:52:24.634598400Z</date>
-  <millis>1764251544634</millis>
-  <nanos>598400</nanos>
+  <date>2025-11-27T15:23:35.173619700Z</date>
+  <millis>1764257015173</millis>
+  <nanos>619700</nanos>
   <sequence>503</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3372,9 +3372,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:52:24.634598400Z</date>
-  <millis>1764251544634</millis>
-  <nanos>598400</nanos>
+  <date>2025-11-27T15:23:35.173619700Z</date>
+  <millis>1764257015173</millis>
+  <nanos>619700</nanos>
   <sequence>504</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3387,9 +3387,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">14</property>
 </record>
 <record>
-  <date>2025-11-27T13:52:24.906563300Z</date>
-  <millis>1764251544906</millis>
-  <nanos>563300</nanos>
+  <date>2025-11-27T15:23:35.527854100Z</date>
+  <millis>1764257015527</millis>
+  <nanos>854100</nanos>
   <sequence>513</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3420,9 +3420,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
 </property>
 </record>
 <record>
-  <date>2025-11-27T13:52:24.907559700Z</date>
-  <millis>1764251544907</millis>
-  <nanos>559700</nanos>
+  <date>2025-11-27T15:23:35.531870200Z</date>
+  <millis>1764257015531</millis>
+  <nanos>870200</nanos>
   <sequence>514</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3433,9 +3433,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:52:24.907559700Z</date>
-  <millis>1764251544907</millis>
-  <nanos>559700</nanos>
+  <date>2025-11-27T15:23:35.532853600Z</date>
+  <millis>1764257015532</millis>
+  <nanos>853600</nanos>
   <sequence>515</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3448,9 +3448,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">15</property>
 </record>
 <record>
-  <date>2025-11-27T13:52:26.910258200Z</date>
-  <millis>1764251546910</millis>
-  <nanos>258200</nanos>
+  <date>2025-11-27T15:23:37.540739Z</date>
+  <millis>1764257017540</millis>
+  <nanos>739000</nanos>
   <sequence>518</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3463,9 +3463,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2025-11-27T13:52:26.911310Z</date>
-  <millis>1764251546911</millis>
-  <nanos>310000</nanos>
+  <date>2025-11-27T15:23:37.542736100Z</date>
+  <millis>1764257017542</millis>
+  <nanos>736100</nanos>
   <sequence>519</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3476,9 +3476,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:52:26.912277900Z</date>
-  <millis>1764251546912</millis>
-  <nanos>277900</nanos>
+  <date>2025-11-27T15:23:37.542736100Z</date>
+  <millis>1764257017542</millis>
+  <nanos>736100</nanos>
   <sequence>520</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3491,9 +3491,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">16</property>
 </record>
 <record>
-  <date>2025-11-27T13:52:27.261479100Z</date>
-  <millis>1764251547261</millis>
-  <nanos>479100</nanos>
+  <date>2025-11-27T15:23:38.020054600Z</date>
+  <millis>1764257018020</millis>
+  <nanos>54600</nanos>
   <sequence>531</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3524,9 +3524,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
 </property>
 </record>
 <record>
-  <date>2025-11-27T13:52:27.262469900Z</date>
-  <millis>1764251547262</millis>
-  <nanos>469900</nanos>
+  <date>2025-11-27T15:23:38.020054600Z</date>
+  <millis>1764257018020</millis>
+  <nanos>54600</nanos>
   <sequence>532</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3537,9 +3537,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:52:27.262469900Z</date>
-  <millis>1764251547262</millis>
-  <nanos>469900</nanos>
+  <date>2025-11-27T15:23:38.020054600Z</date>
+  <millis>1764257018020</millis>
+  <nanos>54600</nanos>
   <sequence>533</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3552,9 +3552,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">17</property>
 </record>
 <record>
-  <date>2025-11-27T13:52:29.269785900Z</date>
-  <millis>1764251549269</millis>
-  <nanos>785900</nanos>
+  <date>2025-11-27T15:23:40.027106800Z</date>
+  <millis>1764257020027</millis>
+  <nanos>106800</nanos>
   <sequence>536</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3567,9 +3567,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2025-11-27T13:52:29.270797400Z</date>
-  <millis>1764251549270</millis>
-  <nanos>797400</nanos>
+  <date>2025-11-27T15:23:40.028108300Z</date>
+  <millis>1764257020028</millis>
+  <nanos>108300</nanos>
   <sequence>537</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3580,9 +3580,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:52:29.270797400Z</date>
-  <millis>1764251549270</millis>
-  <nanos>797400</nanos>
+  <date>2025-11-27T15:23:40.029102600Z</date>
+  <millis>1764257020029</millis>
+  <nanos>102600</nanos>
   <sequence>538</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3595,9 +3595,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">18</property>
 </record>
 <record>
-  <date>2025-11-27T13:52:29.275781600Z</date>
-  <millis>1764251549275</millis>
-  <nanos>781600</nanos>
+  <date>2025-11-27T15:23:40.042104500Z</date>
+  <millis>1764257020042</millis>
+  <nanos>104500</nanos>
   <sequence>544</sequence>
   <level>WARNING</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3608,9 +3608,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:52:29.516085100Z</date>
-  <millis>1764251549516</millis>
-  <nanos>85100</nanos>
+  <date>2025-11-27T15:23:40.309993200Z</date>
+  <millis>1764257020309</millis>
+  <nanos>993200</nanos>
   <sequence>550</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3623,9 +3623,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2025-11-27T13:52:29.517073400Z</date>
-  <millis>1764251549517</millis>
-  <nanos>73400</nanos>
+  <date>2025-11-27T15:23:40.310989800Z</date>
+  <millis>1764257020310</millis>
+  <nanos>989800</nanos>
   <sequence>551</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3636,9 +3636,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:52:29.517073400Z</date>
-  <millis>1764251549517</millis>
-  <nanos>73400</nanos>
+  <date>2025-11-27T15:23:40.315988500Z</date>
+  <millis>1764257020315</millis>
+  <nanos>988500</nanos>
   <sequence>552</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3651,9 +3651,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">19</property>
 </record>
 <record>
-  <date>2025-11-27T13:52:31.529140700Z</date>
-  <millis>1764251551529</millis>
-  <nanos>140700</nanos>
+  <date>2025-11-27T15:23:42.320868200Z</date>
+  <millis>1764257022320</millis>
+  <nanos>868200</nanos>
   <sequence>555</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3666,9 +3666,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2025-11-27T13:52:31.531112200Z</date>
-  <millis>1764251551531</millis>
-  <nanos>112200</nanos>
+  <date>2025-11-27T15:23:42.323865700Z</date>
+  <millis>1764257022323</millis>
+  <nanos>865700</nanos>
   <sequence>556</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3679,9 +3679,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:52:31.531112200Z</date>
-  <millis>1764251551531</millis>
-  <nanos>112200</nanos>
+  <date>2025-11-27T15:23:42.324865100Z</date>
+  <millis>1764257022324</millis>
+  <nanos>865100</nanos>
   <sequence>557</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3694,9 +3694,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">20</property>
 </record>
 <record>
-  <date>2025-11-27T13:52:31.776229900Z</date>
-  <millis>1764251551776</millis>
-  <nanos>229900</nanos>
+  <date>2025-11-27T15:23:42.612499900Z</date>
+  <millis>1764257022612</millis>
+  <nanos>499900</nanos>
   <sequence>563</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3710,9 +3710,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2025-11-27T13:52:31.777226700Z</date>
-  <millis>1764251551777</millis>
-  <nanos>226700</nanos>
+  <date>2025-11-27T15:23:42.617490700Z</date>
+  <millis>1764257022617</millis>
+  <nanos>490700</nanos>
   <sequence>564</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3723,9 +3723,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:52:31.777226700Z</date>
-  <millis>1764251551777</millis>
-  <nanos>226700</nanos>
+  <date>2025-11-27T15:23:42.617490700Z</date>
+  <millis>1764257022617</millis>
+  <nanos>490700</nanos>
   <sequence>565</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3738,9 +3738,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">21</property>
 </record>
 <record>
-  <date>2025-11-27T13:52:32.105248Z</date>
-  <millis>1764251552105</millis>
-  <nanos>248000</nanos>
+  <date>2025-11-27T15:23:43.191358200Z</date>
+  <millis>1764257023191</millis>
+  <nanos>358200</nanos>
   <sequence>576</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3771,9 +3771,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
 </property>
 </record>
 <record>
-  <date>2025-11-27T13:52:32.105248Z</date>
-  <millis>1764251552105</millis>
-  <nanos>248000</nanos>
+  <date>2025-11-27T15:23:43.192356800Z</date>
+  <millis>1764257023192</millis>
+  <nanos>356800</nanos>
   <sequence>577</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3784,9 +3784,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:52:32.106251800Z</date>
-  <millis>1764251552106</millis>
-  <nanos>251800</nanos>
+  <date>2025-11-27T15:23:43.193371200Z</date>
+  <millis>1764257023193</millis>
+  <nanos>371200</nanos>
   <sequence>578</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3799,9 +3799,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="stepIndex">22</property>
 </record>
 <record>
-  <date>2025-11-27T13:52:32.355329500Z</date>
-  <millis>1764251552355</millis>
-  <nanos>329500</nanos>
+  <date>2025-11-27T15:23:43.457632400Z</date>
+  <millis>1764257023457</millis>
+  <nanos>632400</nanos>
   <sequence>584</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3815,9 +3815,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2025-11-27T13:52:32.356307600Z</date>
-  <millis>1764251552356</millis>
-  <nanos>307600</nanos>
+  <date>2025-11-27T15:23:43.457632400Z</date>
+  <millis>1764257023457</millis>
+  <nanos>632400</nanos>
   <sequence>585</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3828,9 +3828,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:52:32.356307600Z</date>
-  <millis>1764251552356</millis>
-  <nanos>307600</nanos>
+  <date>2025-11-27T15:23:43.457632400Z</date>
+  <millis>1764257023457</millis>
+  <nanos>632400</nanos>
   <sequence>586</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3841,9 +3841,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2025-11-27T13:52:32.357315Z</date>
-  <millis>1764251552357</millis>
-  <nanos>315000</nanos>
+  <date>2025-11-27T15:23:43.458624400Z</date>
+  <millis>1764257023458</millis>
+  <nanos>624400</nanos>
   <sequence>587</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3883,9 +3883,9 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
 }</property>
 </record>
 <record>
-  <date>2025-11-27T13:52:33.663877800Z</date>
-  <millis>1764251553663</millis>
-  <nanos>877800</nanos>
+  <date>2025-11-27T15:23:44.306406900Z</date>
+  <millis>1764257024306</millis>
+  <nanos>406900</nanos>
   <sequence>588</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -3895,8 +3895,4 @@ Case01-6-N6 Alert Notification For Min Length On Mobile Number Field.run(Case01-
   <nestedLevel>0</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
-</log>
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE log SYSTEM "logger.dtd">
-<log>
 </log>

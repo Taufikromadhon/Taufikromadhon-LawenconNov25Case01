@@ -1,0 +1,350 @@
+2025-11-27 22:30:10.968 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\USER\.katalon\packages\KSE-10.4.2\configuration\org.eclipse.osgi\132\0\.cp\resources\logback\logback-execution.xml
+2025-11-27 22:30:10.973 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: T:\Lawencon\Interview\Fix\case01\AutomationPracticeForm\AutomationPracticeForm\Include\config\log.properties
+2025-11-27 22:30:11.572 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TSPracticeFormPositive
+2025-11-27 22:30:11.854 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Taufik Romadhon
+2025-11-27 22:30:11.855 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = AutomationPracticeForm
+2025-11-27 22:30:11.856 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = USER - LAPTOP-KNF1HLK6
+2025-11-27 22:30:11.857 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-11-27 22:30:11.858 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 10.156.170.155
+2025-11-27 22:30:11.859 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.2.0
+2025-11-27 22:30:12.837 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-27 22:30:12.837 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Positive/Case01-8-P1 Success Submit Practice Form
+2025-11-27 22:30:13.017 INFO  c.k.katalon.core.main.TestCaseExecutor   - Firstname = Awal
+2025-11-27 22:30:13.019 INFO  c.k.katalon.core.main.TestCaseExecutor   - Lastname = Akhir
+2025-11-27 22:30:13.020 INFO  c.k.katalon.core.main.TestCaseExecutor   - EmailAddress = email@email.com
+2025-11-27 22:30:13.021 INFO  c.k.katalon.core.main.TestCaseExecutor   - MobileNumber = 0858567891
+2025-11-27 22:30:13.022 INFO  c.k.katalon.core.main.TestCaseExecutor   - DateOfBirth = 17 Aug 1945
+2025-11-27 22:30:13.022 INFO  c.k.katalon.core.main.TestCaseExecutor   - FilePathInputBrowse = /Data Files/Images/person-dummy.jpg
+2025-11-27 22:30:13.023 INFO  c.k.katalon.core.main.TestCaseExecutor   - Subjects = Math
+2025-11-27 22:30:13.024 INFO  c.k.katalon.core.main.TestCaseExecutor   - CurrentAddress = Sample Address A
+2025-11-27 22:30:13.025 INFO  c.k.katalon.core.main.TestCaseExecutor   - State = NCR
+2025-11-27 22:30:13.026 INFO  c.k.katalon.core.main.TestCaseExecutor   - City = Delhi
+2025-11-27 22:30:13.893 DEBUG Case01-8-P1 Success Submit Practice Form - 1: openBrowser("")
+2025-11-27 22:30:14.288 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+2025-11-27 22:30:14.387 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Nov 27, 2025 10:30:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-11-27 22:30:16.954 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = f2619d3cc61dd1903cda600d6aa1439e
+2025-11-27 22:30:16.956 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 142.0.7444.176
+2025-11-27 22:30:16.956 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-11-27 22:30:16.957 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-11-27 22:30:16.970 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-11-27 22:30:17.040 DEBUG Case01-8-P1 Success Submit Practice Form - 2: navigateToUrl("https://demoqa.com/automation-practice-form")
+2025-11-27 22:30:26.538 DEBUG Case01-8-P1 Success Submit Practice Form - 3: delay(2)
+2025-11-27 22:30:28.571 DEBUG Case01-8-P1 Success Submit Practice Form - 4: maximizeWindow()
+2025-11-27 22:30:28.643 DEBUG Case01-8-P1 Success Submit Practice Form - 5: verifyElementPresent(findTestObject("Page_DEMOQA/input_Name_firstName"), 8)
+2025-11-27 22:30:29.071 DEBUG Case01-8-P1 Success Submit Practice Form - 6: verifyElementVisible(findTestObject("Page_DEMOQA/input_Name_firstName"), STOP_ON_FAILURE)
+2025-11-27 22:30:29.391 DEBUG Case01-8-P1 Success Submit Practice Form - 7: setText(findTestObject("Page_DEMOQA/input_Name_firstName"), Firstname)
+2025-11-27 22:30:30.206 DEBUG Case01-8-P1 Success Submit Practice Form - 8: verifyElementPresent(findTestObject("Page_DEMOQA/input_Name_lastName"), 8)
+2025-11-27 22:30:30.458 DEBUG Case01-8-P1 Success Submit Practice Form - 9: verifyElementVisible(findTestObject("Page_DEMOQA/input_Name_lastName"), STOP_ON_FAILURE)
+2025-11-27 22:30:30.726 DEBUG Case01-8-P1 Success Submit Practice Form - 10: setText(findTestObject("Page_DEMOQA/input_Name_lastName"), Lastname)
+2025-11-27 22:30:31.492 DEBUG Case01-8-P1 Success Submit Practice Form - 11: verifyElementPresent(findTestObject("Page_DEMOQA/input_Email_userEmail"), 8)
+2025-11-27 22:30:31.742 DEBUG Case01-8-P1 Success Submit Practice Form - 12: scrollToElement(findTestObject("Page_DEMOQA/input_Email_userEmail"), 8)
+2025-11-27 22:30:32.020 DEBUG Case01-8-P1 Success Submit Practice Form - 13: delay(2)
+2025-11-27 22:30:34.034 DEBUG Case01-8-P1 Success Submit Practice Form - 14: verifyElementVisible(findTestObject("Page_DEMOQA/input_Email_userEmail"), STOP_ON_FAILURE)
+2025-11-27 22:30:34.303 DEBUG Case01-8-P1 Success Submit Practice Form - 15: setText(findTestObject("Page_DEMOQA/input_Email_userEmail"), EmailAddress)
+2025-11-27 22:30:35.005 DEBUG Case01-8-P1 Success Submit Practice Form - 16: verifyElementPresent(findTestObject("Page_DEMOQA/input_Gender_Male"), 8)
+2025-11-27 22:30:35.268 DEBUG Case01-8-P1 Success Submit Practice Form - 17: verifyElementPresent(findTestObject("Page_DEMOQA/input_Gender_Female"), 8)
+2025-11-27 22:30:35.512 DEBUG Case01-8-P1 Success Submit Practice Form - 18: verifyElementPresent(findTestObject("Page_DEMOQA/input_Gender_Other"), 8)
+2025-11-27 22:30:35.769 DEBUG Case01-8-P1 Success Submit Practice Form - 19: scrollToElement(findTestObject("Page_DEMOQA/input_Gender_Male"), 100)
+2025-11-27 22:30:36.020 DEBUG Case01-8-P1 Success Submit Practice Form - 20: delay(2)
+2025-11-27 22:30:38.034 DEBUG Case01-8-P1 Success Submit Practice Form - 21: verifyElementClickable(findTestObject("Page_DEMOQA/input_Gender_Male"), STOP_ON_FAILURE)
+2025-11-27 22:30:38.037 WARN  Case01-8-P1 Success Submit Practice Form - SKIPPED NOT_RUN: verifyElementClickable(findTestObject("Page_DEMOQA/input_Gender_Male"), STOP_ON_FAILURE)
+2025-11-27 22:30:38.038 DEBUG Case01-8-P1 Success Submit Practice Form - 22: enhancedClick(findTestObject("Page_DEMOQA/input_Gender_Male"))
+2025-11-27 22:30:50.016 DEBUG Case01-8-P1 Success Submit Practice Form - 23: verifyElementPresent(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8)
+2025-11-27 22:30:50.291 DEBUG Case01-8-P1 Success Submit Practice Form - 24: scrollToElement(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8)
+2025-11-27 22:30:50.559 DEBUG Case01-8-P1 Success Submit Practice Form - 25: delay(2)
+2025-11-27 22:30:52.570 DEBUG Case01-8-P1 Success Submit Practice Form - 26: verifyElementVisible(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), STOP_ON_FAILURE)
+2025-11-27 22:30:52.840 DEBUG Case01-8-P1 Success Submit Practice Form - 27: setText(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), MobileNumber)
+2025-11-27 22:30:53.525 DEBUG Case01-8-P1 Success Submit Practice Form - 28: verifyElementPresent(findTestObject("Page_DEMOQA/input_DateOfBirth"), 8)
+2025-11-27 22:30:53.783 DEBUG Case01-8-P1 Success Submit Practice Form - 29: verifyElementVisible(findTestObject("Page_DEMOQA/input_DateOfBirth"), STOP_ON_FAILURE)
+2025-11-27 22:30:54.034 DEBUG Case01-8-P1 Success Submit Practice Form - 30: sendKeys(findTestObject("Page_DEMOQA/input_DateOfBirth"), Keys.chord(ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT))
+2025-11-27 22:30:54.479 DEBUG Case01-8-P1 Success Submit Practice Form - 31: delay(2)
+2025-11-27 22:30:56.490 DEBUG Case01-8-P1 Success Submit Practice Form - 32: sendKeys(findTestObject("Page_DEMOQA/input_DateOfBirth"), Keys.chord(DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE))
+2025-11-27 22:30:56.906 DEBUG Case01-8-P1 Success Submit Practice Form - 33: setText(findTestObject("Page_DEMOQA/input_DateOfBirth"), DateOfBirth)
+2025-11-27 22:30:57.865 DEBUG Case01-8-P1 Success Submit Practice Form - 34: sendKeys(findTestObject("Page_DEMOQA/input_DateOfBirth"), Keys.chord(ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT))
+2025-11-27 22:30:58.317 DEBUG Case01-8-P1 Success Submit Practice Form - 35: delay(2)
+2025-11-27 22:31:00.336 DEBUG Case01-8-P1 Success Submit Practice Form - 36: sendKeys(findTestObject("Page_DEMOQA/input_DateOfBirth"), Keys.chord(BACK_SPACE, ENTER))
+2025-11-27 22:31:00.657 DEBUG Case01-8-P1 Success Submit Practice Form - 37: delay(2)
+2025-11-27 22:31:02.669 DEBUG Case01-8-P1 Success Submit Practice Form - 38: verifyElementPresent(findTestObject("Page_DEMOQA/input_SubjectsInput"), 8)
+2025-11-27 22:31:02.927 DEBUG Case01-8-P1 Success Submit Practice Form - 39: scrollToElement(findTestObject("Page_DEMOQA/input_SubjectsInput"), 8)
+2025-11-27 22:31:03.189 DEBUG Case01-8-P1 Success Submit Practice Form - 40: delay(2)
+2025-11-27 22:31:05.203 DEBUG Case01-8-P1 Success Submit Practice Form - 41: verifyElementVisible(findTestObject("Page_DEMOQA/input_SubjectsInput"), STOP_ON_FAILURE)
+2025-11-27 22:31:05.474 DEBUG Case01-8-P1 Success Submit Practice Form - 42: setText(findTestObject("Page_DEMOQA/input_SubjectsInput"), Subjects)
+2025-11-27 22:31:06.237 DEBUG Case01-8-P1 Success Submit Practice Form - 43: sendKeys(findTestObject("Page_DEMOQA/input_SubjectsInput"), Keys.chord(ENTER))
+2025-11-27 22:31:06.788 DEBUG Case01-8-P1 Success Submit Practice Form - 44: verifyElementPresent(findTestObject("Page_DEMOQA/input_Hobbies_Sports"), 8)
+2025-11-27 22:31:07.268 DEBUG Case01-8-P1 Success Submit Practice Form - 45: verifyElementPresent(findTestObject("Page_DEMOQA/input_Hobbies_Reading"), 8)
+2025-11-27 22:31:07.525 DEBUG Case01-8-P1 Success Submit Practice Form - 46: verifyElementPresent(findTestObject("Page_DEMOQA/input_Hobbies_Music"), 8)
+2025-11-27 22:31:07.800 DEBUG Case01-8-P1 Success Submit Practice Form - 47: scrollToElement(findTestObject("Page_DEMOQA/input_Hobbies_Sports"), 8)
+2025-11-27 22:31:08.072 DEBUG Case01-8-P1 Success Submit Practice Form - 48: delay(2)
+2025-11-27 22:31:10.093 DEBUG Case01-8-P1 Success Submit Practice Form - 49: enhancedClick(findTestObject("Page_DEMOQA/input_Hobbies_Sports"))
+2025-11-27 22:31:22.006 DEBUG Case01-8-P1 Success Submit Practice Form - 50: verifyElementPresent(findTestObject("Page_DEMOQA/input_Browse"), 8)
+2025-11-27 22:31:22.267 DEBUG Case01-8-P1 Success Submit Practice Form - 51: verifyElementPresent(findTestObject("Page_DEMOQA/input_Browse"), 8)
+2025-11-27 22:31:22.508 DEBUG Case01-8-P1 Success Submit Practice Form - 52: uploadFile(findTestObject("Page_DEMOQA/input_Browse"), getProjectDir() + FilePathInputBrowse)
+2025-11-27 22:31:22.796 DEBUG Case01-8-P1 Success Submit Practice Form - 53: delay(2)
+2025-11-27 22:31:24.805 DEBUG Case01-8-P1 Success Submit Practice Form - 54: switchToDefaultContent(STOP_ON_FAILURE)
+2025-11-27 22:31:24.855 DEBUG Case01-8-P1 Success Submit Practice Form - 55: delay(2)
+2025-11-27 22:31:26.871 DEBUG Case01-8-P1 Success Submit Practice Form - 56: verifyElementPresent(findTestObject("Page_DEMOQA/textarea_CurrentAddress"), 8)
+2025-11-27 22:31:27.133 DEBUG Case01-8-P1 Success Submit Practice Form - 57: scrollToElement(findTestObject("Page_DEMOQA/textarea_CurrentAddress"), 8)
+2025-11-27 22:31:27.404 DEBUG Case01-8-P1 Success Submit Practice Form - 58: verifyElementVisible(findTestObject("Page_DEMOQA/textarea_CurrentAddress"), STOP_ON_FAILURE)
+2025-11-27 22:31:27.655 DEBUG Case01-8-P1 Success Submit Practice Form - 59: setText(findTestObject("Page_DEMOQA/textarea_CurrentAddress"), CurrentAddress)
+2025-11-27 22:31:28.364 DEBUG Case01-8-P1 Success Submit Practice Form - 60: verifyElementPresent(findTestObject("Page_DEMOQA/input_Select_State_old"), 8)
+2025-11-27 22:31:28.614 DEBUG Case01-8-P1 Success Submit Practice Form - 61: scrollToElement(findTestObject("Page_DEMOQA/input_Select_State_old"), 8)
+2025-11-27 22:31:28.859 DEBUG Case01-8-P1 Success Submit Practice Form - 62: delay(2)
+2025-11-27 22:31:30.870 DEBUG Case01-8-P1 Success Submit Practice Form - 63: enhancedClick(findTestObject("Page_DEMOQA/input_Select_State_old"), STOP_ON_FAILURE)
+2025-11-27 22:31:33.490 DEBUG Case01-8-P1 Success Submit Practice Form - 64: setText(findTestObject("Page_DEMOQA/input_Select_State_old"), State)
+2025-11-27 22:31:43.521 WARN  c.k.k.c.w.k.builtin.SetTextKeyword       - Waiting for element timed out
+2025-11-27 22:31:43.804 WARN  c.k.k.c.w.k.builtin.SetTextKeyword       - Waiting for element timed out
+2025-11-27 22:31:43.871 DEBUG Case01-8-P1 Success Submit Practice Form - 65: sendKeys(findTestObject("Page_DEMOQA/input_Select_State_old"), Keys.chord(ENTER))
+2025-11-27 22:31:44.421 DEBUG Case01-8-P1 Success Submit Practice Form - 66: delay(2)
+2025-11-27 22:31:46.439 DEBUG Case01-8-P1 Success Submit Practice Form - 67: verifyElementPresent(findTestObject("Page_DEMOQA/input_Select_City"), 0)
+2025-11-27 22:31:46.449 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 22:31:46.699 DEBUG Case01-8-P1 Success Submit Practice Form - 68: enhancedClick(findTestObject("Page_DEMOQA/input_Select_City"), STOP_ON_FAILURE)
+2025-11-27 22:31:49.317 DEBUG Case01-8-P1 Success Submit Practice Form - 69: setText(findTestObject("Page_DEMOQA/input_Select_City"), City)
+2025-11-27 22:31:59.342 WARN  c.k.k.c.w.k.builtin.SetTextKeyword       - Waiting for element timed out
+2025-11-27 22:31:59.634 WARN  c.k.k.c.w.k.builtin.SetTextKeyword       - Waiting for element timed out
+2025-11-27 22:31:59.712 DEBUG Case01-8-P1 Success Submit Practice Form - 70: sendKeys(findTestObject("Page_DEMOQA/input_Select_City"), Keys.chord(ENTER))
+2025-11-27 22:32:00.247 DEBUG Case01-8-P1 Success Submit Practice Form - 71: delay(2)
+2025-11-27 22:32:02.257 DEBUG Case01-8-P1 Success Submit Practice Form - 72: verifyElementPresent(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), 0)
+2025-11-27 22:32:02.268 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 22:32:02.506 DEBUG Case01-8-P1 Success Submit Practice Form - 73: scrollToElement(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), 0)
+2025-11-27 22:32:02.515 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 22:32:02.763 DEBUG Case01-8-P1 Success Submit Practice Form - 74: delay(2)
+2025-11-27 22:32:04.774 DEBUG Case01-8-P1 Success Submit Practice Form - 75: verifyElementVisible(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), STOP_ON_FAILURE)
+2025-11-27 22:32:05.044 DEBUG Case01-8-P1 Success Submit Practice Form - 76: delay(2)
+2025-11-27 22:32:07.052 DEBUG Case01-8-P1 Success Submit Practice Form - 77: click(findTestObject("Object Repository/Page_DEMOQA/button_Submit"))
+2025-11-27 22:32:07.435 DEBUG Case01-8-P1 Success Submit Practice Form - 78: delay(2)
+2025-11-27 22:32:09.452 DEBUG Case01-8-P1 Success Submit Practice Form - 79: verifyElementVisible(findTestObject("Page_DEMOQA/div_Modal_Success"))
+2025-11-27 22:32:09.721 DEBUG Case01-8-P1 Success Submit Practice Form - 80: verifyElementPresent(findTestObject("Page_DEMOQA/button_Close"), 0)
+2025-11-27 22:32:09.730 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 22:32:09.974 DEBUG Case01-8-P1 Success Submit Practice Form - 81: verifyElementVisible(findTestObject("Page_DEMOQA/button_Close"))
+2025-11-27 22:32:10.234 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Positive/Case01-8-P1 Success Submit Practice Form
+2025-11-27 22:32:10.302 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-27 22:32:10.302 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Positive/Case01-8-P1 Success Submit Practice Form
+2025-11-27 22:32:10.333 INFO  c.k.katalon.core.main.TestCaseExecutor   - Firstname = Awaal
+2025-11-27 22:32:10.334 INFO  c.k.katalon.core.main.TestCaseExecutor   - Lastname = Akhiir
+2025-11-27 22:32:10.335 INFO  c.k.katalon.core.main.TestCaseExecutor   - EmailAddress = email@email.com
+2025-11-27 22:32:10.335 INFO  c.k.katalon.core.main.TestCaseExecutor   - MobileNumber = 0858567892
+2025-11-27 22:32:10.335 INFO  c.k.katalon.core.main.TestCaseExecutor   - DateOfBirth = 18 Jan 1945
+2025-11-27 22:32:10.335 INFO  c.k.katalon.core.main.TestCaseExecutor   - FilePathInputBrowse = /Data Files/Images/person-dummy.jpg
+2025-11-27 22:32:10.336 INFO  c.k.katalon.core.main.TestCaseExecutor   - Subjects = Math
+2025-11-27 22:32:10.336 INFO  c.k.katalon.core.main.TestCaseExecutor   - CurrentAddress = Sample Address B
+2025-11-27 22:32:10.337 INFO  c.k.katalon.core.main.TestCaseExecutor   - State = NCR
+2025-11-27 22:32:10.337 INFO  c.k.katalon.core.main.TestCaseExecutor   - City = Delhi
+2025-11-27 22:32:10.339 DEBUG Case01-8-P1 Success Submit Practice Form - 1: openBrowser("")
+2025-11-27 22:32:10.349 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-11-27 22:32:11.066 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+2025-11-27 22:32:11.068 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Nov 27, 2025 10:32:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-11-27 22:32:12.314 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 8650341c0ad368f71419e46e7bdb8f3f
+2025-11-27 22:32:12.314 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 142.0.7444.176
+2025-11-27 22:32:12.315 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-11-27 22:32:12.316 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-11-27 22:32:12.316 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-11-27 22:32:12.341 DEBUG Case01-8-P1 Success Submit Practice Form - 2: navigateToUrl("https://demoqa.com/automation-practice-form")
+2025-11-27 22:32:20.340 DEBUG Case01-8-P1 Success Submit Practice Form - 3: delay(2)
+2025-11-27 22:32:22.354 DEBUG Case01-8-P1 Success Submit Practice Form - 4: maximizeWindow()
+2025-11-27 22:32:22.406 DEBUG Case01-8-P1 Success Submit Practice Form - 5: verifyElementPresent(findTestObject("Page_DEMOQA/input_Name_firstName"), 8)
+2025-11-27 22:32:22.664 DEBUG Case01-8-P1 Success Submit Practice Form - 6: verifyElementVisible(findTestObject("Page_DEMOQA/input_Name_firstName"), STOP_ON_FAILURE)
+2025-11-27 22:32:22.947 DEBUG Case01-8-P1 Success Submit Practice Form - 7: setText(findTestObject("Page_DEMOQA/input_Name_firstName"), Firstname)
+2025-11-27 22:32:23.700 DEBUG Case01-8-P1 Success Submit Practice Form - 8: verifyElementPresent(findTestObject("Page_DEMOQA/input_Name_lastName"), 8)
+2025-11-27 22:32:23.968 DEBUG Case01-8-P1 Success Submit Practice Form - 9: verifyElementVisible(findTestObject("Page_DEMOQA/input_Name_lastName"), STOP_ON_FAILURE)
+2025-11-27 22:32:24.241 DEBUG Case01-8-P1 Success Submit Practice Form - 10: setText(findTestObject("Page_DEMOQA/input_Name_lastName"), Lastname)
+2025-11-27 22:32:25.238 DEBUG Case01-8-P1 Success Submit Practice Form - 11: verifyElementPresent(findTestObject("Page_DEMOQA/input_Email_userEmail"), 8)
+2025-11-27 22:32:25.502 DEBUG Case01-8-P1 Success Submit Practice Form - 12: scrollToElement(findTestObject("Page_DEMOQA/input_Email_userEmail"), 8)
+2025-11-27 22:32:25.777 DEBUG Case01-8-P1 Success Submit Practice Form - 13: delay(2)
+2025-11-27 22:32:27.782 DEBUG Case01-8-P1 Success Submit Practice Form - 14: verifyElementVisible(findTestObject("Page_DEMOQA/input_Email_userEmail"), STOP_ON_FAILURE)
+2025-11-27 22:32:28.046 DEBUG Case01-8-P1 Success Submit Practice Form - 15: setText(findTestObject("Page_DEMOQA/input_Email_userEmail"), EmailAddress)
+2025-11-27 22:32:28.722 DEBUG Case01-8-P1 Success Submit Practice Form - 16: verifyElementPresent(findTestObject("Page_DEMOQA/input_Gender_Male"), 8)
+2025-11-27 22:32:28.965 DEBUG Case01-8-P1 Success Submit Practice Form - 17: verifyElementPresent(findTestObject("Page_DEMOQA/input_Gender_Female"), 8)
+2025-11-27 22:32:29.211 DEBUG Case01-8-P1 Success Submit Practice Form - 18: verifyElementPresent(findTestObject("Page_DEMOQA/input_Gender_Other"), 8)
+2025-11-27 22:32:29.452 DEBUG Case01-8-P1 Success Submit Practice Form - 19: scrollToElement(findTestObject("Page_DEMOQA/input_Gender_Male"), 100)
+2025-11-27 22:32:29.717 DEBUG Case01-8-P1 Success Submit Practice Form - 20: delay(2)
+2025-11-27 22:32:31.721 DEBUG Case01-8-P1 Success Submit Practice Form - 21: verifyElementClickable(findTestObject("Page_DEMOQA/input_Gender_Male"), STOP_ON_FAILURE)
+2025-11-27 22:32:31.722 WARN  Case01-8-P1 Success Submit Practice Form - SKIPPED NOT_RUN: verifyElementClickable(findTestObject("Page_DEMOQA/input_Gender_Male"), STOP_ON_FAILURE)
+2025-11-27 22:32:31.722 DEBUG Case01-8-P1 Success Submit Practice Form - 22: enhancedClick(findTestObject("Page_DEMOQA/input_Gender_Male"))
+2025-11-27 22:32:43.592 DEBUG Case01-8-P1 Success Submit Practice Form - 23: verifyElementPresent(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8)
+2025-11-27 22:32:43.849 DEBUG Case01-8-P1 Success Submit Practice Form - 24: scrollToElement(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8)
+2025-11-27 22:32:44.099 DEBUG Case01-8-P1 Success Submit Practice Form - 25: delay(2)
+2025-11-27 22:32:46.111 DEBUG Case01-8-P1 Success Submit Practice Form - 26: verifyElementVisible(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), STOP_ON_FAILURE)
+2025-11-27 22:32:46.353 DEBUG Case01-8-P1 Success Submit Practice Form - 27: setText(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), MobileNumber)
+2025-11-27 22:32:47.050 DEBUG Case01-8-P1 Success Submit Practice Form - 28: verifyElementPresent(findTestObject("Page_DEMOQA/input_DateOfBirth"), 8)
+2025-11-27 22:32:47.314 DEBUG Case01-8-P1 Success Submit Practice Form - 29: verifyElementVisible(findTestObject("Page_DEMOQA/input_DateOfBirth"), STOP_ON_FAILURE)
+2025-11-27 22:32:47.551 DEBUG Case01-8-P1 Success Submit Practice Form - 30: sendKeys(findTestObject("Page_DEMOQA/input_DateOfBirth"), Keys.chord(ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT))
+2025-11-27 22:32:47.953 DEBUG Case01-8-P1 Success Submit Practice Form - 31: delay(2)
+2025-11-27 22:32:49.961 DEBUG Case01-8-P1 Success Submit Practice Form - 32: sendKeys(findTestObject("Page_DEMOQA/input_DateOfBirth"), Keys.chord(DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE))
+2025-11-27 22:32:50.399 DEBUG Case01-8-P1 Success Submit Practice Form - 33: setText(findTestObject("Page_DEMOQA/input_DateOfBirth"), DateOfBirth)
+2025-11-27 22:32:51.397 DEBUG Case01-8-P1 Success Submit Practice Form - 34: sendKeys(findTestObject("Page_DEMOQA/input_DateOfBirth"), Keys.chord(ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT))
+2025-11-27 22:32:51.852 DEBUG Case01-8-P1 Success Submit Practice Form - 35: delay(2)
+2025-11-27 22:32:53.862 DEBUG Case01-8-P1 Success Submit Practice Form - 36: sendKeys(findTestObject("Page_DEMOQA/input_DateOfBirth"), Keys.chord(BACK_SPACE, ENTER))
+2025-11-27 22:32:54.185 DEBUG Case01-8-P1 Success Submit Practice Form - 37: delay(2)
+2025-11-27 22:32:56.199 DEBUG Case01-8-P1 Success Submit Practice Form - 38: verifyElementPresent(findTestObject("Page_DEMOQA/input_SubjectsInput"), 8)
+2025-11-27 22:32:56.463 DEBUG Case01-8-P1 Success Submit Practice Form - 39: scrollToElement(findTestObject("Page_DEMOQA/input_SubjectsInput"), 8)
+2025-11-27 22:32:56.731 DEBUG Case01-8-P1 Success Submit Practice Form - 40: delay(2)
+2025-11-27 22:32:58.744 DEBUG Case01-8-P1 Success Submit Practice Form - 41: verifyElementVisible(findTestObject("Page_DEMOQA/input_SubjectsInput"), STOP_ON_FAILURE)
+2025-11-27 22:32:59.000 DEBUG Case01-8-P1 Success Submit Practice Form - 42: setText(findTestObject("Page_DEMOQA/input_SubjectsInput"), Subjects)
+2025-11-27 22:32:59.651 DEBUG Case01-8-P1 Success Submit Practice Form - 43: sendKeys(findTestObject("Page_DEMOQA/input_SubjectsInput"), Keys.chord(ENTER))
+2025-11-27 22:33:00.184 DEBUG Case01-8-P1 Success Submit Practice Form - 44: verifyElementPresent(findTestObject("Page_DEMOQA/input_Hobbies_Sports"), 8)
+2025-11-27 22:33:00.656 DEBUG Case01-8-P1 Success Submit Practice Form - 45: verifyElementPresent(findTestObject("Page_DEMOQA/input_Hobbies_Reading"), 8)
+2025-11-27 22:33:00.904 DEBUG Case01-8-P1 Success Submit Practice Form - 46: verifyElementPresent(findTestObject("Page_DEMOQA/input_Hobbies_Music"), 8)
+2025-11-27 22:33:01.165 DEBUG Case01-8-P1 Success Submit Practice Form - 47: scrollToElement(findTestObject("Page_DEMOQA/input_Hobbies_Sports"), 8)
+2025-11-27 22:33:01.403 DEBUG Case01-8-P1 Success Submit Practice Form - 48: delay(2)
+2025-11-27 22:33:03.413 DEBUG Case01-8-P1 Success Submit Practice Form - 49: enhancedClick(findTestObject("Page_DEMOQA/input_Hobbies_Sports"))
+2025-11-27 22:33:15.232 DEBUG Case01-8-P1 Success Submit Practice Form - 50: verifyElementPresent(findTestObject("Page_DEMOQA/input_Browse"), 8)
+2025-11-27 22:33:15.471 DEBUG Case01-8-P1 Success Submit Practice Form - 51: verifyElementPresent(findTestObject("Page_DEMOQA/input_Browse"), 8)
+2025-11-27 22:33:15.714 DEBUG Case01-8-P1 Success Submit Practice Form - 52: uploadFile(findTestObject("Page_DEMOQA/input_Browse"), getProjectDir() + FilePathInputBrowse)
+2025-11-27 22:33:15.985 DEBUG Case01-8-P1 Success Submit Practice Form - 53: delay(2)
+2025-11-27 22:33:17.995 DEBUG Case01-8-P1 Success Submit Practice Form - 54: switchToDefaultContent(STOP_ON_FAILURE)
+2025-11-27 22:33:18.011 DEBUG Case01-8-P1 Success Submit Practice Form - 55: delay(2)
+2025-11-27 22:33:20.025 DEBUG Case01-8-P1 Success Submit Practice Form - 56: verifyElementPresent(findTestObject("Page_DEMOQA/textarea_CurrentAddress"), 8)
+2025-11-27 22:33:20.269 DEBUG Case01-8-P1 Success Submit Practice Form - 57: scrollToElement(findTestObject("Page_DEMOQA/textarea_CurrentAddress"), 8)
+2025-11-27 22:33:20.519 DEBUG Case01-8-P1 Success Submit Practice Form - 58: verifyElementVisible(findTestObject("Page_DEMOQA/textarea_CurrentAddress"), STOP_ON_FAILURE)
+2025-11-27 22:33:20.771 DEBUG Case01-8-P1 Success Submit Practice Form - 59: setText(findTestObject("Page_DEMOQA/textarea_CurrentAddress"), CurrentAddress)
+2025-11-27 22:33:21.455 DEBUG Case01-8-P1 Success Submit Practice Form - 60: verifyElementPresent(findTestObject("Page_DEMOQA/input_Select_State_old"), 8)
+2025-11-27 22:33:21.712 DEBUG Case01-8-P1 Success Submit Practice Form - 61: scrollToElement(findTestObject("Page_DEMOQA/input_Select_State_old"), 8)
+2025-11-27 22:33:21.964 DEBUG Case01-8-P1 Success Submit Practice Form - 62: delay(2)
+2025-11-27 22:33:23.977 DEBUG Case01-8-P1 Success Submit Practice Form - 63: enhancedClick(findTestObject("Page_DEMOQA/input_Select_State_old"), STOP_ON_FAILURE)
+2025-11-27 22:33:26.552 DEBUG Case01-8-P1 Success Submit Practice Form - 64: setText(findTestObject("Page_DEMOQA/input_Select_State_old"), State)
+2025-11-27 22:33:36.569 WARN  c.k.k.c.w.k.builtin.SetTextKeyword       - Waiting for element timed out
+2025-11-27 22:33:36.853 WARN  c.k.k.c.w.k.builtin.SetTextKeyword       - Waiting for element timed out
+2025-11-27 22:33:36.930 DEBUG Case01-8-P1 Success Submit Practice Form - 65: sendKeys(findTestObject("Page_DEMOQA/input_Select_State_old"), Keys.chord(ENTER))
+2025-11-27 22:33:37.485 DEBUG Case01-8-P1 Success Submit Practice Form - 66: delay(2)
+2025-11-27 22:33:39.493 DEBUG Case01-8-P1 Success Submit Practice Form - 67: verifyElementPresent(findTestObject("Page_DEMOQA/input_Select_City"), 0)
+2025-11-27 22:33:39.497 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 22:33:39.737 DEBUG Case01-8-P1 Success Submit Practice Form - 68: enhancedClick(findTestObject("Page_DEMOQA/input_Select_City"), STOP_ON_FAILURE)
+2025-11-27 22:33:42.285 DEBUG Case01-8-P1 Success Submit Practice Form - 69: setText(findTestObject("Page_DEMOQA/input_Select_City"), City)
+2025-11-27 22:33:52.310 WARN  c.k.k.c.w.k.builtin.SetTextKeyword       - Waiting for element timed out
+2025-11-27 22:33:52.578 WARN  c.k.k.c.w.k.builtin.SetTextKeyword       - Waiting for element timed out
+2025-11-27 22:33:52.649 DEBUG Case01-8-P1 Success Submit Practice Form - 70: sendKeys(findTestObject("Page_DEMOQA/input_Select_City"), Keys.chord(ENTER))
+2025-11-27 22:33:53.187 DEBUG Case01-8-P1 Success Submit Practice Form - 71: delay(2)
+2025-11-27 22:33:55.210 DEBUG Case01-8-P1 Success Submit Practice Form - 72: verifyElementPresent(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), 0)
+2025-11-27 22:33:55.214 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 22:33:55.451 DEBUG Case01-8-P1 Success Submit Practice Form - 73: scrollToElement(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), 0)
+2025-11-27 22:33:55.458 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 22:33:55.717 DEBUG Case01-8-P1 Success Submit Practice Form - 74: delay(2)
+2025-11-27 22:33:57.729 DEBUG Case01-8-P1 Success Submit Practice Form - 75: verifyElementVisible(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), STOP_ON_FAILURE)
+2025-11-27 22:33:57.981 DEBUG Case01-8-P1 Success Submit Practice Form - 76: delay(2)
+2025-11-27 22:33:59.985 DEBUG Case01-8-P1 Success Submit Practice Form - 77: click(findTestObject("Object Repository/Page_DEMOQA/button_Submit"))
+2025-11-27 22:34:00.382 DEBUG Case01-8-P1 Success Submit Practice Form - 78: delay(2)
+2025-11-27 22:34:02.393 DEBUG Case01-8-P1 Success Submit Practice Form - 79: verifyElementVisible(findTestObject("Page_DEMOQA/div_Modal_Success"))
+2025-11-27 22:34:02.667 DEBUG Case01-8-P1 Success Submit Practice Form - 80: verifyElementPresent(findTestObject("Page_DEMOQA/button_Close"), 0)
+2025-11-27 22:34:02.677 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 22:34:02.913 DEBUG Case01-8-P1 Success Submit Practice Form - 81: verifyElementVisible(findTestObject("Page_DEMOQA/button_Close"))
+2025-11-27 22:34:03.183 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Positive/Case01-8-P1 Success Submit Practice Form
+2025-11-27 22:34:03.250 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-27 22:34:03.250 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Positive/Case01-8-P1 Success Submit Practice Form
+2025-11-27 22:34:03.278 INFO  c.k.katalon.core.main.TestCaseExecutor   - Firstname = Awaaal
+2025-11-27 22:34:03.278 INFO  c.k.katalon.core.main.TestCaseExecutor   - Lastname = Akhiiir
+2025-11-27 22:34:03.279 INFO  c.k.katalon.core.main.TestCaseExecutor   - EmailAddress = email@email.com
+2025-11-27 22:34:03.280 INFO  c.k.katalon.core.main.TestCaseExecutor   - MobileNumber = 0858567893
+2025-11-27 22:34:03.280 INFO  c.k.katalon.core.main.TestCaseExecutor   - DateOfBirth = 19 Des 1945
+2025-11-27 22:34:03.281 INFO  c.k.katalon.core.main.TestCaseExecutor   - FilePathInputBrowse = /Data Files/Images/person-dummy.jpg
+2025-11-27 22:34:03.281 INFO  c.k.katalon.core.main.TestCaseExecutor   - Subjects = Math
+2025-11-27 22:34:03.282 INFO  c.k.katalon.core.main.TestCaseExecutor   - CurrentAddress = Sample Address C
+2025-11-27 22:34:03.282 INFO  c.k.katalon.core.main.TestCaseExecutor   - State = NCR
+2025-11-27 22:34:03.283 INFO  c.k.katalon.core.main.TestCaseExecutor   - City = Delhi
+2025-11-27 22:34:03.285 DEBUG Case01-8-P1 Success Submit Practice Form - 1: openBrowser("")
+2025-11-27 22:34:03.290 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-11-27 22:34:03.981 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+2025-11-27 22:34:03.982 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Nov 27, 2025 10:34:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-11-27 22:34:05.261 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 273ed0d2c7c0b6a7eb3c5e321ad50031
+2025-11-27 22:34:05.262 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 142.0.7444.176
+2025-11-27 22:34:05.262 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-11-27 22:34:05.264 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-11-27 22:34:05.265 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-11-27 22:34:05.286 DEBUG Case01-8-P1 Success Submit Practice Form - 2: navigateToUrl("https://demoqa.com/automation-practice-form")
+2025-11-27 22:34:12.974 DEBUG Case01-8-P1 Success Submit Practice Form - 3: delay(2)
+2025-11-27 22:34:14.987 DEBUG Case01-8-P1 Success Submit Practice Form - 4: maximizeWindow()
+2025-11-27 22:34:15.035 DEBUG Case01-8-P1 Success Submit Practice Form - 5: verifyElementPresent(findTestObject("Page_DEMOQA/input_Name_firstName"), 8)
+2025-11-27 22:34:15.301 DEBUG Case01-8-P1 Success Submit Practice Form - 6: verifyElementVisible(findTestObject("Page_DEMOQA/input_Name_firstName"), STOP_ON_FAILURE)
+2025-11-27 22:34:15.568 DEBUG Case01-8-P1 Success Submit Practice Form - 7: setText(findTestObject("Page_DEMOQA/input_Name_firstName"), Firstname)
+2025-11-27 22:34:16.264 DEBUG Case01-8-P1 Success Submit Practice Form - 8: verifyElementPresent(findTestObject("Page_DEMOQA/input_Name_lastName"), 8)
+2025-11-27 22:34:16.511 DEBUG Case01-8-P1 Success Submit Practice Form - 9: verifyElementVisible(findTestObject("Page_DEMOQA/input_Name_lastName"), STOP_ON_FAILURE)
+2025-11-27 22:34:16.761 DEBUG Case01-8-P1 Success Submit Practice Form - 10: setText(findTestObject("Page_DEMOQA/input_Name_lastName"), Lastname)
+2025-11-27 22:34:17.429 DEBUG Case01-8-P1 Success Submit Practice Form - 11: verifyElementPresent(findTestObject("Page_DEMOQA/input_Email_userEmail"), 8)
+2025-11-27 22:34:17.697 DEBUG Case01-8-P1 Success Submit Practice Form - 12: scrollToElement(findTestObject("Page_DEMOQA/input_Email_userEmail"), 8)
+2025-11-27 22:34:17.961 DEBUG Case01-8-P1 Success Submit Practice Form - 13: delay(2)
+2025-11-27 22:34:19.976 DEBUG Case01-8-P1 Success Submit Practice Form - 14: verifyElementVisible(findTestObject("Page_DEMOQA/input_Email_userEmail"), STOP_ON_FAILURE)
+2025-11-27 22:34:20.244 DEBUG Case01-8-P1 Success Submit Practice Form - 15: setText(findTestObject("Page_DEMOQA/input_Email_userEmail"), EmailAddress)
+2025-11-27 22:34:20.946 DEBUG Case01-8-P1 Success Submit Practice Form - 16: verifyElementPresent(findTestObject("Page_DEMOQA/input_Gender_Male"), 8)
+2025-11-27 22:34:21.179 DEBUG Case01-8-P1 Success Submit Practice Form - 17: verifyElementPresent(findTestObject("Page_DEMOQA/input_Gender_Female"), 8)
+2025-11-27 22:34:21.417 DEBUG Case01-8-P1 Success Submit Practice Form - 18: verifyElementPresent(findTestObject("Page_DEMOQA/input_Gender_Other"), 8)
+2025-11-27 22:34:21.676 DEBUG Case01-8-P1 Success Submit Practice Form - 19: scrollToElement(findTestObject("Page_DEMOQA/input_Gender_Male"), 100)
+2025-11-27 22:34:21.930 DEBUG Case01-8-P1 Success Submit Practice Form - 20: delay(2)
+2025-11-27 22:34:23.942 DEBUG Case01-8-P1 Success Submit Practice Form - 21: verifyElementClickable(findTestObject("Page_DEMOQA/input_Gender_Male"), STOP_ON_FAILURE)
+2025-11-27 22:34:23.942 WARN  Case01-8-P1 Success Submit Practice Form - SKIPPED NOT_RUN: verifyElementClickable(findTestObject("Page_DEMOQA/input_Gender_Male"), STOP_ON_FAILURE)
+2025-11-27 22:34:23.943 DEBUG Case01-8-P1 Success Submit Practice Form - 22: enhancedClick(findTestObject("Page_DEMOQA/input_Gender_Male"))
+2025-11-27 22:34:35.764 DEBUG Case01-8-P1 Success Submit Practice Form - 23: verifyElementPresent(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8)
+2025-11-27 22:34:36.023 DEBUG Case01-8-P1 Success Submit Practice Form - 24: scrollToElement(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8)
+2025-11-27 22:34:36.276 DEBUG Case01-8-P1 Success Submit Practice Form - 25: delay(2)
+2025-11-27 22:34:38.289 DEBUG Case01-8-P1 Success Submit Practice Form - 26: verifyElementVisible(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), STOP_ON_FAILURE)
+2025-11-27 22:34:38.541 DEBUG Case01-8-P1 Success Submit Practice Form - 27: setText(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), MobileNumber)
+2025-11-27 22:34:39.196 DEBUG Case01-8-P1 Success Submit Practice Form - 28: verifyElementPresent(findTestObject("Page_DEMOQA/input_DateOfBirth"), 8)
+2025-11-27 22:34:39.461 DEBUG Case01-8-P1 Success Submit Practice Form - 29: verifyElementVisible(findTestObject("Page_DEMOQA/input_DateOfBirth"), STOP_ON_FAILURE)
+2025-11-27 22:34:39.727 DEBUG Case01-8-P1 Success Submit Practice Form - 30: sendKeys(findTestObject("Page_DEMOQA/input_DateOfBirth"), Keys.chord(ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT))
+2025-11-27 22:34:40.131 DEBUG Case01-8-P1 Success Submit Practice Form - 31: delay(2)
+2025-11-27 22:34:42.140 DEBUG Case01-8-P1 Success Submit Practice Form - 32: sendKeys(findTestObject("Page_DEMOQA/input_DateOfBirth"), Keys.chord(DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE))
+2025-11-27 22:34:42.533 DEBUG Case01-8-P1 Success Submit Practice Form - 33: setText(findTestObject("Page_DEMOQA/input_DateOfBirth"), DateOfBirth)
+2025-11-27 22:34:43.496 DEBUG Case01-8-P1 Success Submit Practice Form - 34: sendKeys(findTestObject("Page_DEMOQA/input_DateOfBirth"), Keys.chord(ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT))
+2025-11-27 22:34:43.924 DEBUG Case01-8-P1 Success Submit Practice Form - 35: delay(2)
+2025-11-27 22:34:45.942 DEBUG Case01-8-P1 Success Submit Practice Form - 36: sendKeys(findTestObject("Page_DEMOQA/input_DateOfBirth"), Keys.chord(BACK_SPACE, ENTER))
+2025-11-27 22:34:46.247 DEBUG Case01-8-P1 Success Submit Practice Form - 37: delay(2)
+2025-11-27 22:34:48.257 DEBUG Case01-8-P1 Success Submit Practice Form - 38: verifyElementPresent(findTestObject("Page_DEMOQA/input_SubjectsInput"), 8)
+2025-11-27 22:34:48.498 DEBUG Case01-8-P1 Success Submit Practice Form - 39: scrollToElement(findTestObject("Page_DEMOQA/input_SubjectsInput"), 8)
+2025-11-27 22:34:48.749 DEBUG Case01-8-P1 Success Submit Practice Form - 40: delay(2)
+2025-11-27 22:34:50.763 DEBUG Case01-8-P1 Success Submit Practice Form - 41: verifyElementVisible(findTestObject("Page_DEMOQA/input_SubjectsInput"), STOP_ON_FAILURE)
+2025-11-27 22:34:51.017 DEBUG Case01-8-P1 Success Submit Practice Form - 42: setText(findTestObject("Page_DEMOQA/input_SubjectsInput"), Subjects)
+2025-11-27 22:34:51.676 DEBUG Case01-8-P1 Success Submit Practice Form - 43: sendKeys(findTestObject("Page_DEMOQA/input_SubjectsInput"), Keys.chord(ENTER))
+2025-11-27 22:34:52.218 DEBUG Case01-8-P1 Success Submit Practice Form - 44: verifyElementPresent(findTestObject("Page_DEMOQA/input_Hobbies_Sports"), 8)
+2025-11-27 22:34:52.698 DEBUG Case01-8-P1 Success Submit Practice Form - 45: verifyElementPresent(findTestObject("Page_DEMOQA/input_Hobbies_Reading"), 8)
+2025-11-27 22:34:52.958 DEBUG Case01-8-P1 Success Submit Practice Form - 46: verifyElementPresent(findTestObject("Page_DEMOQA/input_Hobbies_Music"), 8)
+2025-11-27 22:34:53.221 DEBUG Case01-8-P1 Success Submit Practice Form - 47: scrollToElement(findTestObject("Page_DEMOQA/input_Hobbies_Sports"), 8)
+2025-11-27 22:34:53.475 DEBUG Case01-8-P1 Success Submit Practice Form - 48: delay(2)
+2025-11-27 22:34:55.493 DEBUG Case01-8-P1 Success Submit Practice Form - 49: enhancedClick(findTestObject("Page_DEMOQA/input_Hobbies_Sports"))
+2025-11-27 22:35:07.261 DEBUG Case01-8-P1 Success Submit Practice Form - 50: verifyElementPresent(findTestObject("Page_DEMOQA/input_Browse"), 8)
+2025-11-27 22:35:07.506 DEBUG Case01-8-P1 Success Submit Practice Form - 51: verifyElementPresent(findTestObject("Page_DEMOQA/input_Browse"), 8)
+2025-11-27 22:35:07.744 DEBUG Case01-8-P1 Success Submit Practice Form - 52: uploadFile(findTestObject("Page_DEMOQA/input_Browse"), getProjectDir() + FilePathInputBrowse)
+2025-11-27 22:35:08.029 DEBUG Case01-8-P1 Success Submit Practice Form - 53: delay(2)
+2025-11-27 22:35:10.042 DEBUG Case01-8-P1 Success Submit Practice Form - 54: switchToDefaultContent(STOP_ON_FAILURE)
+2025-11-27 22:35:10.057 DEBUG Case01-8-P1 Success Submit Practice Form - 55: delay(2)
+2025-11-27 22:35:12.074 DEBUG Case01-8-P1 Success Submit Practice Form - 56: verifyElementPresent(findTestObject("Page_DEMOQA/textarea_CurrentAddress"), 8)
+2025-11-27 22:35:12.316 DEBUG Case01-8-P1 Success Submit Practice Form - 57: scrollToElement(findTestObject("Page_DEMOQA/textarea_CurrentAddress"), 8)
+2025-11-27 22:35:12.572 DEBUG Case01-8-P1 Success Submit Practice Form - 58: verifyElementVisible(findTestObject("Page_DEMOQA/textarea_CurrentAddress"), STOP_ON_FAILURE)
+2025-11-27 22:35:12.829 DEBUG Case01-8-P1 Success Submit Practice Form - 59: setText(findTestObject("Page_DEMOQA/textarea_CurrentAddress"), CurrentAddress)
+2025-11-27 22:35:13.528 DEBUG Case01-8-P1 Success Submit Practice Form - 60: verifyElementPresent(findTestObject("Page_DEMOQA/input_Select_State_old"), 8)
+2025-11-27 22:35:13.780 DEBUG Case01-8-P1 Success Submit Practice Form - 61: scrollToElement(findTestObject("Page_DEMOQA/input_Select_State_old"), 8)
+2025-11-27 22:35:14.040 DEBUG Case01-8-P1 Success Submit Practice Form - 62: delay(2)
+2025-11-27 22:35:16.056 DEBUG Case01-8-P1 Success Submit Practice Form - 63: enhancedClick(findTestObject("Page_DEMOQA/input_Select_State_old"), STOP_ON_FAILURE)
+2025-11-27 22:35:18.610 DEBUG Case01-8-P1 Success Submit Practice Form - 64: setText(findTestObject("Page_DEMOQA/input_Select_State_old"), State)
+2025-11-27 22:35:28.640 WARN  c.k.k.c.w.k.builtin.SetTextKeyword       - Waiting for element timed out
+2025-11-27 22:35:28.906 WARN  c.k.k.c.w.k.builtin.SetTextKeyword       - Waiting for element timed out
+2025-11-27 22:35:28.981 DEBUG Case01-8-P1 Success Submit Practice Form - 65: sendKeys(findTestObject("Page_DEMOQA/input_Select_State_old"), Keys.chord(ENTER))
+2025-11-27 22:35:29.507 DEBUG Case01-8-P1 Success Submit Practice Form - 66: delay(2)
+2025-11-27 22:35:31.513 DEBUG Case01-8-P1 Success Submit Practice Form - 67: verifyElementPresent(findTestObject("Page_DEMOQA/input_Select_City"), 0)
+2025-11-27 22:35:31.516 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 22:35:31.757 DEBUG Case01-8-P1 Success Submit Practice Form - 68: enhancedClick(findTestObject("Page_DEMOQA/input_Select_City"), STOP_ON_FAILURE)
+2025-11-27 22:35:34.330 DEBUG Case01-8-P1 Success Submit Practice Form - 69: setText(findTestObject("Page_DEMOQA/input_Select_City"), City)
+2025-11-27 22:35:44.348 WARN  c.k.k.c.w.k.builtin.SetTextKeyword       - Waiting for element timed out
+2025-11-27 22:35:44.629 WARN  c.k.k.c.w.k.builtin.SetTextKeyword       - Waiting for element timed out
+2025-11-27 22:35:44.708 DEBUG Case01-8-P1 Success Submit Practice Form - 70: sendKeys(findTestObject("Page_DEMOQA/input_Select_City"), Keys.chord(ENTER))
+2025-11-27 22:35:45.227 DEBUG Case01-8-P1 Success Submit Practice Form - 71: delay(2)
+2025-11-27 22:35:47.230 DEBUG Case01-8-P1 Success Submit Practice Form - 72: verifyElementPresent(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), 0)
+2025-11-27 22:35:47.239 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 22:35:47.481 DEBUG Case01-8-P1 Success Submit Practice Form - 73: scrollToElement(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), 0)
+2025-11-27 22:35:47.488 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 22:35:47.729 DEBUG Case01-8-P1 Success Submit Practice Form - 74: delay(2)
+2025-11-27 22:35:49.739 DEBUG Case01-8-P1 Success Submit Practice Form - 75: verifyElementVisible(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), STOP_ON_FAILURE)
+2025-11-27 22:35:49.987 DEBUG Case01-8-P1 Success Submit Practice Form - 76: delay(2)
+2025-11-27 22:35:52.005 DEBUG Case01-8-P1 Success Submit Practice Form - 77: click(findTestObject("Object Repository/Page_DEMOQA/button_Submit"))
+2025-11-27 22:35:52.378 DEBUG Case01-8-P1 Success Submit Practice Form - 78: delay(2)
+2025-11-27 22:35:54.382 DEBUG Case01-8-P1 Success Submit Practice Form - 79: verifyElementVisible(findTestObject("Page_DEMOQA/div_Modal_Success"))
+2025-11-27 22:35:54.641 DEBUG Case01-8-P1 Success Submit Practice Form - 80: verifyElementPresent(findTestObject("Page_DEMOQA/button_Close"), 0)
+2025-11-27 22:35:54.645 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 22:35:54.875 DEBUG Case01-8-P1 Success Submit Practice Form - 81: verifyElementVisible(findTestObject("Page_DEMOQA/button_Close"))
+2025-11-27 22:35:55.121 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Positive/Case01-8-P1 Success Submit Practice Form
+2025-11-27 22:35:56.464 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-11-27 22:35:56.464 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TSPracticeFormPositive
+2025-11-27 22:35:56.464 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================
