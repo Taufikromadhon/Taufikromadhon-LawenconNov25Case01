@@ -67,70 +67,70 @@
       <variableId>e7256e3b-5fbd-48ef-a028-5fba6351cf72</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'Firstname'</defaultValue>
       <description></description>
       <id>a6a0cf01-a886-493d-b038-e4f45db45e73</id>
       <masked>false</masked>
       <name>Firstname</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'Lastname'</defaultValue>
       <description></description>
       <id>3f0b0c0a-f348-4ee1-a01e-ef3f3b42ccc7</id>
       <masked>false</masked>
       <name>Lastname</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'test@email.com'</defaultValue>
       <description></description>
       <id>7814b0b9-9054-4364-b0dc-6fe79d30a642</id>
       <masked>false</masked>
       <name>EmailAddress</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'0858567890'</defaultValue>
       <description></description>
       <id>22ca7bd0-ab8b-4e53-ae55-289b2e949c25</id>
       <masked>false</masked>
       <name>MobileNumber</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'17 Aug 1945'</defaultValue>
       <description></description>
       <id>fdd75ad2-ebc8-4c2d-8521-8c7422b99cfb</id>
       <masked>false</masked>
       <name>DateOfBirth</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'/Data Files/Images/person-dummy.jpg'</defaultValue>
       <description></description>
       <id>463c08fe-e1cf-4fd0-979d-6dd88b48e7fe</id>
       <masked>false</masked>
       <name>FilePathInputBrowse</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'Math'</defaultValue>
       <description></description>
       <id>0f1891ba-3842-4163-9d82-f369a90df9aa</id>
       <masked>false</masked>
       <name>Subjects</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'Sample Address'</defaultValue>
       <description></description>
       <id>7314230a-43d7-4fd2-878d-9221de1bb8a4</id>
       <masked>false</masked>
       <name>CurrentAddress</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'NCR'</defaultValue>
       <description></description>
       <id>f24a954e-71ea-4ed3-8ab6-d86a081c5a49</id>
       <masked>false</masked>
       <name>State</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'Delhi'</defaultValue>
       <description></description>
       <id>e7256e3b-5fbd-48ef-a028-5fba6351cf72</id>
       <masked>false</masked>

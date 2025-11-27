@@ -6,12 +6,12 @@
    <elementGuidId>52317ed5-6ce1-41e3-805e-6c854c8652ca</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[contains(@class, 'form-control:invalid')]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[contains(@class, 'form-control:invalid')]</value>
       </entry>
       <entry>
          <key>CSS</key>

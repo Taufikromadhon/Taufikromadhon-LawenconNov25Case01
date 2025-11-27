@@ -13,7 +13,7 @@
       <variableId>f04c460c-c86b-4808-b72c-542defa68efb</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'+628123'</defaultValue>
       <description></description>
       <id>f04c460c-c86b-4808-b72c-542defa68efb</id>
       <masked>false</masked>

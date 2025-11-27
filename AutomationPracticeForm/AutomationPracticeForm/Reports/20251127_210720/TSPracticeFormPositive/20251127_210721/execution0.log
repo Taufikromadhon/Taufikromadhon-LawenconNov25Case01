@@ -13706,3 +13706,7 @@ Case01-8-P1 Success Submit Practice Form.run(Case01-8-P1 Success Submit Practice
   <escapedJava>false</escapedJava>
 </record>
 </log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>

@@ -1,0 +1,1073 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TSPracticeFormPositive" time="206.059" tests="3" failures="3" errors="0">
+   <testsuite name="TSPracticeFormPositive" tests="3" failures="3" errors="0" time="206.059" skipped="0" timestamp="2025-11-27T14:57:51.203Z" hostname="USER - LAPTOP-KNF1HLK6" id="Test Suites/TSPracticeFormPositive">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="T:\\Lawencon\\Interview\\Fix\\case01\\AutomationPracticeForm\\AutomationPracticeForm\\Reports\\20251127_215742\\TSPracticeFormPositive\\20251127_215742"/>
+         <property name="logFiles" value="T:\\Lawencon\\Interview\\Fix\\case01\\AutomationPracticeForm\\AutomationPracticeForm\\Reports\\20251127_215742\\TSPracticeFormPositive\\20251127_215742\\console0.log, T:\\Lawencon\\Interview\\Fix\\case01\\AutomationPracticeForm\\AutomationPracticeForm\\Reports\\20251127_215742\\TSPracticeFormPositive\\20251127_215742\\execution0.log"/>
+         <property name="attachments" value="T:\\Lawencon\\Interview\\Fix\\case01\\AutomationPracticeForm\\AutomationPracticeForm\\Reports\\20251127_215742\\TSPracticeFormPositive\\20251127_215742\\1764255557415.png, T:\\Lawencon\\Interview\\Fix\\case01\\AutomationPracticeForm\\AutomationPracticeForm\\Reports\\20251127_215742\\TSPracticeFormPositive\\20251127_215742\\1764255613021.png, T:\\Lawencon\\Interview\\Fix\\case01\\AutomationPracticeForm\\AutomationPracticeForm\\Reports\\20251127_215742\\TSPracticeFormPositive\\20251127_215742\\1764255677190.png"/>
+         <property name="hostName" value="USER - LAPTOP-KNF1HLK6"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.4.2.0"/>
+         <property name="browser" value="Firefox 145.0.1"/>
+         <property name="userFullName" value="Taufik Romadhon"/>
+         <property name="hostAddress" value="10.156.170.155"/>
+         <property name="sessionId" value="67e57828-9ed6-4c2e-96f1-5a032b0265db"/>
+         <property name="projectName" value="AutomationPracticeForm"/>
+         <property name="seleniumVersion" value="4.34.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Positive/Case01-8-P1 Success Submit Practice Form" time="84.193" classname="Test Cases/Positive/Case01-8-P1 Success Submit Practice Form" status="FAILED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"Firstname":"Awal","DateOfBirth":"17 Aug 1945","FilePathInputBr...":"/Data Files/Images/person-dummy.jpg","CurrentAddress":"Sample Address A","MobileNumber":"0858567891","State":"NCR","Lastname":"Akhir","City":"Delhi","Subjects":"Math","EmailAddress":"email@email.com"}]]></property>
+         </properties>
+         <failure type="FAILED" message="Test Cases/Positive/Case01-8-P1 Success Submit Practice Form FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to set text '17 Aug 1945' of object 'Object Repository/Page_DEMOQA/input_DateOfBirth'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1081)&#xa;	at Case01-8-P1 Success Submit Practice Form.run(Case01-8-P1 Success Submit Practice Form:121)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)&#xa;	at TempTestSuite1764255462021.run(TempTestSuite1764255462021.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_DEMOQA/input_DateOfBirth' located by 'By.xpath: //input[@id='dateOfBirthInput']' not found&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:74)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at jdk.proxy2/jdk.proxy2.$Proxy49.execute(Unknown Source)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)&#xa;	... 21 more&#xa;"/>
+         <system-out><![CDATA[27-11-2025T21:57:53 - [TEST_CASE][FAILED] - Test Cases/Positive/Case01-8-P1 Success Submit Practice Form: Test Cases/Positive/Case01-8-P1 Success Submit Practice Form FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '17 Aug 1945' of object 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1081)
+	at Case01-8-P1 Success Submit Practice Form.run(Case01-8-P1 Success Submit Practice Form:121)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1764255462021.run(TempTestSuite1764255462021.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_DEMOQA/input_DateOfBirth' located by 'By.xpath: //input[@id='dateOfBirthInput']' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:74)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy49.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 21 more
+
+
+27-11-2025T21:57:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+27-11-2025T21:57:55 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+27-11-2025T21:57:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-11-2025T21:58:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+27-11-2025T21:58:08 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/automation-practice-form"): Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+27-11-2025T21:58:37 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+27-11-2025T21:58:37 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T21:58:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T21:58:39 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+27-11-2025T21:58:39 - [MESSAGE][PASSED] - Current window maximized
+
+27-11-2025T21:58:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Name_firstName"), 8): Object 'Object Repository/Page_DEMOQA/input_Name_firstName' is present
+
+27-11-2025T21:58:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Name_firstName' is present
+
+27-11-2025T21:58:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_DEMOQA/input_Name_firstName"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/input_Name_firstName' is visible
+
+27-11-2025T21:58:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Name_firstName' is visible
+
+27-11-2025T21:58:40 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/input_Name_firstName"), Firstname): Text 'Awal' is set on object 'Object Repository/Page_DEMOQA/input_Name_firstName'
+
+27-11-2025T21:58:41 - [MESSAGE][PASSED] - Text 'Awal' is set on object 'Object Repository/Page_DEMOQA/input_Name_firstName'
+
+27-11-2025T21:58:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Name_lastName"), 8): Object 'Object Repository/Page_DEMOQA/input_Name_lastName' is present
+
+27-11-2025T21:58:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Name_lastName' is present
+
+27-11-2025T21:58:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_DEMOQA/input_Name_lastName"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/input_Name_lastName' is visible
+
+27-11-2025T21:58:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Name_lastName' is visible
+
+27-11-2025T21:58:41 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/input_Name_lastName"), Lastname): Text 'Akhir' is set on object 'Object Repository/Page_DEMOQA/input_Name_lastName'
+
+27-11-2025T21:58:42 - [MESSAGE][PASSED] - Text 'Akhir' is set on object 'Object Repository/Page_DEMOQA/input_Name_lastName'
+
+27-11-2025T21:58:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Email_userEmail"), 8): Object 'Object Repository/Page_DEMOQA/input_Email_userEmail' is present
+
+27-11-2025T21:58:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Email_userEmail' is present
+
+27-11-2025T21:58:42 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/input_Email_userEmail"), 8): Scroll to object 'Object Repository/Page_DEMOQA/input_Email_userEmail' successfully
+
+27-11-2025T21:58:42 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/input_Email_userEmail' successfully
+
+27-11-2025T21:58:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T21:58:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T21:58:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_DEMOQA/input_Email_userEmail"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/input_Email_userEmail' is visible
+
+27-11-2025T21:58:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Email_userEmail' is visible
+
+27-11-2025T21:58:45 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/input_Email_userEmail"), EmailAddress): Text 'email@email.com' is set on object 'Object Repository/Page_DEMOQA/input_Email_userEmail'
+
+27-11-2025T21:58:45 - [MESSAGE][PASSED] - Text 'email@email.com' is set on object 'Object Repository/Page_DEMOQA/input_Email_userEmail'
+
+27-11-2025T21:58:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Gender_Male"), 8): Object 'Object Repository/Page_DEMOQA/input_Gender_Male' is present
+
+27-11-2025T21:58:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Gender_Male' is present
+
+27-11-2025T21:58:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Gender_Female"), 8): Object 'Object Repository/Page_DEMOQA/input_Gender_Female' is present
+
+27-11-2025T21:58:46 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Gender_Female' is present
+
+27-11-2025T21:58:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Gender_Other"), 8): Object 'Object Repository/Page_DEMOQA/input_Gender_Other' is present
+
+27-11-2025T21:58:46 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Gender_Other' is present
+
+27-11-2025T21:58:46 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/input_Gender_Male"), 100): Scroll to object 'Object Repository/Page_DEMOQA/input_Gender_Male' successfully
+
+27-11-2025T21:58:46 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/input_Gender_Male' successfully
+
+27-11-2025T21:58:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T21:58:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T21:58:48 - [TEST_STEP][NOT_RUN] - verifyElementClickable(findTestObject("Page_DEMOQA/input_Gender_Male"), STOP_ON_FAILURE): NOT_RUN: verifyElementClickable(findTestObject("Page_DEMOQA/input_Gender_Male"), STOP_ON_FAILURE)
+
+27-11-2025T21:58:48 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementClickable(findTestObject("Page_DEMOQA/input_Gender_Male"), STOP_ON_FAILURE)
+
+27-11-2025T21:58:48 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Page_DEMOQA/input_Gender_Male")): Object: 'Object Repository/Page_DEMOQA/input_Gender_Male' is clicked on
+
+27-11-2025T21:58:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/input_Gender_Male' is clicked on
+
+27-11-2025T21:58:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8): Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is present
+
+27-11-2025T21:59:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is present
+
+27-11-2025T21:59:00 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8): Scroll to object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' successfully
+
+27-11-2025T21:59:00 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' successfully
+
+27-11-2025T21:59:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T21:59:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T21:59:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is visible
+
+27-11-2025T21:59:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is visible
+
+27-11-2025T21:59:02 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), MobileNumber): Text '0858567891' is set on object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber'
+
+27-11-2025T21:59:03 - [MESSAGE][PASSED] - Text '0858567891' is set on object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber'
+
+27-11-2025T21:59:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_DateOfBirth"), 8): Object 'Object Repository/Page_DEMOQA/input_DateOfBirth' is present
+
+27-11-2025T21:59:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_DateOfBirth' is present
+
+27-11-2025T21:59:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_DEMOQA/input_DateOfBirth"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/input_DateOfBirth' is visible
+
+27-11-2025T21:59:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_DateOfBirth' is visible
+
+27-11-2025T21:59:03 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_DEMOQA/input_DateOfBirth"), Keys.chord(ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT)): Keys 'LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + ' sent to object: 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+
+27-11-2025T21:59:04 - [MESSAGE][PASSED] - Keys 'LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + ' sent to object: 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+
+27-11-2025T21:59:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T21:59:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T21:59:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_DEMOQA/input_DateOfBirth"), Keys.chord(DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE)): Keys 'DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + ' sent to object: 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+
+27-11-2025T21:59:06 - [MESSAGE][PASSED] - Keys 'DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + ' sent to object: 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+
+27-11-2025T21:59:06 - [TEST_STEP][FAILED] - setText(findTestObject("Page_DEMOQA/input_DateOfBirth"), DateOfBirth): Unable to set text '17 Aug 1945' of object 'Object Repository/Page_DEMOQA/input_DateOfBirth' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '17 Aug 1945' of object 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1081)
+	at Case01-8-P1 Success Submit Practice Form.run(Case01-8-P1 Success Submit Practice Form:121)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1764255462021.run(TempTestSuite1764255462021.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_DEMOQA/input_DateOfBirth' located by 'By.xpath: //input[@id='dateOfBirthInput']' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:74)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy49.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1081)
+	at Script1763805219923.run(Script1763805219923.groovy:121)
+	... 15 more
+)
+
+27-11-2025T21:59:17 - [MESSAGE][FAILED] - Unable to set text '17 Aug 1945' of object 'Object Repository/Page_DEMOQA/input_DateOfBirth' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '17 Aug 1945' of object 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1081)
+	at Case01-8-P1 Success Submit Practice Form.run(Case01-8-P1 Success Submit Practice Form:121)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1764255462021.run(TempTestSuite1764255462021.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_DEMOQA/input_DateOfBirth' located by 'By.xpath: //input[@id='dateOfBirthInput']' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:74)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy49.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1081)
+	at Script1763805219923.run(Script1763805219923.groovy:121)
+	... 15 more
+)
+[[ATTACHMENT|T:\\Lawencon\\Interview\\Fix\\case01\\AutomationPracticeForm\\AutomationPracticeForm\\Reports\\20251127_215742\\TSPracticeFormPositive\\20251127_215742\\1764255557415.png]]]]></system-out>
+         <system-err><![CDATA[27-11-2025T21:57:53 - [TEST_CASE][FAILED] - Test Cases/Positive/Case01-8-P1 Success Submit Practice Form: Test Cases/Positive/Case01-8-P1 Success Submit Practice Form FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '17 Aug 1945' of object 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1081)
+	at Case01-8-P1 Success Submit Practice Form.run(Case01-8-P1 Success Submit Practice Form:121)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1764255462021.run(TempTestSuite1764255462021.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_DEMOQA/input_DateOfBirth' located by 'By.xpath: //input[@id='dateOfBirthInput']' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:74)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy49.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 21 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive/Case01-8-P1 Success Submit Practice Form" time="55.495" classname="Test Cases/Positive/Case01-8-P1 Success Submit Practice Form" status="FAILED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"Firstname":"Awaal","DateOfBirth":"18 Jan 1945","FilePathInputBr...":"/Data Files/Images/person-dummy.jpg","CurrentAddress":"Sample Address B","MobileNumber":"0858567892","State":"NCR","Lastname":"Akhiir","City":"Delhi","Subjects":"Math","EmailAddress":"email@email.com"}]]></property>
+         </properties>
+         <failure type="FAILED" message="Test Cases/Positive/Case01-8-P1 Success Submit Practice Form FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to set text '18 Jan 1945' of object 'Object Repository/Page_DEMOQA/input_DateOfBirth'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1081)&#xa;	at Case01-8-P1 Success Submit Practice Form.run(Case01-8-P1 Success Submit Practice Form:121)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)&#xa;	at TempTestSuite1764255462021.run(TempTestSuite1764255462021.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_DEMOQA/input_DateOfBirth' located by 'By.xpath: //input[@id='dateOfBirthInput']' not found&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:74)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at jdk.proxy2/jdk.proxy2.$Proxy49.execute(Unknown Source)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)&#xa;	... 21 more&#xa;"/>
+         <system-out><![CDATA[27-11-2025T21:59:17 - [TEST_CASE][FAILED] - Test Cases/Positive/Case01-8-P1 Success Submit Practice Form: Test Cases/Positive/Case01-8-P1 Success Submit Practice Form FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '18 Jan 1945' of object 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1081)
+	at Case01-8-P1 Success Submit Practice Form.run(Case01-8-P1 Success Submit Practice Form:121)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1764255462021.run(TempTestSuite1764255462021.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_DEMOQA/input_DateOfBirth' located by 'By.xpath: //input[@id='dateOfBirthInput']' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:74)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy49.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 21 more
+
+
+27-11-2025T21:59:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+27-11-2025T21:59:17 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+27-11-2025T21:59:18 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+27-11-2025T21:59:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-11-2025T21:59:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+27-11-2025T21:59:23 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/automation-practice-form"): Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+27-11-2025T21:59:33 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+27-11-2025T21:59:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T21:59:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T21:59:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+27-11-2025T21:59:35 - [MESSAGE][PASSED] - Current window maximized
+
+27-11-2025T21:59:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Name_firstName"), 8): Object 'Object Repository/Page_DEMOQA/input_Name_firstName' is present
+
+27-11-2025T21:59:36 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Name_firstName' is present
+
+27-11-2025T21:59:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_DEMOQA/input_Name_firstName"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/input_Name_firstName' is visible
+
+27-11-2025T21:59:36 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Name_firstName' is visible
+
+27-11-2025T21:59:36 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/input_Name_firstName"), Firstname): Text 'Awaal' is set on object 'Object Repository/Page_DEMOQA/input_Name_firstName'
+
+27-11-2025T21:59:37 - [MESSAGE][PASSED] - Text 'Awaal' is set on object 'Object Repository/Page_DEMOQA/input_Name_firstName'
+
+27-11-2025T21:59:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Name_lastName"), 8): Object 'Object Repository/Page_DEMOQA/input_Name_lastName' is present
+
+27-11-2025T21:59:37 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Name_lastName' is present
+
+27-11-2025T21:59:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_DEMOQA/input_Name_lastName"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/input_Name_lastName' is visible
+
+27-11-2025T21:59:37 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Name_lastName' is visible
+
+27-11-2025T21:59:37 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/input_Name_lastName"), Lastname): Text 'Akhiir' is set on object 'Object Repository/Page_DEMOQA/input_Name_lastName'
+
+27-11-2025T21:59:38 - [MESSAGE][PASSED] - Text 'Akhiir' is set on object 'Object Repository/Page_DEMOQA/input_Name_lastName'
+
+27-11-2025T21:59:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Email_userEmail"), 8): Object 'Object Repository/Page_DEMOQA/input_Email_userEmail' is present
+
+27-11-2025T21:59:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Email_userEmail' is present
+
+27-11-2025T21:59:38 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/input_Email_userEmail"), 8): Scroll to object 'Object Repository/Page_DEMOQA/input_Email_userEmail' successfully
+
+27-11-2025T21:59:38 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/input_Email_userEmail' successfully
+
+27-11-2025T21:59:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T21:59:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T21:59:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_DEMOQA/input_Email_userEmail"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/input_Email_userEmail' is visible
+
+27-11-2025T21:59:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Email_userEmail' is visible
+
+27-11-2025T21:59:41 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/input_Email_userEmail"), EmailAddress): Text 'email@email.com' is set on object 'Object Repository/Page_DEMOQA/input_Email_userEmail'
+
+27-11-2025T21:59:41 - [MESSAGE][PASSED] - Text 'email@email.com' is set on object 'Object Repository/Page_DEMOQA/input_Email_userEmail'
+
+27-11-2025T21:59:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Gender_Male"), 8): Object 'Object Repository/Page_DEMOQA/input_Gender_Male' is present
+
+27-11-2025T21:59:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Gender_Male' is present
+
+27-11-2025T21:59:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Gender_Female"), 8): Object 'Object Repository/Page_DEMOQA/input_Gender_Female' is present
+
+27-11-2025T21:59:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Gender_Female' is present
+
+27-11-2025T21:59:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Gender_Other"), 8): Object 'Object Repository/Page_DEMOQA/input_Gender_Other' is present
+
+27-11-2025T21:59:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Gender_Other' is present
+
+27-11-2025T21:59:42 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/input_Gender_Male"), 100): Scroll to object 'Object Repository/Page_DEMOQA/input_Gender_Male' successfully
+
+27-11-2025T21:59:42 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/input_Gender_Male' successfully
+
+27-11-2025T21:59:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T21:59:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T21:59:44 - [TEST_STEP][NOT_RUN] - verifyElementClickable(findTestObject("Page_DEMOQA/input_Gender_Male"), STOP_ON_FAILURE): NOT_RUN: verifyElementClickable(findTestObject("Page_DEMOQA/input_Gender_Male"), STOP_ON_FAILURE)
+
+27-11-2025T21:59:44 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementClickable(findTestObject("Page_DEMOQA/input_Gender_Male"), STOP_ON_FAILURE)
+
+27-11-2025T21:59:44 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Page_DEMOQA/input_Gender_Male")): Object: 'Object Repository/Page_DEMOQA/input_Gender_Male' is clicked on
+
+27-11-2025T21:59:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/input_Gender_Male' is clicked on
+
+27-11-2025T21:59:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8): Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is present
+
+27-11-2025T21:59:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is present
+
+27-11-2025T21:59:55 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8): Scroll to object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' successfully
+
+27-11-2025T21:59:56 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' successfully
+
+27-11-2025T21:59:56 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T21:59:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T21:59:58 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is visible
+
+27-11-2025T21:59:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is visible
+
+27-11-2025T21:59:58 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), MobileNumber): Text '0858567892' is set on object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber'
+
+27-11-2025T21:59:58 - [MESSAGE][PASSED] - Text '0858567892' is set on object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber'
+
+27-11-2025T21:59:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_DateOfBirth"), 8): Object 'Object Repository/Page_DEMOQA/input_DateOfBirth' is present
+
+27-11-2025T21:59:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_DateOfBirth' is present
+
+27-11-2025T21:59:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_DEMOQA/input_DateOfBirth"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/input_DateOfBirth' is visible
+
+27-11-2025T21:59:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_DateOfBirth' is visible
+
+27-11-2025T21:59:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_DEMOQA/input_DateOfBirth"), Keys.chord(ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT)): Keys 'LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + ' sent to object: 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+
+27-11-2025T21:59:59 - [MESSAGE][PASSED] - Keys 'LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + ' sent to object: 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+
+27-11-2025T21:59:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:00:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:00:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_DEMOQA/input_DateOfBirth"), Keys.chord(DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE)): Keys 'DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + ' sent to object: 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+
+27-11-2025T22:00:02 - [MESSAGE][PASSED] - Keys 'DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + ' sent to object: 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+
+27-11-2025T22:00:02 - [TEST_STEP][FAILED] - setText(findTestObject("Page_DEMOQA/input_DateOfBirth"), DateOfBirth): Unable to set text '18 Jan 1945' of object 'Object Repository/Page_DEMOQA/input_DateOfBirth' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '18 Jan 1945' of object 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1081)
+	at Case01-8-P1 Success Submit Practice Form.run(Case01-8-P1 Success Submit Practice Form:121)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1764255462021.run(TempTestSuite1764255462021.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_DEMOQA/input_DateOfBirth' located by 'By.xpath: //input[@id='dateOfBirthInput']' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:74)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy49.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1081)
+	at Script1763805219923.run(Script1763805219923.groovy:121)
+	... 15 more
+)
+
+27-11-2025T22:00:13 - [MESSAGE][FAILED] - Unable to set text '18 Jan 1945' of object 'Object Repository/Page_DEMOQA/input_DateOfBirth' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '18 Jan 1945' of object 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1081)
+	at Case01-8-P1 Success Submit Practice Form.run(Case01-8-P1 Success Submit Practice Form:121)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1764255462021.run(TempTestSuite1764255462021.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_DEMOQA/input_DateOfBirth' located by 'By.xpath: //input[@id='dateOfBirthInput']' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:74)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy49.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1081)
+	at Script1763805219923.run(Script1763805219923.groovy:121)
+	... 15 more
+)
+[[ATTACHMENT|T:\\Lawencon\\Interview\\Fix\\case01\\AutomationPracticeForm\\AutomationPracticeForm\\Reports\\20251127_215742\\TSPracticeFormPositive\\20251127_215742\\1764255613021.png]]]]></system-out>
+         <system-err><![CDATA[27-11-2025T21:59:17 - [TEST_CASE][FAILED] - Test Cases/Positive/Case01-8-P1 Success Submit Practice Form: Test Cases/Positive/Case01-8-P1 Success Submit Practice Form FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '18 Jan 1945' of object 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1081)
+	at Case01-8-P1 Success Submit Practice Form.run(Case01-8-P1 Success Submit Practice Form:121)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1764255462021.run(TempTestSuite1764255462021.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_DEMOQA/input_DateOfBirth' located by 'By.xpath: //input[@id='dateOfBirthInput']' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:74)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy49.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 21 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive/Case01-8-P1 Success Submit Practice Form" time="64.102" classname="Test Cases/Positive/Case01-8-P1 Success Submit Practice Form" status="FAILED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"Firstname":"Awaaal","DateOfBirth":"19 Des 1945","FilePathInputBr...":"/Data Files/Images/person-dummy.jpg","CurrentAddress":"Sample Address C","MobileNumber":"0858567893","State":"NCR","Lastname":"Akhiiir","City":"Delhi","Subjects":"Math","EmailAddress":"email@email.com"}]]></property>
+         </properties>
+         <failure type="FAILED" message="Test Cases/Positive/Case01-8-P1 Success Submit Practice Form FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to set text '19 Des 1945' of object 'Object Repository/Page_DEMOQA/input_DateOfBirth'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1081)&#xa;	at Case01-8-P1 Success Submit Practice Form.run(Case01-8-P1 Success Submit Practice Form:121)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)&#xa;	at TempTestSuite1764255462021.run(TempTestSuite1764255462021.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_DEMOQA/input_DateOfBirth' located by 'By.xpath: //input[@id='dateOfBirthInput']' not found&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:74)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at jdk.proxy2/jdk.proxy2.$Proxy49.execute(Unknown Source)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)&#xa;	... 21 more&#xa;"/>
+         <system-out><![CDATA[27-11-2025T22:00:13 - [TEST_CASE][FAILED] - Test Cases/Positive/Case01-8-P1 Success Submit Practice Form: Test Cases/Positive/Case01-8-P1 Success Submit Practice Form FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '19 Des 1945' of object 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1081)
+	at Case01-8-P1 Success Submit Practice Form.run(Case01-8-P1 Success Submit Practice Form:121)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1764255462021.run(TempTestSuite1764255462021.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_DEMOQA/input_DateOfBirth' located by 'By.xpath: //input[@id='dateOfBirthInput']' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:74)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy49.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 21 more
+
+
+27-11-2025T22:00:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+27-11-2025T22:00:13 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+27-11-2025T22:00:14 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+27-11-2025T22:00:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-11-2025T22:00:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+27-11-2025T22:00:17 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/automation-practice-form"): Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+27-11-2025T22:00:38 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+27-11-2025T22:00:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:00:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:00:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+27-11-2025T22:00:40 - [MESSAGE][PASSED] - Current window maximized
+
+27-11-2025T22:00:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Name_firstName"), 8): Object 'Object Repository/Page_DEMOQA/input_Name_firstName' is present
+
+27-11-2025T22:00:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Name_firstName' is present
+
+27-11-2025T22:00:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_DEMOQA/input_Name_firstName"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/input_Name_firstName' is visible
+
+27-11-2025T22:00:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Name_firstName' is visible
+
+27-11-2025T22:00:41 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/input_Name_firstName"), Firstname): Text 'Awaaal' is set on object 'Object Repository/Page_DEMOQA/input_Name_firstName'
+
+27-11-2025T22:00:41 - [MESSAGE][PASSED] - Text 'Awaaal' is set on object 'Object Repository/Page_DEMOQA/input_Name_firstName'
+
+27-11-2025T22:00:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Name_lastName"), 8): Object 'Object Repository/Page_DEMOQA/input_Name_lastName' is present
+
+27-11-2025T22:00:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Name_lastName' is present
+
+27-11-2025T22:00:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_DEMOQA/input_Name_lastName"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/input_Name_lastName' is visible
+
+27-11-2025T22:00:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Name_lastName' is visible
+
+27-11-2025T22:00:42 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/input_Name_lastName"), Lastname): Text 'Akhiiir' is set on object 'Object Repository/Page_DEMOQA/input_Name_lastName'
+
+27-11-2025T22:00:42 - [MESSAGE][PASSED] - Text 'Akhiiir' is set on object 'Object Repository/Page_DEMOQA/input_Name_lastName'
+
+27-11-2025T22:00:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Email_userEmail"), 8): Object 'Object Repository/Page_DEMOQA/input_Email_userEmail' is present
+
+27-11-2025T22:00:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Email_userEmail' is present
+
+27-11-2025T22:00:43 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/input_Email_userEmail"), 8): Scroll to object 'Object Repository/Page_DEMOQA/input_Email_userEmail' successfully
+
+27-11-2025T22:00:43 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/input_Email_userEmail' successfully
+
+27-11-2025T22:00:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:00:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:00:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_DEMOQA/input_Email_userEmail"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/input_Email_userEmail' is visible
+
+27-11-2025T22:00:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Email_userEmail' is visible
+
+27-11-2025T22:00:45 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/input_Email_userEmail"), EmailAddress): Text 'email@email.com' is set on object 'Object Repository/Page_DEMOQA/input_Email_userEmail'
+
+27-11-2025T22:00:46 - [MESSAGE][PASSED] - Text 'email@email.com' is set on object 'Object Repository/Page_DEMOQA/input_Email_userEmail'
+
+27-11-2025T22:00:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Gender_Male"), 8): Object 'Object Repository/Page_DEMOQA/input_Gender_Male' is present
+
+27-11-2025T22:00:46 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Gender_Male' is present
+
+27-11-2025T22:00:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Gender_Female"), 8): Object 'Object Repository/Page_DEMOQA/input_Gender_Female' is present
+
+27-11-2025T22:00:46 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Gender_Female' is present
+
+27-11-2025T22:00:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Gender_Other"), 8): Object 'Object Repository/Page_DEMOQA/input_Gender_Other' is present
+
+27-11-2025T22:00:46 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Gender_Other' is present
+
+27-11-2025T22:00:46 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/input_Gender_Male"), 100): Scroll to object 'Object Repository/Page_DEMOQA/input_Gender_Male' successfully
+
+27-11-2025T22:00:47 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/input_Gender_Male' successfully
+
+27-11-2025T22:00:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:00:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:00:49 - [TEST_STEP][NOT_RUN] - verifyElementClickable(findTestObject("Page_DEMOQA/input_Gender_Male"), STOP_ON_FAILURE): NOT_RUN: verifyElementClickable(findTestObject("Page_DEMOQA/input_Gender_Male"), STOP_ON_FAILURE)
+
+27-11-2025T22:00:49 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementClickable(findTestObject("Page_DEMOQA/input_Gender_Male"), STOP_ON_FAILURE)
+
+27-11-2025T22:00:49 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Page_DEMOQA/input_Gender_Male")): Object: 'Object Repository/Page_DEMOQA/input_Gender_Male' is clicked on
+
+27-11-2025T22:01:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/input_Gender_Male' is clicked on
+
+27-11-2025T22:01:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8): Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is present
+
+27-11-2025T22:01:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is present
+
+27-11-2025T22:01:00 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8): Scroll to object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' successfully
+
+27-11-2025T22:01:00 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' successfully
+
+27-11-2025T22:01:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:01:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:01:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is visible
+
+27-11-2025T22:01:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is visible
+
+27-11-2025T22:01:02 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), MobileNumber): Text '0858567893' is set on object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber'
+
+27-11-2025T22:01:03 - [MESSAGE][PASSED] - Text '0858567893' is set on object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber'
+
+27-11-2025T22:01:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_DateOfBirth"), 8): Object 'Object Repository/Page_DEMOQA/input_DateOfBirth' is present
+
+27-11-2025T22:01:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_DateOfBirth' is present
+
+27-11-2025T22:01:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_DEMOQA/input_DateOfBirth"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/input_DateOfBirth' is visible
+
+27-11-2025T22:01:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_DateOfBirth' is visible
+
+27-11-2025T22:01:03 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_DEMOQA/input_DateOfBirth"), Keys.chord(ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT)): Keys 'LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + ' sent to object: 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+
+27-11-2025T22:01:04 - [MESSAGE][PASSED] - Keys 'LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + ' sent to object: 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+
+27-11-2025T22:01:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:01:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:01:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_DEMOQA/input_DateOfBirth"), Keys.chord(DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE)): Keys 'DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + ' sent to object: 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+
+27-11-2025T22:01:06 - [MESSAGE][PASSED] - Keys 'DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + ' sent to object: 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+
+27-11-2025T22:01:06 - [TEST_STEP][FAILED] - setText(findTestObject("Page_DEMOQA/input_DateOfBirth"), DateOfBirth): Unable to set text '19 Des 1945' of object 'Object Repository/Page_DEMOQA/input_DateOfBirth' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '19 Des 1945' of object 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1081)
+	at Case01-8-P1 Success Submit Practice Form.run(Case01-8-P1 Success Submit Practice Form:121)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1764255462021.run(TempTestSuite1764255462021.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_DEMOQA/input_DateOfBirth' located by 'By.xpath: //input[@id='dateOfBirthInput']' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:74)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy49.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1081)
+	at Script1763805219923.run(Script1763805219923.groovy:121)
+	... 15 more
+)
+
+27-11-2025T22:01:17 - [MESSAGE][FAILED] - Unable to set text '19 Des 1945' of object 'Object Repository/Page_DEMOQA/input_DateOfBirth' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '19 Des 1945' of object 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1081)
+	at Case01-8-P1 Success Submit Practice Form.run(Case01-8-P1 Success Submit Practice Form:121)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1764255462021.run(TempTestSuite1764255462021.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_DEMOQA/input_DateOfBirth' located by 'By.xpath: //input[@id='dateOfBirthInput']' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:74)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy49.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1081)
+	at Script1763805219923.run(Script1763805219923.groovy:121)
+	... 15 more
+)
+[[ATTACHMENT|T:\\Lawencon\\Interview\\Fix\\case01\\AutomationPracticeForm\\AutomationPracticeForm\\Reports\\20251127_215742\\TSPracticeFormPositive\\20251127_215742\\1764255677190.png]]]]></system-out>
+         <system-err><![CDATA[27-11-2025T22:00:13 - [TEST_CASE][FAILED] - Test Cases/Positive/Case01-8-P1 Success Submit Practice Form: Test Cases/Positive/Case01-8-P1 Success Submit Practice Form FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '19 Des 1945' of object 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1081)
+	at Case01-8-P1 Success Submit Practice Form.run(Case01-8-P1 Success Submit Practice Form:121)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1764255462021.run(TempTestSuite1764255462021.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_DEMOQA/input_DateOfBirth' located by 'By.xpath: //input[@id='dateOfBirthInput']' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:74)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy49.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 21 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[27-11-2025T21:57:51 - [TEST_SUITE][FAILED] - TSPracticeFormPositive: null]]></system-out>
+      <system-err><![CDATA[27-11-2025T21:57:51 - [TEST_SUITE][FAILED] - TSPracticeFormPositive: null]]></system-err>
+   </testsuite>
+</testsuites>

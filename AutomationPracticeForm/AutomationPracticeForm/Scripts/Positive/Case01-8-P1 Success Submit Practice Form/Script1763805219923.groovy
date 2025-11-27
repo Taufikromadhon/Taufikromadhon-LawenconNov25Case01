@@ -100,13 +100,13 @@ WebUI.verifyElementVisible(findTestObject('Page_DEMOQA/input_(10 Digits)_userNum
 WebUI.setText(findTestObject('Page_DEMOQA/input_(10 Digits)_userNumber'), MobileNumber)
 
 // Melakukan verivikasi bahwa element sudah tersedia
-WebUI.verifyElementPresent(findTestObject('Page_DEMOQA/input_DateOfBirth_old'), 8)
+WebUI.verifyElementPresent(findTestObject('Page_DEMOQA/input_DateOfBirth'), 8)
 
 // Melakukan verifikasi bahwa element sudah ada dalam area yang dapat dilihat oleh sistem dengan failure handling
-WebUI.verifyElementVisible(findTestObject('Page_DEMOQA/input_DateOfBirth_old'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('Page_DEMOQA/input_DateOfBirth'), FailureHandling.STOP_ON_FAILURE)
 
 // Mengirimkan Input Keyboard key ke Object
-WebUI.sendKeys(findTestObject('Page_DEMOQA/input_DateOfBirth_old'), Keys.chord(Keys.ARROW_LEFT, Keys.ARROW_LEFT, Keys.ARROW_LEFT, 
+WebUI.sendKeys(findTestObject('Page_DEMOQA/input_DateOfBirth'), Keys.chord(Keys.ARROW_LEFT, Keys.ARROW_LEFT, Keys.ARROW_LEFT, 
         Keys.ARROW_LEFT, Keys.ARROW_LEFT, Keys.ARROW_LEFT, Keys.ARROW_LEFT, Keys.ARROW_LEFT, Keys.ARROW_LEFT, Keys.ARROW_LEFT, 
         Keys.ARROW_LEFT))
 
@@ -114,21 +114,21 @@ WebUI.sendKeys(findTestObject('Page_DEMOQA/input_DateOfBirth_old'), Keys.chord(K
 WebUI.delay(2)
 
 // Mengirimkan Input Keyboard key ke Object
-WebUI.sendKeys(findTestObject('Page_DEMOQA/input_DateOfBirth_old'), Keys.chord(Keys.DELETE, Keys.DELETE, Keys.DELETE, Keys.DELETE, 
+WebUI.sendKeys(findTestObject('Page_DEMOQA/input_DateOfBirth'), Keys.chord(Keys.DELETE, Keys.DELETE, Keys.DELETE, Keys.DELETE, 
         Keys.DELETE, Keys.DELETE, Keys.DELETE, Keys.DELETE, Keys.DELETE, Keys.DELETE))
 
 // Melakukan input set Text pada field object dengan menggunakan variable
-WebUI.setText(findTestObject('Page_DEMOQA/input_DateOfBirth_old'), DateOfBirth)
+WebUI.setText(findTestObject('Page_DEMOQA/input_DateOfBirth'), DateOfBirth)
 
 // Mengirimkan Input Keyboard key ke Object
-WebUI.sendKeys(findTestObject('Page_DEMOQA/input_DateOfBirth_old'), Keys.chord(Keys.ARROW_LEFT, Keys.ARROW_LEFT, Keys.ARROW_LEFT, 
+WebUI.sendKeys(findTestObject('Page_DEMOQA/input_DateOfBirth'), Keys.chord(Keys.ARROW_LEFT, Keys.ARROW_LEFT, Keys.ARROW_LEFT, 
         Keys.ARROW_LEFT, Keys.ARROW_LEFT, Keys.ARROW_LEFT, Keys.ARROW_LEFT, Keys.ARROW_LEFT, Keys.ARROW_LEFT, Keys.ARROW_LEFT, 
         Keys.ARROW_LEFT))
 
 // Memberikan sedikit jeda selama 2 detik untuk menunggu proses yang sedang berjalan
 WebUI.delay(2)
 
-WebUI.sendKeys(findTestObject('Page_DEMOQA/input_DateOfBirth_old'), Keys.chord(Keys.BACK_SPACE, Keys.ENTER))
+WebUI.sendKeys(findTestObject('Page_DEMOQA/input_DateOfBirth'), Keys.chord(Keys.BACK_SPACE, Keys.ENTER))
 
 // Memberikan sedikit jeda selama 2 detik untuk menunggu proses yang sedang berjalan
 WebUI.delay(2)
