@@ -1,0 +1,124 @@
+2025-11-27 22:24:03.951 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\USER\.katalon\packages\KSE-10.4.2\configuration\org.eclipse.osgi\132\0\.cp\resources\logback\logback-execution.xml
+2025-11-27 22:24:03.956 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: T:\Lawencon\Interview\Fix\case01\AutomationPracticeForm\AutomationPracticeForm\Include\config\log.properties
+2025-11-27 22:24:05.047 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TSPractiveFormInvalidFormatEmail
+2025-11-27 22:24:05.235 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Taufik Romadhon
+2025-11-27 22:24:05.236 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = AutomationPracticeForm
+2025-11-27 22:24:05.238 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = USER - LAPTOP-KNF1HLK6
+2025-11-27 22:24:05.239 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-11-27 22:24:05.240 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 10.156.170.155
+2025-11-27 22:24:05.242 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.2.0
+2025-11-27 22:24:06.350 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-27 22:24:06.350 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Negative/Case01-1-N1 Alert Notification For Invalid Format Email On Email Field
+2025-11-27 22:24:06.423 INFO  c.k.katalon.core.main.TestCaseExecutor   - EmailAddress = NotAnEmail1
+2025-11-27 22:24:07.060 DEBUG  For Invalid Format Email On Email Field - 1: openBrowser("")
+2025-11-27 22:24:07.593 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+2025-11-27 22:24:07.725 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Nov 27, 2025 10:24:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-11-27 22:24:10.620 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 46d39097db78a8f35a74c0b637609c89
+2025-11-27 22:24:10.621 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 142.0.7444.176
+2025-11-27 22:24:10.622 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-11-27 22:24:10.623 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-11-27 22:24:10.653 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-11-27 22:24:10.720 DEBUG  For Invalid Format Email On Email Field - 2: navigateToUrl("https://demoqa.com/automation-practice-form")
+2025-11-27 22:25:49.601 DEBUG  For Invalid Format Email On Email Field - 3: maximizeWindow()
+2025-11-27 22:25:49.667 DEBUG  For Invalid Format Email On Email Field - 4: delay(2)
+2025-11-27 22:25:51.722 DEBUG  For Invalid Format Email On Email Field - 5: verifyElementPresent(findTestObject("Object Repository/Page_DEMOQA/input_Email_userEmail"), 8)
+2025-11-27 22:26:00.201 DEBUG  For Invalid Format Email On Email Field - 6: verifyElementVisible(findTestObject("Object Repository/Page_DEMOQA/input_Email_userEmail"), STOP_ON_FAILURE)
+2025-11-27 22:26:10.604 DEBUG  For Invalid Format Email On Email Field - 7: delay(2)
+2025-11-27 22:26:12.630 DEBUG  For Invalid Format Email On Email Field - 8: setText(findTestObject("Object Repository/Page_DEMOQA/input_Email_userEmail"), EmailAddress)
+2025-11-27 22:26:23.038 WARN  c.k.k.c.w.k.builtin.SetTextKeyword       - Waiting for element timed out
+2025-11-27 22:26:23.454 WARN  c.k.k.c.w.k.builtin.SetTextKeyword       - Waiting for element timed out
+2025-11-27 22:26:23.568 DEBUG  For Invalid Format Email On Email Field - 9: delay(2)
+2025-11-27 22:26:25.587 DEBUG  For Invalid Format Email On Email Field - 10: verifyElementPresent(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), 8)
+2025-11-27 22:26:33.952 DEBUG  For Invalid Format Email On Email Field - 11: delay(2)
+2025-11-27 22:26:35.978 DEBUG  For Invalid Format Email On Email Field - 12: scrollToElement(findTestObject("Page_DEMOQA/button_Submit"), 100)
+2025-11-27 22:26:46.554 DEBUG  For Invalid Format Email On Email Field - 13: delay(2)
+2025-11-27 22:26:48.568 DEBUG  For Invalid Format Email On Email Field - 14: verifyElementVisible(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), STOP_ON_FAILURE)
+2025-11-27 22:26:58.836 DEBUG  For Invalid Format Email On Email Field - 15: delay(2)
+2025-11-27 22:27:00.847 DEBUG  For Invalid Format Email On Email Field - 16: click(findTestObject("Object Repository/Page_DEMOQA/button_Submit"))
+2025-11-27 22:27:01.253 DEBUG  For Invalid Format Email On Email Field - 17: delay(2)
+2025-11-27 22:27:03.275 DEBUG  For Invalid Format Email On Email Field - 18: scrollToElement(findTestObject("Page_DEMOQA/input_Email_userEmail"), 0)
+2025-11-27 22:27:03.282 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 22:27:03.597 DEBUG  For Invalid Format Email On Email Field - 19: delay(2)
+2025-11-27 22:27:05.610 DEBUG  For Invalid Format Email On Email Field - 20: verifyElementPresent(findTestObject("Page_DEMOQA/div_Email"), 8)
+2025-11-27 22:27:05.853 DEBUG  For Invalid Format Email On Email Field - 21: click(findTestObject("Page_DEMOQA/input_Email_userEmail"))
+2025-11-27 22:27:06.247 DEBUG  For Invalid Format Email On Email Field - 22: verifyElementPresent(findTestObject("Page_DEMOQA/class_Email_Invalid"), 8)
+2025-11-27 22:27:06.508 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Negative/Case01-1-N1 Alert Notification For Invalid Format Email On Email Field
+2025-11-27 22:27:06.527 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-27 22:27:06.527 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Negative/Case01-1-N1 Alert Notification For Invalid Format Email On Email Field
+2025-11-27 22:27:06.546 INFO  c.k.katalon.core.main.TestCaseExecutor   - EmailAddress = NotAnEmail2
+2025-11-27 22:27:06.549 DEBUG  For Invalid Format Email On Email Field - 1: openBrowser("")
+2025-11-27 22:27:06.553 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-11-27 22:27:07.853 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+2025-11-27 22:27:07.859 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Nov 27, 2025 10:27:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-11-27 22:27:09.135 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = a5795d3d90cbeb621aa447c49f7a3675
+2025-11-27 22:27:09.136 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 142.0.7444.176
+2025-11-27 22:27:09.136 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-11-27 22:27:09.137 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-11-27 22:27:09.142 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-11-27 22:27:09.180 DEBUG  For Invalid Format Email On Email Field - 2: navigateToUrl("https://demoqa.com/automation-practice-form")
+2025-11-27 22:27:41.650 DEBUG  For Invalid Format Email On Email Field - 3: maximizeWindow()
+2025-11-27 22:27:41.813 DEBUG  For Invalid Format Email On Email Field - 4: delay(2)
+2025-11-27 22:27:43.833 DEBUG  For Invalid Format Email On Email Field - 5: verifyElementPresent(findTestObject("Object Repository/Page_DEMOQA/input_Email_userEmail"), 8)
+2025-11-27 22:27:45.194 DEBUG  For Invalid Format Email On Email Field - 6: verifyElementVisible(findTestObject("Object Repository/Page_DEMOQA/input_Email_userEmail"), STOP_ON_FAILURE)
+2025-11-27 22:27:45.475 DEBUG  For Invalid Format Email On Email Field - 7: delay(2)
+2025-11-27 22:27:47.495 DEBUG  For Invalid Format Email On Email Field - 8: setText(findTestObject("Object Repository/Page_DEMOQA/input_Email_userEmail"), EmailAddress)
+2025-11-27 22:27:48.273 DEBUG  For Invalid Format Email On Email Field - 9: delay(2)
+2025-11-27 22:27:50.293 DEBUG  For Invalid Format Email On Email Field - 10: verifyElementPresent(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), 8)
+2025-11-27 22:27:50.565 DEBUG  For Invalid Format Email On Email Field - 11: delay(2)
+2025-11-27 22:27:52.578 DEBUG  For Invalid Format Email On Email Field - 12: scrollToElement(findTestObject("Page_DEMOQA/button_Submit"), 100)
+2025-11-27 22:27:52.845 DEBUG  For Invalid Format Email On Email Field - 13: delay(2)
+2025-11-27 22:27:54.859 DEBUG  For Invalid Format Email On Email Field - 14: verifyElementVisible(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), STOP_ON_FAILURE)
+2025-11-27 22:27:55.112 DEBUG  For Invalid Format Email On Email Field - 15: delay(2)
+2025-11-27 22:27:57.117 DEBUG  For Invalid Format Email On Email Field - 16: click(findTestObject("Object Repository/Page_DEMOQA/button_Submit"))
+2025-11-27 22:27:57.477 DEBUG  For Invalid Format Email On Email Field - 17: delay(2)
+2025-11-27 22:27:59.484 DEBUG  For Invalid Format Email On Email Field - 18: scrollToElement(findTestObject("Page_DEMOQA/input_Email_userEmail"), 0)
+2025-11-27 22:27:59.494 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 22:27:59.741 DEBUG  For Invalid Format Email On Email Field - 19: delay(2)
+2025-11-27 22:28:01.755 DEBUG  For Invalid Format Email On Email Field - 20: verifyElementPresent(findTestObject("Page_DEMOQA/div_Email"), 8)
+2025-11-27 22:28:02.005 DEBUG  For Invalid Format Email On Email Field - 21: click(findTestObject("Page_DEMOQA/input_Email_userEmail"))
+2025-11-27 22:28:02.356 DEBUG  For Invalid Format Email On Email Field - 22: verifyElementPresent(findTestObject("Page_DEMOQA/class_Email_Invalid"), 8)
+2025-11-27 22:28:02.602 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Negative/Case01-1-N1 Alert Notification For Invalid Format Email On Email Field
+2025-11-27 22:28:02.619 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-27 22:28:02.624 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Negative/Case01-1-N1 Alert Notification For Invalid Format Email On Email Field
+2025-11-27 22:28:02.642 INFO  c.k.katalon.core.main.TestCaseExecutor   - EmailAddress = NotAnEmail3
+2025-11-27 22:28:02.643 DEBUG  For Invalid Format Email On Email Field - 1: openBrowser("")
+2025-11-27 22:28:02.647 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-11-27 22:28:02.993 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+2025-11-27 22:28:02.995 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Nov 27, 2025 10:28:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-11-27 22:28:04.446 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = e279f68eafe5f7bf2549e3138cbf608f
+2025-11-27 22:28:04.455 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 142.0.7444.176
+2025-11-27 22:28:04.457 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-11-27 22:28:04.458 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-11-27 22:28:04.459 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-11-27 22:28:04.481 DEBUG  For Invalid Format Email On Email Field - 2: navigateToUrl("https://demoqa.com/automation-practice-form")
+2025-11-27 22:28:10.538 DEBUG  For Invalid Format Email On Email Field - 3: maximizeWindow()
+2025-11-27 22:28:10.578 DEBUG  For Invalid Format Email On Email Field - 4: delay(2)
+2025-11-27 22:28:12.591 DEBUG  For Invalid Format Email On Email Field - 5: verifyElementPresent(findTestObject("Object Repository/Page_DEMOQA/input_Email_userEmail"), 8)
+2025-11-27 22:28:12.950 DEBUG  For Invalid Format Email On Email Field - 6: verifyElementVisible(findTestObject("Object Repository/Page_DEMOQA/input_Email_userEmail"), STOP_ON_FAILURE)
+2025-11-27 22:28:13.215 DEBUG  For Invalid Format Email On Email Field - 7: delay(2)
+2025-11-27 22:28:15.231 DEBUG  For Invalid Format Email On Email Field - 8: setText(findTestObject("Object Repository/Page_DEMOQA/input_Email_userEmail"), EmailAddress)
+2025-11-27 22:28:15.957 DEBUG  For Invalid Format Email On Email Field - 9: delay(2)
+2025-11-27 22:28:17.973 DEBUG  For Invalid Format Email On Email Field - 10: verifyElementPresent(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), 8)
+2025-11-27 22:28:18.223 DEBUG  For Invalid Format Email On Email Field - 11: delay(2)
+2025-11-27 22:28:20.241 DEBUG  For Invalid Format Email On Email Field - 12: scrollToElement(findTestObject("Page_DEMOQA/button_Submit"), 100)
+2025-11-27 22:28:20.494 DEBUG  For Invalid Format Email On Email Field - 13: delay(2)
+2025-11-27 22:28:22.507 DEBUG  For Invalid Format Email On Email Field - 14: verifyElementVisible(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), STOP_ON_FAILURE)
+2025-11-27 22:28:22.768 DEBUG  For Invalid Format Email On Email Field - 15: delay(2)
+2025-11-27 22:28:24.780 DEBUG  For Invalid Format Email On Email Field - 16: click(findTestObject("Object Repository/Page_DEMOQA/button_Submit"))
+2025-11-27 22:28:25.143 DEBUG  For Invalid Format Email On Email Field - 17: delay(2)
+2025-11-27 22:28:27.147 DEBUG  For Invalid Format Email On Email Field - 18: scrollToElement(findTestObject("Page_DEMOQA/input_Email_userEmail"), 0)
+2025-11-27 22:28:27.156 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 22:28:27.415 DEBUG  For Invalid Format Email On Email Field - 19: delay(2)
+2025-11-27 22:28:29.429 DEBUG  For Invalid Format Email On Email Field - 20: verifyElementPresent(findTestObject("Page_DEMOQA/div_Email"), 8)
+2025-11-27 22:28:29.698 DEBUG  For Invalid Format Email On Email Field - 21: click(findTestObject("Page_DEMOQA/input_Email_userEmail"))
+2025-11-27 22:28:30.081 DEBUG  For Invalid Format Email On Email Field - 22: verifyElementPresent(findTestObject("Page_DEMOQA/class_Email_Invalid"), 8)
+2025-11-27 22:28:30.338 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Negative/Case01-1-N1 Alert Notification For Invalid Format Email On Email Field
+2025-11-27 22:28:31.707 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-11-27 22:28:31.708 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TSPractiveFormInvalidFormatEmail
+2025-11-27 22:28:31.708 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

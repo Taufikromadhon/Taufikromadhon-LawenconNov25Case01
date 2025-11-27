@@ -1,0 +1,125 @@
+2025-11-27 22:22:03.979 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\USER\.katalon\packages\KSE-10.4.2\configuration\org.eclipse.osgi\132\0\.cp\resources\logback\logback-execution.xml
+2025-11-27 22:22:03.986 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: T:\Lawencon\Interview\Fix\case01\AutomationPracticeForm\AutomationPracticeForm\Include\config\log.properties
+2025-11-27 22:22:04.590 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TSPracticeFormMinLengthMobileNumber
+2025-11-27 22:22:04.811 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Taufik Romadhon
+2025-11-27 22:22:04.814 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = AutomationPracticeForm
+2025-11-27 22:22:04.815 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = USER - LAPTOP-KNF1HLK6
+2025-11-27 22:22:04.821 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-11-27 22:22:04.822 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 10.156.170.155
+2025-11-27 22:22:04.824 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.2.0
+2025-11-27 22:22:05.674 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-27 22:22:05.674 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Negative/Case01-6-N6 Alert Notification For Min Length On Mobile Number Field
+2025-11-27 22:22:05.744 INFO  c.k.katalon.core.main.TestCaseExecutor   - MobileNumber = 1234567
+2025-11-27 22:22:06.277 DEBUG on For Min Length On Mobile Number Field - 1: openBrowser("")
+2025-11-27 22:22:06.659 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+2025-11-27 22:22:06.747 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Nov 27, 2025 10:22:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-11-27 22:22:08.709 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = fc4ed244898314f829845f9447b7bc04
+2025-11-27 22:22:08.710 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 142.0.7444.176
+2025-11-27 22:22:08.711 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-11-27 22:22:08.712 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-11-27 22:22:08.728 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-11-27 22:22:08.809 DEBUG on For Min Length On Mobile Number Field - 2: navigateToUrl("https://demoqa.com/automation-practice-form")
+2025-11-27 22:22:18.755 DEBUG on For Min Length On Mobile Number Field - 3: maximizeWindow()
+2025-11-27 22:22:18.813 DEBUG on For Min Length On Mobile Number Field - 4: delay(2)
+2025-11-27 22:22:20.859 DEBUG on For Min Length On Mobile Number Field - 5: verifyElementPresent(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8)
+2025-11-27 22:22:21.275 DEBUG on For Min Length On Mobile Number Field - 6: verifyElementVisible(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), STOP_ON_FAILURE)
+2025-11-27 22:22:21.607 DEBUG on For Min Length On Mobile Number Field - 7: delay(2)
+2025-11-27 22:22:23.626 DEBUG on For Min Length On Mobile Number Field - 8: setText(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), MobileNumber)
+2025-11-27 22:22:24.430 DEBUG on For Min Length On Mobile Number Field - 9: delay(2)
+2025-11-27 22:22:26.456 DEBUG on For Min Length On Mobile Number Field - 10: verifyElementPresent(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), 0)
+2025-11-27 22:22:26.464 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 22:22:26.704 DEBUG on For Min Length On Mobile Number Field - 11: delay(2)
+2025-11-27 22:22:28.718 DEBUG on For Min Length On Mobile Number Field - 12: scrollToElement(findTestObject("Page_DEMOQA/button_Submit"), 100)
+2025-11-27 22:22:29.014 DEBUG on For Min Length On Mobile Number Field - 13: delay(2)
+2025-11-27 22:22:31.028 DEBUG on For Min Length On Mobile Number Field - 14: verifyElementVisible(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), STOP_ON_FAILURE)
+2025-11-27 22:22:31.297 DEBUG on For Min Length On Mobile Number Field - 15: delay(2)
+2025-11-27 22:22:33.313 DEBUG on For Min Length On Mobile Number Field - 16: click(findTestObject("Object Repository/Page_DEMOQA/button_Submit"))
+2025-11-27 22:22:33.708 DEBUG on For Min Length On Mobile Number Field - 17: delay(2)
+2025-11-27 22:22:35.718 DEBUG on For Min Length On Mobile Number Field - 18: scrollToElement(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 0)
+2025-11-27 22:22:35.726 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 22:22:35.995 DEBUG on For Min Length On Mobile Number Field - 19: delay(2)
+2025-11-27 22:22:38.006 DEBUG on For Min Length On Mobile Number Field - 20: verifyElementPresent(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8)
+2025-11-27 22:22:38.268 DEBUG on For Min Length On Mobile Number Field - 21: click(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"))
+2025-11-27 22:22:38.647 DEBUG on For Min Length On Mobile Number Field - 22: verifyElementPresent(findTestObject("Page_DEMOQA/class_Mobile_Number_Invalid"), 8)
+2025-11-27 22:22:38.906 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Negative/Case01-6-N6 Alert Notification For Min Length On Mobile Number Field
+2025-11-27 22:22:38.912 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-27 22:22:38.912 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Negative/Case01-6-N6 Alert Notification For Min Length On Mobile Number Field
+2025-11-27 22:22:38.939 INFO  c.k.katalon.core.main.TestCaseExecutor   - MobileNumber = 1234567
+2025-11-27 22:22:38.941 DEBUG on For Min Length On Mobile Number Field - 1: openBrowser("")
+2025-11-27 22:22:38.946 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-11-27 22:22:40.312 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+2025-11-27 22:22:40.315 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Nov 27, 2025 10:22:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-11-27 22:22:41.340 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 90c8bf39e48d4ea6afabe43133e6444f
+2025-11-27 22:22:41.341 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 142.0.7444.176
+2025-11-27 22:22:41.341 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-11-27 22:22:41.343 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-11-27 22:22:41.344 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-11-27 22:22:41.380 DEBUG on For Min Length On Mobile Number Field - 2: navigateToUrl("https://demoqa.com/automation-practice-form")
+2025-11-27 22:22:51.173 DEBUG on For Min Length On Mobile Number Field - 3: maximizeWindow()
+2025-11-27 22:22:51.229 DEBUG on For Min Length On Mobile Number Field - 4: delay(2)
+2025-11-27 22:22:53.242 DEBUG on For Min Length On Mobile Number Field - 5: verifyElementPresent(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8)
+2025-11-27 22:22:53.522 DEBUG on For Min Length On Mobile Number Field - 6: verifyElementVisible(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), STOP_ON_FAILURE)
+2025-11-27 22:22:53.805 DEBUG on For Min Length On Mobile Number Field - 7: delay(2)
+2025-11-27 22:22:55.820 DEBUG on For Min Length On Mobile Number Field - 8: setText(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), MobileNumber)
+2025-11-27 22:22:56.721 DEBUG on For Min Length On Mobile Number Field - 9: delay(2)
+2025-11-27 22:22:58.732 DEBUG on For Min Length On Mobile Number Field - 10: verifyElementPresent(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), 0)
+2025-11-27 22:22:58.742 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 22:22:58.996 DEBUG on For Min Length On Mobile Number Field - 11: delay(2)
+2025-11-27 22:23:01.006 DEBUG on For Min Length On Mobile Number Field - 12: scrollToElement(findTestObject("Page_DEMOQA/button_Submit"), 100)
+2025-11-27 22:23:01.286 DEBUG on For Min Length On Mobile Number Field - 13: delay(2)
+2025-11-27 22:23:03.303 DEBUG on For Min Length On Mobile Number Field - 14: verifyElementVisible(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), STOP_ON_FAILURE)
+2025-11-27 22:23:03.569 DEBUG on For Min Length On Mobile Number Field - 15: delay(2)
+2025-11-27 22:23:05.583 DEBUG on For Min Length On Mobile Number Field - 16: click(findTestObject("Object Repository/Page_DEMOQA/button_Submit"))
+2025-11-27 22:23:05.941 DEBUG on For Min Length On Mobile Number Field - 17: delay(2)
+2025-11-27 22:23:07.952 DEBUG on For Min Length On Mobile Number Field - 18: scrollToElement(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 0)
+2025-11-27 22:23:07.958 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 22:23:08.205 DEBUG on For Min Length On Mobile Number Field - 19: delay(2)
+2025-11-27 22:23:10.221 DEBUG on For Min Length On Mobile Number Field - 20: verifyElementPresent(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8)
+2025-11-27 22:23:10.482 DEBUG on For Min Length On Mobile Number Field - 21: click(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"))
+2025-11-27 22:23:10.903 DEBUG on For Min Length On Mobile Number Field - 22: verifyElementPresent(findTestObject("Page_DEMOQA/class_Mobile_Number_Invalid"), 8)
+2025-11-27 22:23:11.139 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Negative/Case01-6-N6 Alert Notification For Min Length On Mobile Number Field
+2025-11-27 22:23:11.142 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-27 22:23:11.143 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Negative/Case01-6-N6 Alert Notification For Min Length On Mobile Number Field
+2025-11-27 22:23:11.161 INFO  c.k.katalon.core.main.TestCaseExecutor   - MobileNumber = 1234567
+2025-11-27 22:23:11.166 DEBUG on For Min Length On Mobile Number Field - 1: openBrowser("")
+2025-11-27 22:23:11.173 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-11-27 22:23:12.485 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+2025-11-27 22:23:12.486 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Nov 27, 2025 10:23:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-11-27 22:23:13.707 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 4d7e3f4819e71edf8839e6a47219312b
+2025-11-27 22:23:13.708 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 142.0.7444.176
+2025-11-27 22:23:13.708 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-11-27 22:23:13.709 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-11-27 22:23:13.709 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-11-27 22:23:13.727 DEBUG on For Min Length On Mobile Number Field - 2: navigateToUrl("https://demoqa.com/automation-practice-form")
+2025-11-27 22:23:23.154 DEBUG on For Min Length On Mobile Number Field - 3: maximizeWindow()
+2025-11-27 22:23:23.205 DEBUG on For Min Length On Mobile Number Field - 4: delay(2)
+2025-11-27 22:23:25.211 DEBUG on For Min Length On Mobile Number Field - 5: verifyElementPresent(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8)
+2025-11-27 22:23:25.476 DEBUG on For Min Length On Mobile Number Field - 6: verifyElementVisible(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), STOP_ON_FAILURE)
+2025-11-27 22:23:25.744 DEBUG on For Min Length On Mobile Number Field - 7: delay(2)
+2025-11-27 22:23:27.771 DEBUG on For Min Length On Mobile Number Field - 8: setText(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), MobileNumber)
+2025-11-27 22:23:28.571 DEBUG on For Min Length On Mobile Number Field - 9: delay(2)
+2025-11-27 22:23:30.584 DEBUG on For Min Length On Mobile Number Field - 10: verifyElementPresent(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), 0)
+2025-11-27 22:23:30.590 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 22:23:30.852 DEBUG on For Min Length On Mobile Number Field - 11: delay(2)
+2025-11-27 22:23:32.872 DEBUG on For Min Length On Mobile Number Field - 12: scrollToElement(findTestObject("Page_DEMOQA/button_Submit"), 100)
+2025-11-27 22:23:33.157 DEBUG on For Min Length On Mobile Number Field - 13: delay(2)
+2025-11-27 22:23:35.172 DEBUG on For Min Length On Mobile Number Field - 14: verifyElementVisible(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), STOP_ON_FAILURE)
+2025-11-27 22:23:35.531 DEBUG on For Min Length On Mobile Number Field - 15: delay(2)
+2025-11-27 22:23:37.541 DEBUG on For Min Length On Mobile Number Field - 16: click(findTestObject("Object Repository/Page_DEMOQA/button_Submit"))
+2025-11-27 22:23:38.020 DEBUG on For Min Length On Mobile Number Field - 17: delay(2)
+2025-11-27 22:23:40.028 DEBUG on For Min Length On Mobile Number Field - 18: scrollToElement(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 0)
+2025-11-27 22:23:40.042 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 22:23:40.310 DEBUG on For Min Length On Mobile Number Field - 19: delay(2)
+2025-11-27 22:23:42.322 DEBUG on For Min Length On Mobile Number Field - 20: verifyElementPresent(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8)
+2025-11-27 22:23:42.616 DEBUG on For Min Length On Mobile Number Field - 21: click(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"))
+2025-11-27 22:23:43.192 DEBUG on For Min Length On Mobile Number Field - 22: verifyElementPresent(findTestObject("Page_DEMOQA/class_Mobile_Number_Invalid"), 8)
+2025-11-27 22:23:43.458 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Negative/Case01-6-N6 Alert Notification For Min Length On Mobile Number Field
+2025-11-27 22:23:44.305 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-11-27 22:23:44.305 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TSPracticeFormMinLengthMobileNumber
+2025-11-27 22:23:44.305 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

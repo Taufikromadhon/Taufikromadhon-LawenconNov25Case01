@@ -1,0 +1,77 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TSPractiveFormInvalidFormatEmail,Chrome 142.0.7444.176,,,27-11-2025 22:24:05,27-11-2025 22:28:31,"4m - 26,523s",PASSED
+,,,,,,,
+Test Cases/Negative/Case01-1-N1 Alert Notification For Invalid Format Email On Email Field,Chrome 142.0.7444.176,Sebagai Sample,,27-11-2025 22:24:06,27-11-2025 22:27:06,"3m - 0,159s",PASSED
+"DATA BINDING - {""EmailAddress"":""NotAnEmail1""}",,,,,,,
+"openBrowser("""")",Chrome 142.0.7444.176,,,27-11-2025 22:24:07,27-11-2025 22:24:10,"3,660s",PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Chrome 142.0.7444.176,,,27-11-2025 22:24:10,27-11-2025 22:25:49,"1m - 38,880s",PASSED
+maximizeWindow(),Chrome 142.0.7444.176,,,27-11-2025 22:25:49,27-11-2025 22:25:49,"0,065s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:25:49,27-11-2025 22:25:51,"2,054s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_DEMOQA/input_Email_userEmail""), 8)",Chrome 142.0.7444.176,,,27-11-2025 22:25:51,27-11-2025 22:26:00,"8,479s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_DEMOQA/input_Email_userEmail""), STOP_ON_FAILURE)",Chrome 142.0.7444.176,,,27-11-2025 22:26:00,27-11-2025 22:26:10,"10,402s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:26:10,27-11-2025 22:26:12,"2,026s",PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/input_Email_userEmail""), EmailAddress)",Chrome 142.0.7444.176,,,27-11-2025 22:26:12,27-11-2025 22:26:23,"10,938s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:26:23,27-11-2025 22:26:25,"2,019s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""), 8)",Chrome 142.0.7444.176,,,27-11-2025 22:26:25,27-11-2025 22:26:33,"8,365s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:26:33,27-11-2025 22:26:35,"2,025s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/button_Submit""), 100)",Chrome 142.0.7444.176,,,27-11-2025 22:26:35,27-11-2025 22:26:46,"10,575s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:26:46,27-11-2025 22:26:48,"2,014s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""), STOP_ON_FAILURE)",Chrome 142.0.7444.176,,,27-11-2025 22:26:48,27-11-2025 22:26:58,"10,267s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:26:58,27-11-2025 22:27:00,"2,011s",PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""))",Chrome 142.0.7444.176,,,27-11-2025 22:27:00,27-11-2025 22:27:01,"0,405s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:27:01,27-11-2025 22:27:03,"2,022s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/input_Email_userEmail""), 0)",Chrome 142.0.7444.176,,,27-11-2025 22:27:03,27-11-2025 22:27:03,"0,321s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:27:03,27-11-2025 22:27:05,"2,012s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/div_Email""), 8)",Chrome 142.0.7444.176,,,27-11-2025 22:27:05,27-11-2025 22:27:05,"0,243s",PASSED
+"click(findTestObject(""Page_DEMOQA/input_Email_userEmail""))",Chrome 142.0.7444.176,,,27-11-2025 22:27:05,27-11-2025 22:27:06,"0,394s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/class_Email_Invalid""), 8)",Chrome 142.0.7444.176,,,27-11-2025 22:27:06,27-11-2025 22:27:06,"0,259s",PASSED
+,,,,,,,
+Test Cases/Negative/Case01-1-N1 Alert Notification For Invalid Format Email On Email Field,Chrome 142.0.7444.176,Sebagai Sample,,27-11-2025 22:27:06,27-11-2025 22:28:02,"56,075s",PASSED
+"DATA BINDING - {""EmailAddress"":""NotAnEmail2""}",,,,,,,
+"openBrowser("""")",Chrome 142.0.7444.176,,,27-11-2025 22:27:06,27-11-2025 22:27:09,"2,632s",PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Chrome 142.0.7444.176,,,27-11-2025 22:27:09,27-11-2025 22:27:41,"32,470s",PASSED
+maximizeWindow(),Chrome 142.0.7444.176,,,27-11-2025 22:27:41,27-11-2025 22:27:41,"0,161s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:27:41,27-11-2025 22:27:43,"2,019s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_DEMOQA/input_Email_userEmail""), 8)",Chrome 142.0.7444.176,,,27-11-2025 22:27:43,27-11-2025 22:27:45,"1,361s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_DEMOQA/input_Email_userEmail""), STOP_ON_FAILURE)",Chrome 142.0.7444.176,,,27-11-2025 22:27:45,27-11-2025 22:27:45,"0,280s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:27:45,27-11-2025 22:27:47,"2,019s",PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/input_Email_userEmail""), EmailAddress)",Chrome 142.0.7444.176,,,27-11-2025 22:27:47,27-11-2025 22:27:48,"0,777s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:27:48,27-11-2025 22:27:50,"2,020s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""), 8)",Chrome 142.0.7444.176,,,27-11-2025 22:27:50,27-11-2025 22:27:50,"0,271s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:27:50,27-11-2025 22:27:52,"2,012s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/button_Submit""), 100)",Chrome 142.0.7444.176,,,27-11-2025 22:27:52,27-11-2025 22:27:52,"0,267s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:27:52,27-11-2025 22:27:54,"2,013s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""), STOP_ON_FAILURE)",Chrome 142.0.7444.176,,,27-11-2025 22:27:54,27-11-2025 22:27:55,"0,253s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:27:55,27-11-2025 22:27:57,"2,005s",PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""))",Chrome 142.0.7444.176,,,27-11-2025 22:27:57,27-11-2025 22:27:57,"0,359s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:27:57,27-11-2025 22:27:59,"2,007s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/input_Email_userEmail""), 0)",Chrome 142.0.7444.176,,,27-11-2025 22:27:59,27-11-2025 22:27:59,"0,258s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:27:59,27-11-2025 22:28:01,"2,013s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/div_Email""), 8)",Chrome 142.0.7444.176,,,27-11-2025 22:28:01,27-11-2025 22:28:02,"0,250s",PASSED
+"click(findTestObject(""Page_DEMOQA/input_Email_userEmail""))",Chrome 142.0.7444.176,,,27-11-2025 22:28:02,27-11-2025 22:28:02,"0,350s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/class_Email_Invalid""), 8)",Chrome 142.0.7444.176,,,27-11-2025 22:28:02,27-11-2025 22:28:02,"0,243s",PASSED
+,,,,,,,
+Test Cases/Negative/Case01-1-N1 Alert Notification For Invalid Format Email On Email Field,Chrome 142.0.7444.176,Sebagai Sample,,27-11-2025 22:28:02,27-11-2025 22:28:30,"27,715s",PASSED
+"DATA BINDING - {""EmailAddress"":""NotAnEmail3""}",,,,,,,
+"openBrowser("""")",Chrome 142.0.7444.176,,,27-11-2025 22:28:02,27-11-2025 22:28:04,"1,838s",PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Chrome 142.0.7444.176,,,27-11-2025 22:28:04,27-11-2025 22:28:10,"6,059s",PASSED
+maximizeWindow(),Chrome 142.0.7444.176,,,27-11-2025 22:28:10,27-11-2025 22:28:10,"0,038s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:28:10,27-11-2025 22:28:12,"2,013s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_DEMOQA/input_Email_userEmail""), 8)",Chrome 142.0.7444.176,,,27-11-2025 22:28:12,27-11-2025 22:28:12,"0,359s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_DEMOQA/input_Email_userEmail""), STOP_ON_FAILURE)",Chrome 142.0.7444.176,,,27-11-2025 22:28:12,27-11-2025 22:28:13,"0,265s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:28:13,27-11-2025 22:28:15,"2,016s",PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/input_Email_userEmail""), EmailAddress)",Chrome 142.0.7444.176,,,27-11-2025 22:28:15,27-11-2025 22:28:15,"0,726s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:28:15,27-11-2025 22:28:17,"2,015s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""), 8)",Chrome 142.0.7444.176,,,27-11-2025 22:28:17,27-11-2025 22:28:18,"0,249s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:28:18,27-11-2025 22:28:20,"2,017s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/button_Submit""), 100)",Chrome 142.0.7444.176,,,27-11-2025 22:28:20,27-11-2025 22:28:20,"0,253s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:28:20,27-11-2025 22:28:22,"2,012s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""), STOP_ON_FAILURE)",Chrome 142.0.7444.176,,,27-11-2025 22:28:22,27-11-2025 22:28:22,"0,262s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:28:22,27-11-2025 22:28:24,"2,010s",PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""))",Chrome 142.0.7444.176,,,27-11-2025 22:28:24,27-11-2025 22:28:25,"0,363s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:28:25,27-11-2025 22:28:27,"2,004s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/input_Email_userEmail""), 0)",Chrome 142.0.7444.176,,,27-11-2025 22:28:27,27-11-2025 22:28:27,"0,268s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 22:28:27,27-11-2025 22:28:29,"2,013s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/div_Email""), 8)",Chrome 142.0.7444.176,,,27-11-2025 22:28:29,27-11-2025 22:28:29,"0,269s",PASSED
+"click(findTestObject(""Page_DEMOQA/input_Email_userEmail""))",Chrome 142.0.7444.176,,,27-11-2025 22:28:29,27-11-2025 22:28:30,"0,383s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/class_Email_Invalid""), 8)",Chrome 142.0.7444.176,,,27-11-2025 22:28:30,27-11-2025 22:28:30,"0,257s",PASSED
