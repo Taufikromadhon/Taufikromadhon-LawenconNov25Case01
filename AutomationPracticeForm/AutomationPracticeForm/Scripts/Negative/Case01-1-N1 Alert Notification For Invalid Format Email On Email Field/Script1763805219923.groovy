@@ -76,7 +76,7 @@ WebUI.scrollToElement(findTestObject('Page_DEMOQA/input_Email_userEmail'), 0)
 WebUI.delay(2)
 
 // Melakukan verivikasi bahwa element sudah tersedia
-WebUI.verifyElementPresent(findTestObject('Page_DEMOQA/div_Email_col-md-9 col-sm-12'), 8)
+WebUI.verifyElementPresent(findTestObject('Page_DEMOQA/div_Email'), 8)
 
 // Untuk melakukan Click ke Object
 WebUI.click(findTestObject('Page_DEMOQA/input_Email_userEmail'))

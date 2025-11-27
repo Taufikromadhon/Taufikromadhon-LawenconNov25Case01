@@ -1,0 +1,356 @@
+2025-11-27 21:03:05.211 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\USER\.katalon\packages\KSE-10.4.2\configuration\org.eclipse.osgi\132\0\.cp\resources\logback\logback-execution.xml
+2025-11-27 21:03:05.214 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: T:\Lawrencon\Interview\Fix\case01\AutomationPracticeForm\AutomationPracticeForm\Include\config\log.properties
+2025-11-27 21:03:05.609 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TSPracticeFormPositive
+2025-11-27 21:03:05.756 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Taufik Romadhon
+2025-11-27 21:03:05.758 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = AutomationPracticeForm
+2025-11-27 21:03:05.759 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = USER - LAPTOP-KNF1HLK6
+2025-11-27 21:03:05.760 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-11-27 21:03:05.760 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 10.156.170.155
+2025-11-27 21:03:05.762 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.2.0
+2025-11-27 21:03:06.506 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-27 21:03:06.506 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Positive/Case01-8-P1 Success Submit Practice Form
+2025-11-27 21:03:06.632 INFO  c.k.katalon.core.main.TestCaseExecutor   - Firstname = Awal
+2025-11-27 21:03:06.634 INFO  c.k.katalon.core.main.TestCaseExecutor   - Lastname = Akhir
+2025-11-27 21:03:06.634 INFO  c.k.katalon.core.main.TestCaseExecutor   - EmailAddress = email@email.com
+2025-11-27 21:03:06.635 INFO  c.k.katalon.core.main.TestCaseExecutor   - MobileNumber = 0858567891
+2025-11-27 21:03:06.636 INFO  c.k.katalon.core.main.TestCaseExecutor   - DateOfBirth = 17 Aug 1945
+2025-11-27 21:03:06.637 INFO  c.k.katalon.core.main.TestCaseExecutor   - FilePathInputBrowse = /Data Files/Images/person-dummy.jpg
+2025-11-27 21:03:06.638 INFO  c.k.katalon.core.main.TestCaseExecutor   - Subjects = Math
+2025-11-27 21:03:06.639 INFO  c.k.katalon.core.main.TestCaseExecutor   - CurrentAddress = Sample Address A
+2025-11-27 21:03:06.640 INFO  c.k.katalon.core.main.TestCaseExecutor   - State = NCR
+2025-11-27 21:03:06.641 INFO  c.k.katalon.core.main.TestCaseExecutor   - City = Delhi
+2025-11-27 21:03:07.202 DEBUG Case01-8-P1 Success Submit Practice Form - 1: openBrowser("")
+2025-11-27 21:03:07.464 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+2025-11-27 21:03:07.524 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Nov 27, 2025 9:03:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-11-27 21:03:09.039 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 2c2d6f4ba5c5fff324d839b933570242
+2025-11-27 21:03:09.041 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 142.0.7444.176
+2025-11-27 21:03:09.042 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-11-27 21:03:09.043 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-11-27 21:03:09.054 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-11-27 21:03:09.104 DEBUG Case01-8-P1 Success Submit Practice Form - 2: navigateToUrl("https://demoqa.com/automation-practice-form")
+2025-11-27 21:03:28.739 DEBUG Case01-8-P1 Success Submit Practice Form - 3: delay(2)
+2025-11-27 21:03:30.776 DEBUG Case01-8-P1 Success Submit Practice Form - 4: maximizeWindow()
+2025-11-27 21:03:30.827 DEBUG Case01-8-P1 Success Submit Practice Form - 5: verifyElementPresent(findTestObject("Page_DEMOQA/input_Name_firstName"), 8)
+2025-11-27 21:03:31.144 DEBUG Case01-8-P1 Success Submit Practice Form - 6: verifyElementVisible(findTestObject("Page_DEMOQA/input_Name_firstName"), STOP_ON_FAILURE)
+2025-11-27 21:03:31.433 DEBUG Case01-8-P1 Success Submit Practice Form - 7: setText(findTestObject("Page_DEMOQA/input_Name_firstName"), Firstname)
+2025-11-27 21:03:32.123 DEBUG Case01-8-P1 Success Submit Practice Form - 8: verifyElementPresent(findTestObject("Page_DEMOQA/input_Name_lastName"), 8)
+2025-11-27 21:03:32.362 DEBUG Case01-8-P1 Success Submit Practice Form - 9: verifyElementVisible(findTestObject("Page_DEMOQA/input_Name_lastName"), STOP_ON_FAILURE)
+2025-11-27 21:03:32.616 DEBUG Case01-8-P1 Success Submit Practice Form - 10: setText(findTestObject("Page_DEMOQA/input_Name_lastName"), Lastname)
+2025-11-27 21:03:33.246 DEBUG Case01-8-P1 Success Submit Practice Form - 11: verifyElementPresent(findTestObject("Page_DEMOQA/input_Email_userEmail"), 8)
+2025-11-27 21:03:33.489 DEBUG Case01-8-P1 Success Submit Practice Form - 12: scrollToElement(findTestObject("Page_DEMOQA/input_Email_userEmail"), 8)
+2025-11-27 21:03:33.741 DEBUG Case01-8-P1 Success Submit Practice Form - 13: delay(2)
+2025-11-27 21:03:35.747 DEBUG Case01-8-P1 Success Submit Practice Form - 14: verifyElementVisible(findTestObject("Page_DEMOQA/input_Email_userEmail"), STOP_ON_FAILURE)
+2025-11-27 21:03:36.001 DEBUG Case01-8-P1 Success Submit Practice Form - 15: setText(findTestObject("Page_DEMOQA/input_Email_userEmail"), EmailAddress)
+2025-11-27 21:03:36.631 DEBUG Case01-8-P1 Success Submit Practice Form - 16: verifyElementPresent(findTestObject("Page_DEMOQA/input_Gender_Male"), 8)
+2025-11-27 21:03:36.871 DEBUG Case01-8-P1 Success Submit Practice Form - 17: verifyElementPresent(findTestObject("Page_DEMOQA/input_Gender_Female"), 8)
+2025-11-27 21:03:37.119 DEBUG Case01-8-P1 Success Submit Practice Form - 18: verifyElementPresent(findTestObject("Page_DEMOQA/input_Gender_Other"), 8)
+2025-11-27 21:03:37.355 DEBUG Case01-8-P1 Success Submit Practice Form - 19: scrollToElement(findTestObject("Page_DEMOQA/input_Gender_Male"), 100)
+2025-11-27 21:03:37.604 DEBUG Case01-8-P1 Success Submit Practice Form - 20: delay(2)
+2025-11-27 21:03:39.620 DEBUG Case01-8-P1 Success Submit Practice Form - 21: verifyElementClickable(findTestObject("Page_DEMOQA/input_Gender_Male"), STOP_ON_FAILURE)
+2025-11-27 21:03:39.622 WARN  Case01-8-P1 Success Submit Practice Form - SKIPPED NOT_RUN: verifyElementClickable(findTestObject("Page_DEMOQA/input_Gender_Male"), STOP_ON_FAILURE)
+2025-11-27 21:03:39.625 DEBUG Case01-8-P1 Success Submit Practice Form - 22: enhancedClick(findTestObject("Page_DEMOQA/input_Gender_Male"))
+2025-11-27 21:03:51.448 DEBUG Case01-8-P1 Success Submit Practice Form - 23: verifyElementPresent(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8)
+2025-11-27 21:03:51.705 DEBUG Case01-8-P1 Success Submit Practice Form - 24: scrollToElement(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8)
+2025-11-27 21:03:51.956 DEBUG Case01-8-P1 Success Submit Practice Form - 25: delay(2)
+2025-11-27 21:03:53.973 DEBUG Case01-8-P1 Success Submit Practice Form - 26: verifyElementVisible(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), STOP_ON_FAILURE)
+2025-11-27 21:03:54.228 DEBUG Case01-8-P1 Success Submit Practice Form - 27: setText(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), MobileNumber)
+2025-11-27 21:03:54.855 DEBUG Case01-8-P1 Success Submit Practice Form - 28: verifyElementPresent(findTestObject("Page_DEMOQA/input_DateOfBirth_old"), 8)
+2025-11-27 21:03:55.094 DEBUG Case01-8-P1 Success Submit Practice Form - 29: verifyElementVisible(findTestObject("Page_DEMOQA/input_DateOfBirth_old"), STOP_ON_FAILURE)
+2025-11-27 21:03:55.351 DEBUG Case01-8-P1 Success Submit Practice Form - 30: sendKeys(findTestObject("Page_DEMOQA/input_DateOfBirth_old"), Keys.chord(ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT))
+2025-11-27 21:03:55.734 DEBUG Case01-8-P1 Success Submit Practice Form - 31: delay(2)
+2025-11-27 21:03:57.741 DEBUG Case01-8-P1 Success Submit Practice Form - 32: sendKeys(findTestObject("Page_DEMOQA/input_DateOfBirth_old"), Keys.chord(DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE))
+2025-11-27 21:03:58.107 DEBUG Case01-8-P1 Success Submit Practice Form - 33: setText(findTestObject("Page_DEMOQA/input_DateOfBirth_old"), DateOfBirth)
+2025-11-27 21:03:58.990 DEBUG Case01-8-P1 Success Submit Practice Form - 34: sendKeys(findTestObject("Page_DEMOQA/input_DateOfBirth_old"), Keys.chord(ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT))
+2025-11-27 21:03:59.524 DEBUG Case01-8-P1 Success Submit Practice Form - 35: delay(2)
+2025-11-27 21:04:01.532 DEBUG Case01-8-P1 Success Submit Practice Form - 36: sendKeys(findTestObject("Page_DEMOQA/input_DateOfBirth_old"), Keys.chord(BACK_SPACE, ENTER))
+2025-11-27 21:04:01.835 DEBUG Case01-8-P1 Success Submit Practice Form - 37: delay(2)
+2025-11-27 21:04:03.857 DEBUG Case01-8-P1 Success Submit Practice Form - 38: verifyElementPresent(findTestObject("Page_DEMOQA/input_SubjectsInput"), 8)
+2025-11-27 21:04:04.104 DEBUG Case01-8-P1 Success Submit Practice Form - 39: scrollToElement(findTestObject("Page_DEMOQA/input_SubjectsInput"), 8)
+2025-11-27 21:04:04.346 DEBUG Case01-8-P1 Success Submit Practice Form - 40: delay(2)
+2025-11-27 21:04:06.353 DEBUG Case01-8-P1 Success Submit Practice Form - 41: verifyElementVisible(findTestObject("Page_DEMOQA/input_SubjectsInput"), STOP_ON_FAILURE)
+2025-11-27 21:04:06.607 DEBUG Case01-8-P1 Success Submit Practice Form - 42: setText(findTestObject("Page_DEMOQA/input_SubjectsInput"), Subjects)
+2025-11-27 21:04:07.228 DEBUG Case01-8-P1 Success Submit Practice Form - 43: sendKeys(findTestObject("Page_DEMOQA/input_SubjectsInput"), Keys.chord(ENTER))
+2025-11-27 21:04:07.748 DEBUG Case01-8-P1 Success Submit Practice Form - 44: verifyElementPresent(findTestObject("Page_DEMOQA/input_Hobbies_Sports"), 8)
+2025-11-27 21:04:08.205 DEBUG Case01-8-P1 Success Submit Practice Form - 45: verifyElementPresent(findTestObject("Page_DEMOQA/input_Hobbies_Reading"), 8)
+2025-11-27 21:04:08.440 DEBUG Case01-8-P1 Success Submit Practice Form - 46: verifyElementPresent(findTestObject("Page_DEMOQA/input_Hobbies_Music"), 8)
+2025-11-27 21:04:08.677 DEBUG Case01-8-P1 Success Submit Practice Form - 47: scrollToElement(findTestObject("Page_DEMOQA/input_Hobbies_Sports"), 8)
+2025-11-27 21:04:08.919 DEBUG Case01-8-P1 Success Submit Practice Form - 48: delay(2)
+2025-11-27 21:04:10.932 DEBUG Case01-8-P1 Success Submit Practice Form - 49: enhancedClick(findTestObject("Page_DEMOQA/input_Hobbies_Sports"))
+2025-11-27 21:04:22.680 DEBUG Case01-8-P1 Success Submit Practice Form - 50: verifyElementPresent(findTestObject("Page_DEMOQA/input_Browse"), 8)
+2025-11-27 21:04:30.791 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_DEMOQA/input_Browse' located by 'By.xpath: //*[@placeholder = 'Browse' and @type = 'file' and @id = 'uploadPicture']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_DEMOQA/input_Browse' located by 'By.xpath: //*[@placeholder = 'Browse' and @type = 'file' and @id = 'uploadPicture']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)
+	at Case01-8-P1 Success Submit Practice Form.run(Case01-8-P1 Success Submit Practice Form:172)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1764252182071.run(TempTestSuite1764252182071.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+2025-11-27 21:04:30.846 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify object 'Object Repository/Page_DEMOQA/input_Browse' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_DEMOQA/input_Browse' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)
+	at Case01-8-P1 Success Submit Practice Form.run(Case01-8-P1 Success Submit Practice Form:172)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1764252182071.run(TempTestSuite1764252182071.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_DEMOQA/input_Browse' located by 'By.xpath: //*[@placeholder = 'Browse' and @type = 'file' and @id = 'uploadPicture']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more
+)
+2025-11-27 21:04:30.848 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Positive/Case01-8-P1 Success Submit Practice Form FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_DEMOQA/input_Browse' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)
+	at Case01-8-P1 Success Submit Practice Form.run(Case01-8-P1 Success Submit Practice Form:172)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1764252182071.run(TempTestSuite1764252182071.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_DEMOQA/input_Browse' located by 'By.xpath: //*[@placeholder = 'Browse' and @type = 'file' and @id = 'uploadPicture']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more
+
+2025-11-27 21:04:30.851 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Positive/Case01-8-P1 Success Submit Practice Form
+2025-11-27 21:04:30.909 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-27 21:04:30.910 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Positive/Case01-8-P1 Success Submit Practice Form
+2025-11-27 21:04:30.933 INFO  c.k.katalon.core.main.TestCaseExecutor   - Firstname = Awaal
+2025-11-27 21:04:30.934 INFO  c.k.katalon.core.main.TestCaseExecutor   - Lastname = Akhiir
+2025-11-27 21:04:30.935 INFO  c.k.katalon.core.main.TestCaseExecutor   - EmailAddress = email@email.com
+2025-11-27 21:04:30.936 INFO  c.k.katalon.core.main.TestCaseExecutor   - MobileNumber = 0858567892
+2025-11-27 21:04:30.937 INFO  c.k.katalon.core.main.TestCaseExecutor   - DateOfBirth = 18 Jan 1945
+2025-11-27 21:04:30.937 INFO  c.k.katalon.core.main.TestCaseExecutor   - FilePathInputBrowse = /Data Files/Images/person-dummy.jpg
+2025-11-27 21:04:30.938 INFO  c.k.katalon.core.main.TestCaseExecutor   - Subjects = Math
+2025-11-27 21:04:30.938 INFO  c.k.katalon.core.main.TestCaseExecutor   - CurrentAddress = Sample Address B
+2025-11-27 21:04:30.939 INFO  c.k.katalon.core.main.TestCaseExecutor   - State = NCR
+2025-11-27 21:04:30.939 INFO  c.k.katalon.core.main.TestCaseExecutor   - City = Delhi
+2025-11-27 21:04:30.941 DEBUG Case01-8-P1 Success Submit Practice Form - 1: openBrowser("")
+2025-11-27 21:04:30.944 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-11-27 21:04:31.679 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+2025-11-27 21:04:31.679 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Nov 27, 2025 9:04:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-11-27 21:04:32.426 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 0d0252dbe93ab1353f338131657dd5a0
+2025-11-27 21:04:32.427 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 142.0.7444.176
+2025-11-27 21:04:32.428 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-11-27 21:04:32.428 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-11-27 21:04:32.429 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-11-27 21:04:32.451 DEBUG Case01-8-P1 Success Submit Practice Form - 2: navigateToUrl("https://demoqa.com/automation-practice-form")
+2025-11-27 21:04:38.867 DEBUG Case01-8-P1 Success Submit Practice Form - 3: delay(2)
+2025-11-27 21:04:40.883 DEBUG Case01-8-P1 Success Submit Practice Form - 4: maximizeWindow()
+2025-11-27 21:04:40.926 DEBUG Case01-8-P1 Success Submit Practice Form - 5: verifyElementPresent(findTestObject("Page_DEMOQA/input_Name_firstName"), 8)
+2025-11-27 21:04:41.194 DEBUG Case01-8-P1 Success Submit Practice Form - 6: verifyElementVisible(findTestObject("Page_DEMOQA/input_Name_firstName"), STOP_ON_FAILURE)
+2025-11-27 21:04:41.447 DEBUG Case01-8-P1 Success Submit Practice Form - 7: setText(findTestObject("Page_DEMOQA/input_Name_firstName"), Firstname)
+2025-11-27 21:04:42.104 DEBUG Case01-8-P1 Success Submit Practice Form - 8: verifyElementPresent(findTestObject("Page_DEMOQA/input_Name_lastName"), 8)
+2025-11-27 21:04:42.345 DEBUG Case01-8-P1 Success Submit Practice Form - 9: verifyElementVisible(findTestObject("Page_DEMOQA/input_Name_lastName"), STOP_ON_FAILURE)
+2025-11-27 21:04:42.595 DEBUG Case01-8-P1 Success Submit Practice Form - 10: setText(findTestObject("Page_DEMOQA/input_Name_lastName"), Lastname)
+2025-11-27 21:04:43.224 DEBUG Case01-8-P1 Success Submit Practice Form - 11: verifyElementPresent(findTestObject("Page_DEMOQA/input_Email_userEmail"), 8)
+2025-11-27 21:04:43.460 DEBUG Case01-8-P1 Success Submit Practice Form - 12: scrollToElement(findTestObject("Page_DEMOQA/input_Email_userEmail"), 8)
+2025-11-27 21:04:43.713 DEBUG Case01-8-P1 Success Submit Practice Form - 13: delay(2)
+2025-11-27 21:04:45.718 DEBUG Case01-8-P1 Success Submit Practice Form - 14: verifyElementVisible(findTestObject("Page_DEMOQA/input_Email_userEmail"), STOP_ON_FAILURE)
+2025-11-27 21:04:45.968 DEBUG Case01-8-P1 Success Submit Practice Form - 15: setText(findTestObject("Page_DEMOQA/input_Email_userEmail"), EmailAddress)
+2025-11-27 21:04:46.635 DEBUG Case01-8-P1 Success Submit Practice Form - 16: verifyElementPresent(findTestObject("Page_DEMOQA/input_Gender_Male"), 8)
+2025-11-27 21:04:46.879 DEBUG Case01-8-P1 Success Submit Practice Form - 17: verifyElementPresent(findTestObject("Page_DEMOQA/input_Gender_Female"), 8)
+2025-11-27 21:04:47.123 DEBUG Case01-8-P1 Success Submit Practice Form - 18: verifyElementPresent(findTestObject("Page_DEMOQA/input_Gender_Other"), 8)
+2025-11-27 21:04:47.358 DEBUG Case01-8-P1 Success Submit Practice Form - 19: scrollToElement(findTestObject("Page_DEMOQA/input_Gender_Male"), 100)
+2025-11-27 21:04:47.616 DEBUG Case01-8-P1 Success Submit Practice Form - 20: delay(2)
+2025-11-27 21:04:49.625 DEBUG Case01-8-P1 Success Submit Practice Form - 21: verifyElementClickable(findTestObject("Page_DEMOQA/input_Gender_Male"), STOP_ON_FAILURE)
+2025-11-27 21:04:49.626 WARN  Case01-8-P1 Success Submit Practice Form - SKIPPED NOT_RUN: verifyElementClickable(findTestObject("Page_DEMOQA/input_Gender_Male"), STOP_ON_FAILURE)
+2025-11-27 21:04:49.626 DEBUG Case01-8-P1 Success Submit Practice Form - 22: enhancedClick(findTestObject("Page_DEMOQA/input_Gender_Male"))
+2025-11-27 21:05:01.448 DEBUG Case01-8-P1 Success Submit Practice Form - 23: verifyElementPresent(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8)
+2025-11-27 21:05:01.687 DEBUG Case01-8-P1 Success Submit Practice Form - 24: scrollToElement(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8)
+2025-11-27 21:05:01.928 DEBUG Case01-8-P1 Success Submit Practice Form - 25: delay(2)
+2025-11-27 21:05:03.942 DEBUG Case01-8-P1 Success Submit Practice Form - 26: verifyElementVisible(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), STOP_ON_FAILURE)
+2025-11-27 21:05:04.196 DEBUG Case01-8-P1 Success Submit Practice Form - 27: setText(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), MobileNumber)
+2025-11-27 21:05:04.805 DEBUG Case01-8-P1 Success Submit Practice Form - 28: verifyElementPresent(findTestObject("Page_DEMOQA/input_DateOfBirth_old"), 8)
+2025-11-27 21:05:05.044 DEBUG Case01-8-P1 Success Submit Practice Form - 29: verifyElementVisible(findTestObject("Page_DEMOQA/input_DateOfBirth_old"), STOP_ON_FAILURE)
+2025-11-27 21:05:05.281 DEBUG Case01-8-P1 Success Submit Practice Form - 30: sendKeys(findTestObject("Page_DEMOQA/input_DateOfBirth_old"), Keys.chord(ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT))
+2025-11-27 21:05:05.659 DEBUG Case01-8-P1 Success Submit Practice Form - 31: delay(2)
+2025-11-27 21:05:07.677 DEBUG Case01-8-P1 Success Submit Practice Form - 32: sendKeys(findTestObject("Page_DEMOQA/input_DateOfBirth_old"), Keys.chord(DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE))
+2025-11-27 21:05:08.023 DEBUG Case01-8-P1 Success Submit Practice Form - 33: setText(findTestObject("Page_DEMOQA/input_DateOfBirth_old"), DateOfBirth)
+2025-11-27 21:05:08.901 DEBUG Case01-8-P1 Success Submit Practice Form - 34: sendKeys(findTestObject("Page_DEMOQA/input_DateOfBirth_old"), Keys.chord(ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT))
+2025-11-27 21:05:09.415 DEBUG Case01-8-P1 Success Submit Practice Form - 35: delay(2)
+2025-11-27 21:05:11.432 DEBUG Case01-8-P1 Success Submit Practice Form - 36: sendKeys(findTestObject("Page_DEMOQA/input_DateOfBirth_old"), Keys.chord(BACK_SPACE, ENTER))
+2025-11-27 21:05:11.726 DEBUG Case01-8-P1 Success Submit Practice Form - 37: delay(2)
+2025-11-27 21:05:13.731 DEBUG Case01-8-P1 Success Submit Practice Form - 38: verifyElementPresent(findTestObject("Page_DEMOQA/input_SubjectsInput"), 8)
+2025-11-27 21:05:13.964 DEBUG Case01-8-P1 Success Submit Practice Form - 39: scrollToElement(findTestObject("Page_DEMOQA/input_SubjectsInput"), 8)
+2025-11-27 21:05:14.203 DEBUG Case01-8-P1 Success Submit Practice Form - 40: delay(2)
+2025-11-27 21:05:16.215 DEBUG Case01-8-P1 Success Submit Practice Form - 41: verifyElementVisible(findTestObject("Page_DEMOQA/input_SubjectsInput"), STOP_ON_FAILURE)
+2025-11-27 21:05:16.466 DEBUG Case01-8-P1 Success Submit Practice Form - 42: setText(findTestObject("Page_DEMOQA/input_SubjectsInput"), Subjects)
+2025-11-27 21:05:17.108 DEBUG Case01-8-P1 Success Submit Practice Form - 43: sendKeys(findTestObject("Page_DEMOQA/input_SubjectsInput"), Keys.chord(ENTER))
+2025-11-27 21:05:17.623 DEBUG Case01-8-P1 Success Submit Practice Form - 44: verifyElementPresent(findTestObject("Page_DEMOQA/input_Hobbies_Sports"), 8)
+2025-11-27 21:05:18.084 DEBUG Case01-8-P1 Success Submit Practice Form - 45: verifyElementPresent(findTestObject("Page_DEMOQA/input_Hobbies_Reading"), 8)
+2025-11-27 21:05:18.311 DEBUG Case01-8-P1 Success Submit Practice Form - 46: verifyElementPresent(findTestObject("Page_DEMOQA/input_Hobbies_Music"), 8)
+2025-11-27 21:05:18.554 DEBUG Case01-8-P1 Success Submit Practice Form - 47: scrollToElement(findTestObject("Page_DEMOQA/input_Hobbies_Sports"), 8)
+2025-11-27 21:05:18.794 DEBUG Case01-8-P1 Success Submit Practice Form - 48: delay(2)
+2025-11-27 21:05:20.811 DEBUG Case01-8-P1 Success Submit Practice Form - 49: enhancedClick(findTestObject("Page_DEMOQA/input_Hobbies_Sports"))
+2025-11-27 21:05:32.551 DEBUG Case01-8-P1 Success Submit Practice Form - 50: verifyElementPresent(findTestObject("Page_DEMOQA/input_Browse"), 8)
+2025-11-27 21:05:40.654 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_DEMOQA/input_Browse' located by 'By.xpath: //*[@placeholder = 'Browse' and @type = 'file' and @id = 'uploadPicture']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_DEMOQA/input_Browse' located by 'By.xpath: //*[@placeholder = 'Browse' and @type = 'file' and @id = 'uploadPicture']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)
+	at Case01-8-P1 Success Submit Practice Form.run(Case01-8-P1 Success Submit Practice Form:172)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1764252182071.run(TempTestSuite1764252182071.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+2025-11-27 21:05:40.702 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify object 'Object Repository/Page_DEMOQA/input_Browse' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_DEMOQA/input_Browse' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)
+	at Case01-8-P1 Success Submit Practice Form.run(Case01-8-P1 Success Submit Practice Form:172)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1764252182071.run(TempTestSuite1764252182071.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_DEMOQA/input_Browse' located by 'By.xpath: //*[@placeholder = 'Browse' and @type = 'file' and @id = 'uploadPicture']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more
+)
+2025-11-27 21:05:40.704 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Positive/Case01-8-P1 Success Submit Practice Form FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_DEMOQA/input_Browse' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)
+	at Case01-8-P1 Success Submit Practice Form.run(Case01-8-P1 Success Submit Practice Form:172)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1764252182071.run(TempTestSuite1764252182071.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_DEMOQA/input_Browse' located by 'By.xpath: //*[@placeholder = 'Browse' and @type = 'file' and @id = 'uploadPicture']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more
+
+2025-11-27 21:05:40.706 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Positive/Case01-8-P1 Success Submit Practice Form
+2025-11-27 21:05:40.745 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-27 21:05:40.745 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Positive/Case01-8-P1 Success Submit Practice Form
+2025-11-27 21:05:40.764 INFO  c.k.katalon.core.main.TestCaseExecutor   - Firstname = Awaaal
+2025-11-27 21:05:40.764 INFO  c.k.katalon.core.main.TestCaseExecutor   - Lastname = Akhiiir
+2025-11-27 21:05:40.765 INFO  c.k.katalon.core.main.TestCaseExecutor   - EmailAddress = email@email.com
+2025-11-27 21:05:40.765 INFO  c.k.katalon.core.main.TestCaseExecutor   - MobileNumber = 0858567893
+2025-11-27 21:05:40.765 INFO  c.k.katalon.core.main.TestCaseExecutor   - DateOfBirth = 19 Des 1945
+2025-11-27 21:05:40.766 INFO  c.k.katalon.core.main.TestCaseExecutor   - FilePathInputBrowse = /Data Files/Images/person-dummy.jpg
+2025-11-27 21:05:40.767 INFO  c.k.katalon.core.main.TestCaseExecutor   - Subjects = Math
+2025-11-27 21:05:40.767 INFO  c.k.katalon.core.main.TestCaseExecutor   - CurrentAddress = Sample Address C
+2025-11-27 21:05:40.767 INFO  c.k.katalon.core.main.TestCaseExecutor   - State = NCR
+2025-11-27 21:05:40.768 INFO  c.k.katalon.core.main.TestCaseExecutor   - City = Delhi
+2025-11-27 21:05:40.769 DEBUG Case01-8-P1 Success Submit Practice Form - 1: openBrowser("")
+2025-11-27 21:05:40.772 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-11-27 21:05:40.995 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+2025-11-27 21:05:40.996 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Nov 27, 2025 9:05:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-11-27 21:05:41.706 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 2d324eed5d7ee1a482fcc514131e16ee
+2025-11-27 21:05:41.707 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 142.0.7444.176
+2025-11-27 21:05:41.707 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-11-27 21:05:41.708 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-11-27 21:05:41.709 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-11-27 21:05:41.722 DEBUG Case01-8-P1 Success Submit Practice Form - 2: navigateToUrl("https://demoqa.com/automation-practice-form")

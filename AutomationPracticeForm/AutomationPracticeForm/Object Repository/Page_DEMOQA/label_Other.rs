@@ -6,15 +6,18 @@
    <elementGuidId>e265cbd8-231d-4c5e-a17c-6de83b0a54d6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='genterWrapper']/div[2]/div[3]/label</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Other' or . = 'Other')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>e9a0c85c-8d45-488e-874a-f04e0fb874e8</webElementGuid>
+      <webElementGuid>cdbde7da-28cc-41d6-b615-62e9670f917e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +34,7 @@
       <name>for</name>
       <type>Main</type>
       <value>gender-radio-3</value>
-      <webElementGuid>9896048f-f9ec-46b7-90d8-c66547cf2ef9</webElementGuid>
+      <webElementGuid>d97dad25-1f9b-42bc-a4e8-92747623e6b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>custom-control-label</value>
-      <webElementGuid>9dd00298-2c43-45ce-b3fd-8c67be68bc99</webElementGuid>
+      <webElementGuid>ad8a7138-42c3-46a9-bfc9-b1e40ea00425</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Other</value>
-      <webElementGuid>0b9cd6fe-2f8b-440c-8da3-5fb00c146713</webElementGuid>
+      <webElementGuid>9d645923-8346-42fc-b429-c577af93f40c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;genterWrapper&quot;)/div[@class=&quot;col-md-9 col-sm-12&quot;]/div[@class=&quot;custom-control custom-radio custom-control-inline&quot;]/label[@class=&quot;custom-control-label&quot;]</value>
-      <webElementGuid>b6d5546d-5e49-4b7f-8ce1-d143a28a3c6f</webElementGuid>
+      <webElementGuid>1033810f-44f6-4380-8dad-a5c13868947b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='genterWrapper']/div[2]/div[3]/label</value>
-      <webElementGuid>293ae7d0-5045-444e-99a1-dcf02b919fbc</webElementGuid>
+      <webElementGuid>82f325a6-c3b8-41b9-979a-08c57a80aa46</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Female'])[1]/following::label[1]</value>
-      <webElementGuid>2d655d8f-3d49-4449-b132-19a2ccf6fb55</webElementGuid>
+      <webElementGuid>b7d910da-4a73-4e18-bdb5-023ee8ca7039</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Male'])[1]/following::label[2]</value>
-      <webElementGuid>e60e57ea-0ce7-454b-9400-97fc38ddac73</webElementGuid>
+      <webElementGuid>9c00c5bf-5df0-4e78-8cd3-d623b571d2ec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='(10 Digits)'])[1]/preceding::label[1]</value>
-      <webElementGuid>9f324ad5-971a-42e0-b3c5-2c96e00b4b62</webElementGuid>
+      <webElementGuid>dc5c8699-fc0c-4587-a04e-c9c2e5509ed0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Other']/parent::*</value>
-      <webElementGuid>a1a90f2d-e7bb-4726-9409-4e07010b1e48</webElementGuid>
+      <webElementGuid>e2bd1284-4eb4-4fc6-bb73-90471436e6d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/label</value>
-      <webElementGuid>480c65aa-9064-4a84-9ffc-02b637cba2be</webElementGuid>
+      <webElementGuid>1fcfbda1-0591-431f-ac3f-d3b294f617be</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Other' or . = 'Other')]</value>
-      <webElementGuid>5a933b74-cbbf-4a8c-840a-fca0c918931a</webElementGuid>
+      <webElementGuid>f6a8111b-f1b2-419f-949c-a6a08116e1cd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

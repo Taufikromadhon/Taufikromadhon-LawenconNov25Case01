@@ -1,0 +1,125 @@
+2025-11-27 20:52:53.170 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\USER\.katalon\packages\KSE-10.4.2\configuration\org.eclipse.osgi\132\0\.cp\resources\logback\logback-execution.xml
+2025-11-27 20:52:53.178 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: T:\Lawrencon\Interview\Fix\case01\AutomationPracticeForm\AutomationPracticeForm\Include\config\log.properties
+2025-11-27 20:52:53.638 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TSPracticeFormNumericalOnly
+2025-11-27 20:52:53.779 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Taufik Romadhon
+2025-11-27 20:52:53.782 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = AutomationPracticeForm
+2025-11-27 20:52:53.783 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = USER - LAPTOP-KNF1HLK6
+2025-11-27 20:52:53.784 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-11-27 20:52:53.784 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 10.156.170.155
+2025-11-27 20:52:53.784 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.2.0
+2025-11-27 20:52:54.521 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-27 20:52:54.521 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Negative/Case01-7-N7 Alert Notification For Numerical Only On Mobile Number Field
+2025-11-27 20:52:54.587 INFO  c.k.katalon.core.main.TestCaseExecutor   - MobileNumber = +624567891
+2025-11-27 20:52:55.027 DEBUG or Numerical Only On Mobile Number Field - 1: openBrowser("")
+2025-11-27 20:52:55.324 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+2025-11-27 20:52:55.377 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Nov 27, 2025 8:52:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-11-27 20:52:57.802 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 032c9f967b9986a9a343da2f2bd06a62
+2025-11-27 20:52:57.804 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 142.0.7444.176
+2025-11-27 20:52:57.804 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-11-27 20:52:57.805 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-11-27 20:52:57.813 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-11-27 20:52:57.854 DEBUG or Numerical Only On Mobile Number Field - 2: navigateToUrl("https://demoqa.com/automation-practice-form")
+2025-11-27 20:53:22.946 DEBUG or Numerical Only On Mobile Number Field - 3: maximizeWindow()
+2025-11-27 20:53:22.998 DEBUG or Numerical Only On Mobile Number Field - 4: delay(2)
+2025-11-27 20:53:25.023 DEBUG or Numerical Only On Mobile Number Field - 5: verifyElementPresent(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8)
+2025-11-27 20:53:25.371 DEBUG or Numerical Only On Mobile Number Field - 6: verifyElementVisible(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), STOP_ON_FAILURE)
+2025-11-27 20:53:25.663 DEBUG or Numerical Only On Mobile Number Field - 7: delay(2)
+2025-11-27 20:53:27.674 DEBUG or Numerical Only On Mobile Number Field - 8: setText(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), MobileNumber)
+2025-11-27 20:53:28.496 DEBUG or Numerical Only On Mobile Number Field - 9: delay(2)
+2025-11-27 20:53:30.508 DEBUG or Numerical Only On Mobile Number Field - 10: verifyElementPresent(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), 0)
+2025-11-27 20:53:30.524 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 20:53:30.760 DEBUG or Numerical Only On Mobile Number Field - 11: delay(2)
+2025-11-27 20:53:32.768 DEBUG or Numerical Only On Mobile Number Field - 12: scrollToElement(findTestObject("Page_DEMOQA/button_Submit"), 100)
+2025-11-27 20:53:33.036 DEBUG or Numerical Only On Mobile Number Field - 13: delay(2)
+2025-11-27 20:53:35.049 DEBUG or Numerical Only On Mobile Number Field - 14: verifyElementVisible(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), STOP_ON_FAILURE)
+2025-11-27 20:53:35.315 DEBUG or Numerical Only On Mobile Number Field - 15: delay(2)
+2025-11-27 20:53:37.328 DEBUG or Numerical Only On Mobile Number Field - 16: click(findTestObject("Object Repository/Page_DEMOQA/button_Submit"))
+2025-11-27 20:53:37.692 DEBUG or Numerical Only On Mobile Number Field - 17: delay(2)
+2025-11-27 20:53:39.703 DEBUG or Numerical Only On Mobile Number Field - 18: scrollToElement(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 0)
+2025-11-27 20:53:39.720 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 20:53:40.017 DEBUG or Numerical Only On Mobile Number Field - 19: delay(2)
+2025-11-27 20:53:42.029 DEBUG or Numerical Only On Mobile Number Field - 20: verifyElementPresent(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8)
+2025-11-27 20:53:42.287 DEBUG or Numerical Only On Mobile Number Field - 21: click(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"))
+2025-11-27 20:53:42.636 DEBUG or Numerical Only On Mobile Number Field - 22: verifyElementPresent(findTestObject("Page_DEMOQA/class_Mobile_Number_Invalid"), 8)
+2025-11-27 20:53:42.908 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Negative/Case01-7-N7 Alert Notification For Numerical Only On Mobile Number Field
+2025-11-27 20:53:42.921 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-27 20:53:42.921 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Negative/Case01-7-N7 Alert Notification For Numerical Only On Mobile Number Field
+2025-11-27 20:53:42.941 INFO  c.k.katalon.core.main.TestCaseExecutor   - MobileNumber = +624567891
+2025-11-27 20:53:42.944 DEBUG or Numerical Only On Mobile Number Field - 1: openBrowser("")
+2025-11-27 20:53:42.950 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-11-27 20:53:43.432 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+2025-11-27 20:53:43.435 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Nov 27, 2025 8:53:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-11-27 20:53:44.281 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 291ddb64b62db9fbe8da4c02c731db35
+2025-11-27 20:53:44.282 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 142.0.7444.176
+2025-11-27 20:53:44.283 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-11-27 20:53:44.285 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-11-27 20:53:44.286 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-11-27 20:53:44.307 DEBUG or Numerical Only On Mobile Number Field - 2: navigateToUrl("https://demoqa.com/automation-practice-form")
+2025-11-27 20:53:52.857 DEBUG or Numerical Only On Mobile Number Field - 3: maximizeWindow()
+2025-11-27 20:53:52.905 DEBUG or Numerical Only On Mobile Number Field - 4: delay(2)
+2025-11-27 20:53:54.911 DEBUG or Numerical Only On Mobile Number Field - 5: verifyElementPresent(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8)
+2025-11-27 20:53:55.179 DEBUG or Numerical Only On Mobile Number Field - 6: verifyElementVisible(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), STOP_ON_FAILURE)
+2025-11-27 20:53:55.440 DEBUG or Numerical Only On Mobile Number Field - 7: delay(2)
+2025-11-27 20:53:57.456 DEBUG or Numerical Only On Mobile Number Field - 8: setText(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), MobileNumber)
+2025-11-27 20:53:58.130 DEBUG or Numerical Only On Mobile Number Field - 9: delay(2)
+2025-11-27 20:54:00.133 DEBUG or Numerical Only On Mobile Number Field - 10: verifyElementPresent(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), 0)
+2025-11-27 20:54:00.140 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 20:54:00.410 DEBUG or Numerical Only On Mobile Number Field - 11: delay(2)
+2025-11-27 20:54:02.419 DEBUG or Numerical Only On Mobile Number Field - 12: scrollToElement(findTestObject("Page_DEMOQA/button_Submit"), 100)
+2025-11-27 20:54:02.685 DEBUG or Numerical Only On Mobile Number Field - 13: delay(2)
+2025-11-27 20:54:04.694 DEBUG or Numerical Only On Mobile Number Field - 14: verifyElementVisible(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), STOP_ON_FAILURE)
+2025-11-27 20:54:04.946 DEBUG or Numerical Only On Mobile Number Field - 15: delay(2)
+2025-11-27 20:54:06.952 DEBUG or Numerical Only On Mobile Number Field - 16: click(findTestObject("Object Repository/Page_DEMOQA/button_Submit"))
+2025-11-27 20:54:07.301 DEBUG or Numerical Only On Mobile Number Field - 17: delay(2)
+2025-11-27 20:54:09.308 DEBUG or Numerical Only On Mobile Number Field - 18: scrollToElement(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 0)
+2025-11-27 20:54:09.314 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 20:54:09.561 DEBUG or Numerical Only On Mobile Number Field - 19: delay(2)
+2025-11-27 20:54:11.578 DEBUG or Numerical Only On Mobile Number Field - 20: verifyElementPresent(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8)
+2025-11-27 20:54:11.818 DEBUG or Numerical Only On Mobile Number Field - 21: click(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"))
+2025-11-27 20:54:12.151 DEBUG or Numerical Only On Mobile Number Field - 22: verifyElementPresent(findTestObject("Page_DEMOQA/class_Mobile_Number_Invalid"), 8)
+2025-11-27 20:54:12.393 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Negative/Case01-7-N7 Alert Notification For Numerical Only On Mobile Number Field
+2025-11-27 20:54:12.397 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-27 20:54:12.397 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Negative/Case01-7-N7 Alert Notification For Numerical Only On Mobile Number Field
+2025-11-27 20:54:12.413 INFO  c.k.katalon.core.main.TestCaseExecutor   - MobileNumber = +624567891
+2025-11-27 20:54:12.415 DEBUG or Numerical Only On Mobile Number Field - 1: openBrowser("")
+2025-11-27 20:54:12.419 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-11-27 20:54:12.888 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+2025-11-27 20:54:12.890 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Nov 27, 2025 8:54:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-11-27 20:54:13.639 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = a3c73dc977fedad99fb82c3450cd40f6
+2025-11-27 20:54:13.640 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 142.0.7444.176
+2025-11-27 20:54:13.640 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-11-27 20:54:13.641 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-11-27 20:54:13.642 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-11-27 20:54:13.662 DEBUG or Numerical Only On Mobile Number Field - 2: navigateToUrl("https://demoqa.com/automation-practice-form")
+2025-11-27 20:54:21.921 DEBUG or Numerical Only On Mobile Number Field - 3: maximizeWindow()
+2025-11-27 20:54:21.954 DEBUG or Numerical Only On Mobile Number Field - 4: delay(2)
+2025-11-27 20:54:23.973 DEBUG or Numerical Only On Mobile Number Field - 5: verifyElementPresent(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8)
+2025-11-27 20:54:24.228 DEBUG or Numerical Only On Mobile Number Field - 6: verifyElementVisible(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), STOP_ON_FAILURE)
+2025-11-27 20:54:24.480 DEBUG or Numerical Only On Mobile Number Field - 7: delay(2)
+2025-11-27 20:54:26.485 DEBUG or Numerical Only On Mobile Number Field - 8: setText(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), MobileNumber)
+2025-11-27 20:54:27.146 DEBUG or Numerical Only On Mobile Number Field - 9: delay(2)
+2025-11-27 20:54:29.150 DEBUG or Numerical Only On Mobile Number Field - 10: verifyElementPresent(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), 0)
+2025-11-27 20:54:29.156 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 20:54:29.397 DEBUG or Numerical Only On Mobile Number Field - 11: delay(2)
+2025-11-27 20:54:31.411 DEBUG or Numerical Only On Mobile Number Field - 12: scrollToElement(findTestObject("Page_DEMOQA/button_Submit"), 100)
+2025-11-27 20:54:31.662 DEBUG or Numerical Only On Mobile Number Field - 13: delay(2)
+2025-11-27 20:54:33.675 DEBUG or Numerical Only On Mobile Number Field - 14: verifyElementVisible(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), STOP_ON_FAILURE)
+2025-11-27 20:54:33.927 DEBUG or Numerical Only On Mobile Number Field - 15: delay(2)
+2025-11-27 20:54:35.936 DEBUG or Numerical Only On Mobile Number Field - 16: click(findTestObject("Object Repository/Page_DEMOQA/button_Submit"))
+2025-11-27 20:54:36.306 DEBUG or Numerical Only On Mobile Number Field - 17: delay(2)
+2025-11-27 20:54:38.318 DEBUG or Numerical Only On Mobile Number Field - 18: scrollToElement(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 0)
+2025-11-27 20:54:38.324 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-11-27 20:54:38.576 DEBUG or Numerical Only On Mobile Number Field - 19: delay(2)
+2025-11-27 20:54:40.588 DEBUG or Numerical Only On Mobile Number Field - 20: verifyElementPresent(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8)
+2025-11-27 20:54:40.832 DEBUG or Numerical Only On Mobile Number Field - 21: click(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"))
+2025-11-27 20:54:41.139 DEBUG or Numerical Only On Mobile Number Field - 22: verifyElementPresent(findTestObject("Page_DEMOQA/class_Mobile_Number_Invalid"), 8)
+2025-11-27 20:54:41.377 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Negative/Case01-7-N7 Alert Notification For Numerical Only On Mobile Number Field
+2025-11-27 20:54:41.595 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-11-27 20:54:41.595 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TSPracticeFormNumericalOnly
+2025-11-27 20:54:41.595 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

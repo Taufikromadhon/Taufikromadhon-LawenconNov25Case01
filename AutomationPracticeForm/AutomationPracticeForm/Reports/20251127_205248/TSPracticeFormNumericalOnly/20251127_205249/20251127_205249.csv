@@ -1,0 +1,77 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TSPracticeFormNumericalOnly,Chrome 142.0.7444.176,,,27-11-2025 20:52:53,27-11-2025 20:54:41,"1m - 47,873s",PASSED
+,,,,,,,
+Test Cases/Negative/Case01-7-N7 Alert Notification For Numerical Only On Mobile Number Field,Chrome 142.0.7444.176,Sebagai Sample,,27-11-2025 20:52:54,27-11-2025 20:53:42,"48,388s",PASSED
+"DATA BINDING - {""MobileNumber"":""+624567891""}",,,,,,,
+"openBrowser("""")",Chrome 142.0.7444.176,,,27-11-2025 20:52:55,27-11-2025 20:52:57,"2,828s",PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Chrome 142.0.7444.176,,,27-11-2025 20:52:57,27-11-2025 20:53:22,"25,090s",PASSED
+maximizeWindow(),Chrome 142.0.7444.176,,,27-11-2025 20:53:22,27-11-2025 20:53:22,"0,051s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 20:53:22,27-11-2025 20:53:25,"2,025s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/input_(10 Digits)_userNumber""), 8)",Chrome 142.0.7444.176,,,27-11-2025 20:53:25,27-11-2025 20:53:25,"0,346s",PASSED
+"verifyElementVisible(findTestObject(""Page_DEMOQA/input_(10 Digits)_userNumber""), STOP_ON_FAILURE)",Chrome 142.0.7444.176,,,27-11-2025 20:53:25,27-11-2025 20:53:25,"0,292s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 20:53:25,27-11-2025 20:53:27,"2,010s",PASSED
+"setText(findTestObject(""Page_DEMOQA/input_(10 Digits)_userNumber""), MobileNumber)",Chrome 142.0.7444.176,,,27-11-2025 20:53:27,27-11-2025 20:53:28,"0,822s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 20:53:28,27-11-2025 20:53:30,"2,012s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""), 0)",Chrome 142.0.7444.176,,,27-11-2025 20:53:30,27-11-2025 20:53:30,"0,253s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 20:53:30,27-11-2025 20:53:32,"2,006s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/button_Submit""), 100)",Chrome 142.0.7444.176,,,27-11-2025 20:53:32,27-11-2025 20:53:33,"0,267s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 20:53:33,27-11-2025 20:53:35,"2,012s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""), STOP_ON_FAILURE)",Chrome 142.0.7444.176,,,27-11-2025 20:53:35,27-11-2025 20:53:35,"0,265s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 20:53:35,27-11-2025 20:53:37,"2,012s",PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""))",Chrome 142.0.7444.176,,,27-11-2025 20:53:37,27-11-2025 20:53:37,"0,364s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 20:53:37,27-11-2025 20:53:39,"2,011s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/input_(10 Digits)_userNumber""), 0)",Chrome 142.0.7444.176,,,27-11-2025 20:53:39,27-11-2025 20:53:40,"0,313s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 20:53:40,27-11-2025 20:53:42,"2,012s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/input_(10 Digits)_userNumber""), 8)",Chrome 142.0.7444.176,,,27-11-2025 20:53:42,27-11-2025 20:53:42,"0,256s",PASSED
+"click(findTestObject(""Page_DEMOQA/input_(10 Digits)_userNumber""))",Chrome 142.0.7444.176,,,27-11-2025 20:53:42,27-11-2025 20:53:42,"0,350s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/class_Mobile_Number_Invalid""), 8)",Chrome 142.0.7444.176,,,27-11-2025 20:53:42,27-11-2025 20:53:42,"0,268s",PASSED
+,,,,,,,
+Test Cases/Negative/Case01-7-N7 Alert Notification For Numerical Only On Mobile Number Field,Chrome 142.0.7444.176,Sebagai Sample,,27-11-2025 20:53:42,27-11-2025 20:54:12,"29,472s",PASSED
+"DATA BINDING - {""MobileNumber"":""+624567891""}",,,,,,,
+"openBrowser("""")",Chrome 142.0.7444.176,,,27-11-2025 20:53:42,27-11-2025 20:53:44,"1,364s",PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Chrome 142.0.7444.176,,,27-11-2025 20:53:44,27-11-2025 20:53:52,"8,549s",PASSED
+maximizeWindow(),Chrome 142.0.7444.176,,,27-11-2025 20:53:52,27-11-2025 20:53:52,"0,047s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 20:53:52,27-11-2025 20:53:54,"2,005s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/input_(10 Digits)_userNumber""), 8)",Chrome 142.0.7444.176,,,27-11-2025 20:53:54,27-11-2025 20:53:55,"0,268s",PASSED
+"verifyElementVisible(findTestObject(""Page_DEMOQA/input_(10 Digits)_userNumber""), STOP_ON_FAILURE)",Chrome 142.0.7444.176,,,27-11-2025 20:53:55,27-11-2025 20:53:55,"0,261s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 20:53:55,27-11-2025 20:53:57,"2,015s",PASSED
+"setText(findTestObject(""Page_DEMOQA/input_(10 Digits)_userNumber""), MobileNumber)",Chrome 142.0.7444.176,,,27-11-2025 20:53:57,27-11-2025 20:53:58,"0,674s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 20:53:58,27-11-2025 20:54:00,"2,004s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""), 0)",Chrome 142.0.7444.176,,,27-11-2025 20:54:00,27-11-2025 20:54:00,"0,276s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 20:54:00,27-11-2025 20:54:02,"2,009s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/button_Submit""), 100)",Chrome 142.0.7444.176,,,27-11-2025 20:54:02,27-11-2025 20:54:02,"0,265s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 20:54:02,27-11-2025 20:54:04,"2,008s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""), STOP_ON_FAILURE)",Chrome 142.0.7444.176,,,27-11-2025 20:54:04,27-11-2025 20:54:04,"0,253s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 20:54:04,27-11-2025 20:54:06,"2,005s",PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""))",Chrome 142.0.7444.176,,,27-11-2025 20:54:06,27-11-2025 20:54:07,"0,348s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 20:54:07,27-11-2025 20:54:09,"2,006s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/input_(10 Digits)_userNumber""), 0)",Chrome 142.0.7444.176,,,27-11-2025 20:54:09,27-11-2025 20:54:09,"0,253s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 20:54:09,27-11-2025 20:54:11,"2,016s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/input_(10 Digits)_userNumber""), 8)",Chrome 142.0.7444.176,,,27-11-2025 20:54:11,27-11-2025 20:54:11,"0,240s",PASSED
+"click(findTestObject(""Page_DEMOQA/input_(10 Digits)_userNumber""))",Chrome 142.0.7444.176,,,27-11-2025 20:54:11,27-11-2025 20:54:12,"0,332s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/class_Mobile_Number_Invalid""), 8)",Chrome 142.0.7444.176,,,27-11-2025 20:54:12,27-11-2025 20:54:12,"0,241s",PASSED
+,,,,,,,
+Test Cases/Negative/Case01-7-N7 Alert Notification For Numerical Only On Mobile Number Field,Chrome 142.0.7444.176,Sebagai Sample,,27-11-2025 20:54:12,27-11-2025 20:54:41,"28,980s",PASSED
+"DATA BINDING - {""MobileNumber"":""+624567891""}",,,,,,,
+"openBrowser("""")",Chrome 142.0.7444.176,,,27-11-2025 20:54:12,27-11-2025 20:54:13,"1,247s",PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Chrome 142.0.7444.176,,,27-11-2025 20:54:13,27-11-2025 20:54:21,"8,258s",PASSED
+maximizeWindow(),Chrome 142.0.7444.176,,,27-11-2025 20:54:21,27-11-2025 20:54:21,"0,032s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 20:54:21,27-11-2025 20:54:23,"2,019s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/input_(10 Digits)_userNumber""), 8)",Chrome 142.0.7444.176,,,27-11-2025 20:54:23,27-11-2025 20:54:24,"0,254s",PASSED
+"verifyElementVisible(findTestObject(""Page_DEMOQA/input_(10 Digits)_userNumber""), STOP_ON_FAILURE)",Chrome 142.0.7444.176,,,27-11-2025 20:54:24,27-11-2025 20:54:24,"0,252s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 20:54:24,27-11-2025 20:54:26,"2,004s",PASSED
+"setText(findTestObject(""Page_DEMOQA/input_(10 Digits)_userNumber""), MobileNumber)",Chrome 142.0.7444.176,,,27-11-2025 20:54:26,27-11-2025 20:54:27,"0,662s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 20:54:27,27-11-2025 20:54:29,"2,004s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""), 0)",Chrome 142.0.7444.176,,,27-11-2025 20:54:29,27-11-2025 20:54:29,"0,246s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 20:54:29,27-11-2025 20:54:31,"2,014s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/button_Submit""), 100)",Chrome 142.0.7444.176,,,27-11-2025 20:54:31,27-11-2025 20:54:31,"0,250s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 20:54:31,27-11-2025 20:54:33,"2,013s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""), STOP_ON_FAILURE)",Chrome 142.0.7444.176,,,27-11-2025 20:54:33,27-11-2025 20:54:33,"0,251s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 20:54:33,27-11-2025 20:54:35,"2,008s",PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""))",Chrome 142.0.7444.176,,,27-11-2025 20:54:35,27-11-2025 20:54:36,"0,370s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 20:54:36,27-11-2025 20:54:38,"2,011s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/input_(10 Digits)_userNumber""), 0)",Chrome 142.0.7444.176,,,27-11-2025 20:54:38,27-11-2025 20:54:38,"0,259s",PASSED
+delay(2),Chrome 142.0.7444.176,,,27-11-2025 20:54:38,27-11-2025 20:54:40,"2,011s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/input_(10 Digits)_userNumber""), 8)",Chrome 142.0.7444.176,,,27-11-2025 20:54:40,27-11-2025 20:54:40,"0,243s",PASSED
+"click(findTestObject(""Page_DEMOQA/input_(10 Digits)_userNumber""))",Chrome 142.0.7444.176,,,27-11-2025 20:54:40,27-11-2025 20:54:41,"0,307s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/class_Mobile_Number_Invalid""), 8)",Chrome 142.0.7444.176,,,27-11-2025 20:54:41,27-11-2025 20:54:41,"0,237s",PASSED

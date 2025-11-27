@@ -6,12 +6,16 @@
    <elementGuidId>8373225b-dbaf-4320-abea-1606de275f83</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#react-select-3-option-0</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='react-select-3-option-0']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'react-select-3-option-0' and (text() = 'NCR' or . = 'NCR')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#react-select-3-option-0</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>235146d8-a9a7-4731-a2a8-66c9300b7854</webElementGuid>
+      <webElementGuid>310473a2-3211-4b3e-b2ef-3da900b916cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +35,7 @@
       <name>class</name>
       <type>Main</type>
       <value> css-1n7v3ny-option</value>
-      <webElementGuid>07ebfcd7-cc23-49ab-8077-f6eb19e90a13</webElementGuid>
+      <webElementGuid>d7b43cfd-4cfa-4432-8c29-8e6d4d6dbcd7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +43,7 @@
       <name>id</name>
       <type>Main</type>
       <value>react-select-3-option-0</value>
-      <webElementGuid>1b544694-e90c-4cd7-8331-a05c2d2c497e</webElementGuid>
+      <webElementGuid>39c88b80-e1ff-49e6-837b-b2d0f0867057</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +51,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>7d6083f3-3cfd-413f-a2b8-e93e428ec6fc</webElementGuid>
+      <webElementGuid>4cfe79aa-9d20-4d05-8e1a-4ae24b1865c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +59,7 @@
       <name>text</name>
       <type>Main</type>
       <value>NCR</value>
-      <webElementGuid>80d81772-7d32-4de6-b5a4-94768eb8d3b3</webElementGuid>
+      <webElementGuid>76a63475-d814-4d91-a66e-0618d95a0926</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +67,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;react-select-3-option-0&quot;)</value>
-      <webElementGuid>2f24eb84-c019-49a3-9c92-4af4add7cd3f</webElementGuid>
+      <webElementGuid>d8b9486b-4d37-49bb-ada4-879212a7f898</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,7 +75,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='react-select-3-option-0']</value>
-      <webElementGuid>9652743d-409f-46fd-85a8-0982227ad68a</webElementGuid>
+      <webElementGuid>709745f0-c68a-4f19-a49a-8b93db17cc73</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +83,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='state']/div[2]/div/div</value>
-      <webElementGuid>1241467b-e5b6-454a-b12b-de5d4b6dfa33</webElementGuid>
+      <webElementGuid>bc5793a1-c399-44fe-9721-0fc4c3513913</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +91,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select State'])[1]/following::div[8]</value>
-      <webElementGuid>5924c06a-ca80-4350-a8cc-17a9b39e802d</webElementGuid>
+      <webElementGuid>b0e10b47-49b4-4d81-a571-7d70f332ded2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +99,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='State and City'])[1]/following::div[13]</value>
-      <webElementGuid>5e493916-f77c-45e2-93f6-7661ea2863bc</webElementGuid>
+      <webElementGuid>1dd5f176-3d56-4c8e-a7a2-c7bae44e839b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +107,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Uttar Pradesh'])[1]/preceding::div[1]</value>
-      <webElementGuid>a57c9156-663f-48ce-87a9-fc98ad128252</webElementGuid>
+      <webElementGuid>072e957a-8b1b-48b5-ab25-f7b38cc92f7b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +115,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Haryana'])[1]/preceding::div[2]</value>
-      <webElementGuid>1f0325a5-9d4d-478f-a22d-fb8591223168</webElementGuid>
+      <webElementGuid>a5e13c94-5bc0-43b2-9ab2-810fb85c5f88</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +123,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='NCR']/parent::*</value>
-      <webElementGuid>496cae75-6a68-47ef-8795-06dc1fcb1278</webElementGuid>
+      <webElementGuid>556a361e-406a-4b42-a66e-0e3f6cdcf73e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +131,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[2]/div/div</value>
-      <webElementGuid>a665d75a-a1c6-4ea3-9ce1-e00d32cd9de3</webElementGuid>
+      <webElementGuid>db80e34f-c180-456b-ba32-dd7b61b7bcd6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,6 +139,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'react-select-3-option-0' and (text() = 'NCR' or . = 'NCR')]</value>
-      <webElementGuid>55cf9a01-8ba4-48f3-82bb-4590be3ac287</webElementGuid>
+      <webElementGuid>36cc15fe-e7b2-4e29-a048-f0156c05a7e0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

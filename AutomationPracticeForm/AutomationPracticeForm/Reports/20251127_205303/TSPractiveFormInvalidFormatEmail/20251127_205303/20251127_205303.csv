@@ -1,0 +1,77 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TSPractiveFormInvalidFormatEmail,Firefox 145.0.1,,,27-11-2025 20:53:06,27-11-2025 20:57:32,"4m - 25,946s",PASSED
+,,,,,,,
+Test Cases/Negative/Case01-1-N1 Alert Notification For Invalid Format Email On Email Field,Firefox 145.0.1,Sebagai Sample,,27-11-2025 20:53:07,27-11-2025 20:54:45,"1m - 37,432s",PASSED
+"DATA BINDING - {""EmailAddress"":""NotAnEmail1""}",,,,,,,
+"openBrowser("""")",Firefox 145.0.1,,,27-11-2025 20:53:08,27-11-2025 20:53:12,"4,385s",PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Firefox 145.0.1,,,27-11-2025 20:53:12,27-11-2025 20:54:25,"1m - 12,958s",PASSED
+maximizeWindow(),Firefox 145.0.1,,,27-11-2025 20:54:25,27-11-2025 20:54:25,"0,025s",PASSED
+delay(2),Firefox 145.0.1,,,27-11-2025 20:54:25,27-11-2025 20:54:27,"2,034s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_DEMOQA/input_Email_userEmail""), 8)",Firefox 145.0.1,,,27-11-2025 20:54:27,27-11-2025 20:54:27,"0,322s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_DEMOQA/input_Email_userEmail""), STOP_ON_FAILURE)",Firefox 145.0.1,,,27-11-2025 20:54:27,27-11-2025 20:54:28,"0,296s",PASSED
+delay(2),Firefox 145.0.1,,,27-11-2025 20:54:28,27-11-2025 20:54:30,"2,014s",PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/input_Email_userEmail""), EmailAddress)",Firefox 145.0.1,,,27-11-2025 20:54:30,27-11-2025 20:54:30,"0,632s",PASSED
+delay(2),Firefox 145.0.1,,,27-11-2025 20:54:30,27-11-2025 20:54:32,"2,017s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""), 8)",Firefox 145.0.1,,,27-11-2025 20:54:32,27-11-2025 20:54:33,"0,240s",PASSED
+delay(2),Firefox 145.0.1,,,27-11-2025 20:54:33,27-11-2025 20:54:35,"2,009s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/button_Submit""), 100)",Firefox 145.0.1,,,27-11-2025 20:54:35,27-11-2025 20:54:35,"0,258s",PASSED
+delay(2),Firefox 145.0.1,,,27-11-2025 20:54:35,27-11-2025 20:54:37,"2,011s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""), STOP_ON_FAILURE)",Firefox 145.0.1,,,27-11-2025 20:54:37,27-11-2025 20:54:37,"0,244s",PASSED
+delay(2),Firefox 145.0.1,,,27-11-2025 20:54:37,27-11-2025 20:54:39,"2,017s",PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""))",Firefox 145.0.1,,,27-11-2025 20:54:39,27-11-2025 20:54:40,"0,361s",PASSED
+delay(2),Firefox 145.0.1,,,27-11-2025 20:54:40,27-11-2025 20:54:42,"2,020s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/input_Email_userEmail""), 0)",Firefox 145.0.1,,,27-11-2025 20:54:42,27-11-2025 20:54:42,"0,247s",PASSED
+delay(2),Firefox 145.0.1,,,27-11-2025 20:54:42,27-11-2025 20:54:44,"2,005s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/div_Email""), 8)",Firefox 145.0.1,,,27-11-2025 20:54:44,27-11-2025 20:54:44,"0,240s",PASSED
+"click(findTestObject(""Page_DEMOQA/input_Email_userEmail""))",Firefox 145.0.1,,,27-11-2025 20:54:44,27-11-2025 20:54:44,"0,336s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/class_Email_Invalid""), 8)",Firefox 145.0.1,,,27-11-2025 20:54:44,27-11-2025 20:54:45,"0,235s",PASSED
+,,,,,,,
+Test Cases/Negative/Case01-1-N1 Alert Notification For Invalid Format Email On Email Field,Firefox 145.0.1,Sebagai Sample,,27-11-2025 20:54:45,27-11-2025 20:56:09,"1m - 24,071s",PASSED
+"DATA BINDING - {""EmailAddress"":""NotAnEmail2""}",,,,,,,
+"openBrowser("""")",Firefox 145.0.1,,,27-11-2025 20:54:45,27-11-2025 20:54:48,"2,951s",PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Firefox 145.0.1,,,27-11-2025 20:54:48,27-11-2025 20:55:49,"1m - 1,798s",PASSED
+maximizeWindow(),Firefox 145.0.1,,,27-11-2025 20:55:49,27-11-2025 20:55:49,"0,015s",PASSED
+delay(2),Firefox 145.0.1,,,27-11-2025 20:55:49,27-11-2025 20:55:51,"2,011s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_DEMOQA/input_Email_userEmail""), 8)",Firefox 145.0.1,,,27-11-2025 20:55:51,27-11-2025 20:55:52,"0,261s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_DEMOQA/input_Email_userEmail""), STOP_ON_FAILURE)",Firefox 145.0.1,,,27-11-2025 20:55:52,27-11-2025 20:55:52,"0,239s",PASSED
+delay(2),Firefox 145.0.1,,,27-11-2025 20:55:52,27-11-2025 20:55:54,"2,013s",PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/input_Email_userEmail""), EmailAddress)",Firefox 145.0.1,,,27-11-2025 20:55:54,27-11-2025 20:55:55,"0,574s",PASSED
+delay(2),Firefox 145.0.1,,,27-11-2025 20:55:55,27-11-2025 20:55:57,"2,018s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""), 8)",Firefox 145.0.1,,,27-11-2025 20:55:57,27-11-2025 20:55:57,"0,237s",PASSED
+delay(2),Firefox 145.0.1,,,27-11-2025 20:55:57,27-11-2025 20:55:59,"2,004s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/button_Submit""), 100)",Firefox 145.0.1,,,27-11-2025 20:55:59,27-11-2025 20:55:59,"0,248s",PASSED
+delay(2),Firefox 145.0.1,,,27-11-2025 20:55:59,27-11-2025 20:56:01,"2,012s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""), STOP_ON_FAILURE)",Firefox 145.0.1,,,27-11-2025 20:56:01,27-11-2025 20:56:01,"0,252s",PASSED
+delay(2),Firefox 145.0.1,,,27-11-2025 20:56:01,27-11-2025 20:56:03,"2,011s",PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""))",Firefox 145.0.1,,,27-11-2025 20:56:03,27-11-2025 20:56:04,"0,336s",PASSED
+delay(2),Firefox 145.0.1,,,27-11-2025 20:56:04,27-11-2025 20:56:06,"2,012s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/input_Email_userEmail""), 0)",Firefox 145.0.1,,,27-11-2025 20:56:06,27-11-2025 20:56:06,"0,249s",PASSED
+delay(2),Firefox 145.0.1,,,27-11-2025 20:56:06,27-11-2025 20:56:08,"2,012s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/div_Email""), 8)",Firefox 145.0.1,,,27-11-2025 20:56:08,27-11-2025 20:56:08,"0,239s",PASSED
+"click(findTestObject(""Page_DEMOQA/input_Email_userEmail""))",Firefox 145.0.1,,,27-11-2025 20:56:08,27-11-2025 20:56:08,"0,320s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/class_Email_Invalid""), 8)",Firefox 145.0.1,,,27-11-2025 20:56:08,27-11-2025 20:56:09,"0,238s",PASSED
+,,,,,,,
+Test Cases/Negative/Case01-1-N1 Alert Notification For Invalid Format Email On Email Field,Firefox 145.0.1,Sebagai Sample,,27-11-2025 20:56:09,27-11-2025 20:57:32,"1m - 22,798s",PASSED
+"DATA BINDING - {""EmailAddress"":""NotAnEmail3""}",,,,,,,
+"openBrowser("""")",Firefox 145.0.1,,,27-11-2025 20:56:09,27-11-2025 20:56:12,"3,443s",PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Firefox 145.0.1,,,27-11-2025 20:56:12,27-11-2025 20:57:12,"1m - 0,083s",PASSED
+maximizeWindow(),Firefox 145.0.1,,,27-11-2025 20:57:12,27-11-2025 20:57:12,"0,014s",PASSED
+delay(2),Firefox 145.0.1,,,27-11-2025 20:57:12,27-11-2025 20:57:14,"2,020s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_DEMOQA/input_Email_userEmail""), 8)",Firefox 145.0.1,,,27-11-2025 20:57:14,27-11-2025 20:57:15,"0,249s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_DEMOQA/input_Email_userEmail""), STOP_ON_FAILURE)",Firefox 145.0.1,,,27-11-2025 20:57:15,27-11-2025 20:57:15,"0,235s",PASSED
+delay(2),Firefox 145.0.1,,,27-11-2025 20:57:15,27-11-2025 20:57:17,"2,012s",PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/input_Email_userEmail""), EmailAddress)",Firefox 145.0.1,,,27-11-2025 20:57:17,27-11-2025 20:57:17,"0,569s",PASSED
+delay(2),Firefox 145.0.1,,,27-11-2025 20:57:17,27-11-2025 20:57:19,"2,004s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""), 8)",Firefox 145.0.1,,,27-11-2025 20:57:19,27-11-2025 20:57:20,"0,238s",PASSED
+delay(2),Firefox 145.0.1,,,27-11-2025 20:57:20,27-11-2025 20:57:22,"2,005s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/button_Submit""), 100)",Firefox 145.0.1,,,27-11-2025 20:57:22,27-11-2025 20:57:22,"0,246s",PASSED
+delay(2),Firefox 145.0.1,,,27-11-2025 20:57:22,27-11-2025 20:57:24,"2,005s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""), STOP_ON_FAILURE)",Firefox 145.0.1,,,27-11-2025 20:57:24,27-11-2025 20:57:24,"0,235s",PASSED
+delay(2),Firefox 145.0.1,,,27-11-2025 20:57:24,27-11-2025 20:57:26,"2,016s",PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""))",Firefox 145.0.1,,,27-11-2025 20:57:26,27-11-2025 20:57:26,"0,341s",PASSED
+delay(2),Firefox 145.0.1,,,27-11-2025 20:57:26,27-11-2025 20:57:28,"2,005s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/input_Email_userEmail""), 0)",Firefox 145.0.1,,,27-11-2025 20:57:28,27-11-2025 20:57:29,"0,250s",PASSED
+delay(2),Firefox 145.0.1,,,27-11-2025 20:57:29,27-11-2025 20:57:31,"2,015s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/div_Email""), 8)",Firefox 145.0.1,,,27-11-2025 20:57:31,27-11-2025 20:57:31,"0,225s",PASSED
+"click(findTestObject(""Page_DEMOQA/input_Email_userEmail""))",Firefox 145.0.1,,,27-11-2025 20:57:31,27-11-2025 20:57:31,"0,327s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/class_Email_Invalid""), 8)",Firefox 145.0.1,,,27-11-2025 20:57:31,27-11-2025 20:57:32,"0,240s",PASSED

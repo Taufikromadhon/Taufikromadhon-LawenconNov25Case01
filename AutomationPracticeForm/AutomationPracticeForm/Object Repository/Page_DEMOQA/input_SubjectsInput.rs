@@ -6,15 +6,19 @@
    <elementGuidId>92923d01-65bc-41ec-85b8-84e660059dae</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#subjectsInput</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='subjectsInput']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'subjectsInput' and @type = 'text']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#subjectsInput</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,31 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>75fad629-14ce-47c1-a019-d66899bc64af</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>autocapitalize</name>
-      <type>Main</type>
-      <value>none</value>
-      <webElementGuid>21236112-ec35-42ee-ab85-f8f1fdd88ffc</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>autocomplete</name>
-      <type>Main</type>
-      <value>off</value>
-      <webElementGuid>50206e76-3692-4ceb-a737-5c0dbafc512a</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>autocorrect</name>
-      <type>Main</type>
-      <value>off</value>
-      <webElementGuid>861458a8-8ff6-423d-9110-77c9e213ec2d</webElementGuid>
+      <webElementGuid>af0b09ac-8d1c-47c9-889c-a9b79ee4f0c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +35,7 @@
       <name>id</name>
       <type>Main</type>
       <value>subjectsInput</value>
-      <webElementGuid>d4f4cb35-8a8a-44bc-b854-b5637cacc592</webElementGuid>
+      <webElementGuid>ba79020e-e7ea-49ad-b522-5e5376cef954</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +43,7 @@
       <name>spellcheck</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>89285f86-392a-44ca-a02c-02e912517e0e</webElementGuid>
+      <webElementGuid>d6840d6c-7f21-4055-a9ab-b1eac6aa1318</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +51,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>073592e0-e011-49e8-8bd7-3210a50c7784</webElementGuid>
+      <webElementGuid>2c1deeb0-b403-4328-9ec1-54e5b6f73ba2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -79,23 +59,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>72f1e8fc-4468-4ce0-92b3-26ccf608f669</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-autocomplete</name>
-      <type>Main</type>
-      <value>list</value>
-      <webElementGuid>d7592cf4-5d27-4cc5-854a-ea7c92816225</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>M</value>
-      <webElementGuid>962bbd25-cca8-41a7-bf2c-36ca3e1108bb</webElementGuid>
+      <webElementGuid>231a3de3-6545-455f-a314-428ff26c29bc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -103,7 +67,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;subjectsInput&quot;)</value>
-      <webElementGuid>c3d95a2b-8b4b-4bdc-ab63-bd7874f7741b</webElementGuid>
+      <webElementGuid>0a1e8028-fb4f-4180-9a74-8e27db4329c6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -111,7 +75,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='subjectsInput']</value>
-      <webElementGuid>95038977-d2e4-4e93-9269-1150c0f55f23</webElementGuid>
+      <webElementGuid>9d21295c-5589-46fe-b9e0-407e425d4742</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,15 +83,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='subjectsContainer']/div/div/div/div/input</value>
-      <webElementGuid>97db92a2-6795-4d63-879a-842b7c0fabb3</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div/div/div/div/div/input</value>
-      <webElementGuid>fbf29646-11cc-4a2f-affc-f788080832dd</webElementGuid>
+      <webElementGuid>1701857e-abea-4600-b8ef-e48a09b2b006</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,6 +91,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'subjectsInput' and @type = 'text']</value>
-      <webElementGuid>f87e72a3-cd6d-4996-93e9-880474051dd7</webElementGuid>
+      <webElementGuid>9ff0fe52-9a48-45cc-bdae-5c0859eb9b51</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,16 +6,16 @@
    <elementGuidId>7b4d1c73-718f-4a10-be09-aad92137e571</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.custom-control.custom-checkbox.custom-control-inline > label.custom-control-label</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//div[@id='hobbiesWrapper']/div[4]/div/label</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Music'])[1]/preceding::label[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[(text() = 'Music' or . = 'Music')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.custom-control.custom-checkbox.custom-control-inline > label.custom-control-label</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -27,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>62c699fa-96e8-4d6a-ba88-9c77f16e2825</webElementGuid>
+      <webElementGuid>435c00d9-36ac-4237-bc96-71632c9d9bbe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,7 +35,7 @@
       <name>for</name>
       <type>Main</type>
       <value>hobbies-checkbox-1</value>
-      <webElementGuid>ee0b4f08-afe6-48ce-acf1-b454cc57118b</webElementGuid>
+      <webElementGuid>fe562afb-9cdc-4980-819c-3ae7351ec440</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,7 +43,7 @@
       <name>class</name>
       <type>Main</type>
       <value>custom-control-label</value>
-      <webElementGuid>7eff475e-24f2-4218-a932-a80e6ccc5114</webElementGuid>
+      <webElementGuid>18a0cd60-21d1-4ee0-9b4c-83ff1e2c1ee5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -51,7 +51,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Music</value>
-      <webElementGuid>ec582c98-05b7-4394-9c35-e939a04f2ada</webElementGuid>
+      <webElementGuid>af36a857-f233-46f4-9ef3-7b282ea77e01</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,70 +59,14 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;hobbiesWrapper&quot;)/div[@class=&quot;col-md-9 col-sm-12&quot;]/div[@class=&quot;custom-control custom-checkbox custom-control-inline&quot;]/label[@class=&quot;custom-control-label&quot;]</value>
-      <webElementGuid>827f11ce-2e76-4b1e-a819-b8850c756161</webElementGuid>
+      <webElementGuid>cd778f09-9914-4af5-a3fa-00d620e34f59</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='hobbiesWrapper']/div[4]/div/label</value>
-      <webElementGuid>d514663d-35f2-4c81-b869-2ff7b667c46a</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hobbies'])[1]/following::label[1]</value>
-      <webElementGuid>2e99d6fb-2448-4a1b-b280-7ec26317043f</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Maths'])[1]/following::label[2]</value>
-      <webElementGuid>907fffb4-8158-479c-a675-ff05d2e98d12</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reading'])[1]/preceding::label[1]</value>
-      <webElementGuid>268513f1-5e56-4e36-aa6d-19acf02f93e6</webElementGuid>
-   </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Music'])[1]/preceding::label[2]</value>
-      <webElementGuid>54bd67f5-a34b-4ff5-aad4-cc454f8e1b23</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Sports']/parent::*</value>
-      <webElementGuid>296bc646-9a8c-4659-bcf8-69a83a46528d</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[7]/div[4]/div/label</value>
-      <webElementGuid>7eac168c-9f21-49f2-a9fa-184c252ffe4e</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//label[(text() = 'Sports' or . = 'Sports')]</value>
-      <webElementGuid>a374a980-1b97-4f51-b8d7-b6c1dd1b35cd</webElementGuid>
+      <webElementGuid>e1dd06b9-5358-4827-b2a1-4b4384b83b48</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
