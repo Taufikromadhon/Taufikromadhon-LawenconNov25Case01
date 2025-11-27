@@ -1,0 +1,110 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TSPracticeFormPositive,Firefox 145.0.1,,,27-11-2025 21:57:51,27-11-2025 22:01:18,"3m - 27,305s",FAILED
+,,,,,,,
+Test Cases/Positive/Case01-8-P1 Success Submit Practice Form,Firefox 145.0.1,Sebagai Sample,,27-11-2025 21:57:53,27-11-2025 21:59:17,"1m - 24,193s",FAILED
+"DATA BINDING - {""Firstname"":""Awal"",""DateOfBirth"":""17 Aug 1945"",""FilePathInputBr..."":""/Data Files/Images/person-dummy.jpg"",""CurrentAddress"":""Sample Address A"",""MobileNumber"":""0858567891"",""State"":""NCR"",""Lastname"":""Akhir"",""City"":""Delhi"",""Subjects"":""Math"",""EmailAddress"":""email@email.com""}",,,,,,,
+"openBrowser("""")",Firefox 145.0.1,,,27-11-2025 21:57:54,27-11-2025 21:58:08,"13,407s",PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Firefox 145.0.1,,,27-11-2025 21:58:08,27-11-2025 21:58:37,"28,793s",PASSED
+delay(2),Firefox 145.0.1,,,27-11-2025 21:58:37,27-11-2025 21:58:39,"2,068s",PASSED
+maximizeWindow(),Firefox 145.0.1,,,27-11-2025 21:58:39,27-11-2025 21:58:39,"0,325s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/input_Name_firstName""), 8)",Firefox 145.0.1,,,27-11-2025 21:58:39,27-11-2025 21:58:39,"0,357s",PASSED
+"verifyElementVisible(findTestObject(""Page_DEMOQA/input_Name_firstName""), STOP_ON_FAILURE)",Firefox 145.0.1,,,27-11-2025 21:58:39,27-11-2025 21:58:40,"0,347s",PASSED
+"setText(findTestObject(""Page_DEMOQA/input_Name_firstName""), Firstname)",Firefox 145.0.1,,,27-11-2025 21:58:40,27-11-2025 21:58:41,"0,775s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/input_Name_lastName""), 8)",Firefox 145.0.1,,,27-11-2025 21:58:41,27-11-2025 21:58:41,"0,265s",PASSED
+"verifyElementVisible(findTestObject(""Page_DEMOQA/input_Name_lastName""), STOP_ON_FAILURE)",Firefox 145.0.1,,,27-11-2025 21:58:41,27-11-2025 21:58:41,"0,272s",PASSED
+"setText(findTestObject(""Page_DEMOQA/input_Name_lastName""), Lastname)",Firefox 145.0.1,,,27-11-2025 21:58:41,27-11-2025 21:58:42,"0,630s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/input_Email_userEmail""), 8)",Firefox 145.0.1,,,27-11-2025 21:58:42,27-11-2025 21:58:42,"0,264s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/input_Email_userEmail""), 8)",Firefox 145.0.1,,,27-11-2025 21:58:42,27-11-2025 21:58:42,"0,276s",PASSED
+delay(2),Firefox 145.0.1,,,27-11-2025 21:58:42,27-11-2025 21:58:44,"2,013s",PASSED
+"verifyElementVisible(findTestObject(""Page_DEMOQA/input_Email_userEmail""), STOP_ON_FAILURE)",Firefox 145.0.1,,,27-11-2025 21:58:44,27-11-2025 21:58:45,"0,265s",PASSED
+"setText(findTestObject(""Page_DEMOQA/input_Email_userEmail""), EmailAddress)",Firefox 145.0.1,,,27-11-2025 21:58:45,27-11-2025 21:58:45,"0,651s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/input_Gender_Male""), 8)",Firefox 145.0.1,,,27-11-2025 21:58:45,27-11-2025 21:58:45,"0,275s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/input_Gender_Female""), 8)",Firefox 145.0.1,,,27-11-2025 21:58:45,27-11-2025 21:58:46,"0,257s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/input_Gender_Other""), 8)",Firefox 145.0.1,,,27-11-2025 21:58:46,27-11-2025 21:58:46,"0,247s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/input_Gender_Male""), 100)",Firefox 145.0.1,,,27-11-2025 21:58:46,27-11-2025 21:58:46,"0,267s",PASSED
+delay(2),Firefox 145.0.1,,,27-11-2025 21:58:46,27-11-2025 21:58:48,"2,010s",PASSED
+"verifyElementClickable(findTestObject(""Page_DEMOQA/input_Gender_Male""), STOP_ON_FAILURE)",Firefox 145.0.1,,,27-11-2025 21:58:48,27-11-2025 21:58:48,"0,003s",NOT_RUN
+"enhancedClick(findTestObject(""Page_DEMOQA/input_Gender_Male""))",Firefox 145.0.1,,,27-11-2025 21:58:48,27-11-2025 21:58:59,"11,003s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/input_(10 Digits)_userNumber""), 8)",Firefox 145.0.1,,,27-11-2025 21:58:59,27-11-2025 21:59:00,"0,283s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/input_(10 Digits)_userNumber""), 8)",Firefox 145.0.1,,,27-11-2025 21:59:00,27-11-2025 21:59:00,"0,258s",PASSED
+delay(2),Firefox 145.0.1,,,27-11-2025 21:59:00,27-11-2025 21:59:02,"2,017s",PASSED
+"verifyElementVisible(findTestObject(""Page_DEMOQA/input_(10 Digits)_userNumber""), STOP_ON_FAILURE)",Firefox 145.0.1,,,27-11-2025 21:59:02,27-11-2025 21:59:02,"0,269s",PASSED
+"setText(findTestObject(""Page_DEMOQA/input_(10 Digits)_userNumber""), MobileNumber)",Firefox 145.0.1,,,27-11-2025 21:59:02,27-11-2025 21:59:03,"0,661s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/input_DateOfBirth""), 8)",Firefox 145.0.1,,,27-11-2025 21:59:03,27-11-2025 21:59:03,"0,273s",PASSED
+"verifyElementVisible(findTestObject(""Page_DEMOQA/input_DateOfBirth""), STOP_ON_FAILURE)",Firefox 145.0.1,,,27-11-2025 21:59:03,27-11-2025 21:59:03,"0,278s",PASSED
+"sendKeys(findTestObject(""Page_DEMOQA/input_DateOfBirth""), Keys.chord(ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT))",Firefox 145.0.1,,,27-11-2025 21:59:03,27-11-2025 21:59:04,"0,457s",PASSED
+delay(2),Firefox 145.0.1,,,27-11-2025 21:59:04,27-11-2025 21:59:06,"2,021s",PASSED
+"sendKeys(findTestObject(""Page_DEMOQA/input_DateOfBirth""), Keys.chord(DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE))",Firefox 145.0.1,,,27-11-2025 21:59:06,27-11-2025 21:59:06,"0,560s",PASSED
+"setText(findTestObject(""Page_DEMOQA/input_DateOfBirth""), DateOfBirth)",Firefox 145.0.1,,,27-11-2025 21:59:06,27-11-2025 21:59:17,"10,632s",FAILED
+,,,,,,,
+Test Cases/Positive/Case01-8-P1 Success Submit Practice Form,Firefox 145.0.1,Sebagai Sample,,27-11-2025 21:59:17,27-11-2025 22:00:13,"55,495s",FAILED
+"DATA BINDING - {""Firstname"":""Awaal"",""DateOfBirth"":""18 Jan 1945"",""FilePathInputBr..."":""/Data Files/Images/person-dummy.jpg"",""CurrentAddress"":""Sample Address B"",""MobileNumber"":""0858567892"",""State"":""NCR"",""Lastname"":""Akhiir"",""City"":""Delhi"",""Subjects"":""Math"",""EmailAddress"":""email@email.com""}",,,,,,,
+"openBrowser("""")",Firefox 145.0.1,,,27-11-2025 21:59:17,27-11-2025 21:59:23,"6,352s",PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Firefox 145.0.1,,,27-11-2025 21:59:23,27-11-2025 21:59:33,"9,254s",PASSED
+delay(2),Firefox 145.0.1,,,27-11-2025 21:59:33,27-11-2025 21:59:35,"2,013s",PASSED
+maximizeWindow(),Firefox 145.0.1,,,27-11-2025 21:59:35,27-11-2025 21:59:35,"0,454s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/input_Name_firstName""), 8)",Firefox 145.0.1,,,27-11-2025 21:59:35,27-11-2025 21:59:36,"0,388s",PASSED
+"verifyElementVisible(findTestObject(""Page_DEMOQA/input_Name_firstName""), STOP_ON_FAILURE)",Firefox 145.0.1,,,27-11-2025 21:59:36,27-11-2025 21:59:36,"0,356s",PASSED
+"setText(findTestObject(""Page_DEMOQA/input_Name_firstName""), Firstname)",Firefox 145.0.1,,,27-11-2025 21:59:36,27-11-2025 21:59:37,"0,959s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/input_Name_lastName""), 8)",Firefox 145.0.1,,,27-11-2025 21:59:37,27-11-2025 21:59:37,"0,256s",PASSED
+"verifyElementVisible(findTestObject(""Page_DEMOQA/input_Name_lastName""), STOP_ON_FAILURE)",Firefox 145.0.1,,,27-11-2025 21:59:37,27-11-2025 21:59:37,"0,244s",PASSED
+"setText(findTestObject(""Page_DEMOQA/input_Name_lastName""), Lastname)",Firefox 145.0.1,,,27-11-2025 21:59:37,27-11-2025 21:59:38,"0,587s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/input_Email_userEmail""), 8)",Firefox 145.0.1,,,27-11-2025 21:59:38,27-11-2025 21:59:38,"0,233s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/input_Email_userEmail""), 8)",Firefox 145.0.1,,,27-11-2025 21:59:38,27-11-2025 21:59:38,"0,251s",PASSED
+delay(2),Firefox 145.0.1,,,27-11-2025 21:59:38,27-11-2025 21:59:41,"2,019s",PASSED
+"verifyElementVisible(findTestObject(""Page_DEMOQA/input_Email_userEmail""), STOP_ON_FAILURE)",Firefox 145.0.1,,,27-11-2025 21:59:41,27-11-2025 21:59:41,"0,253s",PASSED
+"setText(findTestObject(""Page_DEMOQA/input_Email_userEmail""), EmailAddress)",Firefox 145.0.1,,,27-11-2025 21:59:41,27-11-2025 21:59:41,"0,561s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/input_Gender_Male""), 8)",Firefox 145.0.1,,,27-11-2025 21:59:41,27-11-2025 21:59:42,"0,261s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/input_Gender_Female""), 8)",Firefox 145.0.1,,,27-11-2025 21:59:42,27-11-2025 21:59:42,"0,233s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/input_Gender_Other""), 8)",Firefox 145.0.1,,,27-11-2025 21:59:42,27-11-2025 21:59:42,"0,235s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/input_Gender_Male""), 100)",Firefox 145.0.1,,,27-11-2025 21:59:42,27-11-2025 21:59:42,"0,262s",PASSED
+delay(2),Firefox 145.0.1,,,27-11-2025 21:59:42,27-11-2025 21:59:44,"2,013s",PASSED
+"verifyElementClickable(findTestObject(""Page_DEMOQA/input_Gender_Male""), STOP_ON_FAILURE)",Firefox 145.0.1,,,27-11-2025 21:59:44,27-11-2025 21:59:44,"0,000s",NOT_RUN
+"enhancedClick(findTestObject(""Page_DEMOQA/input_Gender_Male""))",Firefox 145.0.1,,,27-11-2025 21:59:44,27-11-2025 21:59:55,"10,813s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/input_(10 Digits)_userNumber""), 8)",Firefox 145.0.1,,,27-11-2025 21:59:55,27-11-2025 21:59:55,"0,233s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/input_(10 Digits)_userNumber""), 8)",Firefox 145.0.1,,,27-11-2025 21:59:55,27-11-2025 21:59:56,"0,250s",PASSED
+delay(2),Firefox 145.0.1,,,27-11-2025 21:59:56,27-11-2025 21:59:58,"2,010s",PASSED
+"verifyElementVisible(findTestObject(""Page_DEMOQA/input_(10 Digits)_userNumber""), STOP_ON_FAILURE)",Firefox 145.0.1,,,27-11-2025 21:59:58,27-11-2025 21:59:58,"0,242s",PASSED
+"setText(findTestObject(""Page_DEMOQA/input_(10 Digits)_userNumber""), MobileNumber)",Firefox 145.0.1,,,27-11-2025 21:59:58,27-11-2025 21:59:58,"0,571s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/input_DateOfBirth""), 8)",Firefox 145.0.1,,,27-11-2025 21:59:58,27-11-2025 21:59:59,"0,245s",PASSED
+"verifyElementVisible(findTestObject(""Page_DEMOQA/input_DateOfBirth""), STOP_ON_FAILURE)",Firefox 145.0.1,,,27-11-2025 21:59:59,27-11-2025 21:59:59,"0,239s",PASSED
+"sendKeys(findTestObject(""Page_DEMOQA/input_DateOfBirth""), Keys.chord(ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT))",Firefox 145.0.1,,,27-11-2025 21:59:59,27-11-2025 21:59:59,"0,357s",PASSED
+delay(2),Firefox 145.0.1,,,27-11-2025 21:59:59,27-11-2025 22:00:01,"2,018s",PASSED
+"sendKeys(findTestObject(""Page_DEMOQA/input_DateOfBirth""), Keys.chord(DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE))",Firefox 145.0.1,,,27-11-2025 22:00:01,27-11-2025 22:00:02,"0,361s",PASSED
+"setText(findTestObject(""Page_DEMOQA/input_DateOfBirth""), DateOfBirth)",Firefox 145.0.1,,,27-11-2025 22:00:02,27-11-2025 22:00:13,"10,910s",FAILED
+,,,,,,,
+Test Cases/Positive/Case01-8-P1 Success Submit Practice Form,Firefox 145.0.1,Sebagai Sample,,27-11-2025 22:00:13,27-11-2025 22:01:17,"1m - 4,102s",FAILED
+"DATA BINDING - {""Firstname"":""Awaaal"",""DateOfBirth"":""19 Des 1945"",""FilePathInputBr..."":""/Data Files/Images/person-dummy.jpg"",""CurrentAddress"":""Sample Address C"",""MobileNumber"":""0858567893"",""State"":""NCR"",""Lastname"":""Akhiiir"",""City"":""Delhi"",""Subjects"":""Math"",""EmailAddress"":""email@email.com""}",,,,,,,
+"openBrowser("""")",Firefox 145.0.1,,,27-11-2025 22:00:13,27-11-2025 22:00:17,"4,545s",PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Firefox 145.0.1,,,27-11-2025 22:00:17,27-11-2025 22:00:38,"20,784s",PASSED
+delay(2),Firefox 145.0.1,,,27-11-2025 22:00:38,27-11-2025 22:00:40,"2,010s",PASSED
+maximizeWindow(),Firefox 145.0.1,,,27-11-2025 22:00:40,27-11-2025 22:00:40,"0,313s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/input_Name_firstName""), 8)",Firefox 145.0.1,,,27-11-2025 22:00:40,27-11-2025 22:00:41,"0,243s",PASSED
+"verifyElementVisible(findTestObject(""Page_DEMOQA/input_Name_firstName""), STOP_ON_FAILURE)",Firefox 145.0.1,,,27-11-2025 22:00:41,27-11-2025 22:00:41,"0,249s",PASSED
+"setText(findTestObject(""Page_DEMOQA/input_Name_firstName""), Firstname)",Firefox 145.0.1,,,27-11-2025 22:00:41,27-11-2025 22:00:41,"0,592s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/input_Name_lastName""), 8)",Firefox 145.0.1,,,27-11-2025 22:00:41,27-11-2025 22:00:42,"0,224s",PASSED
+"verifyElementVisible(findTestObject(""Page_DEMOQA/input_Name_lastName""), STOP_ON_FAILURE)",Firefox 145.0.1,,,27-11-2025 22:00:42,27-11-2025 22:00:42,"0,246s",PASSED
+"setText(findTestObject(""Page_DEMOQA/input_Name_lastName""), Lastname)",Firefox 145.0.1,,,27-11-2025 22:00:42,27-11-2025 22:00:42,"0,564s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/input_Email_userEmail""), 8)",Firefox 145.0.1,,,27-11-2025 22:00:42,27-11-2025 22:00:43,"0,237s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/input_Email_userEmail""), 8)",Firefox 145.0.1,,,27-11-2025 22:00:43,27-11-2025 22:00:43,"0,238s",PASSED
+delay(2),Firefox 145.0.1,,,27-11-2025 22:00:43,27-11-2025 22:00:45,"2,008s",PASSED
+"verifyElementVisible(findTestObject(""Page_DEMOQA/input_Email_userEmail""), STOP_ON_FAILURE)",Firefox 145.0.1,,,27-11-2025 22:00:45,27-11-2025 22:00:45,"0,250s",PASSED
+"setText(findTestObject(""Page_DEMOQA/input_Email_userEmail""), EmailAddress)",Firefox 145.0.1,,,27-11-2025 22:00:45,27-11-2025 22:00:46,"0,589s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/input_Gender_Male""), 8)",Firefox 145.0.1,,,27-11-2025 22:00:46,27-11-2025 22:00:46,"0,238s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/input_Gender_Female""), 8)",Firefox 145.0.1,,,27-11-2025 22:00:46,27-11-2025 22:00:46,"0,230s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/input_Gender_Other""), 8)",Firefox 145.0.1,,,27-11-2025 22:00:46,27-11-2025 22:00:46,"0,234s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/input_Gender_Male""), 100)",Firefox 145.0.1,,,27-11-2025 22:00:46,27-11-2025 22:00:47,"0,243s",PASSED
+delay(2),Firefox 145.0.1,,,27-11-2025 22:00:47,27-11-2025 22:00:49,"2,014s",PASSED
+"verifyElementClickable(findTestObject(""Page_DEMOQA/input_Gender_Male""), STOP_ON_FAILURE)",Firefox 145.0.1,,,27-11-2025 22:00:49,27-11-2025 22:00:49,"0,000s",NOT_RUN
+"enhancedClick(findTestObject(""Page_DEMOQA/input_Gender_Male""))",Firefox 145.0.1,,,27-11-2025 22:00:49,27-11-2025 22:01:00,"10,776s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/input_(10 Digits)_userNumber""), 8)",Firefox 145.0.1,,,27-11-2025 22:01:00,27-11-2025 22:01:00,"0,246s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/input_(10 Digits)_userNumber""), 8)",Firefox 145.0.1,,,27-11-2025 22:01:00,27-11-2025 22:01:00,"0,238s",PASSED
+delay(2),Firefox 145.0.1,,,27-11-2025 22:01:00,27-11-2025 22:01:02,"2,017s",PASSED
+"verifyElementVisible(findTestObject(""Page_DEMOQA/input_(10 Digits)_userNumber""), STOP_ON_FAILURE)",Firefox 145.0.1,,,27-11-2025 22:01:02,27-11-2025 22:01:02,"0,252s",PASSED
+"setText(findTestObject(""Page_DEMOQA/input_(10 Digits)_userNumber""), MobileNumber)",Firefox 145.0.1,,,27-11-2025 22:01:02,27-11-2025 22:01:03,"0,573s",PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/input_DateOfBirth""), 8)",Firefox 145.0.1,,,27-11-2025 22:01:03,27-11-2025 22:01:03,"0,249s",PASSED
+"verifyElementVisible(findTestObject(""Page_DEMOQA/input_DateOfBirth""), STOP_ON_FAILURE)",Firefox 145.0.1,,,27-11-2025 22:01:03,27-11-2025 22:01:03,"0,240s",PASSED
+"sendKeys(findTestObject(""Page_DEMOQA/input_DateOfBirth""), Keys.chord(ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT))",Firefox 145.0.1,,,27-11-2025 22:01:03,27-11-2025 22:01:04,"0,338s",PASSED
+delay(2),Firefox 145.0.1,,,27-11-2025 22:01:04,27-11-2025 22:01:06,"2,005s",PASSED
+"sendKeys(findTestObject(""Page_DEMOQA/input_DateOfBirth""), Keys.chord(DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE))",Firefox 145.0.1,,,27-11-2025 22:01:06,27-11-2025 22:01:06,"0,369s",PASSED
+"setText(findTestObject(""Page_DEMOQA/input_DateOfBirth""), DateOfBirth)",Firefox 145.0.1,,,27-11-2025 22:01:06,27-11-2025 22:01:17,"10,697s",FAILED

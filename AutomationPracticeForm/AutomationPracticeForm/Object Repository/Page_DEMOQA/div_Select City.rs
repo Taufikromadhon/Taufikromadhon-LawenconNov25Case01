@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='city']/div/div</value>
+         <value>//div[@id='city']</value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -27,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>fd98ff07-ac06-49b5-a89d-acb0a011b46a</webElementGuid>
+      <webElementGuid>0aeb6557-abb8-42fd-90dc-e0598bdf0572</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,7 +35,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Select City</value>
-      <webElementGuid>72d10fd2-492a-492d-9675-cf6378eb29cb</webElementGuid>
+      <webElementGuid>1ff47920-ce15-49ca-bb79-3382c4f154ed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,7 +43,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;city&quot;)/div[@class=&quot;css-1pahdxg-control&quot;]/div[@class=&quot;css-1hwfws3&quot;]</value>
-      <webElementGuid>c731598b-2063-4dbd-8ee3-77fc4b144ae7</webElementGuid>
+      <webElementGuid>999350c0-28dd-4b77-93b2-297de8ecceac</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -51,7 +51,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='city']/div/div</value>
-      <webElementGuid>e283154d-bfcd-4d7f-8787-61a4ca441a12</webElementGuid>
+      <webElementGuid>8be0d79d-c1a7-4599-8d29-143f64f943c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -59,6 +59,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Select City' or . = 'Select City')]</value>
-      <webElementGuid>f63fb93b-06be-4a55-bc91-356d8f86c070</webElementGuid>
+      <webElementGuid>28b6324f-d019-4174-a749-c398184621e4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

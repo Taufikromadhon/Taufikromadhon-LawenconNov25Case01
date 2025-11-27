@@ -13,7 +13,7 @@
       <variableId>435d4374-d7fd-407b-b296-2ef0f29177a4</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'08123'</defaultValue>
       <description></description>
       <id>435d4374-d7fd-407b-b296-2ef0f29177a4</id>
       <masked>false</masked>

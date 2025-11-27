@@ -1,0 +1,1076 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TSPracticeFormPositive" time="354.586" tests="3" failures="0" errors="0">
+   <testsuite name="TSPracticeFormPositive" tests="3" failures="0" errors="0" time="354.586" skipped="0" timestamp="2025-11-27T15:02:26.085Z" hostname="USER - LAPTOP-KNF1HLK6" id="Test Suites/TSPracticeFormPositive">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="T:\\Lawencon\\Interview\\Fix\\case01\\AutomationPracticeForm\\AutomationPracticeForm\\Reports\\20251127_220220\\TSPracticeFormPositive\\20251127_220220"/>
+         <property name="logFiles" value="T:\\Lawencon\\Interview\\Fix\\case01\\AutomationPracticeForm\\AutomationPracticeForm\\Reports\\20251127_220220\\TSPracticeFormPositive\\20251127_220220\\console0.log, T:\\Lawencon\\Interview\\Fix\\case01\\AutomationPracticeForm\\AutomationPracticeForm\\Reports\\20251127_220220\\TSPracticeFormPositive\\20251127_220220\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="USER - LAPTOP-KNF1HLK6"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.4.2.0"/>
+         <property name="browser" value="Chrome 142.0.7444.176"/>
+         <property name="userFullName" value="Taufik Romadhon"/>
+         <property name="hostAddress" value="10.156.170.155"/>
+         <property name="sessionId" value="5b5b6a9660263ba50add7bfbe216eefb"/>
+         <property name="projectName" value="AutomationPracticeForm"/>
+         <property name="seleniumVersion" value="4.34.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Positive/Case01-8-P1 Success Submit Practice Form" time="132.713" classname="Test Cases/Positive/Case01-8-P1 Success Submit Practice Form" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"Firstname":"Awal","DateOfBirth":"17 Aug 1945","FilePathInputBr...":"/Data Files/Images/person-dummy.jpg","CurrentAddress":"Sample Address A","MobileNumber":"0858567891","State":"NCR","Lastname":"Akhir","City":"Delhi","Subjects":"Math","EmailAddress":"email@email.com"}]]></property>
+         </properties>
+         <system-out><![CDATA[27-11-2025T22:02:27 - [TEST_CASE][PASSED] - Test Cases/Positive/Case01-8-P1 Success Submit Practice Form: Test Cases/Positive/Case01-8-P1 Success Submit Practice Form
+
+27-11-2025T22:02:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+27-11-2025T22:02:28 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+27-11-2025T22:02:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-11-2025T22:02:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+27-11-2025T22:02:31 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/automation-practice-form"): Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+27-11-2025T22:02:57 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+27-11-2025T22:02:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:02:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:02:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+27-11-2025T22:02:59 - [MESSAGE][PASSED] - Current window maximized
+
+27-11-2025T22:02:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Name_firstName"), 8): Object 'Object Repository/Page_DEMOQA/input_Name_firstName' is present
+
+27-11-2025T22:02:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Name_firstName' is present
+
+27-11-2025T22:02:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_DEMOQA/input_Name_firstName"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/input_Name_firstName' is visible
+
+27-11-2025T22:03:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Name_firstName' is visible
+
+27-11-2025T22:03:00 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/input_Name_firstName"), Firstname): Text 'Awal' is set on object 'Object Repository/Page_DEMOQA/input_Name_firstName'
+
+27-11-2025T22:03:00 - [MESSAGE][PASSED] - Text 'Awal' is set on object 'Object Repository/Page_DEMOQA/input_Name_firstName'
+
+27-11-2025T22:03:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Name_lastName"), 8): Object 'Object Repository/Page_DEMOQA/input_Name_lastName' is present
+
+27-11-2025T22:03:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Name_lastName' is present
+
+27-11-2025T22:03:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_DEMOQA/input_Name_lastName"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/input_Name_lastName' is visible
+
+27-11-2025T22:03:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Name_lastName' is visible
+
+27-11-2025T22:03:01 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/input_Name_lastName"), Lastname): Text 'Akhir' is set on object 'Object Repository/Page_DEMOQA/input_Name_lastName'
+
+27-11-2025T22:03:02 - [MESSAGE][PASSED] - Text 'Akhir' is set on object 'Object Repository/Page_DEMOQA/input_Name_lastName'
+
+27-11-2025T22:03:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Email_userEmail"), 8): Object 'Object Repository/Page_DEMOQA/input_Email_userEmail' is present
+
+27-11-2025T22:03:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Email_userEmail' is present
+
+27-11-2025T22:03:02 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/input_Email_userEmail"), 8): Scroll to object 'Object Repository/Page_DEMOQA/input_Email_userEmail' successfully
+
+27-11-2025T22:03:02 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/input_Email_userEmail' successfully
+
+27-11-2025T22:03:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:03:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:03:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_DEMOQA/input_Email_userEmail"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/input_Email_userEmail' is visible
+
+27-11-2025T22:03:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Email_userEmail' is visible
+
+27-11-2025T22:03:04 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/input_Email_userEmail"), EmailAddress): Text 'email@email.com' is set on object 'Object Repository/Page_DEMOQA/input_Email_userEmail'
+
+27-11-2025T22:03:05 - [MESSAGE][PASSED] - Text 'email@email.com' is set on object 'Object Repository/Page_DEMOQA/input_Email_userEmail'
+
+27-11-2025T22:03:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Gender_Male"), 8): Object 'Object Repository/Page_DEMOQA/input_Gender_Male' is present
+
+27-11-2025T22:03:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Gender_Male' is present
+
+27-11-2025T22:03:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Gender_Female"), 8): Object 'Object Repository/Page_DEMOQA/input_Gender_Female' is present
+
+27-11-2025T22:03:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Gender_Female' is present
+
+27-11-2025T22:03:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Gender_Other"), 8): Object 'Object Repository/Page_DEMOQA/input_Gender_Other' is present
+
+27-11-2025T22:03:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Gender_Other' is present
+
+27-11-2025T22:03:06 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/input_Gender_Male"), 100): Scroll to object 'Object Repository/Page_DEMOQA/input_Gender_Male' successfully
+
+27-11-2025T22:03:06 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/input_Gender_Male' successfully
+
+27-11-2025T22:03:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:03:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:03:08 - [TEST_STEP][NOT_RUN] - verifyElementClickable(findTestObject("Page_DEMOQA/input_Gender_Male"), STOP_ON_FAILURE): NOT_RUN: verifyElementClickable(findTestObject("Page_DEMOQA/input_Gender_Male"), STOP_ON_FAILURE)
+
+27-11-2025T22:03:08 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementClickable(findTestObject("Page_DEMOQA/input_Gender_Male"), STOP_ON_FAILURE)
+
+27-11-2025T22:03:08 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Page_DEMOQA/input_Gender_Male")): Object: 'Object Repository/Page_DEMOQA/input_Gender_Male' is clicked on
+
+27-11-2025T22:03:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/input_Gender_Male' is clicked on
+
+27-11-2025T22:03:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8): Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is present
+
+27-11-2025T22:03:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is present
+
+27-11-2025T22:03:20 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8): Scroll to object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' successfully
+
+27-11-2025T22:03:21 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' successfully
+
+27-11-2025T22:03:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:03:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:03:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is visible
+
+27-11-2025T22:03:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is visible
+
+27-11-2025T22:03:23 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), MobileNumber): Text '0858567891' is set on object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber'
+
+27-11-2025T22:03:23 - [MESSAGE][PASSED] - Text '0858567891' is set on object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber'
+
+27-11-2025T22:03:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_DateOfBirth"), 8): Object 'Object Repository/Page_DEMOQA/input_DateOfBirth' is present
+
+27-11-2025T22:03:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_DateOfBirth' is present
+
+27-11-2025T22:03:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_DEMOQA/input_DateOfBirth"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/input_DateOfBirth' is visible
+
+27-11-2025T22:03:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_DateOfBirth' is visible
+
+27-11-2025T22:03:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_DEMOQA/input_DateOfBirth"), Keys.chord(ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT)): Keys 'LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + ' sent to object: 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+
+27-11-2025T22:03:24 - [MESSAGE][PASSED] - Keys 'LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + ' sent to object: 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+
+27-11-2025T22:03:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:03:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:03:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_DEMOQA/input_DateOfBirth"), Keys.chord(DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE)): Keys 'DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + ' sent to object: 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+
+27-11-2025T22:03:27 - [MESSAGE][PASSED] - Keys 'DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + ' sent to object: 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+
+27-11-2025T22:03:27 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/input_DateOfBirth"), DateOfBirth): Text '17 Aug 1945' is set on object 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+
+27-11-2025T22:03:28 - [MESSAGE][PASSED] - Text '17 Aug 1945' is set on object 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+
+27-11-2025T22:03:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_DEMOQA/input_DateOfBirth"), Keys.chord(ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT)): Keys 'LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + ' sent to object: 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+
+27-11-2025T22:03:28 - [MESSAGE][PASSED] - Keys 'LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + ' sent to object: 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+
+27-11-2025T22:03:28 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:03:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:03:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_DEMOQA/input_DateOfBirth"), Keys.chord(BACK_SPACE, ENTER)): Keys 'BACK_SPACE + ENTER + ' sent to object: 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+
+27-11-2025T22:03:31 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ENTER + ' sent to object: 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+
+27-11-2025T22:03:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:03:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:03:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_SubjectsInput"), 8): Object 'Object Repository/Page_DEMOQA/input_SubjectsInput' is present
+
+27-11-2025T22:03:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_SubjectsInput' is present
+
+27-11-2025T22:03:33 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/input_SubjectsInput"), 8): Scroll to object 'Object Repository/Page_DEMOQA/input_SubjectsInput' successfully
+
+27-11-2025T22:03:33 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/input_SubjectsInput' successfully
+
+27-11-2025T22:03:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:03:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:03:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_DEMOQA/input_SubjectsInput"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/input_SubjectsInput' is visible
+
+27-11-2025T22:03:35 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_SubjectsInput' is visible
+
+27-11-2025T22:03:35 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/input_SubjectsInput"), Subjects): Text 'Math' is set on object 'Object Repository/Page_DEMOQA/input_SubjectsInput'
+
+27-11-2025T22:03:36 - [MESSAGE][PASSED] - Text 'Math' is set on object 'Object Repository/Page_DEMOQA/input_SubjectsInput'
+
+27-11-2025T22:03:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_DEMOQA/input_SubjectsInput"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_DEMOQA/input_SubjectsInput'
+
+27-11-2025T22:03:37 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_DEMOQA/input_SubjectsInput'
+
+27-11-2025T22:03:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Hobbies_Sports"), 8): Object 'Object Repository/Page_DEMOQA/input_Hobbies_Sports' is present
+
+27-11-2025T22:03:37 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Hobbies_Sports' is present
+
+27-11-2025T22:03:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Hobbies_Reading"), 8): Object 'Object Repository/Page_DEMOQA/input_Hobbies_Reading' is present
+
+27-11-2025T22:03:37 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Hobbies_Reading' is present
+
+27-11-2025T22:03:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Hobbies_Music"), 8): Object 'Object Repository/Page_DEMOQA/input_Hobbies_Music' is present
+
+27-11-2025T22:03:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Hobbies_Music' is present
+
+27-11-2025T22:03:38 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/input_Hobbies_Sports"), 8): Scroll to object 'Object Repository/Page_DEMOQA/input_Hobbies_Sports' successfully
+
+27-11-2025T22:03:38 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/input_Hobbies_Sports' successfully
+
+27-11-2025T22:03:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:03:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:03:40 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Page_DEMOQA/input_Hobbies_Sports")): Object: 'Object Repository/Page_DEMOQA/input_Hobbies_Sports' is clicked on
+
+27-11-2025T22:03:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/input_Hobbies_Sports' is clicked on
+
+27-11-2025T22:03:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Browse"), 8): Object 'Object Repository/Page_DEMOQA/input_Browse' is present
+
+27-11-2025T22:03:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Browse' is present
+
+27-11-2025T22:03:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Browse"), 8): Object 'Object Repository/Page_DEMOQA/input_Browse' is present
+
+27-11-2025T22:03:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Browse' is present
+
+27-11-2025T22:03:52 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Page_DEMOQA/input_Browse"), getProjectDir() + FilePathInputBrowse): File 'T:/Lawencon/Interview/Fix/case01/AutomationPracticeForm/AutomationPracticeForm/Data Files/Images/person-dummy.jpg' sent to object: 'Object Repository/Page_DEMOQA/input_Browse'
+
+27-11-2025T22:03:52 - [MESSAGE][PASSED] - File 'T:/Lawencon/Interview/Fix/case01/AutomationPracticeForm/AutomationPracticeForm/Data Files/Images/person-dummy.jpg' sent to object: 'Object Repository/Page_DEMOQA/input_Browse'
+
+27-11-2025T22:03:52 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:03:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:03:54 - [TEST_STEP][PASSED] - switchToDefaultContent(STOP_ON_FAILURE): null
+
+27-11-2025T22:03:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:03:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:03:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/textarea_CurrentAddress"), 8): Object 'Object Repository/Page_DEMOQA/textarea_CurrentAddress' is present
+
+27-11-2025T22:03:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/textarea_CurrentAddress' is present
+
+27-11-2025T22:03:57 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/textarea_CurrentAddress"), 8): Scroll to object 'Object Repository/Page_DEMOQA/textarea_CurrentAddress' successfully
+
+27-11-2025T22:03:57 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/textarea_CurrentAddress' successfully
+
+27-11-2025T22:03:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_DEMOQA/textarea_CurrentAddress"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/textarea_CurrentAddress' is visible
+
+27-11-2025T22:03:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/textarea_CurrentAddress' is visible
+
+27-11-2025T22:03:57 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/textarea_CurrentAddress"), CurrentAddress): Text 'Sample Address A' is set on object 'Object Repository/Page_DEMOQA/textarea_CurrentAddress'
+
+27-11-2025T22:03:58 - [MESSAGE][PASSED] - Text 'Sample Address A' is set on object 'Object Repository/Page_DEMOQA/textarea_CurrentAddress'
+
+27-11-2025T22:03:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Select_State_old"), 8): Object 'Object Repository/Page_DEMOQA/input_Select_State_old' is present
+
+27-11-2025T22:03:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Select_State_old' is present
+
+27-11-2025T22:03:58 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/input_Select_State_old"), 8): Scroll to object 'Object Repository/Page_DEMOQA/input_Select_State_old' successfully
+
+27-11-2025T22:03:58 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/input_Select_State_old' successfully
+
+27-11-2025T22:03:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:04:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:04:00 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Page_DEMOQA/input_Select_State_old"), STOP_ON_FAILURE): Object: 'Object Repository/Page_DEMOQA/input_Select_State_old' is clicked on
+
+27-11-2025T22:04:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/input_Select_State_old' is clicked on
+
+27-11-2025T22:04:03 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/input_Select_State_old"), State): Text 'NCR' is set on object 'Object Repository/Page_DEMOQA/input_Select_State_old'
+
+27-11-2025T22:04:13 - [MESSAGE][WARNING] - Waiting for element timed out
+
+27-11-2025T22:04:13 - [MESSAGE][WARNING] - Waiting for element timed out
+
+27-11-2025T22:04:13 - [MESSAGE][PASSED] - Text 'NCR' is set on object 'Object Repository/Page_DEMOQA/input_Select_State_old'
+
+27-11-2025T22:04:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_DEMOQA/input_Select_State_old"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_DEMOQA/input_Select_State_old'
+
+27-11-2025T22:04:14 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_DEMOQA/input_Select_State_old'
+
+27-11-2025T22:04:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:04:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:04:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Select_City"), 0): Object 'Object Repository/Page_DEMOQA/input_Select_City' is present
+
+27-11-2025T22:04:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+27-11-2025T22:04:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Select_City' is present
+
+27-11-2025T22:04:16 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Page_DEMOQA/input_Select_City"), STOP_ON_FAILURE): Object: 'Object Repository/Page_DEMOQA/input_Select_City' is clicked on
+
+27-11-2025T22:04:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/input_Select_City' is clicked on
+
+27-11-2025T22:04:19 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/input_Select_City"), City): Text 'Delhi' is set on object 'Object Repository/Page_DEMOQA/input_Select_City'
+
+27-11-2025T22:04:29 - [MESSAGE][WARNING] - Waiting for element timed out
+
+27-11-2025T22:04:29 - [MESSAGE][WARNING] - Waiting for element timed out
+
+27-11-2025T22:04:29 - [MESSAGE][PASSED] - Text 'Delhi' is set on object 'Object Repository/Page_DEMOQA/input_Select_City'
+
+27-11-2025T22:04:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_DEMOQA/input_Select_City"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_DEMOQA/input_Select_City'
+
+27-11-2025T22:04:30 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_DEMOQA/input_Select_City'
+
+27-11-2025T22:04:30 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:04:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:04:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), 0): Object 'Object Repository/Page_DEMOQA/button_Submit' is present
+
+27-11-2025T22:04:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+27-11-2025T22:04:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/button_Submit' is present
+
+27-11-2025T22:04:32 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), 0): Scroll to object 'Object Repository/Page_DEMOQA/button_Submit' successfully
+
+27-11-2025T22:04:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+27-11-2025T22:04:32 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/button_Submit' successfully
+
+27-11-2025T22:04:32 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:04:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:04:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/button_Submit' is visible
+
+27-11-2025T22:04:35 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/button_Submit' is visible
+
+27-11-2025T22:04:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:04:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:04:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/button_Submit")): Object: 'Object Repository/Page_DEMOQA/button_Submit' is clicked on
+
+27-11-2025T22:04:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/button_Submit' is clicked on
+
+27-11-2025T22:04:37 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:04:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:04:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_DEMOQA/div_Modal_Success")): Object 'Object Repository/Page_DEMOQA/div_Modal_Success' is visible
+
+27-11-2025T22:04:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/div_Modal_Success' is visible
+
+27-11-2025T22:04:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/button_Close"), 0): Object 'Object Repository/Page_DEMOQA/button_Close' is present
+
+27-11-2025T22:04:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+27-11-2025T22:04:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/button_Close' is present
+
+27-11-2025T22:04:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_DEMOQA/button_Close")): Object 'Object Repository/Page_DEMOQA/button_Close' is visible
+
+27-11-2025T22:04:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/button_Close' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive/Case01-8-P1 Success Submit Practice Form" time="108.954" classname="Test Cases/Positive/Case01-8-P1 Success Submit Practice Form" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"Firstname":"Awaal","DateOfBirth":"18 Jan 1945","FilePathInputBr...":"/Data Files/Images/person-dummy.jpg","CurrentAddress":"Sample Address B","MobileNumber":"0858567892","State":"NCR","Lastname":"Akhiir","City":"Delhi","Subjects":"Math","EmailAddress":"email@email.com"}]]></property>
+         </properties>
+         <system-out><![CDATA[27-11-2025T22:04:40 - [TEST_CASE][PASSED] - Test Cases/Positive/Case01-8-P1 Success Submit Practice Form: Test Cases/Positive/Case01-8-P1 Success Submit Practice Form
+
+27-11-2025T22:04:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+27-11-2025T22:04:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+27-11-2025T22:04:41 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+27-11-2025T22:04:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-11-2025T22:04:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+27-11-2025T22:04:42 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/automation-practice-form"): Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+27-11-2025T22:04:47 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+27-11-2025T22:04:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:04:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:04:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+27-11-2025T22:04:49 - [MESSAGE][PASSED] - Current window maximized
+
+27-11-2025T22:04:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Name_firstName"), 8): Object 'Object Repository/Page_DEMOQA/input_Name_firstName' is present
+
+27-11-2025T22:04:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Name_firstName' is present
+
+27-11-2025T22:04:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_DEMOQA/input_Name_firstName"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/input_Name_firstName' is visible
+
+27-11-2025T22:04:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Name_firstName' is visible
+
+27-11-2025T22:04:49 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/input_Name_firstName"), Firstname): Text 'Awaal' is set on object 'Object Repository/Page_DEMOQA/input_Name_firstName'
+
+27-11-2025T22:04:50 - [MESSAGE][PASSED] - Text 'Awaal' is set on object 'Object Repository/Page_DEMOQA/input_Name_firstName'
+
+27-11-2025T22:04:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Name_lastName"), 8): Object 'Object Repository/Page_DEMOQA/input_Name_lastName' is present
+
+27-11-2025T22:04:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Name_lastName' is present
+
+27-11-2025T22:04:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_DEMOQA/input_Name_lastName"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/input_Name_lastName' is visible
+
+27-11-2025T22:04:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Name_lastName' is visible
+
+27-11-2025T22:04:51 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/input_Name_lastName"), Lastname): Text 'Akhiir' is set on object 'Object Repository/Page_DEMOQA/input_Name_lastName'
+
+27-11-2025T22:04:51 - [MESSAGE][PASSED] - Text 'Akhiir' is set on object 'Object Repository/Page_DEMOQA/input_Name_lastName'
+
+27-11-2025T22:04:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Email_userEmail"), 8): Object 'Object Repository/Page_DEMOQA/input_Email_userEmail' is present
+
+27-11-2025T22:04:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Email_userEmail' is present
+
+27-11-2025T22:04:52 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/input_Email_userEmail"), 8): Scroll to object 'Object Repository/Page_DEMOQA/input_Email_userEmail' successfully
+
+27-11-2025T22:04:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/input_Email_userEmail' successfully
+
+27-11-2025T22:04:52 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:04:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:04:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_DEMOQA/input_Email_userEmail"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/input_Email_userEmail' is visible
+
+27-11-2025T22:04:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Email_userEmail' is visible
+
+27-11-2025T22:04:54 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/input_Email_userEmail"), EmailAddress): Text 'email@email.com' is set on object 'Object Repository/Page_DEMOQA/input_Email_userEmail'
+
+27-11-2025T22:04:55 - [MESSAGE][PASSED] - Text 'email@email.com' is set on object 'Object Repository/Page_DEMOQA/input_Email_userEmail'
+
+27-11-2025T22:04:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Gender_Male"), 8): Object 'Object Repository/Page_DEMOQA/input_Gender_Male' is present
+
+27-11-2025T22:04:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Gender_Male' is present
+
+27-11-2025T22:04:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Gender_Female"), 8): Object 'Object Repository/Page_DEMOQA/input_Gender_Female' is present
+
+27-11-2025T22:04:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Gender_Female' is present
+
+27-11-2025T22:04:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Gender_Other"), 8): Object 'Object Repository/Page_DEMOQA/input_Gender_Other' is present
+
+27-11-2025T22:04:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Gender_Other' is present
+
+27-11-2025T22:04:56 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/input_Gender_Male"), 100): Scroll to object 'Object Repository/Page_DEMOQA/input_Gender_Male' successfully
+
+27-11-2025T22:04:56 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/input_Gender_Male' successfully
+
+27-11-2025T22:04:56 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:04:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:04:58 - [TEST_STEP][NOT_RUN] - verifyElementClickable(findTestObject("Page_DEMOQA/input_Gender_Male"), STOP_ON_FAILURE): NOT_RUN: verifyElementClickable(findTestObject("Page_DEMOQA/input_Gender_Male"), STOP_ON_FAILURE)
+
+27-11-2025T22:04:58 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementClickable(findTestObject("Page_DEMOQA/input_Gender_Male"), STOP_ON_FAILURE)
+
+27-11-2025T22:04:58 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Page_DEMOQA/input_Gender_Male")): Object: 'Object Repository/Page_DEMOQA/input_Gender_Male' is clicked on
+
+27-11-2025T22:05:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/input_Gender_Male' is clicked on
+
+27-11-2025T22:05:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8): Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is present
+
+27-11-2025T22:05:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is present
+
+27-11-2025T22:05:10 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8): Scroll to object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' successfully
+
+27-11-2025T22:05:10 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' successfully
+
+27-11-2025T22:05:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:05:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:05:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is visible
+
+27-11-2025T22:05:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is visible
+
+27-11-2025T22:05:12 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), MobileNumber): Text '0858567892' is set on object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber'
+
+27-11-2025T22:05:13 - [MESSAGE][PASSED] - Text '0858567892' is set on object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber'
+
+27-11-2025T22:05:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_DateOfBirth"), 8): Object 'Object Repository/Page_DEMOQA/input_DateOfBirth' is present
+
+27-11-2025T22:05:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_DateOfBirth' is present
+
+27-11-2025T22:05:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_DEMOQA/input_DateOfBirth"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/input_DateOfBirth' is visible
+
+27-11-2025T22:05:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_DateOfBirth' is visible
+
+27-11-2025T22:05:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_DEMOQA/input_DateOfBirth"), Keys.chord(ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT)): Keys 'LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + ' sent to object: 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+
+27-11-2025T22:05:14 - [MESSAGE][PASSED] - Keys 'LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + ' sent to object: 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+
+27-11-2025T22:05:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:05:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:05:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_DEMOQA/input_DateOfBirth"), Keys.chord(DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE)): Keys 'DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + ' sent to object: 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+
+27-11-2025T22:05:16 - [MESSAGE][PASSED] - Keys 'DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + ' sent to object: 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+
+27-11-2025T22:05:16 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/input_DateOfBirth"), DateOfBirth): Text '18 Jan 1945' is set on object 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+
+27-11-2025T22:05:17 - [MESSAGE][PASSED] - Text '18 Jan 1945' is set on object 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+
+27-11-2025T22:05:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_DEMOQA/input_DateOfBirth"), Keys.chord(ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT)): Keys 'LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + ' sent to object: 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+
+27-11-2025T22:05:18 - [MESSAGE][PASSED] - Keys 'LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + ' sent to object: 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+
+27-11-2025T22:05:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:05:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:05:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_DEMOQA/input_DateOfBirth"), Keys.chord(BACK_SPACE, ENTER)): Keys 'BACK_SPACE + ENTER + ' sent to object: 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+
+27-11-2025T22:05:20 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ENTER + ' sent to object: 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+
+27-11-2025T22:05:20 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:05:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:05:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_SubjectsInput"), 8): Object 'Object Repository/Page_DEMOQA/input_SubjectsInput' is present
+
+27-11-2025T22:05:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_SubjectsInput' is present
+
+27-11-2025T22:05:22 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/input_SubjectsInput"), 8): Scroll to object 'Object Repository/Page_DEMOQA/input_SubjectsInput' successfully
+
+27-11-2025T22:05:23 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/input_SubjectsInput' successfully
+
+27-11-2025T22:05:23 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:05:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:05:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_DEMOQA/input_SubjectsInput"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/input_SubjectsInput' is visible
+
+27-11-2025T22:05:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_SubjectsInput' is visible
+
+27-11-2025T22:05:25 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/input_SubjectsInput"), Subjects): Text 'Math' is set on object 'Object Repository/Page_DEMOQA/input_SubjectsInput'
+
+27-11-2025T22:05:26 - [MESSAGE][PASSED] - Text 'Math' is set on object 'Object Repository/Page_DEMOQA/input_SubjectsInput'
+
+27-11-2025T22:05:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_DEMOQA/input_SubjectsInput"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_DEMOQA/input_SubjectsInput'
+
+27-11-2025T22:05:26 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_DEMOQA/input_SubjectsInput'
+
+27-11-2025T22:05:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Hobbies_Sports"), 8): Object 'Object Repository/Page_DEMOQA/input_Hobbies_Sports' is present
+
+27-11-2025T22:05:26 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Hobbies_Sports' is present
+
+27-11-2025T22:05:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Hobbies_Reading"), 8): Object 'Object Repository/Page_DEMOQA/input_Hobbies_Reading' is present
+
+27-11-2025T22:05:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Hobbies_Reading' is present
+
+27-11-2025T22:05:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Hobbies_Music"), 8): Object 'Object Repository/Page_DEMOQA/input_Hobbies_Music' is present
+
+27-11-2025T22:05:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Hobbies_Music' is present
+
+27-11-2025T22:05:27 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/input_Hobbies_Sports"), 8): Scroll to object 'Object Repository/Page_DEMOQA/input_Hobbies_Sports' successfully
+
+27-11-2025T22:05:27 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/input_Hobbies_Sports' successfully
+
+27-11-2025T22:05:27 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:05:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:05:29 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Page_DEMOQA/input_Hobbies_Sports")): Object: 'Object Repository/Page_DEMOQA/input_Hobbies_Sports' is clicked on
+
+27-11-2025T22:05:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/input_Hobbies_Sports' is clicked on
+
+27-11-2025T22:05:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Browse"), 8): Object 'Object Repository/Page_DEMOQA/input_Browse' is present
+
+27-11-2025T22:05:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Browse' is present
+
+27-11-2025T22:05:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Browse"), 8): Object 'Object Repository/Page_DEMOQA/input_Browse' is present
+
+27-11-2025T22:05:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Browse' is present
+
+27-11-2025T22:05:42 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Page_DEMOQA/input_Browse"), getProjectDir() + FilePathInputBrowse): File 'T:/Lawencon/Interview/Fix/case01/AutomationPracticeForm/AutomationPracticeForm/Data Files/Images/person-dummy.jpg' sent to object: 'Object Repository/Page_DEMOQA/input_Browse'
+
+27-11-2025T22:05:42 - [MESSAGE][PASSED] - File 'T:/Lawencon/Interview/Fix/case01/AutomationPracticeForm/AutomationPracticeForm/Data Files/Images/person-dummy.jpg' sent to object: 'Object Repository/Page_DEMOQA/input_Browse'
+
+27-11-2025T22:05:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:05:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:05:44 - [TEST_STEP][PASSED] - switchToDefaultContent(STOP_ON_FAILURE): null
+
+27-11-2025T22:05:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:05:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:05:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/textarea_CurrentAddress"), 8): Object 'Object Repository/Page_DEMOQA/textarea_CurrentAddress' is present
+
+27-11-2025T22:05:46 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/textarea_CurrentAddress' is present
+
+27-11-2025T22:05:46 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/textarea_CurrentAddress"), 8): Scroll to object 'Object Repository/Page_DEMOQA/textarea_CurrentAddress' successfully
+
+27-11-2025T22:05:46 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/textarea_CurrentAddress' successfully
+
+27-11-2025T22:05:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_DEMOQA/textarea_CurrentAddress"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/textarea_CurrentAddress' is visible
+
+27-11-2025T22:05:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/textarea_CurrentAddress' is visible
+
+27-11-2025T22:05:47 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/textarea_CurrentAddress"), CurrentAddress): Text 'Sample Address B' is set on object 'Object Repository/Page_DEMOQA/textarea_CurrentAddress'
+
+27-11-2025T22:05:47 - [MESSAGE][PASSED] - Text 'Sample Address B' is set on object 'Object Repository/Page_DEMOQA/textarea_CurrentAddress'
+
+27-11-2025T22:05:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Select_State_old"), 8): Object 'Object Repository/Page_DEMOQA/input_Select_State_old' is present
+
+27-11-2025T22:05:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Select_State_old' is present
+
+27-11-2025T22:05:47 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/input_Select_State_old"), 8): Scroll to object 'Object Repository/Page_DEMOQA/input_Select_State_old' successfully
+
+27-11-2025T22:05:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/input_Select_State_old' successfully
+
+27-11-2025T22:05:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:05:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:05:50 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Page_DEMOQA/input_Select_State_old"), STOP_ON_FAILURE): Object: 'Object Repository/Page_DEMOQA/input_Select_State_old' is clicked on
+
+27-11-2025T22:05:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/input_Select_State_old' is clicked on
+
+27-11-2025T22:05:52 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/input_Select_State_old"), State): Text 'NCR' is set on object 'Object Repository/Page_DEMOQA/input_Select_State_old'
+
+27-11-2025T22:06:02 - [MESSAGE][WARNING] - Waiting for element timed out
+
+27-11-2025T22:06:03 - [MESSAGE][WARNING] - Waiting for element timed out
+
+27-11-2025T22:06:03 - [MESSAGE][PASSED] - Text 'NCR' is set on object 'Object Repository/Page_DEMOQA/input_Select_State_old'
+
+27-11-2025T22:06:03 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_DEMOQA/input_Select_State_old"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_DEMOQA/input_Select_State_old'
+
+27-11-2025T22:06:03 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_DEMOQA/input_Select_State_old'
+
+27-11-2025T22:06:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:06:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:06:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Select_City"), 0): Object 'Object Repository/Page_DEMOQA/input_Select_City' is present
+
+27-11-2025T22:06:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+27-11-2025T22:06:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Select_City' is present
+
+27-11-2025T22:06:05 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Page_DEMOQA/input_Select_City"), STOP_ON_FAILURE): Object: 'Object Repository/Page_DEMOQA/input_Select_City' is clicked on
+
+27-11-2025T22:06:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/input_Select_City' is clicked on
+
+27-11-2025T22:06:08 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/input_Select_City"), City): Text 'Delhi' is set on object 'Object Repository/Page_DEMOQA/input_Select_City'
+
+27-11-2025T22:06:18 - [MESSAGE][WARNING] - Waiting for element timed out
+
+27-11-2025T22:06:18 - [MESSAGE][WARNING] - Waiting for element timed out
+
+27-11-2025T22:06:18 - [MESSAGE][PASSED] - Text 'Delhi' is set on object 'Object Repository/Page_DEMOQA/input_Select_City'
+
+27-11-2025T22:06:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_DEMOQA/input_Select_City"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_DEMOQA/input_Select_City'
+
+27-11-2025T22:06:19 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_DEMOQA/input_Select_City'
+
+27-11-2025T22:06:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:06:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:06:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), 0): Object 'Object Repository/Page_DEMOQA/button_Submit' is present
+
+27-11-2025T22:06:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+27-11-2025T22:06:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/button_Submit' is present
+
+27-11-2025T22:06:21 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), 0): Scroll to object 'Object Repository/Page_DEMOQA/button_Submit' successfully
+
+27-11-2025T22:06:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+27-11-2025T22:06:21 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/button_Submit' successfully
+
+27-11-2025T22:06:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:06:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:06:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/button_Submit' is visible
+
+27-11-2025T22:06:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/button_Submit' is visible
+
+27-11-2025T22:06:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:06:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:06:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/button_Submit")): Object: 'Object Repository/Page_DEMOQA/button_Submit' is clicked on
+
+27-11-2025T22:06:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/button_Submit' is clicked on
+
+27-11-2025T22:06:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:06:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:06:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_DEMOQA/div_Modal_Success")): Object 'Object Repository/Page_DEMOQA/div_Modal_Success' is visible
+
+27-11-2025T22:06:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/div_Modal_Success' is visible
+
+27-11-2025T22:06:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/button_Close"), 0): Object 'Object Repository/Page_DEMOQA/button_Close' is present
+
+27-11-2025T22:06:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+27-11-2025T22:06:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/button_Close' is present
+
+27-11-2025T22:06:29 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_DEMOQA/button_Close")): Object 'Object Repository/Page_DEMOQA/button_Close' is visible
+
+27-11-2025T22:06:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/button_Close' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive/Case01-8-P1 Success Submit Practice Form" time="111.315" classname="Test Cases/Positive/Case01-8-P1 Success Submit Practice Form" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"Firstname":"Awaaal","DateOfBirth":"19 Des 1945","FilePathInputBr...":"/Data Files/Images/person-dummy.jpg","CurrentAddress":"Sample Address C","MobileNumber":"0858567893","State":"NCR","Lastname":"Akhiiir","City":"Delhi","Subjects":"Math","EmailAddress":"email@email.com"}]]></property>
+         </properties>
+         <system-out><![CDATA[27-11-2025T22:06:29 - [TEST_CASE][PASSED] - Test Cases/Positive/Case01-8-P1 Success Submit Practice Form: Test Cases/Positive/Case01-8-P1 Success Submit Practice Form
+
+27-11-2025T22:06:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+27-11-2025T22:06:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+27-11-2025T22:06:30 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+27-11-2025T22:06:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-11-2025T22:06:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+27-11-2025T22:06:31 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/automation-practice-form"): Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+27-11-2025T22:06:39 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+27-11-2025T22:06:39 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:06:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:06:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+27-11-2025T22:06:41 - [MESSAGE][PASSED] - Current window maximized
+
+27-11-2025T22:06:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Name_firstName"), 8): Object 'Object Repository/Page_DEMOQA/input_Name_firstName' is present
+
+27-11-2025T22:06:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Name_firstName' is present
+
+27-11-2025T22:06:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_DEMOQA/input_Name_firstName"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/input_Name_firstName' is visible
+
+27-11-2025T22:06:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Name_firstName' is visible
+
+27-11-2025T22:06:41 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/input_Name_firstName"), Firstname): Text 'Awaaal' is set on object 'Object Repository/Page_DEMOQA/input_Name_firstName'
+
+27-11-2025T22:06:42 - [MESSAGE][PASSED] - Text 'Awaaal' is set on object 'Object Repository/Page_DEMOQA/input_Name_firstName'
+
+27-11-2025T22:06:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Name_lastName"), 8): Object 'Object Repository/Page_DEMOQA/input_Name_lastName' is present
+
+27-11-2025T22:06:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Name_lastName' is present
+
+27-11-2025T22:06:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_DEMOQA/input_Name_lastName"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/input_Name_lastName' is visible
+
+27-11-2025T22:06:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Name_lastName' is visible
+
+27-11-2025T22:06:42 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/input_Name_lastName"), Lastname): Text 'Akhiiir' is set on object 'Object Repository/Page_DEMOQA/input_Name_lastName'
+
+27-11-2025T22:06:43 - [MESSAGE][PASSED] - Text 'Akhiiir' is set on object 'Object Repository/Page_DEMOQA/input_Name_lastName'
+
+27-11-2025T22:06:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Email_userEmail"), 8): Object 'Object Repository/Page_DEMOQA/input_Email_userEmail' is present
+
+27-11-2025T22:06:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Email_userEmail' is present
+
+27-11-2025T22:06:43 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/input_Email_userEmail"), 8): Scroll to object 'Object Repository/Page_DEMOQA/input_Email_userEmail' successfully
+
+27-11-2025T22:06:44 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/input_Email_userEmail' successfully
+
+27-11-2025T22:06:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:06:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:06:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_DEMOQA/input_Email_userEmail"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/input_Email_userEmail' is visible
+
+27-11-2025T22:06:46 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Email_userEmail' is visible
+
+27-11-2025T22:06:46 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/input_Email_userEmail"), EmailAddress): Text 'email@email.com' is set on object 'Object Repository/Page_DEMOQA/input_Email_userEmail'
+
+27-11-2025T22:06:46 - [MESSAGE][PASSED] - Text 'email@email.com' is set on object 'Object Repository/Page_DEMOQA/input_Email_userEmail'
+
+27-11-2025T22:06:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Gender_Male"), 8): Object 'Object Repository/Page_DEMOQA/input_Gender_Male' is present
+
+27-11-2025T22:06:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Gender_Male' is present
+
+27-11-2025T22:06:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Gender_Female"), 8): Object 'Object Repository/Page_DEMOQA/input_Gender_Female' is present
+
+27-11-2025T22:06:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Gender_Female' is present
+
+27-11-2025T22:06:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Gender_Other"), 8): Object 'Object Repository/Page_DEMOQA/input_Gender_Other' is present
+
+27-11-2025T22:06:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Gender_Other' is present
+
+27-11-2025T22:06:47 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/input_Gender_Male"), 100): Scroll to object 'Object Repository/Page_DEMOQA/input_Gender_Male' successfully
+
+27-11-2025T22:06:47 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/input_Gender_Male' successfully
+
+27-11-2025T22:06:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:06:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:06:49 - [TEST_STEP][NOT_RUN] - verifyElementClickable(findTestObject("Page_DEMOQA/input_Gender_Male"), STOP_ON_FAILURE): NOT_RUN: verifyElementClickable(findTestObject("Page_DEMOQA/input_Gender_Male"), STOP_ON_FAILURE)
+
+27-11-2025T22:06:49 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementClickable(findTestObject("Page_DEMOQA/input_Gender_Male"), STOP_ON_FAILURE)
+
+27-11-2025T22:06:49 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Page_DEMOQA/input_Gender_Male")): Object: 'Object Repository/Page_DEMOQA/input_Gender_Male' is clicked on
+
+27-11-2025T22:07:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/input_Gender_Male' is clicked on
+
+27-11-2025T22:07:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8): Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is present
+
+27-11-2025T22:07:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is present
+
+27-11-2025T22:07:01 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), 8): Scroll to object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' successfully
+
+27-11-2025T22:07:02 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' successfully
+
+27-11-2025T22:07:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:07:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:07:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is visible
+
+27-11-2025T22:07:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber' is visible
+
+27-11-2025T22:07:04 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/input_(10 Digits)_userNumber"), MobileNumber): Text '0858567893' is set on object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber'
+
+27-11-2025T22:07:05 - [MESSAGE][PASSED] - Text '0858567893' is set on object 'Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber'
+
+27-11-2025T22:07:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_DateOfBirth"), 8): Object 'Object Repository/Page_DEMOQA/input_DateOfBirth' is present
+
+27-11-2025T22:07:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_DateOfBirth' is present
+
+27-11-2025T22:07:05 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_DEMOQA/input_DateOfBirth"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/input_DateOfBirth' is visible
+
+27-11-2025T22:07:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_DateOfBirth' is visible
+
+27-11-2025T22:07:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_DEMOQA/input_DateOfBirth"), Keys.chord(ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT)): Keys 'LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + ' sent to object: 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+
+27-11-2025T22:07:05 - [MESSAGE][PASSED] - Keys 'LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + ' sent to object: 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+
+27-11-2025T22:07:05 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:07:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:07:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_DEMOQA/input_DateOfBirth"), Keys.chord(DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE, DELETE)): Keys 'DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + ' sent to object: 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+
+27-11-2025T22:07:08 - [MESSAGE][PASSED] - Keys 'DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + DELETE + ' sent to object: 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+
+27-11-2025T22:07:08 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/input_DateOfBirth"), DateOfBirth): Text '19 Des 1945' is set on object 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+
+27-11-2025T22:07:09 - [MESSAGE][PASSED] - Text '19 Des 1945' is set on object 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+
+27-11-2025T22:07:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_DEMOQA/input_DateOfBirth"), Keys.chord(ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT, ARROW_LEFT)): Keys 'LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + ' sent to object: 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+
+27-11-2025T22:07:09 - [MESSAGE][PASSED] - Keys 'LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + LEFT + ' sent to object: 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+
+27-11-2025T22:07:09 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:07:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:07:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_DEMOQA/input_DateOfBirth"), Keys.chord(BACK_SPACE, ENTER)): Keys 'BACK_SPACE + ENTER + ' sent to object: 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+
+27-11-2025T22:07:12 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ENTER + ' sent to object: 'Object Repository/Page_DEMOQA/input_DateOfBirth'
+
+27-11-2025T22:07:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:07:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:07:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_SubjectsInput"), 8): Object 'Object Repository/Page_DEMOQA/input_SubjectsInput' is present
+
+27-11-2025T22:07:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_SubjectsInput' is present
+
+27-11-2025T22:07:14 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/input_SubjectsInput"), 8): Scroll to object 'Object Repository/Page_DEMOQA/input_SubjectsInput' successfully
+
+27-11-2025T22:07:14 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/input_SubjectsInput' successfully
+
+27-11-2025T22:07:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:07:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:07:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_DEMOQA/input_SubjectsInput"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/input_SubjectsInput' is visible
+
+27-11-2025T22:07:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_SubjectsInput' is visible
+
+27-11-2025T22:07:16 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/input_SubjectsInput"), Subjects): Text 'Math' is set on object 'Object Repository/Page_DEMOQA/input_SubjectsInput'
+
+27-11-2025T22:07:17 - [MESSAGE][PASSED] - Text 'Math' is set on object 'Object Repository/Page_DEMOQA/input_SubjectsInput'
+
+27-11-2025T22:07:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_DEMOQA/input_SubjectsInput"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_DEMOQA/input_SubjectsInput'
+
+27-11-2025T22:07:17 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_DEMOQA/input_SubjectsInput'
+
+27-11-2025T22:07:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Hobbies_Sports"), 8): Object 'Object Repository/Page_DEMOQA/input_Hobbies_Sports' is present
+
+27-11-2025T22:07:18 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Hobbies_Sports' is present
+
+27-11-2025T22:07:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Hobbies_Reading"), 8): Object 'Object Repository/Page_DEMOQA/input_Hobbies_Reading' is present
+
+27-11-2025T22:07:18 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Hobbies_Reading' is present
+
+27-11-2025T22:07:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Hobbies_Music"), 8): Object 'Object Repository/Page_DEMOQA/input_Hobbies_Music' is present
+
+27-11-2025T22:07:18 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Hobbies_Music' is present
+
+27-11-2025T22:07:18 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/input_Hobbies_Sports"), 8): Scroll to object 'Object Repository/Page_DEMOQA/input_Hobbies_Sports' successfully
+
+27-11-2025T22:07:19 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/input_Hobbies_Sports' successfully
+
+27-11-2025T22:07:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:07:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:07:21 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Page_DEMOQA/input_Hobbies_Sports")): Object: 'Object Repository/Page_DEMOQA/input_Hobbies_Sports' is clicked on
+
+27-11-2025T22:07:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/input_Hobbies_Sports' is clicked on
+
+27-11-2025T22:07:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Browse"), 8): Object 'Object Repository/Page_DEMOQA/input_Browse' is present
+
+27-11-2025T22:07:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Browse' is present
+
+27-11-2025T22:07:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Browse"), 8): Object 'Object Repository/Page_DEMOQA/input_Browse' is present
+
+27-11-2025T22:07:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Browse' is present
+
+27-11-2025T22:07:33 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Page_DEMOQA/input_Browse"), getProjectDir() + FilePathInputBrowse): File 'T:/Lawencon/Interview/Fix/case01/AutomationPracticeForm/AutomationPracticeForm/Data Files/Images/person-dummy.jpg' sent to object: 'Object Repository/Page_DEMOQA/input_Browse'
+
+27-11-2025T22:07:33 - [MESSAGE][PASSED] - File 'T:/Lawencon/Interview/Fix/case01/AutomationPracticeForm/AutomationPracticeForm/Data Files/Images/person-dummy.jpg' sent to object: 'Object Repository/Page_DEMOQA/input_Browse'
+
+27-11-2025T22:07:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:07:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:07:35 - [TEST_STEP][PASSED] - switchToDefaultContent(STOP_ON_FAILURE): null
+
+27-11-2025T22:07:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:07:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:07:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/textarea_CurrentAddress"), 8): Object 'Object Repository/Page_DEMOQA/textarea_CurrentAddress' is present
+
+27-11-2025T22:07:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/textarea_CurrentAddress' is present
+
+27-11-2025T22:07:38 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/textarea_CurrentAddress"), 8): Scroll to object 'Object Repository/Page_DEMOQA/textarea_CurrentAddress' successfully
+
+27-11-2025T22:07:38 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/textarea_CurrentAddress' successfully
+
+27-11-2025T22:07:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_DEMOQA/textarea_CurrentAddress"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/textarea_CurrentAddress' is visible
+
+27-11-2025T22:07:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/textarea_CurrentAddress' is visible
+
+27-11-2025T22:07:38 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/textarea_CurrentAddress"), CurrentAddress): Text 'Sample Address C' is set on object 'Object Repository/Page_DEMOQA/textarea_CurrentAddress'
+
+27-11-2025T22:07:39 - [MESSAGE][PASSED] - Text 'Sample Address C' is set on object 'Object Repository/Page_DEMOQA/textarea_CurrentAddress'
+
+27-11-2025T22:07:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Select_State_old"), 8): Object 'Object Repository/Page_DEMOQA/input_Select_State_old' is present
+
+27-11-2025T22:07:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Select_State_old' is present
+
+27-11-2025T22:07:39 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/input_Select_State_old"), 8): Scroll to object 'Object Repository/Page_DEMOQA/input_Select_State_old' successfully
+
+27-11-2025T22:07:39 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/input_Select_State_old' successfully
+
+27-11-2025T22:07:39 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:07:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:07:41 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Page_DEMOQA/input_Select_State_old"), STOP_ON_FAILURE): Object: 'Object Repository/Page_DEMOQA/input_Select_State_old' is clicked on
+
+27-11-2025T22:07:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/input_Select_State_old' is clicked on
+
+27-11-2025T22:07:44 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/input_Select_State_old"), State): Text 'NCR' is set on object 'Object Repository/Page_DEMOQA/input_Select_State_old'
+
+27-11-2025T22:07:54 - [MESSAGE][WARNING] - Waiting for element timed out
+
+27-11-2025T22:07:54 - [MESSAGE][WARNING] - Waiting for element timed out
+
+27-11-2025T22:07:54 - [MESSAGE][PASSED] - Text 'NCR' is set on object 'Object Repository/Page_DEMOQA/input_Select_State_old'
+
+27-11-2025T22:07:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_DEMOQA/input_Select_State_old"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_DEMOQA/input_Select_State_old'
+
+27-11-2025T22:07:55 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_DEMOQA/input_Select_State_old'
+
+27-11-2025T22:07:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:07:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:07:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/input_Select_City"), 0): Object 'Object Repository/Page_DEMOQA/input_Select_City' is present
+
+27-11-2025T22:07:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+27-11-2025T22:07:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/input_Select_City' is present
+
+27-11-2025T22:07:57 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Page_DEMOQA/input_Select_City"), STOP_ON_FAILURE): Object: 'Object Repository/Page_DEMOQA/input_Select_City' is clicked on
+
+27-11-2025T22:07:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/input_Select_City' is clicked on
+
+27-11-2025T22:07:59 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/input_Select_City"), City): Text 'Delhi' is set on object 'Object Repository/Page_DEMOQA/input_Select_City'
+
+27-11-2025T22:08:09 - [MESSAGE][WARNING] - Waiting for element timed out
+
+27-11-2025T22:08:10 - [MESSAGE][WARNING] - Waiting for element timed out
+
+27-11-2025T22:08:10 - [MESSAGE][PASSED] - Text 'Delhi' is set on object 'Object Repository/Page_DEMOQA/input_Select_City'
+
+27-11-2025T22:08:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_DEMOQA/input_Select_City"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_DEMOQA/input_Select_City'
+
+27-11-2025T22:08:10 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_DEMOQA/input_Select_City'
+
+27-11-2025T22:08:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:08:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:08:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), 0): Object 'Object Repository/Page_DEMOQA/button_Submit' is present
+
+27-11-2025T22:08:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+27-11-2025T22:08:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/button_Submit' is present
+
+27-11-2025T22:08:13 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), 0): Scroll to object 'Object Repository/Page_DEMOQA/button_Submit' successfully
+
+27-11-2025T22:08:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+27-11-2025T22:08:13 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/button_Submit' successfully
+
+27-11-2025T22:08:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:08:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:08:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_DEMOQA/button_Submit"), STOP_ON_FAILURE): Object 'Object Repository/Page_DEMOQA/button_Submit' is visible
+
+27-11-2025T22:08:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/button_Submit' is visible
+
+27-11-2025T22:08:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:08:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:08:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/button_Submit")): Object: 'Object Repository/Page_DEMOQA/button_Submit' is clicked on
+
+27-11-2025T22:08:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/button_Submit' is clicked on
+
+27-11-2025T22:08:17 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-11-2025T22:08:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2025T22:08:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_DEMOQA/div_Modal_Success")): Object 'Object Repository/Page_DEMOQA/div_Modal_Success' is visible
+
+27-11-2025T22:08:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/div_Modal_Success' is visible
+
+27-11-2025T22:08:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DEMOQA/button_Close"), 0): Object 'Object Repository/Page_DEMOQA/button_Close' is present
+
+27-11-2025T22:08:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+27-11-2025T22:08:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/button_Close' is present
+
+27-11-2025T22:08:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_DEMOQA/button_Close")): Object 'Object Repository/Page_DEMOQA/button_Close' is visible
+
+27-11-2025T22:08:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DEMOQA/button_Close' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[27-11-2025T22:02:26 - [TEST_SUITE][PASSED] - TSPracticeFormPositive: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

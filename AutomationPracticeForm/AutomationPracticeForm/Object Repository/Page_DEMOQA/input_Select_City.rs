@@ -11,14 +11,14 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'text' and @id = 'react-select-4-input']</value>
+         <value>id(&quot;react-select-4-input&quot;)[count(. | //*[@id = 'react-select-4-input']) = count(//*[@id = 'react-select-4-input'])]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#react-select-4-input</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -27,15 +27,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>48590106-b13d-4d62-af10-7fb1fb9a73f3</webElementGuid>
+      <webElementGuid>e2cd5fba-09cc-4b02-8221-519cea6ae30d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>39cf0111-29eb-4169-ade6-eab972737873</webElementGuid>
+      <webElementGuid>eebda582-7968-4b8d-b6fe-c8d20f329d0d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,15 +43,15 @@
       <name>id</name>
       <type>Main</type>
       <value>react-select-4-input</value>
-      <webElementGuid>0a955265-f9d9-4fa6-9bff-0fb8336d9784</webElementGuid>
+      <webElementGuid>f85cef7a-066f-4eef-b1e4-0b2c53a04992</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;react-select-4-input&quot;)</value>
-      <webElementGuid>57ad0ad8-ac82-4a76-b031-30b74f708fad</webElementGuid>
+      <webElementGuid>00b0958e-1f91-4f3d-ba1e-3f025ece998f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -59,7 +59,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='react-select-4-input']</value>
-      <webElementGuid>20bd663d-510a-4b02-b1a5-e6880b6b86c9</webElementGuid>
+      <webElementGuid>cd8debd1-56be-4c5f-956f-16f61a15bd9b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -67,6 +67,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @id = 'react-select-4-input']</value>
-      <webElementGuid>c621ac71-8920-46c4-93db-eab8df091d2f</webElementGuid>
+      <webElementGuid>8856c9e8-3bf3-4fe7-a402-da5dce84ddde</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
